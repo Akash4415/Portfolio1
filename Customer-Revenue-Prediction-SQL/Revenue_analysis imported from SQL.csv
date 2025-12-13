@@ -1,0 +1,1001 @@
+S.no,customer_id,customer_name,email,phone,city,state,country,signup_date,last_purchase_date,recency_days,num_orders,avg_order_value,total_revenue,lifetime_value,last_12_month_revenue,monthly_avg_last12,preferred_payment_method,payment_status,preferred_category,coupon_used,discount_pct,churn_flag,segment
+1,100000,"Liam Pillai",liam.pillai1825@example.com,+917741607912,"Abu Dhabi","Abu Dhabi",UAE,2021-07-28,2022-12-02,1094,3,57.15,171.45,173.66,59.95,5,"Credit Card",Paid,Beauty,0,0,1,High
+2,100001,"Hannah Lewis",hannah.lewis410@example.com,+919284745844,"New York","New York","United States",2023-07-17,2023-12-17,714,7,20.93,146.51,218.23,99.37,8.28,Wallet,Paid,Books,0,0,1,Mid
+3,100002,"Neha Green",neha.green4507@example.com,+917379306005,Lucknow,"Uttar Pradesh",India,2023-10-05,2024-08-05,482,4,21.53,86.12,107.08,17.97,1.5,"Bank Transfer",Pending,Apparel,0,0,1,Mid
+4,100003,"Daniel Chaudhary",daniel.chaudhary4013@example.com,+918934481078,Chennai,"Tamil Nadu",India,2017-09-19,2022-12-27,1069,5,16.95,76.28,108.94,47.32,3.94,"Credit Card",Paid,Electronics,1,0.1,1,Low
+5,100004,"Lucas Parekh",lucas.parekh3658@example.com,+919460694688,Nashik,Maharashtra,India,2019-06-30,2020-04-07,2063,4,292.49,1169.96,1377.4,681.25,56.77,UPI,Paid,Books,0,0,1,Top
+6,100005,"Rhea Thompson",rhea.thompson2287@example.com,+916469050982,Sydney,"New South Wales",Australia,2020-03-21,2021-04-04,1701,11,87.55,963.05,1379.5,15.96,1.33,"Net Banking",Paid,Books,0,0,1,Top
+7,100006,"Jack Mehta",jack.mehta1680@example.com,+919968207190,Bhubaneswar,Odisha,India,2024-08-02,2025-11-18,12,7,28.67,200.69,264.3,188.18,15.68,"Debit Card",Paid,"Home & Kitchen",0,0,0,High
+8,100007,"Gabriel Garcia",gabriel.garcia8936@example.com,+917140569383,Bengaluru,Karnataka,India,2024-02-16,2024-11-20,375,4,8.69,31.28,42.71,13.53,1.12,"Credit Card",Paid,Automotive,1,0.1,1,Low
+9,100008,"Mateo Reddy",mateo.reddy1425@example.com,+916270116126,Rajkot,Gujarat,India,2022-03-02,2024-08-12,475,4,49.18,196.72,202.78,168.12,14.01,"Net Banking",Paid,Sports,0,0,1,High
+10,100009,"Mateo Bisht",mateo.bisht9675@example.com,+918943031615,Sydney,"New South Wales",Australia,2015-03-16,2016-08-11,3398,1,14.89,14.89,21.64,14.2,1.18,"Net Banking",Paid,Books,0,0,1,Low
+11,100010,"Isaac Menon",isaac.menon6913@example.com,+917003190512,Nashik,Maharashtra,India,2019-11-03,2024-11-06,389,11,21.11,232.21,290.54,42.95,3.58,"Debit Card",Paid,Groceries,0,0,1,High
+12,100011,"Scarlett Davis",scarlett.davis521@example.com,+917323670957,Patna,Bihar,India,2023-05-28,2024-09-24,432,1,32.26,32.26,35.91,4.31,0.36,UPI,Paid,"Home & Kitchen",0,0,1,Low
+13,100012,"Puja Reddy",puja.reddy489@example.com,+916821168870,Delhi,Delhi,India,2015-09-26,2017-05-09,3127,8,75.03,600.24,652.14,25.22,2.1,UPI,Paid,Health,0,0,1,Top
+15,100014,"Meera Taylor",meera.taylor3583@example.com,+919834474070,Nairobi,Nairobi,Kenya,2022-11-11,2022-11-12,1114,4,103.32,413.28,529.58,200.69,16.72,UPI,Paid,Electronics,0,0,1,Top
+16,100015,"Noah Khandelwal",noah.khandelwal3812@example.com,+917925567834,Dubai,Dubai,UAE,2024-07-09,2025-04-14,230,7,9.6,67.2,94.24,6.03,0.5,"Net Banking",Paid,Groceries,0,0,0,Low
+17,100016,"Vivaan Thompson",vivaan.thompson8280@example.com,+917705857009,Kanpur,"Uttar Pradesh",India,2023-05-19,2025-04-07,237,8,26.25,178.5,263.22,155.78,12.98,"Net Banking",Paid,Health,1,0.15,0,High
+18,100017,"Isaac Williams",isaac.williams9864@example.com,+918226353699,Noida,"Uttar Pradesh",India,2020-07-17,2020-10-28,1859,5,87.25,436.25,603.82,383.19,31.93,"Bank Transfer",Paid,Beauty,0,0,1,Top
+19,100018,"Ishaan Patel",ishaan.patel435@example.com,+918799791765,Mumbai,Maharashtra,India,2025-04-17,2025-08-12,110,5,28.01,140.05,166.81,5.67,0.47,"Debit Card",Paid,Books,0,0,0,Mid
+20,100019,"Anya Roy",anya.roy9196@example.com,+919676168535,Agra,"Uttar Pradesh",India,2019-01-06,2025-08-24,98,4,123.99,495.96,739.67,217.35,18.11,UPI,Paid,Electronics,0,0,0,Top
+21,100020,"Vivaan Lopez",vivaan.lopez3258@example.com,+916990748159,Gurgaon,Haryana,India,2015-02-03,2024-02-27,642,4,27.03,108.12,139.43,61.12,5.09,"Credit Card",Pending,Automotive,0,0,1,Mid
+22,100021,"Logan Anderson",logan.anderson8929@example.com,+916645589941,"Abu Dhabi","Abu Dhabi",UAE,2015-01-10,2018-05-12,2759,1,76.76,76.76,102.1,68.03,5.67,"Debit Card",Paid,Automotive,0,0,1,Low
+23,100022,"Amelia Silva",amelia.silva6874@example.com,+918479482743,Coimbatore,"Tamil Nadu",India,2017-06-10,2023-07-28,856,7,48.19,337.33,345.18,47.45,3.95,"Bank Transfer",Pending,"Home & Kitchen",0,0,1,Top
+24,100023,"Rhea Young",rhea.young3612@example.com,+919350814368,"Cape Town","Western Cape","South Africa",2020-11-16,2025-05-07,207,8,73.66,589.28,707.1,187.62,15.64,"Cash on Delivery",Paid,Groceries,0,0,0,Top
+25,100024,"Harsh Nair",harsh.nair7360@example.com,+918177612648,"Cape Town","Western Cape","South Africa",2015-11-11,2018-01-25,2866,4,43.07,172.28,252.54,146,12.17,"Debit Card",Paid,Groceries,0,0,1,High
+26,100025,"David Sengupta",david.sengupta9655@example.com,+917906784363,Hyderabad,Telangana,India,2024-02-08,2024-12-31,334,3,17.28,51.84,77.08,44.2,3.68,UPI,Paid,Books,0,0,0,Low
+27,100026,"Sophia Thompson",sophia.thompson4558@example.com,+917652060252,Rajkot,Gujarat,India,2023-01-28,2025-02-22,281,3,14.95,44.85,47.94,27.46,2.29,"Bank Transfer",Paid,Automotive,0,0,0,Low
+28,100027,"Meera Dutta",meera.dutta107@example.com,+919481756710,Gurgaon,Haryana,India,2024-11-19,2025-02-25,278,3,12.58,37.74,43.41,30.32,2.53,"Credit Card",Refunded,Apparel,0,0,0,Low
+29,100028,"Anthony Jones",anthony.jones2616@example.com,+918985731355,"Los Angeles",California,"United States",2018-05-08,2024-06-22,526,4,93.09,372.36,466.64,140.29,11.69,"Debit Card",Paid,Books,0,0,1,Top
+30,100029,"Omar Bhattacharya",omar.bhattacharya6925@example.com,+918350677102,Mysore,Karnataka,India,2022-04-08,2022-09-15,1172,5,55.87,279.35,333.9,51.27,4.27,"Net Banking",Paid,Books,0,0,1,High
+31,100030,"Julian Adams",julian.adams5575@example.com,+916368721152,Surat,Gujarat,India,2015-08-18,2015-10-17,3697,8,8.1,64.8,92.27,47.87,3.99,UPI,Paid,Beauty,0,0,1,Low
+32,100031,"Mia Reddy",mia.reddy4553@example.com,+918752818498,Colombo,"Western Province","Sri Lanka",2017-11-20,2022-04-25,1315,8,45.04,360.32,411.98,328.94,27.41,UPI,Paid,Health,0,0,1,Top
+33,100032,"Ritu Chakrabarti",ritu.chakrabarti2548@example.com,+918718993904,Mumbai,Maharashtra,India,2017-04-19,2022-02-19,1380,5,46.76,233.8,309.47,153.01,12.75,UPI,Paid,Electronics,0,0,1,High
+34,100033,"Leah Chakrabarti",leah.chakrabarti3528@example.com,+919214943739,Dubai,Dubai,UAE,2024-10-24,2025-05-14,200,7,11.63,81.41,112.4,56.31,4.69,"Credit Card",Paid,Sports,0,0,0,Mid
+35,100034,"Amelia Menon",amelia.menon5515@example.com,+917853081959,Lucknow,"Uttar Pradesh",India,2021-04-05,2021-09-28,1524,2,41.76,83.52,120.01,56.34,4.7,"Credit Card",Paid,Sports,0,0,1,Mid
+36,100035,"Owen Flores",owen.flores1675@example.com,+916143423295,Jaipur,Rajasthan,India,2021-01-24,2022-01-22,1408,2,20.17,40.34,43.32,37.92,3.16,"Net Banking",Paid,"Home & Kitchen",0,0,1,Low
+37,100036,"Neha Clark",neha.clark1520@example.com,+917521373884,Varanasi,"Uttar Pradesh",India,2015-01-11,2021-03-29,1707,6,82.51,470.31,628.96,418.13,34.85,"Net Banking",Paid,Groceries,1,0.05,1,Top
+38,100037,"Mason Roy",mason.roy6225@example.com,+919480425756,Lucknow,"Uttar Pradesh",India,2015-12-28,2024-11-09,386,8,137.09,1096.72,1395.42,146.87,12.24,"Debit Card",Paid,Groceries,0,0,1,Top
+39,100038,"Mason Jain",mason.jain1585@example.com,+919096572614,Agra,"Uttar Pradesh",India,2018-12-19,2020-02-20,2110,4,14.4,46.08,56.22,24.46,2.04,Wallet,Paid,Apparel,1,0.2,1,Low
+40,100039,"Maya Iyer",maya.iyer5882@example.com,+918694092489,Islamabad,"Islamabad Capital Territory",Pakistan,2024-07-15,2025-09-30,61,4,86.98,347.92,377.97,314.94,26.24,UPI,Paid,Groceries,0,0,0,Top
+41,100040,"Mason Wright",mason.wright5636@example.com,+916372582273,Jaipur,Rajasthan,India,2017-04-17,2021-07-19,1595,1,10.51,10.51,10.58,1.79,0.15,"Credit Card",Paid,Electronics,0,0,1,Low
+42,100041,"Carlos Sengupta",carlos.sengupta9892@example.com,+918504022374,Lagos,Lagos,Nigeria,2015-10-15,2018-11-18,2569,5,9.72,48.6,57.88,10.12,0.84,"Debit Card",Paid,Automotive,0,0,1,Low
+43,100042,"Olivia Young",olivia.young4334@example.com,+916443559937,Varanasi,"Uttar Pradesh",India,2018-12-17,2020-04-30,2040,5,13.89,62.5,81.43,28.24,2.36,"Credit Card",Paid,Toys,1,0.1,1,Low
+44,100043,"Logan Parekh",logan.parekh712@example.com,+918022033039,Melbourne,Victoria,Australia,2025-10-23,2025-11-06,24,5,44.12,220.6,314.71,107.74,8.98,"Net Banking",Paid,Books,0,0,0,High
+45,100044,"Aditya Martin",aditya.martin7528@example.com,+919403503142,Jaipur,Rajasthan,India,2025-04-14,2025-05-31,183,5,20.22,101.1,117.98,42.85,3.57,"Net Banking",Pending,Groceries,0,0,0,Mid
+46,100045,"Carlos Young",carlos.young8786@example.com,+916031928126,Toronto,Ontario,Canada,2015-01-26,2024-10-30,396,5,128.7,611.32,703.55,75.04,6.25,"Net Banking",Pending,Toys,1,0.05,1,Top
+47,100046,"Saanvi Kumar",saanvi.kumar2046@example.com,+916687806560,Bhopal,"Madhya Pradesh",India,2015-02-12,2022-11-27,1099,6,31.43,188.58,212.41,51.14,4.26,"Credit Card",Paid,Health,0,0,1,High
+48,100047,"Rhea Gupta",rhea.gupta6202@example.com,+918923619316,Noida,"Uttar Pradesh",India,2023-06-08,2023-07-05,879,2,51.05,102.1,112.92,36.23,3.02,Wallet,Paid,Health,0,0,1,Mid
+49,100048,"Henry Gupta",henry.gupta1292@example.com,+917151163533,Muscat,Muscat,Oman,2019-01-16,2025-05-29,185,5,63.8,319,446.18,289.88,24.16,"Debit Card",Paid,"Home & Kitchen",0,0,0,Top
+50,100049,"Esha Lewis",esha.lewis9045@example.com,+916799231271,Delhi,Delhi,India,2022-10-12,2025-01-01,333,3,32.72,98.16,131.02,2.36,0.2,UPI,Paid,Electronics,0,0,0,Mid
+51,100050,"Akash Thompson",akash.thompson4804@example.com,+919718144699,Kolkata,"West Bengal",India,2020-12-22,2022-02-13,1386,5,62.22,311.1,460.97,269.18,22.43,UPI,Paid,Books,0,0,1,Top
+52,100051,"Vihaan Bisht",vihaan.bisht5926@example.com,+917021100027,Dubai,Dubai,UAE,2017-05-10,2024-06-14,534,6,80.77,484.62,692.95,362.67,30.22,"Credit Card",Paid,Automotive,0,0,1,Top
+53,100052,"Anthony Shukla",anthony.shukla9460@example.com,+917837215163,Singapore,Singapore,Singapore,2019-02-28,2022-09-30,1157,5,67.12,335.6,469.22,279.93,23.33,"Net Banking",Paid,Sports,0,0,1,Top
+54,100053,"Amelia Chaudhary",amelia.chaudhary3151@example.com,+919218445322,Visakhapatnam,"Andhra Pradesh",India,2022-07-08,2025-07-25,128,5,11.26,56.3,74.13,35.66,2.97,"Net Banking",Paid,"Home & Kitchen",0,0,0,Low
+55,100054,"Karan Anderson",karan.anderson1140@example.com,+917032145103,"Abu Dhabi","Abu Dhabi",UAE,2017-02-18,2024-11-05,390,4,41.87,167.48,195.55,37.93,3.16,"Debit Card",Paid,Sports,0,0,1,High
+56,100055,"Sara Green",sara.green751@example.com,+917895955708,Lagos,Lagos,Nigeria,2018-05-23,2023-07-04,880,4,46.21,184.84,205.89,26.93,2.24,"Debit Card",Paid,Automotive,0,0,1,High
+57,100056,"Grayson Garcia",grayson.garcia3734@example.com,+917075256346,Varanasi,"Uttar Pradesh",India,2022-09-17,2023-07-26,858,3,64.48,193.44,270.89,43.95,3.66,"Credit Card",Failed,Apparel,0,0,1,High
+58,100057,"Noah Agarwal",noah.agarwal4742@example.com,+919130542831,Chennai,"Tamil Nadu",India,2021-01-28,2025-09-29,62,7,47.68,333.76,492.67,239.45,19.95,"Debit Card",Paid,Health,0,0,0,Top
+59,100058,"Vivaan Flores",vivaan.flores1308@example.com,+918841482312,Kolkata,"West Bengal",India,2018-08-07,2019-06-03,2372,4,95.27,381.08,557.65,98.71,8.23,"Debit Card",Paid,Sports,0,0,1,Top
+60,100059,"Luke Thomas",luke.thomas3815@example.com,+916923507510,Thiruvananthapuram,Kerala,India,2022-04-27,2023-02-13,1021,3,218.47,655.41,817.79,250.59,20.88,"Debit Card",Paid,Sports,0,0,1,Top
+61,100060,"Leah Sethi",leah.sethi1655@example.com,+917986407259,Hyderabad,Telangana,India,2025-01-01,2025-11-13,17,7,37.69,237.45,310.8,143.53,11.96,"Debit Card",Paid,Automotive,1,0.1,0,High
+62,100061,"Amelia Robinson",amelia.robinson6228@example.com,+917071094983,Vancouver,"British Columbia",Canada,2021-03-22,2023-01-24,1041,3,33.3,99.9,113.47,5.25,0.44,UPI,Paid,Apparel,0,0,1,Mid
+63,100062,"Michael Jones",michael.jones4555@example.com,+918293996954,Singapore,Singapore,Singapore,2018-04-16,2025-03-07,268,4,119.67,478.68,648.71,87.17,7.26,"Bank Transfer",Paid,"Home & Kitchen",0,0,0,Top
+64,100063,"Kunal Miller",kunal.miller7429@example.com,+916194386555,Chennai,"Tamil Nadu",India,2023-10-25,2024-01-22,678,9,16.07,144.63,195.61,49.17,4.1,"Credit Card",Paid,Toys,0,0,1,Mid
+65,100064,"Aanya Solanki",aanya.solanki5978@example.com,+916289405849,Pune,Maharashtra,India,2017-01-23,2021-10-30,1492,7,17.62,123.34,123.95,103.78,8.65,"Credit Card",Paid,Electronics,0,0,1,Mid
+66,100065,"Maya Sengupta",maya.sengupta2665@example.com,+916935679224,Chennai,"Tamil Nadu",India,2018-09-15,2018-11-11,2576,25,29.98,674.55,756.12,317.26,26.44,"Debit Card",Pending,Health,1,0.1,1,Top
+67,100066,"Lakshmi Anderson",lakshmi.anderson6066@example.com,+916323175770,Kolkata,"West Bengal",India,2018-09-06,2021-04-22,1683,9,143.19,1288.71,1432.46,562.42,46.87,"Debit Card",Paid,Electronics,0,0,1,Top
+68,100067,"Samuel Silva",samuel.silva5821@example.com,+918257141191,Coimbatore,"Tamil Nadu",India,2019-06-17,2025-10-30,31,5,50.17,225.76,257.16,26.72,2.22,"Credit Card",Paid,Apparel,1,0.1,0,High
+69,100068,"Wyatt Allen",wyatt.allen3433@example.com,+917128690493,Jaipur,Rajasthan,India,2015-10-09,2022-06-12,1267,8,19.88,159.04,165.94,30.06,2.5,"Credit Card",Paid,Automotive,0,0,1,High
+70,100069,"Shreya Shukla",shreya.shukla4375@example.com,+916827976404,Vancouver,"British Columbia",Canada,2018-02-02,2024-03-28,612,3,78.2,222.87,289.61,79.99,6.67,"Credit Card",Paid,Groceries,1,0.05,1,High
+71,100070,"Lina Nambiar",lina.nambiar1170@example.com,+917233698308,Delhi,Delhi,India,2025-04-07,2025-11-01,29,4,19.91,79.64,94.69,73.04,6.09,UPI,Paid,Apparel,0,0,0,Mid
+72,100071,"Vihaan Nambiar",vihaan.nambiar9981@example.com,+916322427034,Dhaka,"Dhaka Division",Bangladesh,2025-04-11,2025-09-10,81,5,20.01,100.05,127.45,24.09,2.01,"Credit Card",Paid,Sports,0,0,0,Mid
+73,100072,"Vivaan Roy",vivaan.roy2804@example.com,+916809353160,Nashik,Maharashtra,India,2025-03-26,2025-09-12,79,6,110.6,663.6,739.22,375.14,31.26,Wallet,Pending,Electronics,0,0,0,Top
+74,100073,"Isha Nambiar",isha.nambiar8752@example.com,+917479436791,"Abu Dhabi","Abu Dhabi",UAE,2015-09-17,2021-10-22,1500,4,8.55,34.2,48.43,4.15,0.35,"Bank Transfer",Paid,Books,0,0,1,Low
+75,100074,"Emma Nair",emma.nair4011@example.com,+919691471484,Vadodara,Gujarat,India,2023-03-28,2024-11-26,369,5,47.54,237.7,280.68,10.64,0.89,"Debit Card",Paid,Apparel,0,0,1,High
+76,100075,"Vihaan Davis",vihaan.davis2678@example.com,+918894657387,Vadodara,Gujarat,India,2019-12-14,2020-04-03,2067,6,40.62,243.72,264.56,10.55,0.88,"Net Banking",Paid,Automotive,0,0,1,High
+77,100076,"Emma Munshi",emma.munshi7574@example.com,+918068226131,Colombo,"Western Province","Sri Lanka",2025-08-12,2025-09-27,64,9,143.46,1291.14,1908.44,1280.27,106.69,"Net Banking",Paid,Toys,0,0,0,Top
+78,100077,"Hannah Gupta",hannah.gupta6217@example.com,+919074109962,Muscat,Muscat,Oman,2020-11-02,2024-06-10,538,1,14.01,14.01,14.51,13.46,1.12,"Net Banking",Paid,Automotive,0,0,1,Low
+79,100078,"Ethan Kapoor",ethan.kapoor4423@example.com,+916512474407,Islamabad,"Islamabad Capital Territory",Pakistan,2018-05-20,2020-03-28,2073,7,11.86,83.02,106.91,6.43,0.54,"Debit Card",Pending,Beauty,0,0,1,Mid
+80,100079,"Akash Shah",akash.shah9126@example.com,+919456558935,Noida,"Uttar Pradesh",India,2017-06-14,2018-08-01,2678,6,16.6,99.6,104.18,89.74,7.48,"Credit Card",Paid,Electronics,0,0,1,Mid
+81,100080,"Grayson Agarwal",grayson.agarwal3599@example.com,+917878789406,Nagpur,Maharashtra,India,2024-11-26,2025-05-18,196,3,107.3,321.9,480.95,318.96,26.58,"Net Banking",Paid,Sports,0,0,0,Top
+82,100081,"Kunal Munshi",kunal.munshi5314@example.com,+919219557033,Rajkot,Gujarat,India,2025-10-02,2025-10-10,51,6,55.12,330.72,438.43,156.08,13.01,"Debit Card",Paid,Electronics,0,0,0,Top
+83,100082,"Dev Thompson",dev.thompson917@example.com,+918411786319,Nairobi,Nairobi,Kenya,2024-09-07,2025-03-16,259,5,20.54,102.7,148.15,12.04,1,"Credit Card",Paid,Health,0,0,0,Mid
+84,100083,"Sebastian Moore",sebastian.moore3753@example.com,+916613703452,Islamabad,"Islamabad Capital Territory",Pakistan,2023-12-18,2025-04-17,227,6,19.35,116.1,147.35,66.38,5.53,"Credit Card",Paid,Health,0,0,0,Mid
+85,100084,"Mason Pillai",mason.pillai526@example.com,+917778349862,Lagos,Lagos,Nigeria,2020-01-23,2023-05-21,924,2,37.74,75.48,87.77,18.73,1.56,"Credit Card",Pending,Electronics,0,0,1,Low
+86,100085,"Scarlett Pillai",scarlett.pillai5169@example.com,+916534015630,Melbourne,Victoria,Australia,2019-05-17,2020-08-18,1930,6,44.34,266.04,367.03,119.62,9.97,"Cash on Delivery",Paid,"Home & Kitchen",0,0,1,High
+87,100086,"Karan Robinson",karan.robinson6573@example.com,+916280803000,Indore,"Madhya Pradesh",India,2015-04-26,2022-03-06,1365,6,33.7,202.2,241.47,177.72,14.81,"Debit Card",Paid,Groceries,0,0,1,High
+88,100087,"Layla Hill",layla.hill4387@example.com,+916466660743,Gurgaon,Haryana,India,2016-02-06,2018-02-23,2837,1,5.61,5.61,5.65,5.56,0.46,UPI,Paid,Books,0,0,1,Low
+89,100088,"Zoya Parekh",zoya.parekh1085@example.com,+919180193536,Gurgaon,Haryana,India,2023-09-06,2024-02-07,662,8,25.6,204.8,209.98,161.85,13.49,"Credit Card",Paid,Health,0,0,1,High
+90,100089,"Neha Mehta",neha.mehta3457@example.com,+917232441696,Lucknow,"Uttar Pradesh",India,2020-11-06,2025-10-26,35,3,47.48,142.44,175.93,108.85,9.07,"Credit Card",Paid,Beauty,0,0,0,Mid
+91,100090,"Daniel Shrivastava",daniel.shrivastava9293@example.com,+917981123842,Dubai,Dubai,UAE,2023-05-08,2025-07-19,134,5,17.49,87.45,122.22,46.22,3.85,UPI,Paid,Beauty,0,0,0,Mid
+92,100091,"Samuel Shah",samuel.shah5156@example.com,+917639612460,Dhaka,"Dhaka Division",Bangladesh,2017-03-22,2025-11-12,18,2,5.59,11.18,14.63,3.33,0.28,"Bank Transfer",Paid,Health,0,0,0,Low
+93,100092,"Gabriel Chaudhary",gabriel.chaudhary3484@example.com,+919973710319,Vadodara,Gujarat,India,2017-02-04,2023-08-04,849,4,8.96,35.84,38.09,18.3,1.52,UPI,Paid,Electronics,0,0,1,Low
+94,100093,"Mason Ghosh",mason.ghosh8180@example.com,+919851781806,Coimbatore,"Tamil Nadu",India,2023-09-26,2023-12-18,713,11,12.92,142.12,190.4,119.12,9.93,UPI,Paid,Automotive,0,0,1,Mid
+95,100094,"Naveen Shukla",naveen.shukla6483@example.com,+916732615672,Surat,Gujarat,India,2019-01-10,2022-07-18,1231,6,10.17,61.02,65.1,58.53,4.88,UPI,Failed,"Home & Kitchen",0,0,1,Low
+96,100095,"Jayden Bhatt",jayden.bhatt7518@example.com,+916108114323,Nashik,Maharashtra,India,2020-05-11,2021-06-16,1628,2,14.77,29.54,38.88,15.36,1.28,"Credit Card",Paid,Health,0,0,1,Low
+97,100096,"Owen Hussain",owen.hussain2341@example.com,+917912266378,Lagos,Lagos,Nigeria,2022-08-14,2024-02-11,658,4,55.81,223.24,254.67,134.34,11.2,Wallet,Paid,Toys,0,0,1,High
+98,100097,"John Flores",john.flores4340@example.com,+916880351115,"Cape Town","Western Cape","South Africa",2021-05-26,2024-11-26,369,4,31.98,127.92,130.79,66.29,5.52,"Debit Card",Pending,Books,0,0,1,Mid
+99,100098,"Noah Iyer",noah.iyer2288@example.com,+917096670416,"Cape Town","Western Cape","South Africa",2020-09-26,2023-03-03,1003,4,37.01,125.83,183.81,4.06,0.34,"Net Banking",Paid,Beauty,1,0.15,1,Mid
+100,100099,"Puja Clark",puja.clark4041@example.com,+917981110700,Coimbatore,"Tamil Nadu",India,2016-04-26,2017-04-08,3158,3,7.06,21.18,24.4,19.38,1.62,"Credit Card",Paid,Beauty,0,0,1,Low
+101,100100,"Anil Wright",anil.wright9198@example.com,+918313603045,Toronto,Ontario,Canada,2025-10-29,2025-11-03,27,3,119.08,357.24,527.09,20.54,1.71,"Net Banking",Pending,Apparel,0,0,0,Top
+102,100101,"Anthony Clark",anthony.clark8831@example.com,+918067923357,Patna,Bihar,India,2022-11-08,2025-11-11,19,2,13.25,26.5,38.32,24.82,2.07,UPI,Paid,Apparel,0,0,0,Low
+103,100102,"Amelia Lee",amelia.lee4305@example.com,+919804593982,Gurgaon,Haryana,India,2019-04-24,2024-05-06,573,5,13.48,67.4,83.19,62.68,5.22,"Net Banking",Paid,Apparel,0,0,1,Low
+104,100103,"Sumit Kapoor",sumit.kapoor9578@example.com,+919397937196,"New York","New York","United States",2021-09-08,2024-08-21,466,7,20.99,146.93,160.42,70.54,5.88,Wallet,Paid,Toys,0,0,1,Mid
+105,100104,"Arnav Chakrabarti",arnav.chakrabarti7020@example.com,+919221707183,Thiruvananthapuram,Kerala,India,2018-12-25,2024-02-09,660,5,12.59,62.95,67.07,23.14,1.93,"Credit Card",Paid,Sports,0,0,1,Low
+106,100105,"Neha Wright",neha.wright9561@example.com,+916983358278,Indore,"Madhya Pradesh",India,2022-10-22,2024-08-25,462,4,69.24,276.96,391.02,75,6.25,"Net Banking",Paid,Apparel,0,0,1,High
+107,100106,"Rakesh Khan",rakesh.khan6544@example.com,+919148150173,Nagpur,Maharashtra,India,2022-06-25,2025-08-11,111,5,27.19,135.95,191.38,81.17,6.76,"Debit Card",Paid,Groceries,0,0,0,Mid
+108,100107,"Benjamin Anderson",benjamin.anderson5931@example.com,+917476650785,Thiruvananthapuram,Kerala,India,2023-06-18,2023-10-31,761,6,27.64,165.84,179.86,29.83,2.49,UPI,Pending,Sports,0,0,1,High
+109,100108,"Anthony Brown",anthony.brown3594@example.com,+917340183775,Pune,Maharashtra,India,2017-08-05,2022-08-05,1213,22,68.57,1508.54,2254.25,1324.76,110.4,UPI,Pending,Groceries,0,0,1,Top
+110,100109,"Michael Menon",michael.menon2267@example.com,+916519871550,Dubai,Dubai,UAE,2022-03-25,2023-04-26,949,8,21.26,170.08,238.03,106.71,8.89,"Cash on Delivery",Paid,Groceries,0,0,1,High
+111,100110,"Sara Davis",sara.davis8349@example.com,+917205041115,Mumbai,Maharashtra,India,2024-02-25,2025-02-01,302,6,6.79,40.74,52.08,24.31,2.03,UPI,Paid,Beauty,0,0,0,Low
+112,100111,"Isaac Flores",isaac.flores8086@example.com,+919542560138,"New York","New York","United States",2019-02-08,2023-09-22,800,23,42.82,984.86,1435.89,417.87,34.82,UPI,Paid,Electronics,0,0,1,Top
+113,100112,"Aarav Clark",aarav.clark1490@example.com,+917389949984,Thiruvananthapuram,Kerala,India,2016-09-04,2018-09-07,2641,3,27.26,81.78,86.85,57.18,4.76,"Credit Card",Paid,Apparel,0,0,1,Mid
+114,100113,"Aanya Joshi",aanya.joshi772@example.com,+917498898057,Gurgaon,Haryana,India,2017-12-05,2020-03-22,2079,1,27.53,27.53,34.77,15.79,1.32,UPI,Paid,Toys,0,0,1,Low
+115,100114,"Isaac Nguyen",isaac.nguyen1797@example.com,+919408063090,Bhopal,"Madhya Pradesh",India,2022-07-24,2023-07-14,870,5,46.42,232.1,345.48,169.07,14.09,"Net Banking",Paid,"Home & Kitchen",0,0,1,High
+116,100115,"Ethan Gupta",ethan.gupta2505@example.com,+917793402641,"Cape Town","Western Cape","South Africa",2023-02-22,2024-03-25,615,2,19.02,38.04,56.94,23.9,1.99,Wallet,Paid,Automotive,0,0,1,Low
+117,100116,"Rahul Menon",rahul.menon2622@example.com,+919740149663,Bhopal,"Madhya Pradesh",India,2019-07-26,2020-10-26,1861,7,31.66,221.62,332.35,81.4,6.78,"Credit Card",Paid,Beauty,0,0,1,High
+118,100117,"Wyatt Scott",wyatt.scott6917@example.com,+917311334790,Singapore,Singapore,Singapore,2023-07-12,2023-08-13,840,8,48.88,391.04,541.2,319.55,26.63,"Bank Transfer",Failed,"Home & Kitchen",0,0,1,Top
+119,100118,"Aanya Menon",aanya.menon9772@example.com,+917941601746,Rajkot,Gujarat,India,2024-04-09,2024-04-19,590,6,17.69,106.14,127.79,53.66,4.47,"Credit Card",Paid,Automotive,0,0,1,Mid
+120,100119,"Lakshmi Reddy",lakshmi.reddy1041@example.com,+919877123792,Bengaluru,Karnataka,India,2021-08-26,2022-09-02,1185,2,113.41,226.82,260.34,140.76,11.73,"Debit Card",Paid,Apparel,0,0,1,High
+121,100120,"Lakshmi Trivedi",lakshmi.trivedi6305@example.com,+916833199729,Melbourne,Victoria,Australia,2017-02-17,2022-05-22,1288,5,13.34,60.03,76.59,44.97,3.74,"Net Banking",Paid,"Home & Kitchen",1,0.1,1,Low
+122,100121,"Harsh Silva",harsh.silva6253@example.com,+916275784353,Mysore,Karnataka,India,2023-06-27,2025-11-14,16,3,22.12,66.36,97.75,37.89,3.16,UPI,Pending,Sports,0,0,0,Low
+123,100122,"Arjun Shah",arjun.shah9764@example.com,+918799920090,"New York","New York","United States",2022-09-16,2022-11-20,1106,5,115.82,463.28,687.74,332.35,27.7,UPI,Paid,Health,1,0.2,1,Top
+124,100123,"Sumit Allen",sumit.allen7669@example.com,+916419673903,"New York","New York","United States",2019-10-18,2022-01-17,1413,6,90.09,540.54,717.88,259.67,21.64,"Net Banking",Paid,Automotive,0,0,1,Top
+125,100124,"Sneha Lopez",sneha.lopez8670@example.com,+919343373761,Gurgaon,Haryana,India,2015-07-31,2016-12-09,3278,8,23.98,163.06,226.92,78.79,6.56,"Credit Card",Refunded,Automotive,1,0.15,1,High
+126,100125,"Saanvi Parekh",saanvi.parekh4120@example.com,+917702642116,Rajkot,Gujarat,India,2017-12-02,2025-08-31,91,1,55.87,55.87,79.43,19.1,1.59,"Debit Card",Paid,Health,0,0,0,Low
+127,100126,"Henry Davis",henry.davis9065@example.com,+918198403778,Patna,Bihar,India,2023-07-10,2024-05-17,562,5,49.6,248,268.02,91.12,7.59,Wallet,Paid,Beauty,0,0,1,High
+128,100127,"Daniel Martinez",daniel.martinez189@example.com,+918292619102,Vancouver,"British Columbia",Canada,2023-01-11,2024-09-17,439,6,66.99,401.94,556.82,190.58,15.88,"Net Banking",Paid,Apparel,0,0,1,Top
+129,100128,"Ravi Patil",ravi.patil1877@example.com,+917403663515,Chennai,"Tamil Nadu",India,2017-01-22,2025-06-19,164,7,263.65,1845.55,1970.13,1205.45,100.45,"Credit Card",Refunded,Beauty,0,0,0,Top
+130,100129,"Dev Kapoor",dev.kapoor8798@example.com,+918544568278,Auckland,Auckland,"New Zealand",2018-09-05,2020-06-11,1998,8,58,464,591.72,216.1,18.01,UPI,Paid,"Home & Kitchen",0,0,1,Top
+131,100130,"Harsh Bisht",harsh.bisht4372@example.com,+916756444366,Surat,Gujarat,India,2021-06-03,2023-05-09,936,8,36.51,292.08,424.43,19.33,1.61,UPI,Paid,Beauty,0,0,1,Top
+132,100131,"Zoya Patel",zoya.patel5574@example.com,+917737421503,Kanpur,"Uttar Pradesh",India,2025-06-18,2025-07-16,137,5,98.46,492.3,565.32,38.12,3.18,"Credit Card",Paid,Apparel,0,0,0,Top
+133,100132,"Tarun Wilson",tarun.wilson1828@example.com,+917728395890,Bhubaneswar,Odisha,India,2021-07-10,2021-11-03,1488,3,62.93,188.79,220.59,163.49,13.62,"Net Banking",Paid,Books,0,0,1,High
+134,100133,"Mason Patel",mason.patel4809@example.com,+916993830545,Agra,"Uttar Pradesh",India,2015-03-29,2023-07-12,872,7,121.2,848.4,978.33,783.77,65.31,"Credit Card",Paid,"Home & Kitchen",0,0,1,Top
+135,100134,"Isaac Martin",isaac.martin7124@example.com,+918033317853,Indore,"Madhya Pradesh",India,2017-11-23,2019-02-14,2481,6,47.62,271.43,316.3,11.57,0.96,"Credit Card",Paid,Electronics,1,0.05,1,High
+136,100135,"Deepak Solanki",deepak.solanki2592@example.com,+918736272300,"New York","New York","United States",2023-04-24,2025-03-14,261,2,22.36,44.72,44.84,29.97,2.5,Wallet,Paid,Automotive,0,0,0,Low
+137,100136,"Ella Harris",ella.harris7434@example.com,+919118802311,Bhubaneswar,Odisha,India,2024-01-01,2024-03-30,610,7,55.68,389.76,559.11,24.81,2.07,"Credit Card",Paid,"Home & Kitchen",0,0,1,Top
+138,100137,"Kunal Anderson",kunal.anderson54@example.com,+916080890679,Varanasi,"Uttar Pradesh",India,2022-08-20,2022-11-18,1108,4,81.18,324.72,375.27,198.53,16.54,"Debit Card",Paid,Groceries,0,0,1,Top
+139,100138,"Dylan Bisht",dylan.bisht4316@example.com,+916059245650,Mysore,Karnataka,India,2022-07-28,2022-08-16,1202,5,36.47,145.88,148.93,125.61,10.46,UPI,Paid,Toys,1,0.2,1,Mid
+140,100139,"Julian King",julian.king8202@example.com,+918342636003,Muscat,Muscat,Oman,2022-12-20,2022-12-26,1070,7,57.29,401.03,401.14,306.65,25.55,"Net Banking",Paid,"Home & Kitchen",0,0,1,Top
+141,100140,"Lakshmi Khandelwal",lakshmi.khandelwal2928@example.com,+919728791912,Mysore,Karnataka,India,2015-01-30,2024-11-17,378,6,38.47,230.82,345.37,158.6,13.22,"Bank Transfer",Paid,Apparel,0,0,1,High
+142,100141,"Benjamin Shah",benjamin.shah8318@example.com,+918779371591,"San Francisco",California,"United States",2015-10-10,2019-11-12,2210,5,35.32,176.6,251.87,163.32,13.61,Wallet,Paid,Automotive,0,0,1,High
+143,100142,"Ella Lopez",ella.lopez1744@example.com,+918244906821,Islamabad,"Islamabad Capital Territory",Pakistan,2021-11-21,2023-01-18,1047,10,53.81,538.1,724.21,518.02,43.17,"Debit Card",Paid,Automotive,0,0,1,Top
+144,100143,"Maya Iyer",maya.iyer4890@example.com,+919813976965,Visakhapatnam,"Andhra Pradesh",India,2025-06-08,2025-11-15,15,4,6.23,24.92,34.13,1.08,0.09,"Credit Card",Paid,Sports,0,0,0,Low
+145,100144,"Samuel Rao",samuel.rao8318@example.com,+918595957328,Delhi,Delhi,India,2017-09-17,2022-08-22,1196,6,42.47,254.82,287.68,252.63,21.05,Wallet,Pending,Groceries,0,0,1,High
+146,100145,"Aditya Saxena",aditya.saxena9978@example.com,+917153346447,Sydney,"New South Wales",Australia,2025-05-01,2025-05-13,201,7,14.14,98.98,111.2,49.18,4.1,"Net Banking",Paid,Apparel,0,0,0,Mid
+147,100146,"Aarav Young",aarav.young3259@example.com,+916960324834,Kanpur,"Uttar Pradesh",India,2021-06-06,2025-02-16,287,5,53,265,346.58,255.57,21.3,"Debit Card",Paid,"Home & Kitchen",0,0,0,High
+148,100147,"Arjun Davis",arjun.davis2505@example.com,+918357159049,London,England,"United Kingdom",2023-12-01,2025-07-01,152,5,78.84,394.2,413.15,301.19,25.1,Wallet,Paid,Books,0,0,0,Top
+149,100148,"Grayson Jones",grayson.jones6127@example.com,+916834702352,Auckland,Auckland,"New Zealand",2018-07-05,2024-03-21,619,2,23.41,44.48,50.97,9.37,0.78,"Cash on Delivery",Paid,Toys,1,0.05,1,Low
+150,100149,"Karan Lewis",karan.lewis2647@example.com,+916194765641,"New York","New York","United States",2023-02-25,2025-01-09,325,21,45.44,954.24,1330.58,50.04,4.17,"Credit Card",Paid,Apparel,0,0,0,Top
+151,100150,"Pooja Lee",pooja.lee8838@example.com,+916535047388,Colombo,"Western Province","Sri Lanka",2024-01-17,2025-02-10,293,4,38.46,123.07,177.3,58.37,4.86,"Net Banking",Paid,Books,1,0.2,0,Mid
+152,100151,"Sara Verma",sara.verma8690@example.com,+917280815896,Singapore,Singapore,Singapore,2021-04-13,2025-01-25,309,4,13.6,43.52,61.43,6.14,0.51,UPI,Paid,Sports,1,0.2,0,Low
+153,100152,"Carter Martinez",carter.martinez10@example.com,+918349380903,"New York","New York","United States",2021-06-11,2025-02-16,287,5,71.27,356.35,500.19,275.55,22.96,UPI,Paid,"Home & Kitchen",0,0,0,Top
+154,100153,"Neha Ghosh",neha.ghosh9814@example.com,+918868590429,Visakhapatnam,"Andhra Pradesh",India,2020-09-18,2021-05-21,1654,4,38.54,154.16,217.8,139.12,11.59,"Net Banking",Paid,Groceries,0,0,1,High
+155,100154,"Grayson Williams",grayson.williams5311@example.com,+917571564332,Sydney,"New South Wales",Australia,2015-11-23,2024-06-30,518,9,68.03,612.27,833.74,263.25,21.94,"Net Banking",Paid,Toys,0,0,1,Top
+156,100155,"Ritu Thompson",ritu.thompson8006@example.com,+918035481615,Vancouver,"British Columbia",Canada,2022-12-05,2025-08-12,110,2,28.53,57.06,69.56,28.92,2.41,"Cash on Delivery",Paid,Health,0,0,0,Low
+157,100156,"Joseph Nambiar",joseph.nambiar320@example.com,+918177988550,Vancouver,"British Columbia",Canada,2023-05-14,2023-09-22,800,4,31.47,125.88,130.15,108.22,9.02,"Debit Card",Paid,Automotive,0,0,1,Mid
+158,100157,"Carlos Sengupta",carlos.sengupta1833@example.com,+919160237674,Muscat,Muscat,Oman,2020-09-15,2024-09-24,432,1,57.29,57.29,71.62,7.73,0.64,"Debit Card",Paid,Automotive,0,0,1,Low
+159,100158,"Ethan Patel",ethan.patel5948@example.com,+919822844188,Indore,"Madhya Pradesh",India,2023-02-28,2024-11-06,389,6,13.42,80.52,101.69,69.07,5.76,"Credit Card",Paid,Books,0,0,1,Mid
+160,100159,"Zoe Mehta",zoe.mehta5039@example.com,+916446887535,Toronto,Ontario,Canada,2018-04-06,2020-04-08,2062,6,16.25,97.5,97.88,48.11,4.01,"Cash on Delivery",Paid,Groceries,0,0,1,Mid
+161,100160,"Liam Patil",liam.patil3924@example.com,+917737747599,Kanpur,"Uttar Pradesh",India,2017-08-24,2023-10-03,789,6,8.33,49.98,62.1,0.7,0.06,"Credit Card",Paid,Books,0,0,1,Low
+162,100161,"Zoe Nambiar",zoe.nambiar950@example.com,+917604266205,Varanasi,"Uttar Pradesh",India,2023-01-08,2025-11-29,1,7,13.58,95.06,109.7,50.62,4.22,UPI,Paid,Groceries,0,0,0,Mid
+163,100162,"Vihaan Shrivastava",vihaan.shrivastava3947@example.com,+919873946892,"Los Angeles",California,"United States",2017-02-02,2019-06-28,2347,6,18.35,93.58,123.95,77.51,6.46,Wallet,Paid,Health,1,0.15,1,Mid
+164,100163,"Chloe Kapoor",chloe.kapoor9296@example.com,+917862165537,Hyderabad,Telangana,India,2018-02-18,2019-09-05,2278,6,54.45,261.36,377.83,67.28,5.61,"Credit Card",Pending,Electronics,1,0.2,1,High
+165,100164,"Tarun Patil",tarun.patil1291@example.com,+916041977246,Nairobi,Nairobi,Kenya,2024-02-23,2024-07-06,512,3,19.13,51.65,52.33,36.24,3.02,"Debit Card",Refunded,Health,1,0.1,1,Low
+166,100165,"Neha Sharma",neha.sharma1404@example.com,+918229441518,Nagpur,Maharashtra,India,2018-06-13,2025-10-09,52,7,19.88,139.16,174.77,30.76,2.56,UPI,Refunded,Electronics,0,0,0,Mid
+167,100166,"Yash Garcia",yash.garcia7963@example.com,+918274249812,Thiruvananthapuram,Kerala,India,2024-12-23,2025-10-15,46,1,10.79,10.79,15.11,3.06,0.26,"Net Banking",Paid,Health,0,0,0,Low
+168,100167,"Arnav Taylor",arnav.taylor1134@example.com,+916202892170,"San Francisco",California,"United States",2023-11-05,2025-04-30,214,8,98.56,788.48,904.96,129.91,10.83,"Net Banking",Paid,Apparel,0,0,0,Top
+169,100168,"Shreya Prasad",shreya.prasad8728@example.com,+919822681280,Nashik,Maharashtra,India,2019-01-22,2021-11-09,1482,5,38.74,193.7,288.61,15.94,1.33,UPI,Paid,Groceries,0,0,1,High
+170,100169,"Priya Martinez",priya.martinez2061@example.com,+918911235119,Vancouver,"British Columbia",Canada,2020-07-25,2024-10-25,401,3,15.48,46.44,60.28,35.38,2.95,"Cash on Delivery",Pending,Beauty,0,0,1,Low
+171,100170,"Varun Smith",varun.smith2104@example.com,+919402486651,Gurgaon,Haryana,India,2022-12-25,2025-09-20,71,10,14.75,147.5,170.13,25.16,2.1,UPI,Failed,Health,0,0,0,Mid
+172,100171,"Michael Shrivastava",michael.shrivastava7788@example.com,+917136458558,Islamabad,"Islamabad Capital Territory",Pakistan,2018-06-26,2021-10-19,1503,8,45.5,364,472.37,259.25,21.6,"Credit Card",Paid,Beauty,0,0,1,Top
+173,100172,"Mia Wright",mia.wright9008@example.com,+919852861472,London,England,"United Kingdom",2024-04-09,2025-06-13,170,5,26.8,134,141.99,13.18,1.1,"Credit Card",Paid,Automotive,0,0,0,Mid
+174,100173,"Dylan Allen",dylan.allen2706@example.com,+916294330608,"Cape Town","Western Cape","South Africa",2017-08-16,2018-06-29,2711,7,100.58,704.06,994.69,553.1,46.09,UPI,Paid,Beauty,0,0,1,Top
+175,100174,"Sneha Flores",sneha.flores4343@example.com,+918182940381,Surat,Gujarat,India,2018-07-01,2020-06-04,2005,5,31.71,158.55,212.41,61.21,5.1,"Net Banking",Paid,Sports,0,0,1,High
+176,100175,"Elijah Roy",elijah.roy8646@example.com,+918936844574,Kolkata,"West Bengal",India,2022-04-13,2023-03-26,980,8,79.14,633.12,801.1,306.87,25.57,"Credit Card",Paid,Books,0,0,1,Top
+177,100176,"Ritu Bisht",ritu.bisht9939@example.com,+918666405738,Kanpur,"Uttar Pradesh",India,2017-01-19,2017-04-28,3138,7,135.64,949.48,1141.71,453.34,37.78,"Debit Card",Paid,Sports,0,0,1,Top
+178,100177,"Rakesh Shukla",rakesh.shukla6933@example.com,+916162122967,"Abu Dhabi","Abu Dhabi",UAE,2018-07-14,2023-09-15,807,7,8.88,55.94,83.32,44.37,3.7,"Net Banking",Paid,Sports,1,0.1,1,Low
+179,100178,"Mason Thomas",mason.thomas3471@example.com,+919225758890,Amritsar,Punjab,India,2021-08-17,2021-12-04,1457,10,20.68,206.8,208.31,13.95,1.16,"Debit Card",Paid,Sports,0,0,1,High
+180,100179,"Isabella Patil",isabella.patil8836@example.com,+918881894879,Lucknow,"Uttar Pradesh",India,2018-12-24,2024-01-20,680,5,109.8,549,589.31,352.8,29.4,"Net Banking",Paid,Groceries,0,0,1,Top
+181,100180,"Isha Silva",isha.silva3296@example.com,+916557741451,Noida,"Uttar Pradesh",India,2022-01-25,2023-03-20,986,7,33.29,233.03,285.56,45.64,3.8,"Credit Card",Paid,Health,0,0,1,High
+182,100181,"Sneha Miller",sneha.miller5108@example.com,+917208181507,Gurgaon,Haryana,India,2015-11-06,2016-08-30,3379,7,85.42,597.94,708.32,500.16,41.68,"Credit Card",Paid,"Home & Kitchen",0,0,1,Top
+183,100182,"Sneha Saxena",sneha.saxena6538@example.com,+917221199982,Mumbai,Maharashtra,India,2016-10-07,2023-09-30,792,6,35.96,215.76,285.8,17.66,1.47,"Credit Card",Paid,Electronics,0,0,1,High
+184,100183,"Kunal Wilson",kunal.wilson6119@example.com,+917727207043,Colombo,"Western Province","Sri Lanka",2025-07-20,2025-11-22,8,6,22.82,136.92,175.43,106.29,8.86,"Credit Card",Paid,Beauty,0,0,0,Mid
+185,100184,"Luke Shah",luke.shah7178@example.com,+919463586458,Kolkata,"West Bengal",India,2016-09-30,2017-06-21,3084,8,20.15,161.2,200.22,53.85,4.49,"Cash on Delivery",Paid,Books,0,0,1,High
+186,100185,"Ishaan Shukla",ishaan.shukla8480@example.com,+919073485318,Rajkot,Gujarat,India,2021-03-31,2023-12-05,726,1,14.05,14.05,18.66,14.01,1.17,"Debit Card",Paid,Books,0,0,1,Low
+187,100186,"Mason Jain",mason.jain7398@example.com,+916792779006,"Cape Town","Western Cape","South Africa",2019-07-09,2023-02-23,1011,1,48.5,48.5,71.96,27.32,2.28,UPI,Paid,"Home & Kitchen",0,0,1,Low
+188,100187,"Mateo Desai",mateo.desai1983@example.com,+918386913414,Lagos,Lagos,Nigeria,2023-07-05,2025-06-26,157,6,111.36,634.75,854.83,151.76,12.64,Wallet,Paid,Automotive,1,0.05,0,Top
+189,100188,"Leah Davis",leah.davis4062@example.com,+918262839616,Bengaluru,Karnataka,India,2021-07-14,2024-02-23,646,1,25.65,25.65,30.02,15.05,1.25,UPI,Paid,Toys,0,0,1,Low
+190,100189,"Anthony Wilson",anthony.wilson3682@example.com,+919357584522,Colombo,"Western Province","Sri Lanka",2018-09-29,2023-03-12,994,3,42.92,128.76,182.34,104.76,8.73,"Credit Card",Paid,Electronics,0,0,1,Mid
+191,100190,"Mason Lewis",mason.lewis1050@example.com,+916732175784,Delhi,Delhi,India,2016-08-06,2018-08-24,2655,6,82.92,447.77,655.61,261.17,21.76,"Debit Card",Paid,Automotive,1,0.1,1,Top
+192,100191,"Camila Wright",camila.wright5540@example.com,+917856415033,Sydney,"New South Wales",Australia,2021-07-21,2024-06-09,539,10,63.97,639.7,728.76,229.36,19.11,"Bank Transfer",Paid,Automotive,0,0,1,Top
+193,100192,"Aarav Hussain",aarav.hussain345@example.com,+916281758416,Hyderabad,Telangana,India,2023-07-27,2024-03-03,637,3,36.76,110.28,140.83,84.38,7.03,"Credit Card",Paid,Groceries,0,0,1,Mid
+194,100193,"Pooja Scott",pooja.scott9639@example.com,+918006988455,Melbourne,Victoria,Australia,2022-12-23,2025-06-09,174,4,27.97,111.88,144.98,105,8.75,"Net Banking",Paid,Sports,0,0,0,Mid
+195,100194,"Mason Smith",mason.smith9076@example.com,+916881436598,Vadodara,Gujarat,India,2017-06-28,2024-04-06,603,1,70.29,59.75,65.26,41.85,3.48,UPI,Paid,Sports,1,0.15,1,Low
+196,100195,"Joseph Desai",joseph.desai3771@example.com,+917126582036,Vancouver,"British Columbia",Canada,2024-10-22,2025-05-03,211,8,75.36,602.88,626.36,355.05,29.59,"Debit Card",Paid,Sports,0,0,0,Top
+197,100196,"Aditya Agarwal",aditya.agarwal9642@example.com,+918974185638,"Cape Town","Western Cape","South Africa",2023-04-12,2024-08-30,457,3,18.55,44.52,56.48,24.03,2,"Net Banking",Pending,Beauty,1,0.2,1,Low
+198,100197,"Alexander Bisht",alexander.bisht3609@example.com,+917621492978,Gurgaon,Haryana,India,2023-02-22,2024-02-26,643,3,18.8,56.4,65.4,1.91,0.16,"Net Banking",Paid,Books,0,0,1,Low
+199,100198,"Daniel Patel",daniel.patel118@example.com,+916145961398,Muscat,Muscat,Oman,2025-01-20,2025-08-03,119,5,44.28,210.33,281.9,206.32,17.2,Wallet,Pending,Apparel,1,0.05,0,High
+200,100199,"Pooja Rao",pooja.rao1164@example.com,+919983604621,Bhubaneswar,Odisha,India,2024-10-07,2025-04-29,215,6,51.74,310.44,359.45,228.65,19.05,UPI,Paid,Groceries,0,0,0,Top
+201,100200,"Sara Shah",sara.shah965@example.com,+919485477864,"Cape Town","Western Cape","South Africa",2022-01-24,2023-04-20,955,4,99.23,396.92,429.86,309.95,25.83,"Credit Card",Refunded,"Home & Kitchen",0,0,1,Top
+202,100201,"Mason Das",mason.das3751@example.com,+918341219776,Singapore,Singapore,Singapore,2020-08-15,2024-07-21,497,3,104.47,313.41,434.35,22.99,1.92,"Debit Card",Paid,Sports,0,0,1,Top
+203,100202,"Deepak Kapoor",deepak.kapoor1105@example.com,+917964996905,Kanpur,"Uttar Pradesh",India,2016-10-19,2021-11-23,1468,8,50.17,401.36,439.97,269.86,22.49,"Debit Card",Paid,Beauty,0,0,1,Top
+204,100203,"Camila Harris",camila.harris515@example.com,+916934284382,Jalandhar,Punjab,India,2016-02-27,2020-08-01,1947,4,16.84,60.62,75.74,31.2,2.6,UPI,Paid,Sports,1,0.1,1,Low
+205,100204,"Carlos Desai",carlos.desai5414@example.com,+919281788466,Melbourne,Victoria,Australia,2015-07-21,2018-03-12,2820,3,31.52,94.56,136.42,11.84,0.99,UPI,Failed,Beauty,0,0,1,Mid
+206,100205,"Kunal Prasad",kunal.prasad1161@example.com,+919471877608,Nagpur,Maharashtra,India,2019-11-18,2024-12-08,357,5,52.03,260.15,293.44,148.88,12.41,UPI,Paid,"Home & Kitchen",0,0,0,High
+207,100206,"Puja Jain",puja.jain8424@example.com,+917863716842,Varanasi,"Uttar Pradesh",India,2016-09-23,2018-12-20,2537,7,35.67,249.69,250.5,246.22,20.52,"Debit Card",Paid,Electronics,0,0,1,High
+208,100207,"Carter Gupta",carter.gupta3900@example.com,+919584144878,"New York","New York","United States",2021-01-15,2025-06-02,181,3,87.63,236.6,332.66,176.21,14.69,"Debit Card",Paid,Groceries,1,0.1,0,High
+209,100208,"Mia Saxena",mia.saxena4563@example.com,+916865938463,"Los Angeles",California,"United States",2019-04-13,2021-06-18,1626,5,39.87,199.35,214.2,39.77,3.31,"Net Banking",Paid,Beauty,0,0,1,High
+210,100209,"Varun Singh",varun.singh7954@example.com,+916335834059,Visakhapatnam,"Andhra Pradesh",India,2021-03-13,2025-09-11,80,3,51.02,153.06,171.41,44.92,3.74,UPI,Failed,Toys,0,0,0,High
+211,100210,"Zoe Lee",zoe.lee3511@example.com,+917124885041,Kathmandu,Bagmati,Nepal,2023-11-20,2024-10-27,399,5,17.36,86.8,128.98,0.29,0.02,Wallet,Paid,Books,0,0,1,Mid
+212,100211,"Isaac Munshi",isaac.munshi8835@example.com,+918422251559,Lucknow,"Uttar Pradesh",India,2018-11-19,2021-09-23,1529,4,42.63,170.52,188.31,109.14,9.1,"Debit Card",Pending,Sports,0,0,1,High
+213,100212,"Liam Allen",liam.allen2168@example.com,+916838148916,Mumbai,Maharashtra,India,2016-07-09,2021-09-25,1527,3,16.4,49.2,56,44.4,3.7,"Bank Transfer",Paid,Health,0,0,1,Low
+214,100213,"Mason Williams",mason.williams9356@example.com,+918961583650,Jalandhar,Punjab,India,2016-02-08,2017-09-09,3004,4,46.65,186.6,245.43,55.55,4.63,"Credit Card",Paid,Sports,0,0,1,High
+215,100214,"Sophia Shukla",sophia.shukla9441@example.com,+916402390082,Thiruvananthapuram,Kerala,India,2022-08-31,2024-03-23,617,6,10.46,62.76,68.24,49.5,4.12,Wallet,Paid,Electronics,0,0,1,Low
+216,100215,"Liam Verma",liam.verma7745@example.com,+918217403188,Islamabad,"Islamabad Capital Territory",Pakistan,2015-06-25,2015-10-28,3686,5,56.68,283.4,380.06,35.96,3,"Debit Card",Paid,Health,0,0,1,High
+217,100216,"Ravi Trivedi",ravi.trivedi3982@example.com,+916366722841,Mumbai,Maharashtra,India,2015-06-12,2016-03-09,3553,3,27.56,82.68,122.96,27.25,2.27,Wallet,Paid,Automotive,0,0,1,Mid
+218,100217,"Esha Young",esha.young7750@example.com,+916815980287,"Cape Town","Western Cape","South Africa",2022-11-21,2025-11-02,28,6,19.46,110.92,152.4,15.95,1.33,UPI,Paid,Electronics,1,0.05,0,Mid
+219,100218,"Vivaan Ghosh",vivaan.ghosh6670@example.com,+917938847382,Ahmedabad,Gujarat,India,2020-02-16,2020-11-14,1842,4,34.69,138.76,176.88,73.06,6.09,"Net Banking",Pending,Books,0,0,1,Mid
+220,100219,"Aditya Anderson",aditya.anderson3120@example.com,+919912280829,Jaipur,Rajasthan,India,2017-07-06,2021-07-23,1591,2,32.79,55.74,68.55,37.92,3.16,"Cash on Delivery",Paid,Beauty,1,0.15,1,Low
+221,100220,"Ava Nair",ava.nair1546@example.com,+916574221842,Gurgaon,Haryana,India,2018-10-09,2025-10-05,56,6,19.06,114.36,138.21,110.23,9.19,UPI,Failed,Electronics,0,0,0,Mid
+222,100221,"Wyatt Kumar",wyatt.kumar1589@example.com,+919277550060,Visakhapatnam,"Andhra Pradesh",India,2021-09-09,2025-09-02,89,4,27.96,111.84,136.21,73.37,6.11,"Credit Card",Pending,Groceries,0,0,0,Mid
+223,100222,"Mia Khandelwal",mia.khandelwal7063@example.com,+916651564655,"Los Angeles",California,"United States",2015-05-13,2022-04-18,1322,4,43.26,173.04,191.11,91.58,7.63,UPI,Paid,Beauty,0,0,1,High
+224,100223,"Vivaan Saxena",vivaan.saxena5805@example.com,+918531764726,Patna,Bihar,India,2015-11-09,2016-12-20,3267,8,22.96,183.68,251.67,59.36,4.95,Wallet,Paid,"Home & Kitchen",0,0,1,High
+225,100224,"Vivaan Lopez",vivaan.lopez6940@example.com,+919170267120,Thiruvananthapuram,Kerala,India,2017-04-08,2017-05-13,3123,3,36.53,109.59,132.88,30.68,2.56,Wallet,Paid,Toys,0,0,1,Mid
+226,100225,"Leah Kapoor",leah.kapoor6736@example.com,+916865103575,Nairobi,Nairobi,Kenya,2017-01-21,2023-04-21,954,1,65.65,65.65,84.87,15.25,1.27,UPI,Paid,Health,0,0,1,Low
+227,100226,"Emma Dutta",emma.dutta7652@example.com,+918233803858,Gurgaon,Haryana,India,2023-03-21,2025-02-20,283,6,10,54,63.15,11.66,0.97,UPI,Paid,"Home & Kitchen",1,0.1,0,Low
+228,100227,"Gabriel Mehta",gabriel.mehta888@example.com,+919197285339,Mumbai,Maharashtra,India,2024-03-03,2025-02-11,292,5,59.47,297.35,407.93,103.61,8.63,UPI,Paid,Groceries,0,0,0,Top
+229,100228,"Zoe Anderson",zoe.anderson1613@example.com,+916029694160,Indore,"Madhya Pradesh",India,2022-03-04,2024-07-02,516,5,62.83,314.15,325.89,20.68,1.72,UPI,Paid,Apparel,0,0,1,Top
+230,100229,"Camila Nguyen",camila.nguyen994@example.com,+917312236294,Dhaka,"Dhaka Division",Bangladesh,2018-12-13,2024-12-10,355,7,84.28,589.96,689.05,338.81,28.23,"Credit Card",Paid,Apparel,0,0,0,Top
+231,100230,"Aarav Trivedi",aarav.trivedi6597@example.com,+917457552462,Gurgaon,Haryana,India,2024-07-08,2025-08-09,113,3,37.01,111.03,114.84,3.12,0.26,UPI,Pending,Groceries,0,0,0,Mid
+232,100231,"Amit Thomas",amit.thomas5560@example.com,+916029013493,Dubai,Dubai,UAE,2025-01-21,2025-10-12,49,7,18.86,132.02,152.99,34.82,2.9,"Cash on Delivery",Paid,Beauty,0,0,0,Mid
+233,100232,"Vivaan Chaudhary",vivaan.chaudhary1791@example.com,+918791444384,Muscat,Muscat,Oman,2020-03-05,2024-06-14,534,3,74.34,178.42,243.18,10.34,0.86,UPI,Pending,Automotive,1,0.2,1,High
+234,100233,"Noah Menon",noah.menon4074@example.com,+916984444611,Islamabad,"Islamabad Capital Territory",Pakistan,2015-04-04,2025-07-27,126,4,12.64,45.5,51.43,43.44,3.62,"Credit Card",Paid,Beauty,1,0.1,0,Low
+235,100234,"Kunal Singh",kunal.singh3140@example.com,+916014109974,Ahmedabad,Gujarat,India,2022-03-31,2022-11-17,1109,1,9.34,9.34,9.54,2.37,0.2,"Net Banking",Paid,Groceries,0,0,1,Low
+236,100235,"Grayson Hill",grayson.hill3117@example.com,+919333887647,London,England,"United Kingdom",2023-07-26,2024-06-27,521,1,69.3,69.3,90.14,31.76,2.65,"Bank Transfer",Paid,Electronics,0,0,1,Low
+237,100236,"Varun Munshi",varun.munshi8787@example.com,+919857308137,Muscat,Muscat,Oman,2018-05-31,2022-07-26,1223,7,17.38,121.66,164.8,62.44,5.2,Wallet,Paid,Health,0,0,1,Mid
+238,100237,"Alexander Green",alexander.green7351@example.com,+918758178358,Delhi,Delhi,India,2018-03-21,2022-05-12,1298,2,18.37,34.9,44.25,21.54,1.8,UPI,Paid,Automotive,1,0.05,1,Low
+239,100238,"Varun Roy",varun.roy2297@example.com,+918253385689,Colombo,"Western Province","Sri Lanka",2023-12-15,2024-06-29,519,8,69.87,558.96,733.46,537.91,44.83,"Debit Card",Paid,Beauty,0,0,1,Top
+240,100239,"William Ramirez",william.ramirez6913@example.com,+919380631255,Nagpur,Maharashtra,India,2024-08-04,2025-01-12,322,1,63.81,63.81,90.96,28.65,2.39,"Credit Card",Paid,Automotive,0,0,0,Low
+241,100240,"Olivia Shrivastava",olivia.shrivastava3007@example.com,+919171556706,Coimbatore,"Tamil Nadu",India,2015-12-13,2016-10-17,3331,5,179.89,899.45,1236.55,227.21,18.93,"Net Banking",Paid,Health,0,0,1,Top
+242,100241,"Mateo Chakrabarti",mateo.chakrabarti4564@example.com,+916987227760,Nairobi,Nairobi,Kenya,2023-12-01,2024-07-30,488,6,24.07,144.42,162.77,37.35,3.11,"Net Banking",Failed,Automotive,0,0,1,Mid
+243,100242,"Ava Shah",ava.shah7580@example.com,+917190496934,Pune,Maharashtra,India,2017-11-28,2021-07-15,1599,9,32.59,293.31,382.78,171.28,14.27,"Debit Card",Paid,"Home & Kitchen",0,0,1,Top
+244,100243,"Kritika Malhotra",kritika.malhotra4093@example.com,+918438193155,Bengaluru,Karnataka,India,2020-09-18,2024-07-03,515,6,27.87,167.22,176.9,31.49,2.62,"Debit Card",Paid,Health,0,0,1,High
+245,100244,"Anya Nambiar",anya.nambiar1236@example.com,+916480799490,Bhubaneswar,Odisha,India,2016-08-09,2024-10-16,410,8,43.39,277.7,369.04,49.66,4.14,"Debit Card",Pending,Electronics,1,0.2,1,High
+246,100245,"Puja Dutta",puja.dutta7261@example.com,+918811193825,Ahmedabad,Gujarat,India,2016-08-31,2023-01-25,1040,7,71.49,475.41,579.85,444.34,37.03,UPI,Paid,Beauty,1,0.05,1,Top
+247,100246,"James Adams",james.adams9017@example.com,+916347495646,Mumbai,Maharashtra,India,2018-02-17,2019-12-20,2172,4,41.26,165.04,202.7,154.35,12.86,Wallet,Pending,"Home & Kitchen",0,0,1,High
+248,100247,"Avery Kohli",avery.kohli1605@example.com,+917725894109,Vadodara,Gujarat,India,2023-06-22,2023-08-22,831,3,61.09,183.27,225.97,97.16,8.1,"Net Banking",Paid,Electronics,0,0,1,High
+249,100248,"Alexander Garcia",alexander.garcia829@example.com,+917229341591,Varanasi,"Uttar Pradesh",India,2017-05-07,2022-07-04,1245,5,80.14,320.56,446.01,319.28,26.61,"Net Banking",Paid,Groceries,1,0.2,1,Top
+250,100249,"Dylan Torres",dylan.torres8857@example.com,+918104891371,Jalandhar,Punjab,India,2023-12-02,2025-01-10,324,4,19.88,79.52,103.92,69.02,5.75,"Debit Card",Paid,Toys,0,0,0,Mid
+251,100250,"Rahul Jones",rahul.jones242@example.com,+917771326720,Ahmedabad,Gujarat,India,2015-03-16,2019-11-07,2215,6,40.05,240.3,302.33,45.5,3.79,Wallet,Paid,Electronics,0,0,1,High
+252,100251,"Rohit Jones",rohit.jones1529@example.com,+917095524829,Dubai,Dubai,UAE,2017-01-20,2022-07-08,1241,2,79.26,158.52,166.41,92.02,7.67,"Credit Card",Pending,Toys,0,0,1,High
+253,100252,"Camila Chaudhary",camila.chaudhary3873@example.com,+918493791090,Auckland,Auckland,"New Zealand",2024-11-15,2025-09-15,76,7,46.67,326.69,441.91,221.45,18.45,"Cash on Delivery",Paid,Electronics,0,0,0,Top
+254,100253,"Henry Singh",henry.singh2725@example.com,+916794232032,Ahmedabad,Gujarat,India,2018-10-21,2024-08-21,466,5,178.96,894.8,1123.79,144.71,12.06,"Credit Card",Paid,"Home & Kitchen",0,0,1,Top
+255,100254,"Mia Mehta",mia.mehta6659@example.com,+919115374635,Ahmedabad,Gujarat,India,2021-11-21,2025-10-11,50,4,19.32,77.28,114.82,48.38,4.03,"Debit Card",Paid,Apparel,0,0,0,Low
+256,100255,"Alexander Naik",alexander.naik7957@example.com,+918049890197,Mysore,Karnataka,India,2018-08-21,2024-06-26,522,4,28.34,107.69,130.69,22.24,1.85,"Credit Card",Pending,Toys,1,0.05,1,Mid
+257,100256,"Owen Khandelwal",owen.khandelwal7887@example.com,+916848635909,Melbourne,Victoria,Australia,2020-08-27,2024-02-26,643,3,13.24,33.76,40.91,17.9,1.5,"Bank Transfer",Paid,Toys,1,0.15,1,Low
+258,100257,"Hannah Dutta",hannah.dutta3503@example.com,+918408895262,Melbourne,Victoria,Australia,2020-11-08,2025-11-06,24,5,34.16,170.8,241.61,6.61,0.55,"Credit Card",Pending,Beauty,0,0,0,High
+259,100258,"Aditya Singh",aditya.singh6571@example.com,+918965406378,Lagos,Lagos,Nigeria,2021-04-04,2024-07-28,490,5,53.75,268.75,388.01,256.78,21.4,"Credit Card",Pending,Electronics,0,0,1,High
+260,100259,"Siddharth Taylor",siddharth.taylor961@example.com,+917748576321,Coimbatore,"Tamil Nadu",India,2019-02-01,2023-08-29,824,8,6.82,51.83,60.93,49.37,4.11,"Debit Card",Paid,Groceries,1,0.05,1,Low
+261,100260,"Mia Flores",mia.flores2698@example.com,+918383634188,Thiruvananthapuram,Kerala,India,2024-11-13,2025-07-31,122,7,16.55,115.85,163.99,108.67,9.06,"Credit Card",Paid,Books,0,0,0,Mid
+262,100261,"Shreya Khandelwal",shreya.khandelwal6210@example.com,+919478452088,Bengaluru,Karnataka,India,2025-04-06,2025-06-10,173,3,14.92,44.76,64.32,41.49,3.46,"Debit Card",Paid,Apparel,0,0,0,Low
+263,100262,"Amit Ali",amit.ali36@example.com,+916411284109,Dhaka,"Dhaka Division",Bangladesh,2024-04-09,2024-08-23,464,1,18.71,18.71,19.41,3.34,0.28,"Debit Card",Paid,Electronics,0,0,1,Low
+264,100263,"Grayson Martinez",grayson.martinez6397@example.com,+916873874911,Kathmandu,Bagmati,Nepal,2018-08-27,2024-03-12,628,2,81.01,145.82,198.42,44.88,3.74,"Debit Card",Refunded,Automotive,1,0.1,1,Mid
+265,100264,"Jacob Dutta",jacob.dutta4346@example.com,+919770077242,Dubai,Dubai,UAE,2025-02-07,2025-07-25,128,6,20.77,124.62,150.86,18.37,1.53,UPI,Paid,Automotive,0,0,0,Mid
+266,100265,"Amit Chaudhary",amit.chaudhary7455@example.com,+917004446936,Dhaka,"Dhaka Division",Bangladesh,2019-12-23,2023-04-04,971,8,21.66,173.28,209.59,1.69,0.14,"Credit Card",Paid,Toys,0,0,1,High
+267,100266,"Siddharth Parekh",siddharth.parekh4674@example.com,+919976458160,Noida,"Uttar Pradesh",India,2017-05-05,2024-12-01,364,7,25.7,170.9,179.73,127.14,10.59,"Credit Card",Paid,Groceries,1,0.05,0,High
+268,100267,"Zoe Garcia",zoe.garcia6931@example.com,+919126992761,"New York","New York","United States",2021-08-30,2025-03-14,261,4,101.42,405.68,464.99,318.48,26.54,"Credit Card",Paid,"Home & Kitchen",0,0,0,Top
+269,100268,"Michael Johnson",michael.johnson9106@example.com,+918040383017,"San Francisco",California,"United States",2024-06-28,2025-07-30,123,8,18.43,147.44,219.72,5.96,0.5,"Credit Card",Paid,Automotive,0,0,0,Mid
+270,100269,"Liam Johnson",liam.johnson7974@example.com,+918787328072,Muscat,Muscat,Oman,2017-06-20,2021-11-14,1477,3,10.34,31.02,39.93,12.24,1.02,UPI,Paid,"Home & Kitchen",0,0,1,Low
+271,100270,"Harsh Sengupta",harsh.sengupta2537@example.com,+916564759126,Jalandhar,Punjab,India,2021-10-16,2025-05-07,207,5,10.03,50.15,53.32,26.53,2.21,Wallet,Paid,Groceries,0,0,0,Low
+272,100271,"Naveen Desai",naveen.desai3112@example.com,+919814153220,Ahmedabad,Gujarat,India,2020-06-23,2021-03-11,1725,6,75.31,451.86,546.83,319.48,26.62,"Net Banking",Paid,Health,0,0,1,Top
+273,100272,"Esha Rao",esha.rao4862@example.com,+919000689391,Surat,Gujarat,India,2017-12-31,2020-03-17,2084,3,11.03,33.09,48.89,29.76,2.48,"Debit Card",Paid,Apparel,0,0,1,Low
+274,100273,"John Ramirez",john.ramirez3567@example.com,+916693057908,Patna,Bihar,India,2016-11-20,2020-04-17,2053,2,20.83,41.66,56.73,39.37,3.28,"Credit Card",Paid,Electronics,0,0,1,Low
+275,100274,"Aarav Perez",aarav.perez959@example.com,+918730090200,"New York","New York","United States",2022-03-05,2023-09-01,821,6,18.3,104.31,153.24,0.94,0.08,"Credit Card",Paid,Health,1,0.05,1,Mid
+276,100275,"Rahul Prasad",rahul.prasad9490@example.com,+918093290787,Surat,Gujarat,India,2019-06-21,2023-11-23,738,3,45.91,137.73,169.89,28.3,2.36,UPI,Paid,Beauty,0,0,1,Mid
+277,100276,"Leah Williams",leah.williams8884@example.com,+919478197678,Jalandhar,Punjab,India,2015-01-31,2024-02-06,663,4,17.21,68.84,71.04,6.64,0.55,"Credit Card",Paid,Apparel,0,0,1,Low
+278,100277,"Isabella Jones",isabella.jones999@example.com,+918987537190,Dhaka,"Dhaka Division",Bangladesh,2021-02-04,2022-02-12,1387,3,81.78,245.34,296,124.24,10.35,Wallet,Paid,Apparel,0,0,1,High
+279,100278,"Anthony Brown",anthony.brown5139@example.com,+919354151253,Lagos,Lagos,Nigeria,2019-01-10,2020-07-09,1970,6,14.73,75.12,109.27,40.52,3.37,UPI,Paid,Toys,1,0.15,1,Low
+280,100279,"Lina Malhotra",lina.malhotra937@example.com,+918398293779,Noida,"Uttar Pradesh",India,2018-12-24,2024-02-20,649,4,45.47,181.88,197.2,62.69,5.22,"Net Banking",Paid,Sports,0,0,1,High
+281,100280,"Tarun Nair",tarun.nair822@example.com,+916443520130,Delhi,Delhi,India,2015-07-02,2021-08-09,1574,8,10.22,81.76,85.23,15.81,1.32,UPI,Pending,Sports,0,0,1,Mid
+282,100281,"Nikhil Harris",nikhil.harris9572@example.com,+918397733210,Chennai,"Tamil Nadu",India,2016-07-09,2021-10-20,1502,5,55.25,276.25,364.97,2.38,0.2,Wallet,Paid,Health,0,0,1,High
+283,100282,"Chloe Wright",chloe.wright7812@example.com,+916322950286,Noida,"Uttar Pradesh",India,2022-06-12,2024-08-13,474,3,88.02,264.06,320.16,72.77,6.06,"Net Banking",Paid,Electronics,0,0,1,High
+284,100283,"Ritu Malhotra",ritu.malhotra8239@example.com,+917562417630,"Cape Town","Western Cape","South Africa",2019-05-30,2020-04-30,2040,3,19.04,54.26,70.15,26.34,2.19,"Net Banking",Paid,Electronics,1,0.05,1,Low
+285,100284,"Ella Reddy",ella.reddy8702@example.com,+917483289742,Kathmandu,Bagmati,Nepal,2016-10-06,2025-06-05,178,6,22.26,133.56,141.14,132.32,11.03,"Debit Card",Paid,Health,0,0,0,Mid
+286,100285,"Saanvi Hussain",saanvi.hussain2580@example.com,+919857194484,Pune,Maharashtra,India,2023-07-14,2024-12-28,337,4,70.32,281.28,369.96,267.39,22.28,Wallet,Paid,Beauty,0,0,0,High
+287,100286,"Rohit Patel",rohit.patel932@example.com,+916891389444,Singapore,Singapore,Singapore,2024-05-01,2025-09-05,86,4,39.31,157.24,219.67,145.77,12.15,"Credit Card",Paid,Apparel,0,0,0,High
+288,100287,"Grayson Wright",grayson.wright8321@example.com,+918831080261,Amritsar,Punjab,India,2019-03-15,2019-04-12,2424,4,42.66,170.64,207.87,12.79,1.07,Wallet,Paid,Sports,0,0,1,High
+289,100288,"Amelia Kapoor",amelia.kapoor1313@example.com,+918489532530,Hyderabad,Telangana,India,2023-11-20,2024-11-13,382,4,26.7,106.8,132.22,99.1,8.26,"Debit Card",Paid,Toys,0,0,1,Mid
+290,100289,"Vivaan Kumar",vivaan.kumar3045@example.com,+916796300431,Chennai,"Tamil Nadu",India,2024-07-08,2025-03-09,266,8,64.8,518.4,576.4,12.65,1.05,"Bank Transfer",Paid,Books,0,0,0,Top
+291,100290,"Aarav Anderson",aarav.anderson1123@example.com,+917567850586,Bhopal,"Madhya Pradesh",India,2021-07-31,2021-09-30,1522,4,30.36,121.44,138.5,40.12,3.34,"Net Banking",Paid,Groceries,0,0,1,Mid
+292,100291,"Zoya Nguyen",zoya.nguyen9750@example.com,+918956548356,Coimbatore,"Tamil Nadu",India,2021-11-10,2024-10-19,407,1,41.65,33.32,45.66,0.82,0.07,"Debit Card",Pending,Apparel,1,0.2,1,Low
+293,100292,"Ravi Thomas",ravi.thomas1114@example.com,+918164032591,"San Francisco",California,"United States",2016-03-24,2017-07-28,3047,8,13.1,104.8,115.34,64.01,5.33,Wallet,Failed,"Home & Kitchen",0,0,1,Mid
+294,100293,"James Williams",james.williams3854@example.com,+918297502052,Jaipur,Rajasthan,India,2017-12-24,2018-08-30,2649,8,54.14,433.12,567.29,329.83,27.49,UPI,Refunded,Beauty,0,0,1,Top
+295,100294,"Deepak Lewis",deepak.lewis6616@example.com,+917069749009,Gurgaon,Haryana,India,2023-07-07,2025-02-19,284,6,14.21,85.26,109.41,62.86,5.24,"Debit Card",Paid,Automotive,0,0,0,Mid
+296,100295,"Varun Shukla",varun.shukla1965@example.com,+916146794669,Vadodara,Gujarat,India,2022-08-03,2023-01-03,1062,4,19.38,77.52,98.32,39.9,3.32,"Credit Card",Paid,Sports,0,0,1,Low
+297,100296,"Sara Prasad",sara.prasad9334@example.com,+916751216955,Gurgaon,Haryana,India,2025-10-11,2025-10-24,37,4,176.08,704.32,992.78,226.15,18.85,"Debit Card",Paid,Apparel,0,0,0,Top
+298,100297,"Ella Desai",ella.desai4034@example.com,+916379557673,Nairobi,Nairobi,Kenya,2023-08-01,2024-06-06,542,9,17.06,153.54,211.34,20.66,1.72,"Credit Card",Paid,Books,0,0,1,High
+299,100298,"Amit Jain",amit.jain9486@example.com,+916859412560,"Abu Dhabi","Abu Dhabi",UAE,2024-04-24,2024-11-13,382,5,29.73,133.78,180.86,127.05,10.58,"Credit Card",Paid,Beauty,1,0.1,1,Mid
+300,100299,"Zoya Flores",zoya.flores9741@example.com,+917707357963,Kathmandu,Bagmati,Nepal,2017-08-31,2021-01-24,1771,7,117.47,822.29,1181.56,168.83,14.07,UPI,Paid,Electronics,0,0,1,Top
+301,100300,"Owen Singh",owen.singh652@example.com,+918090284653,Jalandhar,Punjab,India,2024-06-13,2024-11-06,389,5,6.11,30.55,37.02,14.05,1.17,"Credit Card",Pending,"Home & Kitchen",0,0,1,Low
+302,100301,"Aditya Naik",aditya.naik1344@example.com,+916272557166,"Abu Dhabi","Abu Dhabi",UAE,2023-09-03,2025-04-23,221,4,43.35,173.4,214.03,95.15,7.93,"Debit Card",Paid,Electronics,0,0,0,High
+303,100302,"Siddharth Sharma",siddharth.sharma6869@example.com,+917752729060,Lagos,Lagos,Nigeria,2018-07-21,2023-03-31,975,2,16.1,32.2,41.3,25.74,2.14,"Cash on Delivery",Paid,Toys,0,0,1,Low
+304,100303,"Puja White",puja.white9563@example.com,+916220559806,Nairobi,Nairobi,Kenya,2017-06-10,2022-02-23,1376,5,32.89,164.45,244.29,123.63,10.3,"Credit Card",Failed,Health,0,0,1,High
+305,100304,"Emma Dutta",emma.dutta9261@example.com,+918798873593,Surat,Gujarat,India,2023-11-09,2024-09-20,436,3,34.43,77.47,101.53,25.66,2.14,UPI,Paid,"Home & Kitchen",1,0.25,1,Low
+306,100305,"Harsh Khandelwal",harsh.khandelwal8566@example.com,+917024443584,Islamabad,"Islamabad Capital Territory",Pakistan,2021-05-30,2022-08-06,1212,4,13.63,54.52,75.07,42.05,3.5,UPI,Paid,"Home & Kitchen",0,0,1,Low
+307,100306,"Puja Perez",puja.perez5184@example.com,+917049479694,Nagpur,Maharashtra,India,2024-03-06,2024-06-10,538,4,10.64,42.56,57.68,31.76,2.65,"Cash on Delivery",Paid,Health,0,0,1,Low
+308,100307,"Mateo Chaudhary",mateo.chaudhary4273@example.com,+918163193965,Kanpur,"Uttar Pradesh",India,2019-01-17,2020-10-06,1881,4,76.01,304.04,328.9,97.17,8.1,"Bank Transfer",Paid,Groceries,0,0,1,Top
+309,100308,"Daniel Wright",daniel.wright3347@example.com,+917335341910,Delhi,Delhi,India,2025-08-15,2025-08-29,93,3,5.17,15.51,21.81,0.4,0.03,"Debit Card",Paid,Automotive,0,0,0,Low
+310,100309,"Shreya Davis",shreya.davis5148@example.com,+916312116019,Melbourne,Victoria,Australia,2021-09-04,2024-06-30,518,4,21.94,83.37,111.81,41.75,3.48,"Credit Card",Paid,Apparel,1,0.05,1,Mid
+311,100310,"Anya Khan",anya.khan3911@example.com,+919925040074,Surat,Gujarat,India,2024-01-02,2025-10-18,43,4,43.66,165.91,202.92,5.26,0.44,"Credit Card",Failed,"Home & Kitchen",1,0.05,0,High
+312,100311,"Luke Desai",luke.desai4352@example.com,+919118028200,Colombo,"Western Province","Sri Lanka",2018-07-28,2024-09-01,455,4,24.35,97.4,126.13,62.94,5.24,"Debit Card",Paid,Sports,0,0,1,Mid
+313,100312,"Ella Bisht",ella.bisht6485@example.com,+918033928422,Dhaka,"Dhaka Division",Bangladesh,2019-07-27,2023-03-14,992,8,92.12,736.96,939.64,24.72,2.06,"Credit Card",Paid,Groceries,0,0,1,Top
+314,100313,"Anthony Dutta",anthony.dutta2145@example.com,+919260851527,Indore,"Madhya Pradesh",India,2021-10-02,2022-05-20,1290,2,31.14,62.28,82.06,60.2,5.02,"Net Banking",Paid,Books,0,0,1,Low
+315,100314,"Ella Kumar",ella.kumar4916@example.com,+918238124553,Thiruvananthapuram,Kerala,India,2024-06-04,2025-11-25,5,4,22.2,88.8,132.37,70.31,5.86,"Debit Card",Refunded,Sports,0,0,0,Mid
+316,100315,"Manish Wilson",manish.wilson7492@example.com,+917954539362,Bhubaneswar,Odisha,India,2016-05-13,2018-01-26,2865,4,25.39,96.48,128.72,58.69,4.89,"Bank Transfer",Paid,Sports,1,0.05,1,Mid
+317,100316,"Hannah Patil",hannah.patil5181@example.com,+917733725629,Lagos,Lagos,Nigeria,2020-03-19,2021-03-10,1726,6,15.53,88.52,123.07,7.53,0.63,"Net Banking",Paid,Automotive,1,0.05,1,Mid
+318,100317,"Akash Torres",akash.torres1189@example.com,+916057292025,Dhaka,"Dhaka Division",Bangladesh,2016-10-24,2025-02-13,290,7,12.8,89.6,113.26,19.02,1.58,"Credit Card",Paid,Sports,0,0,0,Mid
+319,100318,"John Khan",john.khan153@example.com,+916663746400,Vancouver,"British Columbia",Canada,2025-08-19,2025-11-11,19,4,63.66,254.64,260.64,72.25,6.02,"Net Banking",Paid,Electronics,0,0,0,High
+320,100319,"Elijah Harris",elijah.harris7509@example.com,+918194299150,Toronto,Ontario,Canada,2015-03-01,2019-09-10,2273,5,13,65,88.25,49.01,4.08,"Credit Card",Paid,Books,0,0,1,Low
+321,100320,"Emma Sengupta",emma.sengupta9225@example.com,+918117921143,Mysore,Karnataka,India,2020-04-14,2023-04-02,973,6,65.54,393.24,588.01,357.07,29.76,"Credit Card",Pending,Books,0,0,1,Top
+322,100321,"Lakshmi Rodriguez",lakshmi.rodriguez1639@example.com,+917330456737,Auckland,Auckland,"New Zealand",2015-09-10,2024-04-14,595,8,29.37,234.96,312.61,65.52,5.46,"Net Banking",Paid,Electronics,0,0,1,High
+323,100322,"Owen Parekh",owen.parekh1201@example.com,+918567737048,Dhaka,"Dhaka Division",Bangladesh,2017-10-09,2019-06-02,2373,6,90.38,542.28,756.87,106,8.83,Wallet,Paid,Apparel,0,0,1,Top
+324,100323,"Lucas Shah",lucas.shah8809@example.com,+916061723948,Bengaluru,Karnataka,India,2019-11-19,2020-06-05,2004,3,15.57,46.71,55.67,31.25,2.6,Wallet,Paid,Apparel,0,0,1,Low
+325,100324,"Sumit Joshi",sumit.joshi3493@example.com,+918027554916,Delhi,Delhi,India,2022-11-16,2022-12-09,1087,5,65.1,325.5,388.22,137.99,11.5,"Debit Card",Paid,Automotive,0,0,1,Top
+326,100325,"Scarlett Verma",scarlett.verma8289@example.com,+916686611450,Coimbatore,"Tamil Nadu",India,2020-06-13,2020-09-26,1891,3,180.5,433.2,589.43,188.48,15.7,"Debit Card",Paid,Health,1,0.2,1,Top
+327,100326,"Harsh Kapoor",harsh.kapoor4346@example.com,+917776558673,"New York","New York","United States",2021-12-07,2025-04-28,216,1,153.31,153.31,192.03,51.05,4.25,"Net Banking",Paid,Beauty,0,0,0,High
+328,100327,"William Singh",william.singh2171@example.com,+919922823682,Agra,"Uttar Pradesh",India,2021-04-01,2021-04-04,1701,6,32.13,192.78,270.27,57.31,4.78,UPI,Paid,Beauty,0,0,1,High
+329,100328,"Harsh Das",harsh.das5719@example.com,+918967488380,Colombo,"Western Province","Sri Lanka",2024-03-18,2025-11-10,20,1,76.01,76.01,113.12,9.24,0.77,"Credit Card",Paid,Automotive,0,0,0,Low
+330,100329,"Karan Lopez",karan.lopez1128@example.com,+918945099605,Surat,Gujarat,India,2023-10-19,2025-04-22,222,8,11.01,88.08,92.79,79.58,6.63,"Debit Card",Pending,Apparel,0,0,0,Mid
+331,100330,"Rhea Hussain",rhea.hussain4003@example.com,+917077501632,Pune,Maharashtra,India,2020-08-24,2023-02-23,1011,3,11.13,33.39,39.49,25.51,2.13,Wallet,Paid,Toys,0,0,1,Low
+332,100331,"Zoya Iyer",zoya.iyer6055@example.com,+918279571110,Vancouver,"British Columbia",Canada,2021-09-23,2025-06-30,153,3,54.41,138.75,146.4,68.55,5.71,UPI,Paid,Health,1,0.15,0,Mid
+333,100332,"Siddharth Lee",siddharth.lee4670@example.com,+918185331278,Islamabad,"Islamabad Capital Territory",Pakistan,2023-10-09,2025-08-28,94,5,30.4,152,223.84,87.18,7.26,"Debit Card",Paid,Toys,0,0,0,High
+334,100333,"Aanya Clark",aanya.clark2585@example.com,+916304751167,Toronto,Ontario,Canada,2017-04-13,2023-04-28,947,5,80.4,402,596.36,350.71,29.23,UPI,Paid,Apparel,0,0,1,Top
+335,100334,"Saanvi Miller",saanvi.miller7180@example.com,+916016323775,Coimbatore,"Tamil Nadu",India,2020-04-26,2022-06-14,1265,4,7.81,31.24,39.24,11.72,0.98,"Credit Card",Paid,Electronics,0,0,1,Low
+336,100335,"Jacob Patil",jacob.patil8901@example.com,+917453860687,Thiruvananthapuram,Kerala,India,2017-03-04,2023-11-23,738,2,12.68,25.36,35.42,12.59,1.05,"Cash on Delivery",Paid,Apparel,0,0,1,Low
+337,100336,"Kritika Taylor",kritika.taylor4957@example.com,+918984291073,Singapore,Singapore,Singapore,2019-05-12,2024-04-21,588,9,36.71,330.39,385.17,187.02,15.58,UPI,Paid,Beauty,0,0,1,Top
+338,100337,"Harsh Ali",harsh.ali8667@example.com,+916130060495,Muscat,Muscat,Oman,2017-06-20,2019-03-30,2437,21,27.49,577.29,617.74,444.32,37.03,"Credit Card",Paid,Sports,0,0,1,Top
+339,100338,"Zoya Agarwal",zoya.agarwal129@example.com,+917065930219,Hyderabad,Telangana,India,2025-01-28,2025-10-30,31,6,20.93,119.3,144.92,78.65,6.56,"Debit Card",Paid,Health,1,0.05,0,Mid
+340,100339,"David Bisht",david.bisht9087@example.com,+918523981175,"New York","New York","United States",2024-03-02,2024-03-06,634,6,79.9,479.4,688.23,140.76,11.73,"Cash on Delivery",Paid,Groceries,0,0,1,Top
+341,100340,"Mia Trivedi",mia.trivedi4906@example.com,+916378284289,Pune,Maharashtra,India,2015-07-16,2022-05-19,1291,6,18.89,113.34,127.05,62.29,5.19,"Bank Transfer",Paid,Toys,0,0,1,Mid
+342,100341,"Dylan Wilson",dylan.wilson1698@example.com,+917792929079,Hyderabad,Telangana,India,2016-01-30,2022-09-27,1160,3,56.54,169.62,227.72,119.25,9.94,"Credit Card",Paid,Toys,0,0,1,High
+343,100342,"Meera Brown",meera.brown2201@example.com,+918064900406,Mumbai,Maharashtra,India,2018-11-14,2023-01-01,1064,5,83.37,416.85,504.39,142.91,11.91,"Credit Card",Paid,Beauty,0,0,1,Top
+344,100343,"Ishaan Nair",ishaan.nair4334@example.com,+918306512614,"Abu Dhabi","Abu Dhabi",UAE,2025-01-11,2025-08-30,92,7,7.25,50.75,59.03,16.93,1.41,UPI,Paid,Groceries,0,0,0,Low
+345,100344,"Anya Roy",anya.roy1892@example.com,+916320135403,Nairobi,Nairobi,Kenya,2022-04-25,2025-04-10,234,3,82.63,247.89,329.32,74.83,6.24,"Credit Card",Paid,Books,0,0,0,High
+346,100345,"Carlos Lewis",carlos.lewis1754@example.com,+916745752431,Dubai,Dubai,UAE,2017-01-20,2024-09-24,432,22,31.57,694.54,747.48,337.69,28.14,"Debit Card",Paid,Health,0,0,1,Top
+347,100346,"Emma Sharma",emma.sharma9065@example.com,+918280995942,Melbourne,Victoria,Australia,2020-04-16,2021-07-24,1590,7,290.94,2036.58,2541.78,573.03,47.75,"Cash on Delivery",Paid,Sports,0,0,1,Top
+348,100347,"Aanya Bhattacharya",aanya.bhattacharya2547@example.com,+918193562776,Islamabad,"Islamabad Capital Territory",Pakistan,2025-04-14,2025-10-30,31,5,75.17,375.85,431.91,367.78,30.65,"Net Banking",Paid,"Home & Kitchen",0,0,0,Top
+349,100348,"Pooja Hill",pooja.hill4463@example.com,+918874192077,Colombo,"Western Province","Sri Lanka",2020-06-02,2024-07-18,500,8,5.6,44.8,67.06,39.23,3.27,UPI,Paid,Toys,0,0,1,Low
+350,100349,"Pooja Walker",pooja.walker4617@example.com,+917045166879,"Cape Town","Western Cape","South Africa",2017-04-02,2017-06-28,3077,3,38.11,114.33,145.75,41.76,3.48,"Credit Card",Paid,Automotive,0,0,1,Mid
+351,100350,"Avery Rao",avery.rao9910@example.com,+917907951365,Jalandhar,Punjab,India,2020-04-01,2021-05-13,1662,7,70.05,490.35,675.72,452.26,37.69,UPI,Paid,Electronics,0,0,1,Top
+352,100351,"Rhea Malhotra",rhea.malhotra3451@example.com,+918618138512,Surat,Gujarat,India,2018-03-04,2018-03-10,2822,9,30.88,277.92,415.17,77.41,6.45,"Net Banking",Paid,Apparel,0,0,1,High
+353,100352,"Ishaan Johnson",ishaan.johnson5618@example.com,+918721735246,Rajkot,Gujarat,India,2023-01-18,2024-05-18,561,4,33.17,132.68,156.77,62.47,5.21,"Net Banking",Paid,Books,0,0,1,Mid
+354,100353,"Camila Roy",camila.roy3336@example.com,+916950878894,Muscat,Muscat,Oman,2021-01-30,2023-02-25,1009,3,67.42,202.26,291.55,21.09,1.76,"Debit Card",Paid,Groceries,0,0,1,High
+355,100354,"Sneha Ramirez",sneha.ramirez4326@example.com,+918584442121,Bhopal,"Madhya Pradesh",India,2023-11-20,2024-07-31,487,5,26.36,131.8,162.53,96.96,8.08,"Credit Card",Paid,Groceries,0,0,1,Mid
+356,100355,"Logan Kohli",logan.kohli8281@example.com,+918783651429,Amritsar,Punjab,India,2025-01-28,2025-02-28,275,9,66.15,595.35,706.87,340.33,28.36,"Debit Card",Paid,Books,0,0,0,Top
+357,100356,"Camila Miller",camila.miller8005@example.com,+918319483328,Gurgaon,Haryana,India,2016-01-17,2018-12-25,2532,2,9.24,18.48,19.56,6.65,0.55,"Debit Card",Pending,Groceries,0,0,1,Low
+358,100357,"James Clark",james.clark4115@example.com,+917412766679,Kanpur,"Uttar Pradesh",India,2016-05-18,2022-04-13,1327,7,68.66,480.62,632,448.78,37.4,"Credit Card",Paid,Books,0,0,1,Top
+359,100358,"Lucas Lewis",lucas.lewis833@example.com,+919889983429,Rajkot,Gujarat,India,2020-12-17,2022-05-29,1281,3,58.28,174.84,235.96,144.86,12.07,"Net Banking",Paid,Electronics,0,0,1,High
+360,100359,"Zoya Munshi",zoya.munshi1513@example.com,+918723879816,Singapore,Singapore,Singapore,2018-05-17,2023-10-04,788,4,31.92,127.68,181.02,121.64,10.14,"Debit Card",Paid,Books,0,0,1,Mid
+361,100360,"Amit Desai",amit.desai6940@example.com,+918436640492,Amritsar,Punjab,India,2018-01-31,2022-09-04,1183,21,38.04,798.84,1004.59,585.77,48.81,UPI,Paid,Automotive,0,0,1,Top
+362,100361,"Vihaan Martin",vihaan.martin4534@example.com,+916959034028,"Abu Dhabi","Abu Dhabi",UAE,2021-02-15,2024-06-12,536,1,29.2,29.2,37.15,11.06,0.92,UPI,Paid,Apparel,0,0,1,Low
+363,100362,"Lakshmi Adams",lakshmi.adams723@example.com,+919250572516,Patna,Bihar,India,2020-07-18,2023-05-04,941,7,10.22,71.54,98.51,15.83,1.32,"Credit Card",Paid,Books,0,0,1,Low
+364,100363,"Logan Thompson",logan.thompson59@example.com,+916248520888,Amritsar,Punjab,India,2020-12-26,2025-07-21,132,2,6.46,12.92,17.28,7.22,0.6,"Cash on Delivery",Paid,Health,0,0,0,Low
+365,100364,"Omar Martinez",omar.martinez5465@example.com,+919337593325,Kolkata,"West Bengal",India,2021-07-02,2025-06-24,159,2,9.24,18.48,19.36,12.62,1.05,"Credit Card",Paid,Health,0,0,0,Low
+366,100365,"Kritika Chaudhary",kritika.chaudhary2144@example.com,+918388678233,"New York","New York","United States",2024-07-20,2024-10-25,401,7,24.71,155.67,159.44,147.28,12.28,"Credit Card",Paid,Beauty,1,0.1,1,High
+367,100366,"Kunal Pillai",kunal.pillai4292@example.com,+919834376618,"New York","New York","United States",2015-03-11,2021-12-03,1458,8,47.3,378.4,454.77,248.21,20.68,UPI,Paid,Health,0,0,1,Top
+368,100367,"Leah Miller",leah.miller2648@example.com,+916666848017,Rajkot,Gujarat,India,2019-01-03,2024-05-30,549,5,37.61,159.84,224.07,33.66,2.8,"Debit Card",Paid,Beauty,1,0.15,1,High
+369,100368,"Ishaan Malhotra",ishaan.malhotra7240@example.com,+919404985303,Bhubaneswar,Odisha,India,2016-09-06,2018-01-28,2863,7,143.29,1003.03,1173.23,81.33,6.78,"Net Banking",Paid,Beauty,0,0,1,Top
+370,100369,"Hannah Martin",hannah.martin9039@example.com,+916789571299,Bhopal,"Madhya Pradesh",India,2021-06-10,2023-09-16,806,6,17.07,102.42,128.19,39.77,3.31,Wallet,Paid,Automotive,0,0,1,Mid
+371,100370,"Vikram King",vikram.king7008@example.com,+919380771485,Varanasi,"Uttar Pradesh",India,2016-02-17,2019-05-27,2379,3,7.29,21.87,26.06,10.37,0.86,UPI,Paid,Beauty,0,0,1,Low
+372,100371,"Isha Trivedi",isha.trivedi9190@example.com,+917924310399,Indore,"Madhya Pradesh",India,2021-01-31,2023-10-21,771,4,62.74,250.96,341.96,129.98,10.83,"Net Banking",Paid,Electronics,0,0,1,High
+373,100372,"Ella Lopez",ella.lopez159@example.com,+918775613941,Bhopal,"Madhya Pradesh",India,2024-07-10,2025-05-23,191,5,22.75,113.75,128.26,15.11,1.26,"Net Banking",Paid,Electronics,0,0,0,Mid
+374,100373,"Deepak Moore",deepak.moore1833@example.com,+918220036605,Delhi,Delhi,India,2018-03-09,2025-01-31,303,6,33.91,203.46,227.41,145.71,12.14,"Net Banking",Pending,Apparel,0,0,0,High
+375,100374,"Puja Ghosh",puja.ghosh1233@example.com,+916414059895,Patna,Bihar,India,2018-03-31,2018-05-06,2765,2,45.12,90.24,123.65,90.16,7.51,"Debit Card",Paid,"Home & Kitchen",0,0,1,Mid
+376,100375,"Hannah Kapoor",hannah.kapoor2443@example.com,+917176369636,Vancouver,"British Columbia",Canada,2015-07-25,2022-07-19,1230,2,23.1,46.2,49.55,23.55,1.96,"Debit Card",Paid,Books,0,0,1,Low
+377,100376,"Vikram Johnson",vikram.johnson8939@example.com,+917828362047,Surat,Gujarat,India,2021-05-20,2024-02-23,646,2,39.7,79.4,118.55,31.4,2.62,"Net Banking",Refunded,"Home & Kitchen",0,0,1,Mid
+378,100377,"Noah Shah",noah.shah591@example.com,+918457463712,Surat,Gujarat,India,2015-04-03,2018-06-13,2727,3,138.67,416.01,499.15,361.19,30.1,"Bank Transfer",Paid,Toys,0,0,1,Top
+379,100378,"Layla Mehta",layla.mehta6050@example.com,+917496246268,"New York","New York","United States",2015-09-08,2017-04-11,3155,5,58.01,290.05,420.55,56.75,4.73,Wallet,Paid,Beauty,0,0,1,Top
+380,100379,"Ella Clark",ella.clark9544@example.com,+917073430760,Delhi,Delhi,India,2024-07-13,2025-07-07,146,5,56.89,284.45,420.21,38.99,3.25,Wallet,Pending,Groceries,0,0,0,High
+381,100380,"Amelia Rao",amelia.rao9053@example.com,+918549342818,"New York","New York","United States",2025-10-18,2025-10-27,34,6,80.41,482.46,635.8,343.7,28.64,"Net Banking",Paid,Toys,0,0,0,Top
+382,100381,"Camila Prasad",camila.prasad2427@example.com,+917360223680,Bengaluru,Karnataka,India,2016-11-18,2019-08-17,2297,7,35.88,226.04,252.23,112.64,9.39,UPI,Paid,Apparel,1,0.1,1,High
+383,100382,"Ethan Flores",ethan.flores7042@example.com,+917052637957,Visakhapatnam,"Andhra Pradesh",India,2018-11-02,2022-11-20,1106,5,38.12,190.6,199.16,42.11,3.51,UPI,Paid,Toys,0,0,1,High
+384,100383,"Jayden Jain",jayden.jain2089@example.com,+919554236466,"New York","New York","United States",2024-01-10,2024-02-15,654,3,18.8,56.4,64.71,13.48,1.12,UPI,Paid,"Home & Kitchen",0,0,1,Low
+385,100384,"Varun Scott",varun.scott686@example.com,+919324273043,Varanasi,"Uttar Pradesh",India,2018-08-09,2020-06-17,1992,1,25.8,25.8,26.02,20.23,1.69,Wallet,Paid,Apparel,0,0,1,Low
+386,100385,"Gabriel Trivedi",gabriel.trivedi5051@example.com,+917811376564,Dhaka,"Dhaka Division",Bangladesh,2025-06-01,2025-10-24,37,5,84.25,421.25,571.56,225.62,18.8,"Debit Card",Paid,Apparel,0,0,0,Top
+387,100386,"Harsh Singh",harsh.singh5975@example.com,+918534289892,"Los Angeles",California,"United States",2020-10-14,2021-06-16,1628,4,6.42,25.68,33.11,2.3,0.19,"Credit Card",Paid,Automotive,0,0,1,Low
+388,100387,"Jacob Harris",jacob.harris654@example.com,+918218705859,Indore,"Madhya Pradesh",India,2020-02-15,2022-04-19,1321,5,41.15,205.75,300.84,7.84,0.65,"Net Banking",Pending,Beauty,0,0,1,High
+389,100388,"Akash Das",akash.das5863@example.com,+919131551431,Jalandhar,Punjab,India,2020-09-22,2024-03-31,609,3,64.77,155.45,161.43,64.84,5.4,UPI,Paid,Electronics,1,0.2,1,High
+390,100389,"Manish Miller",manish.miller3442@example.com,+916638424264,Delhi,Delhi,India,2016-09-16,2023-09-16,806,4,40.04,160.16,165.71,121.39,10.12,UPI,Paid,Toys,0,0,1,High
+391,100390,"Layla Wright",layla.wright4089@example.com,+917043556810,Islamabad,"Islamabad Capital Territory",Pakistan,2018-08-20,2021-02-26,1738,7,97.99,685.93,763.8,403.67,33.64,UPI,Paid,Health,0,0,1,Top
+392,100391,"Emma Jones",emma.jones1685@example.com,+919334108335,Ahmedabad,Gujarat,India,2024-09-21,2025-08-21,101,3,8.2,19.68,20.59,10.34,0.86,UPI,Refunded,"Home & Kitchen",1,0.2,0,Low
+393,100392,"Sophia Adams",sophia.adams5795@example.com,+916748761231,Coimbatore,"Tamil Nadu",India,2020-03-13,2020-11-23,1833,6,101.88,611.28,755.3,447.76,37.31,"Debit Card",Paid,Apparel,0,0,1,Top
+394,100393,"Jacob Naik",jacob.naik9174@example.com,+916183556293,Ahmedabad,Gujarat,India,2017-03-26,2019-04-29,2407,5,57.23,286.15,415.59,193.49,16.12,UPI,Refunded,"Home & Kitchen",0,0,1,High
+395,100394,"Vikram Torres",vikram.torres6659@example.com,+917884078385,Pune,Maharashtra,India,2016-03-24,2025-03-05,270,8,8.59,68.72,75,55.96,4.66,"Credit Card",Paid,Automotive,0,0,0,Low
+396,100395,"Puja Dutta",puja.dutta2533@example.com,+916718948613,Surat,Gujarat,India,2017-05-17,2019-10-23,2230,5,8.59,42.95,50.07,0.44,0.04,"Credit Card",Paid,Books,0,0,1,Low
+397,100396,"Varun King",varun.king3879@example.com,+918715876689,"Abu Dhabi","Abu Dhabi",UAE,2015-04-02,2021-09-27,1525,6,25.87,155.22,191.94,152.67,12.72,Wallet,Paid,Automotive,0,0,1,High
+398,100397,"Maya Ali",maya.ali2663@example.com,+917290689540,Amritsar,Punjab,India,2017-01-04,2018-10-23,2595,8,6.69,53.52,63.03,1.18,0.1,"Net Banking",Failed,Books,0,0,1,Low
+399,100398,"Dylan Shrivastava",dylan.shrivastava2901@example.com,+919497046493,"Abu Dhabi","Abu Dhabi",UAE,2016-10-03,2024-09-14,442,5,12.98,64.9,68.25,25.9,2.16,"Credit Card",Paid,Automotive,0,0,1,Low
+400,100399,"Tarun Garcia",tarun.garcia6756@example.com,+918197646543,Dhaka,"Dhaka Division",Bangladesh,2024-09-13,2025-11-03,27,5,18.78,93.9,135.56,16.16,1.35,"Net Banking",Paid,Electronics,0,0,0,Mid
+401,100400,"Elijah Kohli",elijah.kohli407@example.com,+917779507642,Kathmandu,Bagmati,Nepal,2024-02-01,2025-09-05,86,6,49.75,283.58,395.27,126.02,10.5,"Debit Card",Paid,Electronics,1,0.05,0,High
+402,100401,"Pooja Harris",pooja.harris2939@example.com,+916425772718,Bhubaneswar,Odisha,India,2015-05-08,2016-02-13,3578,5,130.88,654.4,781.53,78.53,6.54,"Credit Card",Paid,Books,0,0,1,Top
+403,100402,"Vivaan Kohli",vivaan.kohli5443@example.com,+919692867866,Bhubaneswar,Odisha,India,2025-09-22,2025-10-30,31,4,16.14,64.56,66.9,6.63,0.55,"Net Banking",Paid,Beauty,0,0,0,Low
+404,100403,"Grayson Davis",grayson.davis6746@example.com,+918916790007,Pune,Maharashtra,India,2017-08-06,2023-12-18,713,25,35.63,890.75,1318.47,228.74,19.06,Wallet,Paid,Electronics,0,0,1,Top
+405,100404,"Kritika Sanchez",kritika.sanchez4066@example.com,+916367207380,Visakhapatnam,"Andhra Pradesh",India,2020-01-29,2024-11-17,378,8,218.21,1745.68,2434.2,1660.76,138.4,"Credit Card",Paid,Groceries,0,0,1,Top
+406,100405,"Harsh Allen",harsh.allen4372@example.com,+917463125500,Dhaka,"Dhaka Division",Bangladesh,2023-07-09,2024-10-25,401,6,73.21,351.41,411.13,226.24,18.86,"Cash on Delivery",Paid,Books,1,0.2,1,Top
+407,100406,"Sara Jones",sara.jones2609@example.com,+917854631508,Indore,"Madhya Pradesh",India,2024-04-15,2024-12-11,354,6,23.59,141.54,159.01,17.02,1.42,UPI,Paid,Beauty,0,0,0,Mid
+408,100407,"Yash King",yash.king1772@example.com,+919434987339,Visakhapatnam,"Andhra Pradesh",India,2017-10-04,2020-02-29,2101,4,20.41,81.64,91.22,19.97,1.66,"Credit Card",Paid,Groceries,0,0,1,Mid
+409,100408,"Zoya Sanchez",zoya.sanchez6268@example.com,+919819895594,Chennai,"Tamil Nadu",India,2025-06-10,2025-07-02,151,4,122.15,488.6,601.59,136.47,11.37,"Net Banking",Paid,Automotive,0,0,0,Top
+410,100409,"Esha Wright",esha.wright635@example.com,+918886339997,Singapore,Singapore,Singapore,2022-01-23,2022-04-17,1323,5,10.03,50.15,54.71,38.63,3.22,"Cash on Delivery",Paid,Apparel,0,0,1,Low
+411,100410,"Hannah Joshi",hannah.joshi7712@example.com,+919571069466,Kanpur,"Uttar Pradesh",India,2018-11-18,2023-05-25,920,6,29.51,177.06,247.67,68.68,5.72,UPI,Paid,Beauty,0,0,1,High
+412,100411,"Ritu Jones",ritu.jones3645@example.com,+919384819508,Kanpur,"Uttar Pradesh",India,2018-05-19,2018-08-18,2661,7,25.98,181.86,233.17,53.43,4.45,"Credit Card",Paid,"Home & Kitchen",0,0,1,High
+413,100412,"Anil Nair",anil.nair3270@example.com,+919354965651,Delhi,Delhi,India,2015-06-22,2015-08-13,3762,6,14.03,84.18,123.86,24.62,2.05,"Net Banking",Paid,Electronics,0,0,1,Mid
+414,100413,"Ella Patel",ella.patel7542@example.com,+919231735167,Varanasi,"Uttar Pradesh",India,2024-08-12,2025-10-07,54,1,29.08,29.08,38.96,25.58,2.13,UPI,Paid,Toys,0,0,0,Low
+415,100414,"Lina Joshi",lina.joshi5729@example.com,+916684149575,Kolkata,"West Bengal",India,2023-10-07,2025-05-25,189,18,18.03,324.54,467.67,151.58,12.63,"Debit Card",Paid,Groceries,0,0,0,Top
+416,100415,"Manish Young",manish.young5001@example.com,+916992991861,Amritsar,Punjab,India,2019-02-05,2023-07-18,866,2,67,134,159.7,57.36,4.78,"Credit Card",Paid,Automotive,0,0,1,Mid
+417,100416,"Puja Das",puja.das3729@example.com,+916223277319,"Los Angeles",California,"United States",2022-03-06,2023-01-19,1046,3,73.23,186.74,244.88,24.92,2.07,"Credit Card",Paid,"Home & Kitchen",1,0.15,1,High
+418,100417,"Priya Shrivastava",priya.shrivastava3653@example.com,+919511557859,Vancouver,"British Columbia",Canada,2017-08-11,2018-08-09,2670,4,68.88,275.52,391.84,111.49,9.29,Wallet,Paid,Toys,0,0,1,High
+419,100418,"Amelia Sharma",amelia.sharma388@example.com,+918985087527,Visakhapatnam,"Andhra Pradesh",India,2017-04-03,2021-04-25,1680,6,25.03,150.18,209.47,3.63,0.3,"Credit Card",Paid,Automotive,0,0,1,Mid
+420,100419,"Saanvi Thomas",saanvi.thomas3165@example.com,+917669895391,Delhi,Delhi,India,2022-09-12,2024-03-20,620,8,68.97,551.76,571.62,417.71,34.81,"Credit Card",Paid,Electronics,0,0,1,Top
+421,100420,"Isabella Ramirez",isabella.ramirez6529@example.com,+918140171501,Lagos,Lagos,Nigeria,2022-08-21,2025-08-31,91,8,8.3,66.4,75.79,56.11,4.68,"Credit Card",Paid,"Home & Kitchen",0,0,0,Low
+422,100421,"Shreya King",shreya.king5379@example.com,+918373143691,"San Francisco",California,"United States",2017-11-01,2018-03-18,2814,6,42.96,231.98,257.72,152.95,12.74,"Net Banking",Paid,Groceries,1,0.1,1,High
+423,100422,"Rakesh Patil",rakesh.patil4565@example.com,+916126094010,Bhopal,"Madhya Pradesh",India,2023-09-21,2024-08-14,473,5,17.27,86.35,101.42,66.83,5.57,"Credit Card",Paid,Automotive,0,0,1,Mid
+424,100423,"Siddharth Davis",siddharth.davis1138@example.com,+916277102090,Colombo,"Western Province","Sri Lanka",2023-11-23,2025-05-06,208,10,84.04,840.4,1196.05,119.15,9.93,"Debit Card",Paid,Groceries,0,0,0,Top
+425,100424,"Benjamin White",benjamin.white4574@example.com,+918917023250,Indore,"Madhya Pradesh",India,2015-01-01,2019-11-17,2205,3,36.62,109.86,132.74,48.43,4.04,"Credit Card",Paid,Health,0,0,1,Mid
+426,100425,"Aanya Smith",aanya.smith5754@example.com,+918473916707,Toronto,Ontario,Canada,2023-12-31,2025-08-23,99,6,19.47,116.82,143.4,44.77,3.73,"Debit Card",Refunded,Health,0,0,0,Mid
+427,100426,"Rohit Ali",rohit.ali8347@example.com,+917200178801,Dhaka,"Dhaka Division",Bangladesh,2016-01-28,2017-04-06,3160,5,98.86,494.3,718.75,385.32,32.11,UPI,Paid,Sports,0,0,1,Top
+428,100427,"Karan Saxena",karan.saxena6549@example.com,+917656637547,Amritsar,Punjab,India,2019-09-07,2023-04-17,958,7,65.88,461.16,614.71,106.98,8.92,"Credit Card",Paid,Health,0,0,1,Top
+429,100428,"David Menon",david.menon8786@example.com,+918109744175,"Cape Town","Western Cape","South Africa",2018-02-12,2022-05-12,1298,5,98.15,466.21,497.89,53.04,4.42,"Net Banking",Paid,Groceries,1,0.05,1,Top
+430,100429,"Gabriel Shukla",gabriel.shukla5426@example.com,+916160661820,Coimbatore,"Tamil Nadu",India,2023-12-03,2024-08-05,482,5,20.02,100.1,111.62,85.24,7.1,"Debit Card",Paid,Electronics,0,0,1,Mid
+431,100430,"Neha King",neha.king453@example.com,+916363578632,Delhi,Delhi,India,2024-05-22,2024-12-13,352,1,29.64,29.64,39.08,29.47,2.46,UPI,Paid,Automotive,0,0,0,Low
+432,100431,"Leah Sharma",leah.sharma1890@example.com,+917189493381,Bhubaneswar,Odisha,India,2022-09-06,2025-06-30,153,9,41.21,370.89,546.88,8.32,0.69,UPI,Paid,"Home & Kitchen",0,0,0,Top
+433,100432,"Avery Shrivastava",avery.shrivastava4280@example.com,+919022600833,Indore,"Madhya Pradesh",India,2020-02-28,2024-10-05,421,7,32.24,225.68,301.43,41.23,3.44,UPI,Paid,Automotive,0,0,1,High
+434,100433,"Elijah Lopez",elijah.lopez2926@example.com,+916332688531,Coimbatore,"Tamil Nadu",India,2021-02-02,2023-01-02,1063,3,146.28,438.84,503.39,117.04,9.75,"Bank Transfer",Paid,Electronics,0,0,1,Top
+435,100434,"Varun Verma",varun.verma9513@example.com,+919645403096,Bhubaneswar,Odisha,India,2023-03-27,2023-07-14,870,7,136.3,954.1,1276.15,776.12,64.68,UPI,Paid,Toys,0,0,1,Top
+436,100435,"Gabriel Trivedi",gabriel.trivedi4350@example.com,+916646030893,Gurgaon,Haryana,India,2019-01-19,2023-06-07,907,4,30.26,121.04,131.61,18.5,1.54,"Net Banking",Paid,Apparel,0,0,1,Mid
+437,100436,"Ethan Shah",ethan.shah627@example.com,+918411021685,"San Francisco",California,"United States",2022-06-14,2022-08-24,1194,2,15.79,31.58,38.2,7.26,0.6,"Credit Card",Paid,Beauty,0,0,1,Low
+438,100437,"Dylan Adams",dylan.adams1777@example.com,+919811251087,Colombo,"Western Province","Sri Lanka",2015-09-07,2018-07-24,2686,3,15.09,45.27,58.37,42.18,3.52,"Net Banking",Paid,Electronics,0,0,1,Low
+439,100438,"Carlos Parekh",carlos.parekh9775@example.com,+916003759852,Ahmedabad,Gujarat,India,2024-03-13,2025-09-09,82,5,22.62,101.79,117.14,39.51,3.29,UPI,Paid,Beauty,1,0.1,0,Mid
+440,100439,"Manish Patil",manish.patil7120@example.com,+917096605099,Kanpur,"Uttar Pradesh",India,2022-12-19,2025-03-24,251,6,18.39,110.34,160.01,49.26,4.1,UPI,Pending,Apparel,0,0,0,Mid
+441,100440,"Sophia Kohli",sophia.kohli5664@example.com,+917266388236,Rajkot,Gujarat,India,2019-09-02,2020-12-09,1817,5,40.85,204.25,285.29,42.93,3.58,"Credit Card",Paid,Toys,0,0,1,High
+442,100441,"Ethan Harris",ethan.harris5140@example.com,+917879148093,Sydney,"New South Wales",Australia,2025-06-25,2025-08-05,117,6,154.56,927.36,1127.52,561.57,46.8,"Credit Card",Paid,Health,0,0,0,Top
+443,100442,"Mason Dutta",mason.dutta7150@example.com,+916451801896,"New York","New York","United States",2015-05-09,2022-03-22,1349,6,19.25,115.5,155.22,53.32,4.44,"Credit Card",Paid,Beauty,0,0,1,Mid
+444,100443,"Meera Verma",meera.verma9933@example.com,+919809513847,"New York","New York","United States",2022-01-01,2022-04-16,1324,8,10.58,84.64,120.01,5.67,0.47,"Debit Card",Paid,Health,0,0,1,Mid
+445,100444,"Sophia Robinson",sophia.robinson8380@example.com,+919710735335,Jaipur,Rajasthan,India,2025-01-09,2025-08-16,106,6,36.53,219.18,230.57,125.52,10.46,"Net Banking",Failed,Groceries,0,0,0,High
+446,100445,"Sophia Walker",sophia.walker1895@example.com,+916680587214,Bhopal,"Madhya Pradesh",India,2023-01-29,2024-12-03,362,3,20.95,53.42,70.69,35.56,2.97,"Debit Card",Paid,Electronics,1,0.15,0,Low
+447,100446,"Dylan Lee",dylan.lee6312@example.com,+916159550909,Lucknow,"Uttar Pradesh",India,2017-07-26,2025-05-27,187,4,11.03,44.12,64.7,18.77,1.56,"Credit Card",Paid,Electronics,0,0,0,Low
+448,100447,"Omar Sethi",omar.sethi9447@example.com,+918413089717,Dhaka,"Dhaka Division",Bangladesh,2017-03-21,2023-04-05,970,6,33.91,183.11,237.28,152.28,12.69,Wallet,Paid,Apparel,1,0.1,1,High
+449,100448,"Liam Bose",liam.bose3115@example.com,+916865633823,Delhi,Delhi,India,2020-08-07,2021-08-07,1576,5,64.51,322.55,384.65,176.61,14.72,"Net Banking",Paid,Electronics,0,0,1,Top
+450,100449,"Ritu Patil",ritu.patil4174@example.com,+919252498625,Bengaluru,Karnataka,India,2015-10-10,2021-11-03,1488,5,14.48,72.4,73.67,71.12,5.93,"Cash on Delivery",Paid,Electronics,0,0,1,Low
+451,100450,"Alexander Patel",alexander.patel728@example.com,+917803149618,Gurgaon,Haryana,India,2021-12-16,2022-12-20,1076,6,27.21,163.26,183.29,148.78,12.4,"Bank Transfer",Paid,Apparel,0,0,1,High
+452,100451,"Neha Kohli",neha.kohli7145@example.com,+916550444718,Lucknow,"Uttar Pradesh",India,2021-01-05,2021-08-22,1561,5,42.01,210.05,297.24,120.26,10.02,"Credit Card",Paid,Groceries,0,0,1,High
+453,100452,"Emma Lopez",emma.lopez28@example.com,+917223929112,Nashik,Maharashtra,India,2019-04-08,2020-05-16,2024,5,56.1,224.4,314.1,28.31,2.36,"Credit Card",Paid,Health,1,0.2,1,High
+454,100453,"Amelia Shrivastava",amelia.shrivastava8519@example.com,+918355785115,Sydney,"New South Wales",Australia,2018-12-17,2021-06-12,1632,6,19.56,111.49,156.98,41.83,3.49,UPI,Pending,Automotive,1,0.05,1,Mid
+455,100454,"Camila Allen",camila.allen8822@example.com,+917917423814,Agra,"Uttar Pradesh",India,2020-09-02,2022-08-25,1193,9,15.22,136.98,171.02,105.68,8.81,"Bank Transfer",Paid,Apparel,0,0,1,Mid
+456,100455,"Aanya Iyer",aanya.iyer3229@example.com,+917321005700,"San Francisco",California,"United States",2025-04-29,2025-10-05,56,17,106.75,1814.75,2324.64,216.62,18.05,UPI,Paid,Automotive,0,0,0,Top
+457,100456,"Noah Roy",noah.roy5968@example.com,+918163765423,Sydney,"New South Wales",Australia,2018-08-01,2019-12-15,2177,6,9.52,57.12,59.85,30.9,2.58,UPI,Paid,Beauty,0,0,1,Low
+458,100457,"Amelia Anderson",amelia.anderson7067@example.com,+917416164237,Auckland,Auckland,"New Zealand",2015-10-18,2022-11-08,1118,8,9.41,75.28,112.31,28.36,2.36,"Debit Card",Paid,Automotive,0,0,1,Low
+459,100458,"Arjun Thomas",arjun.thomas1147@example.com,+917729559359,Jaipur,Rajasthan,India,2015-03-28,2019-09-14,2269,2,50.43,100.86,127.79,57.04,4.75,UPI,Paid,Electronics,0,0,1,Mid
+460,100459,"William Garcia",william.garcia5410@example.com,+916798088608,Singapore,Singapore,Singapore,2016-06-19,2017-08-24,3020,5,21.03,105.15,137.91,71.07,5.92,"Credit Card",Paid,Automotive,0,0,1,Mid
+461,100460,"Isha Khandelwal",isha.khandelwal5144@example.com,+916919409969,Amritsar,Punjab,India,2022-12-18,2024-01-18,682,4,28.07,112.28,157.41,80.8,6.73,"Bank Transfer",Paid,"Home & Kitchen",0,0,1,Mid
+462,100461,"Zoe Brown",zoe.brown2042@example.com,+919505889801,Vancouver,"British Columbia",Canada,2024-11-27,2025-06-22,161,7,88.54,619.78,906.82,103.96,8.66,"Debit Card",Paid,Automotive,0,0,0,Top
+463,100462,"Chloe Saxena",chloe.saxena4921@example.com,+917927039631,Islamabad,"Islamabad Capital Territory",Pakistan,2022-10-19,2024-09-26,430,3,26.12,78.36,117.1,45.36,3.78,"Credit Card",Paid,Automotive,0,0,1,Mid
+464,100463,"Maya Saxena",maya.saxena8309@example.com,+918338774540,Kanpur,"Uttar Pradesh",India,2025-09-07,2025-11-08,22,5,22.96,114.8,149.62,35.24,2.94,Wallet,Paid,Sports,0,0,0,Mid
+465,100464,"Ella Scott",ella.scott5068@example.com,+918776869475,Vadodara,Gujarat,India,2023-05-12,2023-05-27,918,25,192.32,4808,5006.23,3662.46,305.2,Wallet,Paid,Sports,0,0,1,Top
+466,100465,"Olivia Thomas",olivia.thomas6692@example.com,+918388684714,Coimbatore,"Tamil Nadu",India,2015-10-13,2019-05-27,2379,5,31.02,155.1,161.81,45.48,3.79,"Cash on Delivery",Paid,Toys,0,0,1,High
+467,100466,"Naveen Munshi",naveen.munshi5345@example.com,+917828490003,Bhubaneswar,Odisha,India,2024-02-14,2025-10-03,58,5,81.42,407.1,471.05,336.56,28.05,UPI,Paid,"Home & Kitchen",0,0,0,Top
+468,100467,"Liam Munshi",liam.munshi6593@example.com,+919017796852,Dhaka,"Dhaka Division",Bangladesh,2023-03-22,2025-09-27,64,1,11.38,11.38,15.13,5.98,0.5,"Cash on Delivery",Paid,Toys,0,0,0,Low
+469,100468,"Rohit Moore",rohit.moore4845@example.com,+916301610121,Colombo,"Western Province","Sri Lanka",2018-03-29,2021-06-28,1616,1,14.63,14.63,19.72,5.39,0.45,"Debit Card",Pending,Groceries,0,0,1,Low
+470,100469,"Priya Robinson",priya.robinson9084@example.com,+918060069343,Coimbatore,"Tamil Nadu",India,2019-06-30,2025-08-23,99,3,14.7,39.69,51.37,19.25,1.6,"Credit Card",Paid,"Home & Kitchen",1,0.1,0,Low
+471,100470,"Ishaan Singh",ishaan.singh2086@example.com,+919980010109,Indore,"Madhya Pradesh",India,2018-08-14,2020-07-12,1967,2,10.08,20.16,22.19,14.18,1.18,"Credit Card",Paid,"Home & Kitchen",0,0,1,Low
+472,100471,"Amit Thomas",amit.thomas3144@example.com,+916950756518,Sydney,"New South Wales",Australia,2017-12-01,2025-08-18,104,6,19.46,116.76,133.15,61.66,5.14,UPI,Paid,Sports,0,0,0,Mid
+473,100472,"Kritika Shrivastava",kritika.shrivastava6889@example.com,+919448791383,Nagpur,Maharashtra,India,2021-01-11,2025-05-31,183,4,59.49,237.96,325.3,112.25,9.35,"Debit Card",Failed,Health,0,0,0,High
+474,100473,"Ethan Saxena",ethan.saxena6212@example.com,+919440845768,Bengaluru,Karnataka,India,2025-01-06,2025-11-08,22,4,66.84,240.62,310.98,40.11,3.34,"Net Banking",Pending,"Home & Kitchen",1,0.1,0,High
+475,100474,"Amit Davis",amit.davis2852@example.com,+916558062207,Noida,"Uttar Pradesh",India,2016-03-07,2018-01-17,2874,5,7.96,33.83,47.35,8.68,0.72,UPI,Paid,Beauty,1,0.15,1,Low
+476,100475,"Leah Solanki",leah.solanki9325@example.com,+919426363226,London,England,"United Kingdom",2021-04-28,2024-10-02,424,2,27.35,54.7,72.86,18.66,1.56,UPI,Paid,"Home & Kitchen",0,0,1,Low
+477,100476,"Sophia Torres",sophia.torres4931@example.com,+917941764055,Vancouver,"British Columbia",Canada,2024-01-25,2025-07-13,140,7,23.06,161.42,212.27,37.24,3.1,"Credit Card",Paid,Health,0,0,0,High
+478,100477,"Olivia Allen",olivia.allen6654@example.com,+917972214373,Ahmedabad,Gujarat,India,2023-08-04,2024-04-22,587,5,81.74,408.7,411.88,45.57,3.8,Wallet,Paid,Automotive,0,0,1,Top
+479,100478,"Grayson Patel",grayson.patel8978@example.com,+917749029303,"San Francisco",California,"United States",2022-06-26,2025-01-09,325,5,12.82,64.1,82.27,57.29,4.77,"Net Banking",Paid,Books,0,0,0,Low
+480,100479,"Grayson Clark",grayson.clark7@example.com,+916108808163,Gurgaon,Haryana,India,2017-04-22,2023-06-24,890,3,46.99,140.97,196.98,63.9,5.32,"Debit Card",Paid,Books,0,0,1,Mid
+481,100480,"Mason Menon",mason.menon4979@example.com,+919021497844,Patna,Bihar,India,2016-12-11,2019-02-14,2481,9,53.02,477.18,704.37,108.93,9.08,"Credit Card",Refunded,Books,0,0,1,Top
+482,100481,"Tarun Green",tarun.green4701@example.com,+917786770177,Toronto,Ontario,Canada,2024-01-30,2025-01-14,320,2,42.31,84.62,101.81,1.69,0.14,"Debit Card",Paid,Automotive,0,0,0,Mid
+483,100482,"Sara Ramirez",sara.ramirez3444@example.com,+919255914897,Jaipur,Rajasthan,India,2016-11-14,2016-12-21,3266,5,20.44,102.2,114.61,100.57,8.38,"Credit Card",Paid,Apparel,0,0,1,Mid
+484,100483,"Ravi Moore",ravi.moore7044@example.com,+916808463615,"Abu Dhabi","Abu Dhabi",UAE,2024-10-19,2024-12-11,354,8,110.77,841.85,1177.31,805.94,67.17,"Cash on Delivery",Paid,Groceries,1,0.05,0,Top
+485,100484,"Aarav Nair",aarav.nair9503@example.com,+918625172767,Agra,"Uttar Pradesh",India,2025-04-07,2025-07-20,133,8,46.47,371.76,488.53,369.11,30.76,"Credit Card",Paid,Apparel,0,0,0,Top
+486,100485,"Sophia Silva",sophia.silva9940@example.com,+919762412905,Dhaka,"Dhaka Division",Bangladesh,2015-04-01,2025-09-23,68,4,19.59,78.36,108.42,76.28,6.36,"Debit Card",Paid,Electronics,0,0,0,Mid
+487,100486,"Aarav Nguyen",aarav.nguyen5280@example.com,+918792416432,Singapore,Singapore,Singapore,2023-11-12,2025-07-04,149,10,21.46,171.68,181.17,5.8,0.48,"Cash on Delivery",Paid,Toys,1,0.2,0,High
+488,100487,"Dev Bisht",dev.bisht7619@example.com,+918948857484,Dubai,Dubai,UAE,2023-12-29,2024-08-16,471,3,10.41,31.23,36.67,3.51,0.29,"Debit Card",Paid,Electronics,0,0,1,Low
+489,100488,"Zoe Joshi",zoe.joshi7239@example.com,+917425176822,Melbourne,Victoria,Australia,2019-05-23,2022-02-05,1394,2,50.83,101.66,122.89,38.7,3.22,UPI,Paid,Sports,0,0,1,Mid
+490,100489,"Zoya Nguyen",zoya.nguyen7245@example.com,+918751450815,Vancouver,"British Columbia",Canada,2025-06-23,2025-08-13,109,5,29.27,146.35,213.52,127.02,10.58,"Credit Card",Paid,Groceries,0,0,0,Mid
+491,100490,"Anthony Khandelwal",anthony.khandelwal3502@example.com,+916284616300,Kathmandu,Bagmati,Nepal,2025-09-14,2025-11-08,22,12,84.72,1016.64,1299.04,329.65,27.47,Wallet,Paid,Groceries,0,0,0,Top
+492,100491,"Aarav King",aarav.king8376@example.com,+919031807863,"Los Angeles",California,"United States",2015-10-02,2016-11-20,3297,5,70.39,351.95,458.1,68.3,5.69,Wallet,Paid,Apparel,0,0,1,Top
+493,100492,"Rohit Martin",rohit.martin7753@example.com,+917031560165,Kathmandu,Bagmati,Nepal,2018-12-16,2022-07-26,1223,3,30.58,91.74,137.54,34.06,2.84,Wallet,Pending,Books,0,0,1,Mid
+494,100493,"Lucas Ali",lucas.ali2781@example.com,+917750796446,Sydney,"New South Wales",Australia,2016-11-29,2023-04-02,973,9,29.75,267.75,337.92,149.45,12.45,UPI,Paid,Automotive,0,0,1,High
+495,100494,"Logan Lee",logan.lee1390@example.com,+918393721737,Hyderabad,Telangana,India,2022-09-04,2022-12-07,1089,8,29.82,238.56,254.79,109.45,9.12,Wallet,Paid,Groceries,0,0,1,High
+496,100495,"Ethan Green",ethan.green4650@example.com,+918443883838,Toronto,Ontario,Canada,2018-07-20,2023-09-15,807,8,14.19,113.52,149.89,51.52,4.29,"Net Banking",Paid,"Home & Kitchen",0,0,1,Mid
+497,100496,"James Bhattacharya",james.bhattacharya8446@example.com,+919692865969,Indore,"Madhya Pradesh",India,2024-08-22,2024-11-22,373,2,17.66,35.32,37.45,9.84,0.82,Wallet,Paid,Automotive,0,0,1,Low
+498,100497,"Meera Malhotra",meera.malhotra5492@example.com,+918500227241,Sydney,"New South Wales",Australia,2015-05-02,2020-03-27,2074,4,27.51,110.04,125.76,97.85,8.15,UPI,Paid,Toys,0,0,1,Mid
+499,100498,"Hannah Solanki",hannah.solanki1531@example.com,+916211471200,Noida,"Uttar Pradesh",India,2015-11-23,2020-08-21,1927,5,17.32,86.6,120.95,80.97,6.75,"Credit Card",Paid,Health,0,0,1,Mid
+500,100499,"Jacob Nguyen",jacob.nguyen3849@example.com,+917832420125,"New York","New York","United States",2021-09-22,2025-05-06,208,7,96.07,672.49,978.23,17.71,1.48,"Credit Card",Failed,"Home & Kitchen",0,0,0,Top
+501,100500,"David Chaudhary",david.chaudhary5086@example.com,+917545044753,Melbourne,Victoria,Australia,2024-02-03,2025-11-27,3,2,121.71,219.08,238.69,48.07,4,Wallet,Refunded,Automotive,1,0.1,0,High
+502,100501,"Anil Miller",anil.miller3681@example.com,+919318312282,Islamabad,"Islamabad Capital Territory",Pakistan,2015-11-20,2023-11-07,754,1,23.84,23.84,33.34,5.13,0.43,UPI,Paid,Health,0,0,1,Low
+503,100502,"Rohit Bisht",rohit.bisht3263@example.com,+918038037924,Nashik,Maharashtra,India,2019-11-28,2025-04-10,234,2,53.83,86.13,121.37,75.19,6.26,"Debit Card",Paid,Sports,1,0.2,0,Mid
+504,100503,"Carlos Khandelwal",carlos.khandelwal2415@example.com,+917253174843,Jalandhar,Punjab,India,2020-05-29,2020-10-19,1868,5,13.19,65.95,85.99,47.77,3.98,"Credit Card",Paid,Electronics,0,0,1,Low
+505,100504,"Dylan Shukla",dylan.shukla401@example.com,+916319773202,Hyderabad,Telangana,India,2021-10-01,2024-01-22,678,8,40.81,261.18,334.72,215.69,17.98,"Bank Transfer",Paid,Books,1,0.2,1,High
+506,100505,"Isabella Torres",isabella.torres758@example.com,+918998050412,Bengaluru,Karnataka,India,2025-05-15,2025-06-18,165,5,19.61,98.05,127.75,15.95,1.33,UPI,Paid,Electronics,0,0,0,Mid
+507,100506,"Arnav Brown",arnav.brown4012@example.com,+917773326296,Agra,"Uttar Pradesh",India,2020-09-20,2024-06-24,524,5,92.43,462.15,679.84,454.46,37.87,"Credit Card",Pending,Sports,0,0,1,Top
+508,100507,"Samuel Adams",samuel.adams7785@example.com,+918549765418,Bhubaneswar,Odisha,India,2022-12-27,2024-10-01,425,3,16.98,50.94,51.71,15.08,1.26,UPI,Paid,Apparel,0,0,1,Low
+509,100508,"Leah Sharma",leah.sharma1194@example.com,+918356993135,Jalandhar,Punjab,India,2019-12-17,2024-04-15,594,4,42.63,170.52,247.94,166.04,13.84,"Credit Card",Paid,Health,0,0,1,High
+510,100509,"James Bhatt",james.bhatt7462@example.com,+917078070360,Melbourne,Victoria,Australia,2021-04-29,2022-03-08,1363,6,56.35,338.1,409.94,254.68,21.22,"Debit Card",Paid,Health,0,0,1,Top
+511,100510,"Maya Martinez",maya.martinez6791@example.com,+918767745994,Toronto,Ontario,Canada,2018-07-08,2022-10-02,1155,5,95.23,476.15,535.3,301.12,25.09,"Debit Card",Paid,Sports,0,0,1,Top
+512,100511,"Chloe Thomas",chloe.thomas9432@example.com,+916941904501,Singapore,Singapore,Singapore,2015-03-27,2025-01-13,321,5,48.09,240.45,301.28,166,13.83,"Net Banking",Paid,Sports,0,0,0,High
+513,100512,"Mason Wright",mason.wright3186@example.com,+919812693369,Ahmedabad,Gujarat,India,2024-06-30,2025-09-16,75,6,260.63,1563.78,2142.02,1274.81,106.23,"Debit Card",Paid,Health,0,0,0,Top
+514,100513,"James Lewis",james.lewis6292@example.com,+917783306888,London,England,"United Kingdom",2025-10-23,2025-11-14,16,4,8.63,34.52,42.53,19.27,1.61,"Debit Card",Paid,"Home & Kitchen",0,0,0,Low
+515,100514,"David Naik",david.naik8100@example.com,+917738027606,Patna,Bihar,India,2018-05-09,2023-09-25,797,6,33.74,202.44,303.34,9.06,0.76,"Debit Card",Paid,Sports,0,0,1,High
+516,100515,"Rohit Wilson",rohit.wilson6548@example.com,+919042404422,Thiruvananthapuram,Kerala,India,2020-03-24,2021-05-19,1656,2,29.07,58.14,79.49,52.73,4.39,UPI,Paid,Health,0,0,1,Low
+517,100516,"Grayson Jain",grayson.jain3998@example.com,+917046612120,Delhi,Delhi,India,2022-03-05,2024-05-03,576,3,65.39,176.55,220.22,13.41,1.12,"Debit Card",Paid,Groceries,1,0.1,1,High
+518,100517,"Grayson Green",grayson.green2418@example.com,+918901061944,Bhopal,"Madhya Pradesh",India,2022-11-11,2024-12-05,360,3,46.41,139.23,148.73,28.36,2.36,UPI,Paid,Electronics,0,0,0,Mid
+519,100518,"Zoya Thomas",zoya.thomas91@example.com,+917059096282,Muscat,Muscat,Oman,2015-05-10,2020-07-07,1972,7,35.09,245.63,355.75,181.65,15.14,"Credit Card",Paid,Automotive,0,0,1,High
+520,100519,"Jayden Bose",jayden.bose1747@example.com,+918042803890,Vadodara,Gujarat,India,2015-02-16,2023-12-01,730,3,22.76,68.28,94.72,59.13,4.93,"Net Banking",Paid,"Home & Kitchen",0,0,1,Low
+521,100520,"Esha Bhatt",esha.bhatt6966@example.com,+919184019590,Nagpur,Maharashtra,India,2024-08-27,2025-01-18,316,3,238.64,715.92,942.08,152.02,12.67,UPI,Paid,Groceries,0,0,0,Top
+522,100521,"Scarlett Davis",scarlett.davis3586@example.com,+919583299078,"San Francisco",California,"United States",2019-06-28,2023-09-10,812,6,72.22,433.32,456.47,238.6,19.88,"Bank Transfer",Paid,Electronics,0,0,1,Top
+523,100522,"Harsh Smith",harsh.smith2882@example.com,+919576814374,Mysore,Karnataka,India,2017-01-21,2022-10-21,1136,6,68.8,412.8,417.1,34.64,2.89,UPI,Paid,Groceries,0,0,1,Top
+524,100523,"Chloe Sanchez",chloe.sanchez8487@example.com,+917595707439,Lucknow,"Uttar Pradesh",India,2016-07-29,2016-10-26,3322,4,19.22,69.19,91.97,28.84,2.4,"Credit Card",Failed,Health,1,0.1,1,Low
+525,100524,"Tarun Trivedi",tarun.trivedi7612@example.com,+917788792766,Lagos,Lagos,Nigeria,2018-08-13,2020-04-02,2068,1,32.88,32.88,34.8,30.06,2.5,UPI,Paid,Electronics,0,0,1,Low
+526,100525,"Ananya Trivedi",ananya.trivedi823@example.com,+919354611086,Surat,Gujarat,India,2024-02-18,2025-07-16,137,3,9.79,29.37,40.01,17.2,1.43,"Credit Card",Paid,Health,0,0,0,Low
+527,100526,"James Jones",james.jones9133@example.com,+916367746731,"New York","New York","United States",2024-05-28,2024-10-08,418,7,20.64,144.48,165.27,110.38,9.2,UPI,Paid,"Home & Kitchen",0,0,1,Mid
+528,100527,"Scarlett Silva",scarlett.silva4083@example.com,+919892070881,Indore,"Madhya Pradesh",India,2025-04-14,2025-11-12,18,24,14.24,341.76,350.02,68.95,5.75,"Net Banking",Pending,Toys,0,0,0,Top
+529,100528,"Dev Menon",dev.menon1989@example.com,+919696391270,"Los Angeles",California,"United States",2015-06-30,2018-08-07,2672,5,22.39,106.35,135.37,67.02,5.59,UPI,Failed,"Home & Kitchen",1,0.05,1,Mid
+530,100529,"Liam Malhotra",liam.malhotra7479@example.com,+918178413452,Thiruvananthapuram,Kerala,India,2015-11-08,2016-05-14,3487,7,27.51,192.57,233.9,25.44,2.12,"Debit Card",Paid,Automotive,0,0,1,High
+531,100530,"Layla King",layla.king2185@example.com,+917169772020,"Cape Town","Western Cape","South Africa",2025-07-05,2025-08-09,113,9,23.99,215.91,291.41,58.03,4.84,"Debit Card",Paid,Health,0,0,0,High
+532,100531,"Ananya Rodriguez",ananya.rodriguez7613@example.com,+917518466511,Kolkata,"West Bengal",India,2020-01-24,2021-03-14,1722,11,15.83,174.13,179.32,151.32,12.61,Wallet,Paid,Automotive,0,0,1,High
+533,100532,"Amit Iyer",amit.iyer8703@example.com,+916951028039,"Cape Town","Western Cape","South Africa",2024-02-17,2024-03-20,620,4,19.08,76.32,103.9,46.29,3.86,"Net Banking",Paid,Electronics,0,0,1,Low
+534,100533,"Sophia Allen",sophia.allen9158@example.com,+917471686809,Varanasi,"Uttar Pradesh",India,2020-07-14,2020-12-29,1797,4,18.18,72.72,105.29,32.07,2.67,"Net Banking",Paid,Sports,0,0,1,Low
+535,100534,"Zoe Solanki",zoe.solanki9756@example.com,+918069539630,Mumbai,Maharashtra,India,2018-09-26,2025-05-17,197,8,31.03,248.24,342.49,131.87,10.99,"Credit Card",Paid,Beauty,0,0,0,High
+536,100535,"Aarav Wright",aarav.wright5199@example.com,+917945133474,Lucknow,"Uttar Pradesh",India,2021-11-08,2025-08-30,92,5,11.82,59.1,75.43,38.52,3.21,"Cash on Delivery",Paid,Books,0,0,0,Low
+537,100536,"James Garcia",james.garcia7252@example.com,+918068713428,Toronto,Ontario,Canada,2015-11-15,2017-11-02,2950,11,22.7,237.21,283.76,143.15,11.93,UPI,Paid,Health,1,0.05,1,High
+538,100537,"Vihaan Moore",vihaan.moore8271@example.com,+919068648925,Delhi,Delhi,India,2020-03-19,2022-05-08,1302,5,21.79,108.95,140.1,76.43,6.37,"Credit Card",Paid,Beauty,0,0,1,Mid
+539,100538,"Rohit Chakrabarti",rohit.chakrabarti6992@example.com,+918130163003,Jalandhar,Punjab,India,2022-09-09,2025-04-19,225,4,17.04,68.16,77.07,1.11,0.09,"Bank Transfer",Paid,Toys,0,0,0,Low
+540,100539,"Puja Munshi",puja.munshi8977@example.com,+919819067290,Mysore,Karnataka,India,2018-02-28,2018-09-10,2638,5,72.83,364.15,479.63,64.42,5.37,"Bank Transfer",Paid,Beauty,0,0,1,Top
+541,100540,"Owen Ramirez",owen.ramirez7306@example.com,+918253056277,Gurgaon,Haryana,India,2024-01-03,2024-06-05,543,4,69.34,277.36,293.44,115.37,9.61,"Debit Card",Paid,Sports,0,0,1,High
+542,100541,"Vivaan Hussain",vivaan.hussain2608@example.com,+917555601070,Amritsar,Punjab,India,2021-02-16,2023-06-26,888,6,16.55,69.51,91.88,51.45,4.28,"Cash on Delivery",Paid,"Home & Kitchen",1,0.3,1,Low
+543,100542,"Leah Robinson",leah.robinson7778@example.com,+918417458760,Mysore,Karnataka,India,2022-03-26,2024-06-04,544,3,95.09,285.27,351.38,172.64,14.39,"Credit Card",Paid,Groceries,0,0,1,High
+544,100543,"Varun Torres",varun.torres7374@example.com,+916593118301,Nagpur,Maharashtra,India,2021-08-27,2024-11-11,384,5,5.69,28.45,36.57,20.84,1.74,"Credit Card",Paid,Sports,0,0,1,Low
+545,100544,"Julian Iyer",julian.iyer4247@example.com,+918954904567,Muscat,Muscat,Oman,2015-06-02,2022-12-22,1074,6,11.8,70.8,104,28.08,2.34,"Debit Card",Pending,Automotive,0,0,1,Low
+546,100545,"Luke Singh",luke.singh4051@example.com,+918617285431,"Los Angeles",California,"United States",2021-09-24,2022-04-26,1314,4,12.43,49.72,60.65,35.31,2.94,Wallet,Paid,Automotive,0,0,1,Low
+547,100546,"Puja Verma",puja.verma4544@example.com,+917187880324,"San Francisco",California,"United States",2025-05-31,2025-10-31,30,3,12.2,36.6,43.34,14.64,1.22,UPI,Paid,Automotive,0,0,0,Low
+548,100547,"Ravi Young",ravi.young8541@example.com,+917456848168,Bhopal,"Madhya Pradesh",India,2016-12-29,2018-04-15,2786,5,41.54,207.7,311.22,38.42,3.2,UPI,Failed,Beauty,0,0,1,High
+549,100548,"Lina Moore",lina.moore7940@example.com,+918169394319,"Abu Dhabi","Abu Dhabi",UAE,2017-03-26,2021-04-30,1675,5,146.18,730.9,1056.83,723.05,60.25,"Credit Card",Paid,Books,0,0,1,Top
+550,100549,"Lakshmi Walker",lakshmi.walker3920@example.com,+917003790816,Melbourne,Victoria,Australia,2024-07-01,2025-11-11,19,2,95.57,191.14,227.87,187.83,15.65,"Net Banking",Paid,Beauty,0,0,0,High
+551,100550,"Harsh Davis",harsh.davis4500@example.com,+917778110072,Visakhapatnam,"Andhra Pradesh",India,2021-04-24,2022-04-05,1335,29,206.01,5974.29,8566.39,4272.88,356.07,"Debit Card",Paid,Electronics,0,0,1,Top
+552,100551,"Harsh Williams",harsh.williams7207@example.com,+916316584423,Auckland,Auckland,"New Zealand",2023-10-24,2024-11-26,369,7,37.19,260.33,263.95,31.47,2.62,UPI,Paid,"Home & Kitchen",0,0,1,High
+553,100552,"Lucas Young",lucas.young1270@example.com,+918300913055,Thiruvananthapuram,Kerala,India,2024-03-13,2025-02-24,279,5,25.26,126.3,187.3,90.55,7.55,"Debit Card",Paid,Automotive,0,0,0,Mid
+555,100554,"Yash Brown",yash.brown3842@example.com,+919989260224,Indore,"Madhya Pradesh",India,2019-08-02,2021-05-12,1663,5,202.63,1013.15,1426.85,471.96,39.33,"Credit Card",Paid,Electronics,0,0,1,Top
+556,100555,"Ravi Garcia",ravi.garcia4452@example.com,+919456013711,Nashik,Maharashtra,India,2024-11-17,2025-10-22,39,2,53.73,107.46,155.63,30.02,2.5,"Net Banking",Refunded,Apparel,0,0,0,Mid
+557,100556,"Jacob Agarwal",jacob.agarwal5503@example.com,+918203573808,Nairobi,Nairobi,Kenya,2015-03-12,2022-05-13,1297,5,29.98,149.9,220.28,59.89,4.99,"Credit Card",Paid,Apparel,0,0,1,Mid
+558,100557,"Benjamin Allen",benjamin.allen5239@example.com,+919916968844,Thiruvananthapuram,Kerala,India,2022-11-09,2023-05-25,920,4,72.15,288.6,406.42,243.36,20.28,"Credit Card",Paid,Automotive,0,0,1,High
+559,100558,"Harsh White",harsh.white8850@example.com,+918997272533,Gurgaon,Haryana,India,2018-06-16,2020-10-12,1875,8,54.86,438.88,484.88,253.98,21.16,"Debit Card",Paid,Sports,0,0,1,Top
+560,100559,"Naveen Torres",naveen.torres1321@example.com,+916823995342,Mumbai,Maharashtra,India,2022-03-11,2024-08-18,469,9,21.3,191.7,234.44,89.37,7.45,"Net Banking",Paid,"Home & Kitchen",0,0,1,High
+561,100560,"Sebastian Lopez",sebastian.lopez2268@example.com,+917888976617,"Abu Dhabi","Abu Dhabi",UAE,2018-02-23,2022-01-03,1427,5,181.27,906.35,1144.6,653.42,54.45,"Credit Card",Paid,Beauty,0,0,1,Top
+562,100561,"Yash Sharma",yash.sharma2472@example.com,+917252571918,Amritsar,Punjab,India,2020-06-08,2024-04-06,603,5,24.29,121.45,175.04,21.25,1.77,"Credit Card",Paid,Automotive,0,0,1,Mid
+563,100562,"Kunal Hill",kunal.hill3789@example.com,+917340264605,Chennai,"Tamil Nadu",India,2015-03-15,2023-01-07,1058,6,18.51,111.06,138.91,15,1.25,"Bank Transfer",Paid,Apparel,0,0,1,Mid
+564,100563,"Arnav Bose",arnav.bose6276@example.com,+918324980655,Amritsar,Punjab,India,2020-03-15,2021-12-30,1431,2,16.49,32.98,45.78,17,1.42,"Debit Card",Paid,Books,0,0,1,Low
+565,100564,"Priya Shrivastava",priya.shrivastava2504@example.com,+919763148500,Pune,Maharashtra,India,2023-02-23,2025-03-17,258,8,37.34,283.78,356.9,16.79,1.4,Wallet,Paid,Groceries,1,0.05,0,High
+566,100565,"Ravi Sanchez",ravi.sanchez3506@example.com,+918429108856,Nagpur,Maharashtra,India,2023-06-10,2024-03-05,635,4,40.27,161.08,162.68,117.19,9.77,"Credit Card",Paid,Apparel,0,0,1,High
+567,100566,"Layla Robinson",layla.robinson1053@example.com,+919882530458,Singapore,Singapore,Singapore,2022-01-24,2023-03-27,979,7,26.24,183.68,258.19,128.01,10.67,UPI,Paid,Electronics,0,0,1,High
+568,100567,"Vikram Kohli",vikram.kohli6798@example.com,+916713809099,Pune,Maharashtra,India,2015-03-19,2021-07-31,1583,3,13.55,40.65,48.82,32.22,2.68,"Debit Card",Paid,Toys,0,0,1,Low
+569,100568,"Vivaan Patel",vivaan.patel6679@example.com,+916816512267,Jalandhar,Punjab,India,2019-09-15,2023-01-16,1049,5,20.99,104.95,128.03,83.75,6.98,"Credit Card",Paid,Groceries,0,0,1,Mid
+570,100569,"Lakshmi King",lakshmi.king5422@example.com,+919258090380,Mysore,Karnataka,India,2019-11-10,2022-02-26,1373,4,64.58,258.32,274.64,118.73,9.89,"Net Banking",Pending,"Home & Kitchen",0,0,1,High
+571,100570,"Gabriel Torres",gabriel.torres8891@example.com,+918660595604,Nagpur,Maharashtra,India,2015-07-29,2024-05-19,560,4,32.08,128.32,142.9,110.53,9.21,UPI,Pending,"Home & Kitchen",0,0,1,Mid
+572,100571,"Wyatt Scott",wyatt.scott7634@example.com,+919808297718,Colombo,"Western Province","Sri Lanka",2023-02-27,2025-09-26,65,5,34.66,173.3,218.49,67.2,5.6,UPI,Paid,Toys,0,0,0,High
+573,100572,"Grayson Khan",grayson.khan6813@example.com,+917620618924,Bhopal,"Madhya Pradesh",India,2019-01-09,2022-10-02,1155,6,10.92,65.52,72.13,14.82,1.24,Wallet,Paid,Electronics,0,0,1,Low
+574,100573,"Aanya Dutta",aanya.dutta1021@example.com,+916161196931,Amritsar,Punjab,India,2020-07-12,2022-12-04,1092,6,51.11,306.66,414.8,4.66,0.39,"Debit Card",Paid,Apparel,0,0,1,Top
+575,100574,"Hannah Nguyen",hannah.nguyen3389@example.com,+917211386195,Pune,Maharashtra,India,2021-12-01,2025-07-13,140,3,34.26,92.5,94.16,83.71,6.98,"Credit Card",Failed,Sports,1,0.1,0,Mid
+576,100575,"Anil Harris",anil.harris6884@example.com,+916560609204,Chennai,"Tamil Nadu",India,2019-04-07,2025-05-04,210,1,69.75,69.75,94.73,57.44,4.79,"Credit Card",Paid,"Home & Kitchen",0,0,0,Low
+577,100576,"Sebastian Jain",sebastian.jain6382@example.com,+917153942704,Indore,"Madhya Pradesh",India,2025-01-17,2025-05-26,188,8,38.28,306.24,402.37,45.32,3.78,"Debit Card",Pending,"Home & Kitchen",0,0,0,Top
+578,100577,"Grayson Kapoor",grayson.kapoor9570@example.com,+917146665963,Amritsar,Punjab,India,2018-08-08,2018-10-28,2590,8,34.24,273.92,387.17,242.84,20.24,UPI,Paid,Apparel,0,0,1,High
+579,100578,"Dev Jones",dev.jones321@example.com,+917393262931,Gurgaon,Haryana,India,2016-06-08,2016-11-12,3305,12,41.41,496.92,676.17,117.92,9.83,"Credit Card",Paid,Groceries,0,0,1,Top
+580,100579,"Saanvi Brown",saanvi.brown9433@example.com,+916018668606,Patna,Bihar,India,2020-04-19,2024-10-23,403,5,42.65,213.25,238.92,9.83,0.82,"Credit Card",Pending,Beauty,0,0,1,High
+581,100580,"William Kohli",william.kohli6233@example.com,+916783466997,Noida,"Uttar Pradesh",India,2017-04-22,2025-11-17,13,1,9.32,9.32,11.71,8.42,0.7,"Credit Card",Paid,Books,0,0,0,Low
+582,100581,"Sophia Ghosh",sophia.ghosh7815@example.com,+917509283224,Auckland,Auckland,"New Zealand",2021-06-23,2025-06-07,176,2,21.1,42.2,51.37,6.07,0.51,"Credit Card",Paid,Automotive,0,0,0,Low
+583,100582,"Mateo Williams",mateo.williams97@example.com,+919576008002,Bhubaneswar,Odisha,India,2024-06-29,2025-06-16,167,5,33.73,168.65,199.88,62.63,5.22,UPI,Paid,Health,0,0,0,High
+584,100583,"Arnav Das",arnav.das5764@example.com,+919638850056,Auckland,Auckland,"New Zealand",2023-11-06,2025-10-29,32,6,156.67,940.02,1102.34,26.56,2.21,"Net Banking",Paid,Automotive,0,0,0,Top
+585,100584,"Shreya Iyer",shreya.iyer4893@example.com,+917674770390,Amritsar,Punjab,India,2023-11-28,2025-06-01,182,3,169.12,507.36,562.47,87.39,7.28,UPI,Paid,Automotive,0,0,0,Top
+586,100585,"Anthony Mehta",anthony.mehta6390@example.com,+918132588128,Kanpur,"Uttar Pradesh",India,2024-08-21,2025-03-03,272,3,65.77,197.31,242.1,133.02,11.08,UPI,Paid,"Home & Kitchen",0,0,0,High
+587,100586,"Rhea Jones",rhea.jones6866@example.com,+918750633295,Lagos,Lagos,Nigeria,2024-09-09,2024-10-18,408,8,30.89,247.12,330.52,80.52,6.71,"Credit Card",Paid,Apparel,0,0,1,High
+588,100587,"Shreya Rodriguez",shreya.rodriguez8819@example.com,+916267312050,Muscat,Muscat,Oman,2021-04-02,2023-02-20,1014,8,8.72,69.76,78.21,36.37,3.03,"Credit Card",Paid,"Home & Kitchen",0,0,1,Low
+589,100588,"Ananya Shah",ananya.shah8948@example.com,+916667462560,Amritsar,Punjab,India,2017-10-05,2023-06-11,903,5,31.55,157.75,200.07,82.74,6.9,"Bank Transfer",Paid,Groceries,0,0,1,High
+590,100589,"Henry Sengupta",henry.sengupta9884@example.com,+916517725228,Dubai,Dubai,UAE,2015-10-17,2018-08-07,2672,7,26.11,182.77,191.6,134.04,11.17,"Net Banking",Paid,Toys,0,0,1,High
+591,100590,"Puja Jain",puja.jain3614@example.com,+918058959330,Thiruvananthapuram,Kerala,India,2023-03-13,2025-05-07,207,6,42.55,242.54,341.51,165.62,13.8,UPI,Paid,Books,1,0.05,0,High
+592,100591,"Logan Nambiar",logan.nambiar8000@example.com,+919487565144,Delhi,Delhi,India,2016-01-27,2018-08-27,2652,9,14.22,127.98,152.36,105.32,8.78,"Credit Card",Paid,Apparel,0,0,1,Mid
+593,100592,"Ella Ghosh",ella.ghosh3596@example.com,+918220653118,Gurgaon,Haryana,India,2016-10-15,2020-08-13,1935,3,9.1,27.3,37.17,11.49,0.96,"Net Banking",Paid,Apparel,0,0,1,Low
+594,100593,"Omar Lewis",omar.lewis4472@example.com,+916743279309,Melbourne,Victoria,Australia,2023-03-16,2024-10-09,417,3,43.35,130.05,192.12,119.6,9.97,"Cash on Delivery",Refunded,Books,0,0,1,Mid
+595,100594,"Ella Patel",ella.patel7141@example.com,+918653640560,Gurgaon,Haryana,India,2024-06-26,2024-10-24,402,4,32.78,131.12,134.91,20.46,1.7,Wallet,Paid,Health,0,0,1,Mid
+596,100595,"Shreya Pillai",shreya.pillai7957@example.com,+917429650783,Thiruvananthapuram,Kerala,India,2018-08-25,2022-02-03,1396,3,10.4,26.52,36.77,15.1,1.26,UPI,Paid,Groceries,1,0.15,1,Low
+597,100596,"John White",john.white476@example.com,+919390802638,Amritsar,Punjab,India,2021-08-24,2025-02-10,293,3,29.16,87.48,97.21,57.76,4.81,"Net Banking",Paid,Sports,0,0,0,Mid
+598,100597,"Zoe Wilson",zoe.wilson6372@example.com,+918524213760,Coimbatore,"Tamil Nadu",India,2020-08-24,2025-05-24,190,7,8.8,61.6,80,61.1,5.09,"Debit Card",Paid,Health,0,0,0,Low
+599,100598,"Puja Khan",puja.khan5508@example.com,+918385387340,"Los Angeles",California,"United States",2024-09-03,2024-10-05,421,8,80.96,647.68,783.39,80.56,6.71,UPI,Paid,Apparel,0,0,1,Top
+600,100599,"Tarun Clark",tarun.clark6625@example.com,+918347445412,Surat,Gujarat,India,2016-10-12,2024-05-28,551,5,54.03,202.61,207.04,167.46,13.96,"Credit Card",Paid,Beauty,1,0.25,1,High
+601,100600,"Mason Verma",mason.verma2705@example.com,+919921243700,Jalandhar,Punjab,India,2016-07-24,2022-03-19,1352,7,39.27,274.89,336.2,24.62,2.05,"Debit Card",Paid,Apparel,0,0,1,High
+602,100601,"Zoe Young",zoe.young7658@example.com,+916307624522,Vancouver,"British Columbia",Canada,2025-04-07,2025-10-27,34,4,28.95,92.64,127.84,9.53,0.79,"Debit Card",Paid,Automotive,1,0.2,0,Mid
+603,100602,"Deepak Garcia",deepak.garcia2092@example.com,+919921900572,Hyderabad,Telangana,India,2024-02-26,2025-08-21,101,6,25.67,138.62,182.04,131.51,10.96,"Net Banking",Paid,Electronics,1,0.1,0,Mid
+604,100603,"Ravi Desai",ravi.desai8752@example.com,+917709240431,Patna,Bihar,India,2015-12-17,2023-01-30,1035,2,5.96,11.92,12.58,4.02,0.34,"Net Banking",Paid,Books,0,0,1,Low
+605,100604,"Olivia Shrivastava",olivia.shrivastava442@example.com,+919259983036,Visakhapatnam,"Andhra Pradesh",India,2020-10-12,2021-08-01,1582,4,28.18,112.72,118.54,18.54,1.54,UPI,Paid,Beauty,0,0,1,Mid
+606,100605,"Priya Desai",priya.desai6456@example.com,+916465688514,Lucknow,"Uttar Pradesh",India,2022-12-03,2024-07-27,491,4,31.06,124.24,125.04,19.34,1.61,"Net Banking",Paid,Toys,0,0,1,Mid
+607,100606,"Tarun White",tarun.white9698@example.com,+919106482891,Nairobi,Nairobi,Kenya,2021-09-14,2022-11-08,1118,8,16.76,134.08,189.69,71.14,5.93,UPI,Paid,Beauty,0,0,1,Mid
+608,100607,"Anthony Sethi",anthony.sethi9247@example.com,+916014464299,Dubai,Dubai,UAE,2021-01-04,2023-06-16,898,4,32.16,128.64,173.04,86.54,7.21,"Debit Card",Paid,Electronics,0,0,1,Mid
+609,100608,"Ella Scott",ella.scott445@example.com,+917005655416,Vancouver,"British Columbia",Canada,2020-01-13,2025-06-20,163,3,24.97,74.91,85.67,59.88,4.99,UPI,Paid,Electronics,0,0,0,Low
+610,100609,"Ishaan Lopez",ishaan.lopez1376@example.com,+917881876107,Lucknow,"Uttar Pradesh",India,2023-11-13,2024-11-10,385,6,50.65,303.9,438.49,184.95,15.41,"Cash on Delivery",Paid,"Home & Kitchen",0,0,1,Top
+611,100610,"Kritika Ghosh",kritika.ghosh7023@example.com,+919095677053,"Cape Town","Western Cape","South Africa",2015-02-04,2022-11-01,1125,3,22.92,68.76,74.79,45.7,3.81,UPI,Paid,Beauty,0,0,1,Low
+612,100611,"Mason Miller",mason.miller2224@example.com,+917765381097,Mysore,Karnataka,India,2016-03-26,2023-10-13,779,5,11.19,55.95,70.97,14.43,1.2,"Credit Card",Paid,Toys,0,0,1,Low
+613,100612,"Luke Saxena",luke.saxena7565@example.com,+916894740765,Thiruvananthapuram,Kerala,India,2019-11-04,2020-03-25,2076,6,88.25,529.5,645.4,385.5,32.12,"Credit Card",Paid,Sports,0,0,1,Top
+614,100613,"Anthony Lopez",anthony.lopez2978@example.com,+919281598142,London,England,"United Kingdom",2025-09-08,2025-09-13,78,4,16.32,65.28,93.76,6.95,0.58,"Debit Card",Paid,Electronics,0,0,0,Low
+615,100614,"Dylan Lewis",dylan.lewis824@example.com,+916695133668,Vadodara,Gujarat,India,2016-09-30,2021-02-10,1754,6,21.66,129.96,162.46,26.21,2.18,"Debit Card",Paid,"Home & Kitchen",0,0,1,Mid
+616,100615,"Priya Solanki",priya.solanki4263@example.com,+918530165220,Varanasi,"Uttar Pradesh",India,2022-08-31,2024-12-22,343,8,45.6,364.8,482.93,186.59,15.55,UPI,Pending,Health,0,0,0,Top
+617,100616,"Mia Perez",mia.perez6212@example.com,+917253067850,Patna,Bihar,India,2018-04-07,2020-01-10,2151,4,106.66,426.64,464.06,219.89,18.32,"Credit Card",Paid,Automotive,0,0,1,Top
+618,100617,"Amit Nambiar",amit.nambiar5364@example.com,+916010969224,Lucknow,"Uttar Pradesh",India,2022-09-04,2023-08-11,842,2,14.51,29.02,34.28,18.11,1.51,"Net Banking",Paid,Books,0,0,1,Low
+619,100618,"Omar Patel",omar.patel3468@example.com,+916956890668,Vadodara,Gujarat,India,2017-11-09,2023-05-01,944,5,37.06,185.3,229.82,143.59,11.97,"Net Banking",Paid,Electronics,0,0,1,High
+620,100619,"Scarlett Green",scarlett.green7450@example.com,+919582153786,Delhi,Delhi,India,2018-01-05,2023-07-28,856,10,8.25,82.5,94.78,80.25,6.69,"Cash on Delivery",Failed,Groceries,0,0,1,Mid
+621,100620,"Ravi Brown",ravi.brown5356@example.com,+919402870774,Delhi,Delhi,India,2018-11-09,2019-10-26,2227,7,43.72,306.04,440.64,144.59,12.05,"Credit Card",Paid,Beauty,0,0,1,Top
+622,100621,"Lucas Jones",lucas.jones5530@example.com,+918181534839,Jalandhar,Punjab,India,2015-10-16,2023-07-12,872,2,13.91,27.82,31.11,7.46,0.62,"Debit Card",Paid,Health,0,0,1,Low
+623,100622,"Amit Sanchez",amit.sanchez6212@example.com,+919519459536,Nairobi,Nairobi,Kenya,2019-06-10,2021-03-06,1730,1,11.07,11.07,15.5,0.5,0.04,"Cash on Delivery",Paid,Sports,0,0,1,Low
+624,100623,"David Chaudhary",david.chaudhary4559@example.com,+919119159685,Kolkata,"West Bengal",India,2021-10-27,2022-06-02,1277,5,38.76,193.8,257.67,103.56,8.63,"Net Banking",Paid,Beauty,0,0,1,High
+625,100624,"Sara Lopez",sara.lopez6907@example.com,+916132927296,Amritsar,Punjab,India,2025-07-27,2025-07-28,125,3,33.33,99.99,120.27,48.98,4.08,"Credit Card",Paid,Books,0,0,0,Mid
+626,100625,"Michael Nair",michael.nair4134@example.com,+917305756919,Kanpur,"Uttar Pradesh",India,2019-08-13,2021-06-21,1623,8,59.78,478.24,644.91,431.03,35.92,"Debit Card",Paid,Automotive,0,0,1,Top
+627,100626,"Sneha Khandelwal",sneha.khandelwal1342@example.com,+916918568377,"Los Angeles",California,"United States",2015-12-04,2016-06-20,3450,7,60.27,421.89,435.07,218.91,18.24,"Credit Card",Paid,Groceries,0,0,1,Top
+628,100627,"Samuel Singh",samuel.singh7706@example.com,+918108170736,Indore,"Madhya Pradesh",India,2017-05-31,2024-09-06,450,2,42.03,84.06,103.08,42.49,3.54,UPI,Paid,Toys,0,0,1,Mid
+629,100628,"Layla Gupta",layla.gupta318@example.com,+917097198071,Noida,"Uttar Pradesh",India,2020-06-23,2023-03-21,985,6,31.3,187.8,200.31,129.48,10.79,"Bank Transfer",Paid,Groceries,0,0,1,High
+630,100629,"Liam Iyer",liam.iyer8838@example.com,+916386663282,Noida,"Uttar Pradesh",India,2015-03-01,2018-07-29,2681,4,14.76,53.14,75.29,31.27,2.61,"Net Banking",Paid,Apparel,1,0.1,1,Low
+631,100630,"Jack Verma",jack.verma854@example.com,+918684939508,Agra,"Uttar Pradesh",India,2017-09-25,2020-06-23,1986,1,38.36,38.36,43.49,33.06,2.76,Wallet,Paid,Health,0,0,1,Low
+632,100631,"Rohit Verma",rohit.verma5734@example.com,+916673296412,Mysore,Karnataka,India,2017-12-07,2025-10-29,32,7,57.34,401.38,449.2,196.7,16.39,"Net Banking",Paid,Beauty,0,0,0,Top
+633,100632,"James Sanchez",james.sanchez3674@example.com,+917877086595,Mysore,Karnataka,India,2015-05-02,2016-10-01,3347,6,37.35,224.1,311.58,113.49,9.46,Wallet,Paid,Beauty,0,0,1,High
+634,100633,"Ella Smith",ella.smith1125@example.com,+918623992560,Sydney,"New South Wales",Australia,2024-04-03,2024-07-03,515,24,43.98,1055.52,1140.4,426.82,35.57,UPI,Paid,Beauty,0,0,1,Top
+635,100634,"Ravi Sengupta",ravi.sengupta660@example.com,+919830828361,Mysore,Karnataka,India,2021-01-25,2021-05-18,1657,3,7.8,23.4,26.5,17.91,1.49,UPI,Paid,Beauty,0,0,1,Low
+636,100635,"Manish Agarwal",manish.agarwal509@example.com,+919530404722,Rajkot,Gujarat,India,2022-07-03,2024-06-02,546,6,23.8,142.8,160.17,87.2,7.27,"Net Banking",Paid,Apparel,0,0,1,Mid
+637,100636,"Liam Thompson",liam.thompson4052@example.com,+918357606392,Amritsar,Punjab,India,2018-02-27,2023-01-06,1059,4,10.99,43.96,61.07,21.38,1.78,"Debit Card",Refunded,Sports,0,0,1,Low
+638,100637,"Jayden Chaudhary",jayden.chaudhary3267@example.com,+916041262305,Mysore,Karnataka,India,2021-10-16,2025-03-25,250,8,23.31,186.48,253.41,14.93,1.24,"Credit Card",Paid,"Home & Kitchen",0,0,0,High
+639,100638,"Scarlett Nambiar",scarlett.nambiar334@example.com,+918201202942,Noida,"Uttar Pradesh",India,2020-04-29,2024-04-11,598,11,45.56,501.16,666.74,280.82,23.4,UPI,Paid,Automotive,0,0,1,Top
+640,100639,"Noah Reddy",noah.reddy2497@example.com,+919140269869,Muscat,Muscat,Oman,2020-11-03,2021-01-06,1789,7,17.72,124.04,154.68,106.84,8.9,"Credit Card",Paid,Groceries,0,0,1,Mid
+641,100640,"Tarun Adams",tarun.adams3909@example.com,+917611998785,"Abu Dhabi","Abu Dhabi",UAE,2018-08-16,2019-12-15,2177,7,37.85,264.95,390.89,62.06,5.17,"Bank Transfer",Paid,Toys,0,0,1,High
+642,100641,"Rohit Torres",rohit.torres2069@example.com,+917369339307,Nagpur,Maharashtra,India,2017-07-09,2022-06-27,1252,7,21.35,149.45,173.05,30.03,2.5,Wallet,Paid,Health,0,0,1,Mid
+643,100642,"Isabella Chaudhary",isabella.chaudhary7759@example.com,+917370187137,Delhi,Delhi,India,2016-05-14,2017-07-17,3058,5,17.3,86.5,89.13,41.24,3.44,Wallet,Paid,Electronics,0,0,1,Mid
+644,100643,"Esha Lewis",esha.lewis1875@example.com,+919687587686,"Los Angeles",California,"United States",2018-07-25,2023-01-14,1051,9,33.8,304.2,325.29,74.39,6.2,"Net Banking",Paid,Automotive,0,0,1,Top
+645,100644,"Noah Silva",noah.silva9241@example.com,+916515926136,Patna,Bihar,India,2023-01-02,2024-07-01,517,2,9.49,18.98,20.2,7.28,0.61,"Net Banking",Paid,Sports,0,0,1,Low
+646,100645,"Ritu Pillai",ritu.pillai3572@example.com,+916065196306,Colombo,"Western Province","Sri Lanka",2015-07-01,2019-08-23,2291,8,18.63,149.04,208.33,143.67,11.97,"Cash on Delivery",Paid,Health,0,0,1,Mid
+647,100646,"Sophia Moore",sophia.moore7620@example.com,+918250602636,Noida,"Uttar Pradesh",India,2023-12-23,2024-09-26,430,4,83.84,335.36,456.62,113.35,9.45,UPI,Failed,Sports,0,0,1,Top
+648,100647,"Esha Malhotra",esha.malhotra4199@example.com,+917774696411,Islamabad,"Islamabad Capital Territory",Pakistan,2024-10-16,2025-03-13,262,8,33.6,241.92,305.42,42.84,3.57,"Net Banking",Paid,Books,1,0.1,0,High
+649,100648,"Karan Desai",karan.desai6044@example.com,+919335896214,Delhi,Delhi,India,2016-07-22,2017-11-18,2934,6,17.84,107.04,156.82,3.68,0.31,"Bank Transfer",Pending,Books,0,0,1,Mid
+650,100649,"Layla White",layla.white2750@example.com,+919664535965,Jalandhar,Punjab,India,2022-01-05,2022-07-16,1233,6,108.16,648.96,691.2,280.96,23.41,Wallet,Paid,Toys,0,0,1,Top
+651,100650,"Arjun Walker",arjun.walker9927@example.com,+916436683448,"Abu Dhabi","Abu Dhabi",UAE,2020-02-09,2022-02-10,1389,4,114.51,458.04,553.36,218.05,18.17,"Credit Card",Paid,Sports,0,0,1,Top
+652,100651,"Lakshmi Lopez",lakshmi.lopez9950@example.com,+918640196937,"Abu Dhabi","Abu Dhabi",UAE,2022-02-18,2024-01-08,692,5,86.59,432.95,496.07,68.88,5.74,"Credit Card",Pending,"Home & Kitchen",0,0,1,Top
+653,100652,"Gabriel Hussain",gabriel.hussain1877@example.com,+919545596856,Vadodara,Gujarat,India,2018-04-08,2019-01-22,2504,2,15.19,24.3,26.33,17.51,1.46,"Debit Card",Paid,Apparel,1,0.2,1,Low
+654,100653,"Hannah Singh",hannah.singh2684@example.com,+918549437243,Gurgaon,Haryana,India,2017-09-18,2022-09-27,1160,4,16.22,64.88,76.22,41.37,3.45,"Debit Card",Refunded,Health,0,0,1,Low
+655,100654,"Mateo Ghosh",mateo.ghosh5097@example.com,+917986499444,Kanpur,"Uttar Pradesh",India,2021-04-25,2022-07-08,1241,7,8.46,59.22,64.39,5.33,0.44,"Net Banking",Paid,Groceries,0,0,1,Low
+656,100655,"Akash Garcia",akash.garcia1772@example.com,+919942529412,Nagpur,Maharashtra,India,2017-09-25,2025-09-28,63,1,60.68,60.68,77.69,28.6,2.38,"Credit Card",Paid,Groceries,0,0,0,Low
+657,100656,"David Iyer",david.iyer9482@example.com,+916013233299,Chennai,"Tamil Nadu",India,2025-07-08,2025-11-17,13,4,19.5,66.3,81.66,50.27,4.19,Wallet,Paid,Beauty,1,0.15,0,Low
+658,100657,"Sara Das",sara.das421@example.com,+919722129929,Bhopal,"Madhya Pradesh",India,2021-10-16,2025-05-29,185,5,91.31,456.55,604.16,100.05,8.34,"Debit Card",Paid,Health,0,0,0,Top
+659,100658,"Sebastian Sengupta",sebastian.sengupta5112@example.com,+918130420841,Delhi,Delhi,India,2023-01-03,2024-07-25,493,3,15.73,47.19,62.31,30.29,2.52,"Credit Card",Paid,Health,0,0,1,Low
+660,100659,"Sophia Thomas",sophia.thomas9434@example.com,+919641972196,Hyderabad,Telangana,India,2024-11-04,2024-12-17,348,7,41.97,293.79,372.2,277.74,23.14,Wallet,Paid,Beauty,0,0,0,Top
+661,100660,"Kritika Sanchez",kritika.sanchez6150@example.com,+919115472323,Toronto,Ontario,Canada,2016-04-19,2023-07-15,869,4,16.72,66.88,80.37,12.89,1.07,UPI,Paid,Automotive,0,0,1,Low
+662,100661,"Saanvi Miller",saanvi.miller6499@example.com,+919205299552,Gurgaon,Haryana,India,2024-08-11,2025-04-19,225,4,117.98,471.92,589.58,237.97,19.83,"Credit Card",Paid,Groceries,0,0,0,Top
+663,100662,"Vikram Hussain",vikram.hussain3250@example.com,+918157956206,Nagpur,Maharashtra,India,2021-04-23,2023-05-30,915,3,30.46,91.38,98.18,2.84,0.24,"Credit Card",Paid,Toys,0,0,1,Mid
+664,100663,"Priya Bhatt",priya.bhatt1246@example.com,+916888964758,Delhi,Delhi,India,2016-02-19,2016-06-19,3451,11,48.64,535.04,636.29,357.76,29.81,"Credit Card",Paid,Sports,0,0,1,Top
+665,100664,"Naveen Kumar",naveen.kumar9701@example.com,+918682831957,Chennai,"Tamil Nadu",India,2022-09-01,2023-09-19,803,5,35.22,176.1,263.74,1.66,0.14,"Credit Card",Refunded,"Home & Kitchen",0,0,1,High
+666,100665,"Ritu Martinez",ritu.martinez3979@example.com,+919396042795,Muscat,Muscat,Oman,2023-04-21,2025-07-18,135,6,26.48,142.99,165.98,32.67,2.72,"Debit Card",Pending,Groceries,1,0.1,0,Mid
+667,100666,"Sara Ali",sara.ali1670@example.com,+916887446940,Patna,Bihar,India,2019-04-06,2020-11-11,1845,1,12.81,12.81,17.07,10.54,0.88,"Net Banking",Paid,"Home & Kitchen",0,0,1,Low
+668,100667,"Lina Solanki",lina.solanki4942@example.com,+918913779494,"Abu Dhabi","Abu Dhabi",UAE,2018-12-14,2024-05-13,566,9,63.88,459.94,483.07,82.43,6.87,UPI,Paid,"Home & Kitchen",1,0.2,1,Top
+669,100668,"Pooja Bhattacharya",pooja.bhattacharya9838@example.com,+916343931216,"San Francisco",California,"United States",2018-02-10,2024-03-20,620,5,113.35,566.75,706.1,326.81,27.23,"Net Banking",Paid,Electronics,0,0,1,Top
+670,100669,"Elijah Lewis",elijah.lewis1984@example.com,+917008934940,Sydney,"New South Wales",Australia,2018-07-14,2021-01-15,1780,5,33.63,159.74,171.83,124.29,10.36,UPI,Paid,"Home & Kitchen",1,0.05,1,High
+671,100670,"Arjun Naik",arjun.naik9273@example.com,+916549348157,Lagos,Lagos,Nigeria,2021-08-20,2025-05-12,202,6,45.73,274.38,283.69,189.32,15.78,UPI,Failed,"Home & Kitchen",0,0,0,High
+672,100671,"Arnav Reddy",arnav.reddy673@example.com,+918673539262,"Los Angeles",California,"United States",2018-02-25,2019-04-25,2411,6,47.79,286.74,322.16,149.3,12.44,"Bank Transfer",Paid,Electronics,0,0,1,High
+673,100672,"Deepak Munshi",deepak.munshi5689@example.com,+917305629082,Nashik,Maharashtra,India,2025-04-17,2025-05-18,196,5,9.57,47.85,71.64,20.71,1.73,UPI,Paid,Groceries,0,0,0,Low
+674,100673,"Anya Wilson",anya.wilson8729@example.com,+916138635620,Auckland,Auckland,"New Zealand",2021-01-20,2023-03-27,979,7,26.27,183.89,236.97,14.26,1.19,"Debit Card",Failed,Electronics,0,0,1,High
+675,100674,"Jack Shrivastava",jack.shrivastava7019@example.com,+916714974552,Varanasi,"Uttar Pradesh",India,2015-04-08,2021-09-16,1536,3,117.97,353.91,442.7,75.31,6.28,"Cash on Delivery",Paid,Automotive,0,0,1,Top
+676,100675,"Aanya Wright",aanya.wright6072@example.com,+918904460264,Melbourne,Victoria,Australia,2019-08-08,2023-06-06,908,7,43.01,301.07,424.18,19.24,1.6,UPI,Paid,Groceries,0,0,1,Top
+677,100676,"Benjamin Jain",benjamin.jain1130@example.com,+918022708525,Auckland,Auckland,"New Zealand",2016-07-05,2018-02-24,2836,7,7.12,44.86,49.95,18.4,1.53,"Debit Card",Paid,"Home & Kitchen",1,0.1,1,Low
+678,100677,"Dylan Clark",dylan.clark8290@example.com,+919411670105,Vadodara,Gujarat,India,2015-08-13,2018-05-26,2745,4,53.34,213.36,283.87,187.86,15.66,"Debit Card",Paid,"Home & Kitchen",0,0,1,High
+679,100678,"Kritika Shah",kritika.shah5591@example.com,+917576862800,Dhaka,"Dhaka Division",Bangladesh,2021-06-25,2023-07-12,872,3,35.86,107.58,127.9,69.78,5.82,"Net Banking",Paid,Sports,0,0,1,Mid
+680,100679,"Michael Miller",michael.miller208@example.com,+918525667904,"San Francisco",California,"United States",2022-07-13,2025-11-29,1,3,57.7,173.1,240.63,160.62,13.38,UPI,Failed,Automotive,0,0,0,High
+681,100680,"Anthony Menon",anthony.menon6883@example.com,+917249540402,Kanpur,"Uttar Pradesh",India,2018-07-19,2020-09-21,1896,6,19.79,118.74,165.6,65.23,5.44,"Debit Card",Paid,Groceries,0,0,1,Mid
+682,100681,"Rakesh Chaudhary",rakesh.chaudhary8032@example.com,+916780012582,"San Francisco",California,"United States",2023-12-16,2025-07-14,139,11,20.51,225.61,298.2,187.47,15.62,"Net Banking",Paid,Books,0,0,0,High
+683,100682,"Vihaan Roy",vihaan.roy1730@example.com,+917541746003,Vancouver,"British Columbia",Canada,2016-06-21,2018-05-21,2750,2,7.51,12.02,14.01,10.39,0.86,"Debit Card",Paid,Sports,1,0.2,1,Low
+684,100683,"Shreya Agarwal",shreya.agarwal7103@example.com,+919873111506,Hyderabad,Telangana,India,2023-04-09,2025-02-08,295,3,44.91,134.73,175.09,91.51,7.63,"Net Banking",Paid,Health,0,0,0,Mid
+685,100684,"Alexander Johnson",alexander.johnson5935@example.com,+916183851649,Lucknow,"Uttar Pradesh",India,2023-06-15,2023-12-06,725,8,19.56,125.18,139.09,20.97,1.74,"Credit Card",Paid,Electronics,1,0.2,1,Mid
+686,100685,"Nikhil Green",nikhil.green7533@example.com,+916283292664,Auckland,Auckland,"New Zealand",2020-07-19,2020-11-08,1848,5,53.58,267.9,368.32,149.04,12.42,Wallet,Paid,Books,0,0,1,High
+687,100686,"Amit Nguyen",amit.nguyen2507@example.com,+919811143134,Gurgaon,Haryana,India,2021-11-17,2025-02-18,285,4,16.47,65.88,67.73,22.6,1.88,"Credit Card",Paid,Apparel,0,0,0,Low
+688,100687,"Lucas Patel",lucas.patel7136@example.com,+917733165063,Nashik,Maharashtra,India,2018-10-01,2019-05-18,2388,5,68.31,341.55,346.6,246.28,20.52,"Bank Transfer",Paid,Automotive,0,0,1,Top
+689,100688,"Emma Adams",emma.adams2886@example.com,+917604085256,Auckland,Auckland,"New Zealand",2020-08-11,2021-11-15,1476,7,53.7,375.9,525.91,22.83,1.9,Wallet,Paid,Apparel,0,0,1,Top
+690,100689,"Esha Joshi",esha.joshi8549@example.com,+917925474262,Ahmedabad,Gujarat,India,2025-07-07,2025-08-17,105,4,38.38,153.52,162.3,150.32,12.53,"Debit Card",Paid,Apparel,0,0,0,High
+691,100690,"Julian White",julian.white4426@example.com,+917565263495,Jaipur,Rajasthan,India,2022-02-09,2023-08-29,824,4,73.12,248.61,272.88,2.92,0.25,"Net Banking",Paid,Electronics,1,0.15,1,High
+692,100691,"Sebastian Khan",sebastian.khan8818@example.com,+917567181110,Bengaluru,Karnataka,India,2024-03-08,2024-05-10,569,6,9.2,55.2,65.31,17.68,1.47,UPI,Paid,Toys,0,0,1,Low
+693,100692,"Grayson Anderson",grayson.anderson7922@example.com,+917371568487,"New York","New York","United States",2019-06-06,2019-09-27,2256,9,12.29,99.55,100.3,5.18,0.43,"Debit Card",Paid,Automotive,1,0.1,1,Mid
+694,100693,"Amit Kohli",amit.kohli7617@example.com,+918039157431,Delhi,Delhi,India,2015-09-01,2020-09-26,1891,9,48.15,433.35,617.26,219.98,18.33,"Credit Card",Paid,Apparel,0,0,1,Top
+695,100694,"Esha Joshi",esha.joshi7137@example.com,+917293990411,"Los Angeles",California,"United States",2020-01-14,2021-11-19,1472,2,66.81,133.62,141.89,112.44,9.37,"Bank Transfer",Paid,Sports,0,0,1,Mid
+696,100695,"Jacob Scott",jacob.scott9708@example.com,+918239512773,"San Francisco",California,"United States",2016-10-05,2024-06-11,537,5,67.5,337.5,392.87,112.22,9.35,"Credit Card",Paid,Toys,0,0,1,Top
+697,100696,"Rakesh Kapoor",rakesh.kapoor4398@example.com,+917623612089,Agra,"Uttar Pradesh",India,2018-12-20,2020-03-04,2097,6,48.6,291.6,324.74,49.94,4.16,"Bank Transfer",Paid,Books,0,0,1,Top
+698,100697,"Priya Chakrabarti",priya.chakrabarti5281@example.com,+916911341884,Coimbatore,"Tamil Nadu",India,2015-09-06,2017-03-03,3194,7,18.01,126.07,164.68,72.41,6.03,UPI,Paid,Beauty,0,0,1,Mid
+699,100698,"Leah Naik",leah.naik4023@example.com,+918725593754,Dhaka,"Dhaka Division",Bangladesh,2024-06-06,2024-09-18,438,7,53.01,371.07,438.13,164.45,13.7,UPI,Paid,Beauty,0,0,1,Top
+700,100699,"Sophia Lopez",sophia.lopez1420@example.com,+916637636967,"Cape Town","Western Cape","South Africa",2024-08-26,2025-05-18,196,1,91.14,91.14,124.46,12.79,1.07,"Net Banking",Paid,Apparel,0,0,0,Mid
+701,100700,"Siddharth Khan",siddharth.khan4570@example.com,+918384755175,Coimbatore,"Tamil Nadu",India,2025-01-13,2025-09-01,90,5,18.07,90.35,128.96,10.41,0.87,"Net Banking",Paid,Toys,0,0,0,Mid
+702,100701,"Leah Torres",leah.torres7386@example.com,+916305981296,Dubai,Dubai,UAE,2021-09-03,2024-10-02,424,5,59.32,296.6,308.17,150.07,12.51,"Credit Card",Paid,Beauty,0,0,1,Top
+703,100702,"Daniel Nguyen",daniel.nguyen3996@example.com,+916046194292,"Abu Dhabi","Abu Dhabi",UAE,2017-02-17,2025-07-11,142,9,44.81,403.29,501.76,264.51,22.04,UPI,Refunded,"Home & Kitchen",0,0,0,Top
+704,100703,"Lucas Malhotra",lucas.malhotra7614@example.com,+918944139993,Vadodara,Gujarat,India,2017-02-17,2025-02-07,296,3,31.84,95.52,127.38,33.81,2.82,"Net Banking",Paid,Beauty,0,0,0,Mid
+705,100704,"Esha Kapoor",esha.kapoor9337@example.com,+919893763566,Jaipur,Rajasthan,India,2022-02-19,2023-12-09,722,3,11.05,33.15,39.32,6.56,0.55,"Cash on Delivery",Paid,Automotive,0,0,1,Low
+706,100705,"Aarav Sharma",aarav.sharma6210@example.com,+918861763104,London,England,"United Kingdom",2022-06-19,2024-02-06,663,5,70.67,353.35,449.53,295.59,24.63,"Credit Card",Paid,Automotive,0,0,1,Top
+707,100706,"Aditya Hill",aditya.hill5512@example.com,+918127769213,Gurgaon,Haryana,India,2022-12-27,2023-12-18,713,2,23.91,47.82,57.03,4.73,0.39,UPI,Paid,"Home & Kitchen",0,0,1,Low
+708,100707,"Joseph Sharma",joseph.sharma471@example.com,+918876074612,"Cape Town","Western Cape","South Africa",2017-06-18,2022-10-29,1128,4,10.63,42.52,47.47,36.28,3.02,"Credit Card",Paid,Toys,0,0,1,Low
+709,100708,"Leah Chaudhary",leah.chaudhary8099@example.com,+919213559551,Indore,"Madhya Pradesh",India,2023-11-03,2023-11-04,757,6,16.61,99.66,142.79,86.11,7.18,UPI,Paid,Apparel,0,0,1,Mid
+710,100709,"Mason Nguyen",mason.nguyen5326@example.com,+919240451277,Surat,Gujarat,India,2025-08-26,2025-09-17,74,4,69.67,278.68,338,258.08,21.51,"Cash on Delivery",Paid,Sports,0,0,0,High
+711,100710,"Ethan Khan",ethan.khan2980@example.com,+916013675757,Kolkata,"West Bengal",India,2015-03-30,2015-06-27,3809,7,10.8,75.6,100.73,22.41,1.87,"Credit Card",Paid,Health,0,0,1,Low
+712,100711,"Manish Sengupta",manish.sengupta7989@example.com,+919368183400,Dubai,Dubai,UAE,2016-08-30,2023-04-08,967,1,18.75,18.75,23.08,6.9,0.58,"Credit Card",Paid,Electronics,0,0,1,Low
+713,100712,"Ava Verma",ava.verma3476@example.com,+917464073862,Colombo,"Western Province","Sri Lanka",2015-07-25,2025-07-22,131,1,27.44,27.44,38.61,12.61,1.05,Wallet,Paid,Beauty,0,0,0,Low
+714,100713,"Harsh Iyer",harsh.iyer5814@example.com,+917693481167,Patna,Bihar,India,2024-02-06,2024-12-08,357,1,45.49,43.22,48.11,30,2.5,"Credit Card",Paid,Beauty,1,0.05,0,Low
+715,100714,"Anya Bhatt",anya.bhatt4233@example.com,+916254771962,Toronto,Ontario,Canada,2019-09-07,2023-04-28,947,4,34.68,138.72,142.94,128.92,10.74,"Net Banking",Failed,Books,0,0,1,Mid
+716,100715,"Isha Anderson",isha.anderson5577@example.com,+919742843097,Mysore,Karnataka,India,2023-08-22,2024-08-06,481,4,17.53,70.12,95.53,32.27,2.69,"Credit Card",Paid,Books,0,0,1,Low
+717,100716,"Sophia Chakrabarti",sophia.chakrabarti4582@example.com,+919818955198,Chennai,"Tamil Nadu",India,2021-02-18,2023-09-04,818,2,30.69,61.38,78.85,43.56,3.63,UPI,Refunded,Electronics,0,0,1,Low
+718,100717,"Kunal Torres",kunal.torres9768@example.com,+917449052986,Lucknow,"Uttar Pradesh",India,2017-01-30,2019-12-02,2190,6,20.01,120.06,126.89,61.66,5.14,"Credit Card",Paid,Electronics,0,0,1,Mid
+719,100718,"Rakesh Moore",rakesh.moore4527@example.com,+917350963485,Chennai,"Tamil Nadu",India,2023-12-13,2025-11-26,4,5,16.33,81.65,86.25,44.29,3.69,"Credit Card",Paid,Groceries,0,0,0,Mid
+720,100719,"Varun Dutta",varun.dutta9107@example.com,+918056623456,Sydney,"New South Wales",Australia,2016-08-06,2021-05-11,1664,6,30.01,171.06,224.09,166.07,13.84,"Debit Card",Paid,Health,1,0.05,1,High
+721,100720,"Rakesh Khandelwal",rakesh.khandelwal167@example.com,+916902719302,Agra,"Uttar Pradesh",India,2015-02-24,2017-05-10,3126,5,13.43,67.15,79.76,53.85,4.49,"Net Banking",Paid,Health,0,0,1,Low
+722,100721,"Lucas Kapoor",lucas.kapoor8465@example.com,+918247860995,Gurgaon,Haryana,India,2018-08-08,2025-07-14,139,5,16.97,84.85,108.71,29.11,2.43,Wallet,Paid,Automotive,0,0,0,Mid
+723,100722,"Maya Gupta",maya.gupta3131@example.com,+919079811983,Dubai,Dubai,UAE,2017-05-29,2023-10-08,784,4,7.97,31.88,41.54,19.38,1.62,Wallet,Failed,Automotive,0,0,1,Low
+724,100723,"Rhea White",rhea.white1403@example.com,+918686725870,Indore,"Madhya Pradesh",India,2023-10-24,2023-11-14,747,5,135.5,677.5,684.09,670.24,55.85,"Debit Card",Paid,Sports,0,0,1,Top
+725,100724,"Owen Singh",owen.singh3955@example.com,+919277554683,Gurgaon,Haryana,India,2024-01-31,2024-11-24,371,4,35.57,142.28,158.74,49.28,4.11,"Debit Card",Paid,Toys,0,0,1,Mid
+726,100725,"Jayden Hussain",jayden.hussain6659@example.com,+919599646953,Colombo,"Western Province","Sri Lanka",2020-09-20,2024-12-30,335,6,36.61,219.66,237.17,177.63,14.8,UPI,Paid,Toys,0,0,0,High
+727,100726,"Mateo Iyer",mateo.iyer8005@example.com,+917219121349,"San Francisco",California,"United States",2018-03-03,2020-11-16,1840,6,160.03,960.18,1239.21,381.38,31.78,UPI,Paid,Electronics,0,0,1,Top
+728,100727,"Shreya Clark",shreya.clark9097@example.com,+916497347694,"New York","New York","United States",2018-10-11,2021-04-25,1680,3,48.55,145.65,178.97,58.5,4.88,UPI,Paid,Apparel,0,0,1,Mid
+729,100728,"Ella Johnson",ella.johnson3938@example.com,+916218155818,Dubai,Dubai,UAE,2023-11-08,2024-03-02,638,8,86.34,690.72,812.51,42.09,3.51,"Credit Card",Pending,Health,0,0,1,Top
+730,100729,"Amit Joshi",amit.joshi7801@example.com,+918457770632,Mumbai,Maharashtra,India,2016-10-24,2024-05-10,569,7,87.83,614.81,777.67,209.82,17.48,UPI,Paid,"Home & Kitchen",0,0,1,Top
+731,100730,"Siddharth Naik",siddharth.naik8042@example.com,+917738287742,Hyderabad,Telangana,India,2021-03-26,2023-08-14,839,3,18.43,52.53,74.91,43.77,3.65,Wallet,Paid,Sports,1,0.05,1,Low
+732,100731,"Isabella Hill",isabella.hill7343@example.com,+916028473400,Bhubaneswar,Odisha,India,2016-04-01,2022-06-30,1249,4,25.09,100.36,148.5,73.72,6.14,"Credit Card",Paid,Beauty,0,0,1,Mid
+733,100732,"Akash Bhatt",akash.bhatt283@example.com,+919344969217,Coimbatore,"Tamil Nadu",India,2017-04-26,2018-12-11,2546,3,5.85,17.55,25.19,13.8,1.15,Wallet,Paid,"Home & Kitchen",0,0,1,Low
+734,100733,"Maya Hussain",maya.hussain1525@example.com,+916123187216,Chennai,"Tamil Nadu",India,2017-10-22,2018-02-13,2847,5,24.21,96.84,98.46,71.58,5.97,UPI,Paid,Sports,1,0.2,1,Mid
+735,100734,"Omar White",omar.white4821@example.com,+919205626692,Coimbatore,"Tamil Nadu",India,2021-06-04,2023-12-27,704,4,45.17,180.68,183.52,45.97,3.83,"Net Banking",Failed,Beauty,0,0,1,High
+736,100735,"Karan Nair",karan.nair3631@example.com,+917853665304,"Cape Town","Western Cape","South Africa",2020-04-02,2025-03-11,264,6,40.14,240.84,313.85,236.34,19.7,"Debit Card",Paid,"Home & Kitchen",0,0,0,High
+737,100736,"Neha Saxena",neha.saxena6626@example.com,+919986193367,Hyderabad,Telangana,India,2020-10-08,2023-09-12,810,5,36.41,182.05,219.13,38.28,3.19,"Credit Card",Paid,Health,0,0,1,High
+738,100737,"Nikhil Nguyen",nikhil.nguyen3987@example.com,+917630061028,Muscat,Muscat,Oman,2018-07-21,2022-09-07,1180,8,5.24,41.92,42.53,7.95,0.66,"Cash on Delivery",Paid,Beauty,0,0,1,Low
+739,100738,"Aarav White",aarav.white5017@example.com,+919556439070,Mysore,Karnataka,India,2024-03-25,2024-09-09,447,3,27.38,82.14,84.07,47.34,3.94,UPI,Pending,Electronics,0,0,1,Mid
+740,100739,"Emma Prasad",emma.prasad9529@example.com,+916500090071,Chennai,"Tamil Nadu",India,2024-03-08,2025-06-12,171,2,19.83,31.73,38.43,4.24,0.35,"Cash on Delivery",Paid,Beauty,1,0.2,0,Low
+741,100740,"Aditya Chaudhary",aditya.chaudhary6047@example.com,+917752433568,Bhopal,"Madhya Pradesh",India,2020-01-05,2023-09-26,796,5,128.09,640.45,743.36,588.37,49.03,Wallet,Paid,Groceries,0,0,1,Top
+742,100741,"Rohit Martinez",rohit.martinez7754@example.com,+919773574261,Nairobi,Nairobi,Kenya,2025-06-03,2025-08-05,117,28,33.87,948.36,952.06,650.53,54.21,"Debit Card",Paid,Health,0,0,0,Top
+743,100742,"Gabriel Rao",gabriel.rao9069@example.com,+919453515199,Colombo,"Western Province","Sri Lanka",2018-07-29,2020-01-28,2133,8,11.69,93.52,106.95,0.89,0.07,"Debit Card",Paid,"Home & Kitchen",0,0,1,Mid
+744,100743,"Isabella Singh",isabella.singh8699@example.com,+918895005514,Dubai,Dubai,UAE,2024-09-16,2025-10-01,60,10,63.39,633.9,825.51,9.63,0.8,UPI,Paid,Books,0,0,0,Top
+745,100744,"Mateo King",mateo.king5633@example.com,+919700080465,Vadodara,Gujarat,India,2016-09-05,2017-02-04,3221,7,32.93,230.51,328.78,164.47,13.71,UPI,Paid,Electronics,0,0,1,High
+746,100745,"Ravi Das",ravi.das6972@example.com,+916287069659,Vadodara,Gujarat,India,2024-06-03,2025-07-09,144,7,89.89,629.23,719.41,614.91,51.24,Wallet,Paid,Apparel,0,0,0,Top
+747,100746,"Sebastian Robinson",sebastian.robinson9018@example.com,+918834641303,Colombo,"Western Province","Sri Lanka",2024-06-30,2024-10-09,417,6,19.86,119.16,161.98,116.37,9.7,"Net Banking",Paid,Apparel,0,0,1,Mid
+748,100747,"Zoe Lewis",zoe.lewis5420@example.com,+917472626345,"New York","New York","United States",2025-03-04,2025-06-11,172,7,23.08,113.09,144.41,73.63,6.14,UPI,Paid,Sports,1,0.3,0,Mid
+749,100748,"Rohit Lopez",rohit.lopez5765@example.com,+916831843557,Agra,"Uttar Pradesh",India,2017-07-04,2020-11-09,1847,9,14.24,128.16,128.92,117.13,9.76,"Debit Card",Paid,Beauty,0,0,1,Mid
+750,100749,"Daniel Garcia",daniel.garcia7435@example.com,+916340532658,Toronto,Ontario,Canada,2016-08-16,2017-12-21,2901,8,44.97,359.76,501.75,23,1.92,"Debit Card",Pending,Beauty,0,0,1,Top
+751,100750,"David Trivedi",david.trivedi4439@example.com,+917891955623,Bengaluru,Karnataka,India,2019-03-26,2021-01-26,1769,3,99.7,299.1,308.11,265.79,22.15,UPI,Refunded,Apparel,0,0,1,Top
+752,100751,"Puja Harris",puja.harris5024@example.com,+917625500692,Mysore,Karnataka,India,2019-03-23,2024-05-09,570,5,43.3,216.5,248.74,18.28,1.52,"Credit Card",Paid,Automotive,0,0,1,High
+753,100752,"Sneha Jones",sneha.jones4119@example.com,+917743219864,"San Francisco",California,"United States",2015-12-18,2017-03-04,3193,6,22.9,137.4,177.49,116.15,9.68,"Net Banking",Paid,Groceries,0,0,1,Mid
+754,100753,"Aanya Thomas",aanya.thomas3778@example.com,+916089536508,Lagos,Lagos,Nigeria,2015-05-13,2017-07-04,3071,6,16.16,96.96,142.45,48.75,4.06,"Bank Transfer",Failed,Apparel,0,0,1,Mid
+755,100754,"Leah Patel",leah.patel1977@example.com,+919455327350,Visakhapatnam,"Andhra Pradesh",India,2017-05-09,2019-10-28,2225,6,9.55,57.3,77.43,29.78,2.48,UPI,Paid,Automotive,0,0,1,Low
+756,100755,"Shreya Silva",shreya.silva3156@example.com,+918976039946,Toronto,Ontario,Canada,2021-03-02,2024-05-04,575,5,32.3,161.5,207.11,46.64,3.89,"Credit Card",Paid,Beauty,0,0,1,High
+757,100756,"Grayson Sanchez",grayson.sanchez5170@example.com,+916706624471,Auckland,Auckland,"New Zealand",2016-09-28,2021-10-31,1491,3,127.74,383.22,463.15,338.95,28.25,"Credit Card",Paid,Books,0,0,1,Top
+758,100757,"Aanya Naik",aanya.naik1959@example.com,+917259640538,Singapore,Singapore,Singapore,2016-04-07,2023-09-08,814,7,77.37,541.59,680.7,433.89,36.16,"Debit Card",Failed,"Home & Kitchen",0,0,1,Top
+759,100758,"Sophia Reddy",sophia.reddy8780@example.com,+917253577055,Bhubaneswar,Odisha,India,2016-05-02,2019-03-30,2437,7,18.77,131.39,153.77,66.38,5.53,Wallet,Pending,"Home & Kitchen",0,0,1,Mid
+760,100759,"Amelia King",amelia.king3034@example.com,+918979071588,Vancouver,"British Columbia",Canada,2020-11-18,2025-06-01,182,3,71.19,213.57,300.99,171.77,14.31,UPI,Paid,Automotive,0,0,0,High
+761,100760,"Lina Martin",lina.martin3139@example.com,+917608573729,"Los Angeles",California,"United States",2019-08-19,2023-06-06,908,5,11.17,55.85,78.7,53.82,4.49,UPI,Paid,Beauty,0,0,1,Low
+762,100761,"Sneha Williams",sneha.williams3546@example.com,+917617502801,Dubai,Dubai,UAE,2016-12-10,2017-04-20,3146,4,29.49,117.96,135.8,67.55,5.63,"Bank Transfer",Paid,Health,0,0,1,Mid
+763,100762,"Leah Torres",leah.torres7934@example.com,+918580528535,Vancouver,"British Columbia",Canada,2015-01-31,2016-11-26,3291,5,18.82,94.1,97.37,37.76,3.15,UPI,Paid,Automotive,0,0,1,Mid
+764,100763,"Sumit Harris",sumit.harris4531@example.com,+917988666874,Mumbai,Maharashtra,India,2023-07-28,2023-11-25,736,3,19.7,59.1,86.77,43.78,3.65,Wallet,Refunded,"Home & Kitchen",0,0,1,Low
+765,100764,"Scarlett Martin",scarlett.martin9660@example.com,+919016700683,Singapore,Singapore,Singapore,2018-08-01,2021-10-31,1491,29,45.79,1327.91,1797.5,75.67,6.31,"Credit Card",Paid,Books,0,0,1,Top
+766,100765,"Logan Dutta",logan.dutta8596@example.com,+918533477420,Gurgaon,Haryana,India,2023-11-28,2024-11-30,365,3,10.93,32.79,47.66,14.63,1.22,"Debit Card",Paid,Groceries,0,0,0,Low
+767,100766,"Pooja Green",pooja.green9778@example.com,+916392572538,Auckland,Auckland,"New Zealand",2023-06-27,2024-02-24,645,7,45.43,222.61,304.92,218.07,18.17,UPI,Paid,Groceries,1,0.3,1,High
+768,100767,"Ethan Perez",ethan.perez4637@example.com,+918191573075,Dubai,Dubai,UAE,2015-06-26,2016-09-04,3374,3,27.48,82.44,98.27,17.49,1.46,"Bank Transfer",Pending,Beauty,0,0,1,Mid
+769,100768,"Kritika Thomas",kritika.thomas1648@example.com,+916363447734,Dhaka,"Dhaka Division",Bangladesh,2022-07-15,2023-01-16,1049,8,32.21,257.68,302.56,7.87,0.66,UPI,Paid,Groceries,0,0,1,High
+770,100769,"Henry Kapoor",henry.kapoor3181@example.com,+917259936125,Surat,Gujarat,India,2016-06-09,2020-07-26,1953,6,22.98,124.09,125.25,58.53,4.88,"Debit Card",Paid,Automotive,1,0.1,1,Mid
+771,100770,"Harsh Reddy",harsh.reddy4854@example.com,+916914493808,"Abu Dhabi","Abu Dhabi",UAE,2019-03-04,2025-07-14,139,4,71.15,284.6,417.22,270.9,22.58,"Net Banking",Pending,Books,0,0,0,High
+772,100771,"Luke Trivedi",luke.trivedi3728@example.com,+916988457402,Colombo,"Western Province","Sri Lanka",2023-11-23,2025-03-22,253,10,57.22,543.59,723.47,327.02,27.26,"Debit Card",Paid,Health,1,0.05,0,Top
+773,100772,"Joseph Das",joseph.das5913@example.com,+919260512477,Visakhapatnam,"Andhra Pradesh",India,2024-08-07,2025-01-06,328,3,30.97,92.91,108.91,80.8,6.73,Wallet,Failed,Groceries,0,0,0,Mid
+774,100773,"Leah Chakrabarti",leah.chakrabarti2940@example.com,+918965561429,Vancouver,"British Columbia",Canada,2018-07-30,2025-06-15,168,6,8.04,48.24,50.81,37.38,3.12,"Credit Card",Paid,Groceries,0,0,0,Low
+775,100774,"Arnav Wright",arnav.wright4953@example.com,+919848661941,Pune,Maharashtra,India,2015-09-27,2021-01-06,1789,11,9.58,105.38,129.12,73.99,6.17,"Debit Card",Paid,Health,0,0,1,Mid
+776,100775,"Priya Scott",priya.scott232@example.com,+919774525923,"San Francisco",California,"United States",2017-09-19,2023-12-12,719,5,5.85,29.25,31.6,4.9,0.41,"Credit Card",Paid,Sports,0,0,1,Low
+777,100776,"Vikram Reddy",vikram.reddy8752@example.com,+919508474154,Delhi,Delhi,India,2015-07-12,2022-09-07,1180,8,166.71,1333.68,1640.52,1128.69,94.06,"Credit Card",Paid,Apparel,0,0,1,Top
+778,100777,"Lakshmi Chakrabarti",lakshmi.chakrabarti2074@example.com,+917662436936,"New York","New York","United States",2024-11-12,2025-06-22,161,3,41.89,125.67,188.4,106.82,8.9,"Net Banking",Paid,Apparel,0,0,0,Mid
+779,100778,"Isha Rao",isha.rao4495@example.com,+919722915741,Muscat,Muscat,Oman,2021-04-28,2025-10-09,52,6,40.71,232.05,301.66,218.46,18.2,"Debit Card",Paid,Groceries,1,0.05,0,High
+780,100779,"John Miller",john.miller746@example.com,+918662025752,Noida,"Uttar Pradesh",India,2023-06-23,2025-05-27,187,4,32.94,131.76,132.48,19.3,1.61,UPI,Paid,Sports,0,0,0,Mid
+781,100780,"James Silva",james.silva894@example.com,+917939391939,"Abu Dhabi","Abu Dhabi",UAE,2022-01-22,2025-08-20,102,4,26.49,95.36,136.82,93.09,7.76,"Debit Card",Paid,"Home & Kitchen",1,0.1,0,Mid
+782,100781,"Maya Patel",maya.patel9067@example.com,+917409353569,Lucknow,"Uttar Pradesh",India,2021-07-31,2023-11-28,733,3,8.71,26.13,27.96,7.82,0.65,UPI,Paid,Books,0,0,1,Low
+783,100782,"Manish Das",manish.das4787@example.com,+917967828247,Nairobi,Nairobi,Kenya,2021-12-18,2023-07-20,864,2,123.19,234.06,248.23,193.57,16.13,"Credit Card",Paid,Toys,1,0.05,1,High
+784,100783,"Elijah Bhatt",elijah.bhatt2069@example.com,+917427646211,Jaipur,Rajasthan,India,2019-05-26,2021-08-18,1565,9,99.67,672.77,723.67,30.42,2.54,"Net Banking",Paid,Groceries,1,0.25,1,Top
+785,100784,"Ananya Walker",ananya.walker8043@example.com,+919637653076,Auckland,Auckland,"New Zealand",2024-03-16,2024-07-01,517,6,74.7,448.2,668.66,320.97,26.75,UPI,Paid,Toys,0,0,1,Top
+786,100785,"Ava Hussain",ava.hussain1681@example.com,+919401985932,"New York","New York","United States",2016-12-07,2019-04-30,2406,4,14.94,59.76,76.31,42.02,3.5,UPI,Paid,"Home & Kitchen",0,0,1,Low
+787,100786,"Ishaan Perez",ishaan.perez201@example.com,+917554515935,Bhubaneswar,Odisha,India,2021-10-30,2022-11-13,1113,23,10.64,244.72,252.96,177.61,14.8,"Bank Transfer",Paid,Groceries,0,0,1,High
+788,100787,"Arjun Allen",arjun.allen9406@example.com,+917128963311,Indore,"Madhya Pradesh",India,2018-05-02,2022-10-29,1128,5,8.96,44.8,50.65,32.26,2.69,"Credit Card",Paid,Groceries,0,0,1,Low
+789,100788,"Harsh Kapoor",harsh.kapoor4659@example.com,+917688776103,Islamabad,"Islamabad Capital Territory",Pakistan,2017-01-07,2017-10-22,2961,5,26.77,120.46,142.63,48.99,4.09,UPI,Paid,Groceries,1,0.1,1,Mid
+790,100789,"Benjamin Rodriguez",benjamin.rodriguez7691@example.com,+919372880221,Gurgaon,Haryana,India,2023-10-12,2024-08-01,486,3,20.73,52.86,55.85,12.91,1.08,"Debit Card",Paid,Books,1,0.15,1,Low
+791,100790,"Akash Roy",akash.roy7844@example.com,+916071737190,Kanpur,"Uttar Pradesh",India,2023-11-05,2024-11-14,381,5,9.53,47.65,64.87,5.84,0.49,"Credit Card",Paid,Beauty,0,0,1,Low
+792,100791,"Zoe Khandelwal",zoe.khandelwal7217@example.com,+917651438655,Thiruvananthapuram,Kerala,India,2022-06-18,2024-05-08,571,4,28.45,113.8,164.89,82.57,6.88,"Credit Card",Paid,Health,0,0,1,Mid
+793,100792,"Omar Bhattacharya",omar.bhattacharya5583@example.com,+918390554627,Rajkot,Gujarat,India,2019-07-27,2020-03-10,2091,2,15.6,31.2,40.29,25.96,2.16,"Credit Card",Paid,Health,0,0,1,Low
+794,100793,"Rahul White",rahul.white3021@example.com,+916818353880,Coimbatore,"Tamil Nadu",India,2018-04-05,2024-12-25,340,6,37.65,225.9,294.99,2.17,0.18,"Credit Card",Paid,"Home & Kitchen",0,0,0,High
+795,100794,"Jayden White",jayden.white842@example.com,+917152433430,Lucknow,"Uttar Pradesh",India,2022-03-18,2023-03-04,1002,6,86.2,517.2,551.67,84.08,7.01,"Credit Card",Paid,"Home & Kitchen",0,0,1,Top
+796,100795,"Anil Wilson",anil.wilson4137@example.com,+919327834928,Agra,"Uttar Pradesh",India,2021-11-14,2023-08-17,836,3,15.08,45.24,60.17,14.84,1.24,"Debit Card",Paid,Beauty,0,0,1,Low
+797,100796,"Ethan Singh",ethan.singh7828@example.com,+916775921722,Noida,"Uttar Pradesh",India,2020-08-02,2022-02-19,1380,8,23.04,184.32,221.66,174.44,14.54,"Debit Card",Paid,Beauty,0,0,1,High
+798,100797,"Anthony Miller",anthony.miller1870@example.com,+917794957191,Bengaluru,Karnataka,India,2023-07-25,2023-07-28,856,4,53.85,215.4,268.5,151.53,12.63,"Net Banking",Paid,Automotive,0,0,1,High
+799,100798,"Dylan Verma",dylan.verma1071@example.com,+916091901267,Kolkata,"West Bengal",India,2020-07-05,2023-06-17,897,6,88.87,533.22,712.37,147.35,12.28,"Cash on Delivery",Paid,Electronics,0,0,1,Top
+800,100799,"Mia Verma",mia.verma6566@example.com,+917600828216,Amritsar,Punjab,India,2015-03-09,2025-08-26,96,9,64.41,579.69,818.04,38.89,3.24,"Cash on Delivery",Failed,Electronics,0,0,0,Top
+801,100800,"Pooja Gupta",pooja.gupta8057@example.com,+916834753234,Bhubaneswar,Odisha,India,2020-04-29,2021-08-16,1567,2,14.91,29.82,31.83,13.82,1.15,"Credit Card",Paid,"Home & Kitchen",0,0,1,Low
+802,100801,"Omar White",omar.white1214@example.com,+917011323027,Thiruvananthapuram,Kerala,India,2015-03-25,2018-08-09,2670,6,49.02,235.3,242.37,27.46,2.29,Wallet,Paid,Books,1,0.2,1,High
+803,100802,"Joseph Sethi",joseph.sethi9454@example.com,+919741230685,Rajkot,Gujarat,India,2017-06-14,2021-05-11,1664,5,16.11,80.55,112.18,78.75,6.56,"Net Banking",Failed,Apparel,0,0,1,Mid
+804,100803,"Harsh Singh",harsh.singh879@example.com,+918254389135,Jaipur,Rajasthan,India,2018-04-09,2019-02-11,2484,6,8.62,51.72,68.86,24.62,2.05,UPI,Paid,Electronics,0,0,1,Low
+805,100804,"Avery Martinez",avery.martinez2486@example.com,+918347416190,"Cape Town","Western Cape","South Africa",2018-10-15,2020-06-10,1999,4,40.03,160.12,195.51,47.87,3.99,UPI,Paid,Groceries,0,0,1,High
+806,100805,"Ella Reddy",ella.reddy2445@example.com,+916676033429,Sydney,"New South Wales",Australia,2019-03-28,2025-07-19,134,6,49.24,295.44,361.11,146.06,12.17,Wallet,Paid,Beauty,0,0,0,Top
+807,100806,"Aarav Shrivastava",aarav.shrivastava9222@example.com,+919491254711,Sydney,"New South Wales",Australia,2016-12-15,2018-01-05,2886,5,40.87,204.35,234.7,149.29,12.44,"Debit Card",Paid,Toys,0,0,1,High
+808,100807,"Rhea Khan",rhea.khan4979@example.com,+918704314406,Patna,Bihar,India,2015-10-23,2023-02-13,1021,7,43.11,301.77,303.78,55.33,4.61,"Debit Card",Paid,Health,0,0,1,Top
+809,100808,"Olivia Joshi",olivia.joshi1396@example.com,+917332709581,Vancouver,"British Columbia",Canada,2018-12-29,2022-08-04,1214,7,42.8,299.6,374.52,165,13.75,"Net Banking",Paid,Health,0,0,1,Top
+810,100809,"Isha Gupta",isha.gupta4067@example.com,+918611342686,Chennai,"Tamil Nadu",India,2019-01-11,2025-02-03,300,2,83.59,167.18,217.21,102.27,8.52,UPI,Paid,Groceries,0,0,0,High
+811,100810,"Leah Kapoor",leah.kapoor1941@example.com,+919025502808,Indore,"Madhya Pradesh",India,2018-09-15,2025-11-15,15,7,14.89,104.23,149.01,10.77,0.9,UPI,Paid,Groceries,0,0,0,Mid
+812,100811,"Wyatt Chaudhary",wyatt.chaudhary9144@example.com,+918528966178,Indore,"Madhya Pradesh",India,2016-07-13,2021-10-29,1493,6,45.09,270.54,373.83,135.1,11.26,"Credit Card",Pending,Health,0,0,1,High
+813,100812,"James Sethi",james.sethi6819@example.com,+917869318582,Kathmandu,Bagmati,Nepal,2020-06-09,2020-09-12,1905,4,119.75,479,519.47,299.92,24.99,"Net Banking",Paid,Apparel,0,0,1,Top
+814,100813,"Layla Kumar",layla.kumar9934@example.com,+918527096831,Patna,Bihar,India,2025-01-21,2025-11-27,3,3,26.58,79.74,84.66,5.3,0.44,"Debit Card",Paid,Sports,0,0,0,Mid
+815,100814,"Arjun Solanki",arjun.solanki9767@example.com,+917719086359,"Abu Dhabi","Abu Dhabi",UAE,2017-11-14,2021-09-06,1546,3,81.7,245.1,247.96,183.94,15.33,"Cash on Delivery",Pending,Groceries,0,0,1,High
+816,100815,"Aditya Kapoor",aditya.kapoor3698@example.com,+917619918459,Auckland,Auckland,"New Zealand",2016-09-19,2018-08-24,2655,2,79.91,159.82,219.35,116.19,9.68,"Credit Card",Paid,Sports,0,0,1,High
+818,100817,"Tarun Adams",tarun.adams6233@example.com,+916215517184,Vancouver,"British Columbia",Canada,2024-07-24,2025-03-01,274,4,9.94,39.76,52.42,34.21,2.85,Wallet,Pending,Health,0,0,0,Low
+819,100818,"Noah Kapoor",noah.kapoor7382@example.com,+918348208655,Indore,"Madhya Pradesh",India,2016-03-26,2018-07-30,2680,5,64.31,225.08,315.64,129.06,10.75,"Credit Card",Paid,Beauty,1,0.3,1,High
+820,100819,"Deepak Martin",deepak.martin7254@example.com,+919024534158,Sydney,"New South Wales",Australia,2019-06-24,2023-09-19,803,5,96.49,482.45,704.68,329.14,27.43,"Net Banking",Paid,Beauty,0,0,1,Top
+821,100820,"Sebastian Johnson",sebastian.johnson4872@example.com,+919356061883,Gurgaon,Haryana,India,2021-05-22,2025-10-01,60,6,30.71,184.26,226.06,158.3,13.19,"Credit Card",Paid,Health,0,0,0,High
+822,100821,"Sebastian Saxena",sebastian.saxena9643@example.com,+919671953886,Jaipur,Rajasthan,India,2025-05-11,2025-10-22,39,5,9.57,47.85,62.55,42.67,3.56,UPI,Paid,Electronics,0,0,0,Low
+823,100822,"Jack Garcia",jack.garcia7026@example.com,+919117674967,Noida,"Uttar Pradesh",India,2016-02-26,2018-03-21,2811,12,24.86,298.32,334.17,185.83,15.49,"Net Banking",Paid,Apparel,0,0,1,Top
+824,100823,"Kritika Nguyen",kritika.nguyen5004@example.com,+919491180125,Surat,Gujarat,India,2021-07-20,2024-01-13,687,3,12.14,36.42,39.51,36.3,3.02,UPI,Paid,Groceries,0,0,1,Low
+825,100824,"Jayden Nguyen",jayden.nguyen9317@example.com,+918944234899,Rajkot,Gujarat,India,2024-11-19,2025-04-07,237,6,54.08,324.48,404.01,130.05,10.84,"Net Banking",Paid,"Home & Kitchen",0,0,0,Top
+826,100825,"Samuel Torres",samuel.torres987@example.com,+916495274100,Nashik,Maharashtra,India,2019-01-01,2020-12-25,1801,7,89.09,623.63,832.32,329.64,27.47,"Credit Card",Paid,Health,0,0,1,Top
+827,100826,"Henry Brown",henry.brown9989@example.com,+918207155770,Nashik,Maharashtra,India,2023-07-05,2023-11-23,738,5,13.42,67.1,92.31,32.47,2.71,"Debit Card",Paid,Books,0,0,1,Low
+828,100827,"Aarav Garcia",aarav.garcia1626@example.com,+918002540312,Kanpur,"Uttar Pradesh",India,2020-06-09,2022-03-31,1340,5,71.78,358.9,466.58,24.66,2.06,"Net Banking",Paid,Books,0,0,1,Top
+829,100828,"Carlos Bose",carlos.bose3405@example.com,+919254719444,Kathmandu,Bagmati,Nepal,2018-12-26,2025-04-16,228,7,12.86,90.02,129.52,60.12,5.01,"Net Banking",Paid,Beauty,0,0,0,Mid
+830,100829,"Rakesh Walker",rakesh.walker3458@example.com,+917375343611,"Los Angeles",California,"United States",2024-03-02,2025-01-18,316,3,24.02,72.06,106.79,27.49,2.29,"Credit Card",Paid,"Home & Kitchen",0,0,0,Low
+831,100830,"Joseph Wright",joseph.wright4336@example.com,+918222767404,Kanpur,"Uttar Pradesh",India,2021-05-12,2022-07-27,1222,4,64.29,257.16,262.94,35.81,2.98,UPI,Paid,Electronics,0,0,1,High
+832,100831,"Vihaan Miller",vihaan.miller1331@example.com,+918387891264,Bengaluru,Karnataka,India,2023-10-22,2025-06-03,180,3,12.34,31.47,45.17,5.24,0.43,"Credit Card",Failed,Automotive,1,0.15,0,Low
+834,100833,"Benjamin Thompson",benjamin.thompson3930@example.com,+917238873306,Kathmandu,Bagmati,Nepal,2018-06-01,2023-01-31,1034,6,70.4,422.4,489.26,417.47,34.79,"Credit Card",Paid,Health,0,0,1,Top
+835,100834,"Varun Bisht",varun.bisht2848@example.com,+916463768972,Nairobi,Nairobi,Kenya,2016-04-14,2018-12-28,2529,4,23.57,94.28,135.24,74.09,6.17,UPI,Paid,Sports,0,0,1,Mid
+836,100835,"Dev Nguyen",dev.nguyen9044@example.com,+917241787195,"San Francisco",California,"United States",2022-06-08,2024-05-07,572,4,55.33,221.32,248.97,25.11,2.09,"Credit Card",Paid,Beauty,0,0,1,High
+837,100836,"Leah Hill",leah.hill1230@example.com,+918746308619,Bhopal,"Madhya Pradesh",India,2021-05-15,2021-07-06,1608,6,22.59,135.54,193.19,104.63,8.72,UPI,Paid,Beauty,0,0,1,Mid
+838,100837,"Layla Chakrabarti",layla.chakrabarti2565@example.com,+916084400551,Auckland,Auckland,"New Zealand",2023-03-08,2023-08-14,839,4,22.56,85.73,104.76,37.54,3.13,"Cash on Delivery",Paid,Automotive,1,0.05,1,Mid
+839,100838,"Daniel Patel",daniel.patel44@example.com,+916828770013,Thiruvananthapuram,Kerala,India,2015-03-04,2021-09-06,1546,3,28.12,80.14,103.08,27.76,2.32,Wallet,Paid,Groceries,1,0.05,1,Mid
+840,100839,"Esha Bhatt",esha.bhatt6694@example.com,+917799746286,Jaipur,Rajasthan,India,2017-10-24,2024-04-13,596,4,39.94,159.76,217.11,8.22,0.68,"Debit Card",Paid,Electronics,0,0,1,High
+841,100840,"Anil Shah",anil.shah7382@example.com,+916958022625,Rajkot,Gujarat,India,2018-08-14,2024-07-24,494,3,48.1,129.87,182.8,29.4,2.45,UPI,Paid,Sports,1,0.1,1,Mid
+842,100841,"Dev Bhatt",dev.bhatt9730@example.com,+917313428579,Jalandhar,Punjab,India,2017-12-18,2020-05-19,2021,2,6.41,12.82,13.96,7.99,0.67,Wallet,Failed,"Home & Kitchen",0,0,1,Low
+843,100842,"Emma Munshi",emma.munshi7700@example.com,+918261054486,"Abu Dhabi","Abu Dhabi",UAE,2024-06-21,2025-06-02,181,5,44.56,222.8,226.99,131.64,10.97,"Net Banking",Paid,Books,0,0,0,High
+844,100843,"Aditya Moore",aditya.moore4772@example.com,+917910884450,"Abu Dhabi","Abu Dhabi",UAE,2021-06-10,2023-04-16,959,3,50.64,151.92,167.26,140.05,11.67,"Net Banking",Paid,Books,0,0,1,High
+845,100844,"Lina Williams",lina.williams535@example.com,+917117125498,"Abu Dhabi","Abu Dhabi",UAE,2015-07-21,2020-12-06,1820,4,53.24,212.96,270.88,43.4,3.62,UPI,Paid,Automotive,0,0,1,High
+846,100845,"Ravi Chaudhary",ravi.chaudhary3793@example.com,+917432991423,Vadodara,Gujarat,India,2019-11-16,2019-11-24,2198,3,27.76,79.12,81.44,46.58,3.89,"Credit Card",Paid,Toys,1,0.05,1,Mid
+847,100846,"Benjamin Miller",benjamin.miller4721@example.com,+916452251749,Kolkata,"West Bengal",India,2018-08-12,2025-09-06,85,9,25.78,208.82,228.74,147.32,12.28,UPI,Paid,Electronics,1,0.1,0,High
+848,100847,"Emma Green",emma.green4633@example.com,+916593193331,Kolkata,"West Bengal",India,2018-05-18,2024-04-16,593,3,49.73,149.19,172.44,68.58,5.72,UPI,Paid,Automotive,0,0,1,Mid
+849,100848,"Arjun Jones",arjun.jones7439@example.com,+919444546644,Pune,Maharashtra,India,2023-01-23,2025-07-24,129,7,66.5,465.5,600.69,185.63,15.47,"Credit Card",Paid,Beauty,0,0,0,Top
+850,100849,"Chloe Reddy",chloe.reddy1167@example.com,+919191734198,Delhi,Delhi,India,2024-09-08,2025-10-27,34,5,47.83,239.15,340.97,86.86,7.24,UPI,Failed,Electronics,0,0,0,High
+851,100850,"Chloe Trivedi",chloe.trivedi3825@example.com,+917676506254,Vancouver,"British Columbia",Canada,2020-07-28,2022-01-17,1413,9,43.58,392.22,510.2,217.84,18.15,"Debit Card",Paid,Sports,0,0,1,Top
+852,100851,"Isabella Williams",isabella.williams4335@example.com,+916519432352,Lucknow,"Uttar Pradesh",India,2020-11-24,2023-06-08,906,3,22.96,68.88,87.49,33.87,2.82,"Debit Card",Paid,Toys,0,0,1,Low
+853,100852,"Kritika Hussain",kritika.hussain9664@example.com,+919899075598,Agra,"Uttar Pradesh",India,2023-05-01,2024-06-25,523,3,33.08,99.24,112.29,57.85,4.82,"Debit Card",Paid,Apparel,0,0,1,Mid
+854,100853,"Maya Iyer",maya.iyer3242@example.com,+918421312929,Rajkot,Gujarat,India,2024-04-28,2025-03-28,247,5,34.37,171.85,184.44,41.13,3.43,"Credit Card",Paid,"Home & Kitchen",0,0,0,High
+856,100855,"Carter Pillai",carter.pillai1881@example.com,+917035661099,"San Francisco",California,"United States",2021-10-30,2022-08-09,1209,10,69.3,589.05,722.13,258.3,21.52,Wallet,Paid,Groceries,1,0.15,1,Top
+857,100856,"Jayden Iyer",jayden.iyer8923@example.com,+919721927785,"San Francisco",California,"United States",2016-08-24,2022-07-15,1234,5,78.48,392.4,492.93,188.77,15.73,"Debit Card",Refunded,Books,0,0,1,Top
+858,100857,"Karan Lewis",karan.lewis3684@example.com,+917933529611,Amritsar,Punjab,India,2018-05-16,2022-11-03,1123,2,146.73,293.46,345.69,35.2,2.93,Wallet,Paid,Beauty,0,0,1,Top
+859,100858,"Elijah Adams",elijah.adams2442@example.com,+918630518884,Bhubaneswar,Odisha,India,2015-08-18,2021-11-06,1485,4,6.15,24.6,29.81,6.78,0.57,Wallet,Paid,Books,0,0,1,Low
+860,100859,"Mateo Patel",mateo.patel4353@example.com,+916242765283,Mysore,Karnataka,India,2022-05-08,2023-07-10,874,4,32.5,130,148.46,65.07,5.42,"Net Banking",Paid,Apparel,0,0,1,Mid
+861,100860,"Carlos Bisht",carlos.bisht2331@example.com,+919719201570,Nagpur,Maharashtra,India,2021-11-23,2025-09-24,67,5,79.88,399.4,519.46,200.7,16.72,"Credit Card",Paid,Sports,0,0,0,Top
+862,100861,"Anya Taylor",anya.taylor1170@example.com,+916707448400,Pune,Maharashtra,India,2020-08-17,2023-09-08,814,4,19.52,78.08,86.02,12.89,1.07,"Credit Card",Paid,Groceries,0,0,1,Mid
+863,100862,"Logan Bhatt",logan.bhatt978@example.com,+916679315989,Hyderabad,Telangana,India,2020-11-12,2025-10-14,47,7,25.17,176.19,199.72,3.17,0.26,"Debit Card",Paid,Groceries,0,0,0,High
+864,100863,"Avery Parekh",avery.parekh2719@example.com,+918813008935,Visakhapatnam,"Andhra Pradesh",India,2019-05-05,2022-04-01,1339,2,9.51,19.02,26.44,9.77,0.81,"Debit Card",Paid,Automotive,0,0,1,Low
+865,100864,"Anya Taylor",anya.taylor5040@example.com,+919188645872,Lagos,Lagos,Nigeria,2023-12-18,2024-07-11,507,20,69.09,1381.8,1995.18,1205.29,100.44,"Credit Card",Paid,Toys,0,0,1,Top
+866,100865,"Lina Jones",lina.jones9750@example.com,+919839039725,Chennai,"Tamil Nadu",India,2019-10-18,2021-07-27,1587,7,36.1,252.7,310.48,131.55,10.96,"Debit Card",Paid,"Home & Kitchen",0,0,1,High
+867,100866,"Avery Trivedi",avery.trivedi9326@example.com,+918608451676,Dubai,Dubai,UAE,2019-07-10,2022-08-04,1214,4,114.48,457.92,552.26,273.99,22.83,"Bank Transfer",Refunded,Electronics,0,0,1,Top
+868,100867,"John Robinson",john.robinson4729@example.com,+916894589863,"Cape Town","Western Cape","South Africa",2015-10-30,2021-03-12,1724,6,20.38,122.28,124.54,100.35,8.36,"Debit Card",Paid,Apparel,0,0,1,Mid
+869,100868,"Ishaan Joshi",ishaan.joshi7196@example.com,+919776022997,Muscat,Muscat,Oman,2025-05-28,2025-11-08,22,4,16.21,64.84,74.68,34.14,2.84,"Credit Card",Paid,Groceries,0,0,0,Low
+870,100869,"Carter Shrivastava",carter.shrivastava2038@example.com,+916094574970,Mysore,Karnataka,India,2024-10-15,2025-11-25,5,6,24.34,146.04,203.38,103.34,8.61,"Bank Transfer",Paid,Beauty,0,0,0,Mid
+871,100870,"Julian Hill",julian.hill7680@example.com,+918579817333,Agra,"Uttar Pradesh",India,2022-05-26,2024-10-06,420,2,12.41,24.82,34.11,1.82,0.15,Wallet,Paid,Beauty,0,0,1,Low
+872,100871,"Carlos Allen",carlos.allen4983@example.com,+918776973253,Noida,"Uttar Pradesh",India,2016-03-18,2017-03-24,3173,2,10.2,20.4,21.46,2.88,0.24,"Credit Card",Pending,Toys,0,0,1,Low
+873,100872,"Ethan Brown",ethan.brown6595@example.com,+918954277387,Bhopal,"Madhya Pradesh",India,2024-09-18,2024-10-22,404,7,21.86,153.02,223.76,89.25,7.44,UPI,Paid,"Home & Kitchen",0,0,1,High
+874,100873,"Avery Scott",avery.scott4461@example.com,+917250779352,Ahmedabad,Gujarat,India,2020-12-03,2022-08-31,1187,7,13.11,91.77,124.29,76.97,6.41,"Debit Card",Paid,Health,0,0,1,Mid
+875,100874,"Liam Reddy",liam.reddy8200@example.com,+917264035652,Nagpur,Maharashtra,India,2024-09-27,2025-01-20,314,2,170.98,341.96,486.18,32.83,2.74,"Debit Card",Refunded,"Home & Kitchen",0,0,0,Top
+876,100875,"Anya Joshi",anya.joshi8848@example.com,+916925344679,"Abu Dhabi","Abu Dhabi",UAE,2024-07-22,2024-12-03,362,5,45.63,193.93,264.44,138.16,11.51,"Net Banking",Pending,Toys,1,0.15,0,High
+877,100876,"Camila Nambiar",camila.nambiar8091@example.com,+916301314650,Colombo,"Western Province","Sri Lanka",2019-12-24,2022-06-16,1263,5,22.48,112.4,141.79,18.28,1.52,"Cash on Delivery",Paid,Automotive,0,0,1,Mid
+878,100877,"Isaac Nguyen",isaac.nguyen7173@example.com,+918948526790,Mysore,Karnataka,India,2024-10-15,2025-07-03,150,4,47.86,191.44,271.61,85.5,7.12,Wallet,Paid,Apparel,0,0,0,High
+879,100878,"Carter Torres",carter.torres1318@example.com,+916701477759,Gurgaon,Haryana,India,2015-08-24,2018-02-08,2852,4,28.98,115.92,137.5,39.66,3.3,UPI,Paid,Health,0,0,1,Mid
+880,100879,"Ishaan Bisht",ishaan.bisht9799@example.com,+916364069924,Chennai,"Tamil Nadu",India,2024-06-21,2025-02-19,284,4,27.52,110.08,164.9,41.26,3.44,"Debit Card",Paid,Beauty,0,0,0,Mid
+881,100880,"Carlos Martinez",carlos.martinez654@example.com,+919397663701,Thiruvananthapuram,Kerala,India,2015-02-24,2019-04-27,2409,6,33.85,203.1,238.4,28.15,2.35,"Net Banking",Paid,Electronics,0,0,1,High
+882,100881,"Wyatt Garcia",wyatt.garcia7079@example.com,+916847386331,Kathmandu,Bagmati,Nepal,2019-12-01,2020-03-17,2084,13,51.23,665.99,929.27,90.28,7.52,"Cash on Delivery",Paid,Sports,0,0,1,Top
+883,100882,"Arjun Sharma",arjun.sharma5281@example.com,+917179732850,Thiruvananthapuram,Kerala,India,2018-01-08,2022-08-03,1215,4,15.73,62.92,76.44,38.18,3.18,"Net Banking",Paid,Beauty,0,0,1,Low
+884,100883,"Arnav Rao",arnav.rao9892@example.com,+919650132292,Mysore,Karnataka,India,2021-11-15,2024-10-24,402,3,25.91,77.73,113.17,14.97,1.25,"Credit Card",Pending,Automotive,0,0,1,Low
+885,100884,"Vihaan Pillai",vihaan.pillai4103@example.com,+919062219993,Kathmandu,Bagmati,Nepal,2023-09-01,2025-04-04,240,4,37.44,149.76,178.03,104.26,8.69,"Credit Card",Refunded,Sports,0,0,0,Mid
+886,100885,"Ananya Wilson",ananya.wilson424@example.com,+917389602411,Mumbai,Maharashtra,India,2023-07-17,2024-11-19,376,6,28.42,170.52,225.65,136.34,11.36,"Credit Card",Paid,Health,0,0,1,High
+888,100887,"Kritika Robinson",kritika.robinson3751@example.com,+919570832144,London,England,"United Kingdom",2021-10-23,2025-08-05,117,4,34.73,138.92,187.99,54.62,4.55,"Cash on Delivery",Paid,Groceries,0,0,0,Mid
+889,100888,"Sebastian Young",sebastian.young9425@example.com,+917887750771,Varanasi,"Uttar Pradesh",India,2024-01-30,2024-11-12,383,13,48.55,631.15,631.96,484.02,40.34,UPI,Paid,Beauty,0,0,1,Top
+890,100889,"Kritika Perez",kritika.perez9620@example.com,+918605579642,Toronto,Ontario,Canada,2015-02-21,2018-06-13,2727,4,42.72,170.88,202.35,136.31,11.36,"Net Banking",Paid,Groceries,0,0,1,High
+891,100890,"Luke Robinson",luke.robinson340@example.com,+918623496741,Bhopal,"Madhya Pradesh",India,2015-02-24,2022-09-14,1173,6,8.72,52.32,66.52,42.42,3.54,"Cash on Delivery",Paid,Toys,0,0,1,Low
+892,100891,"Isaac Adams",isaac.adams4416@example.com,+918562236196,"San Francisco",California,"United States",2019-08-30,2022-06-30,1249,6,38.56,231.36,330.84,143.89,11.99,"Net Banking",Pending,Apparel,0,0,1,High
+893,100892,"James Solanki",james.solanki9442@example.com,+916131232441,Dubai,Dubai,UAE,2016-01-10,2020-10-11,1876,3,222.28,533.47,664.35,350.45,29.21,"Debit Card",Paid,Toys,1,0.2,1,Top
+894,100893,"Dev Moore",dev.moore660@example.com,+919950061650,Coimbatore,"Tamil Nadu",India,2021-03-04,2025-11-02,28,5,13.35,56.74,76.95,29.16,2.43,"Debit Card",Failed,Books,1,0.15,0,Low
+895,100894,"Isha Naik",isha.naik2871@example.com,+916175750729,Indore,"Madhya Pradesh",India,2015-06-11,2021-09-21,1531,3,29.38,88.14,95.73,77.14,6.43,"Debit Card",Paid,Sports,0,0,1,Mid
+896,100895,"Noah Thomas",noah.thomas7709@example.com,+918042095832,"Los Angeles",California,"United States",2016-09-18,2024-03-21,619,6,25.67,154.02,168.26,45.34,3.78,"Credit Card",Paid,Books,0,0,1,High
+897,100896,"Elijah Sharma",elijah.sharma8503@example.com,+916796883243,Mysore,Karnataka,India,2024-10-16,2025-11-13,17,2,181.53,363.06,518.35,163.21,13.6,"Net Banking",Paid,Health,0,0,0,Top
+898,100897,"Joseph Iyer",joseph.iyer7246@example.com,+917471620794,Coimbatore,"Tamil Nadu",India,2015-05-13,2020-06-29,1980,8,40.27,241.62,292.3,222.83,18.57,Wallet,Paid,"Home & Kitchen",1,0.25,1,High
+899,100898,"Yash Chakrabarti",yash.chakrabarti4558@example.com,+917722605194,Bhubaneswar,Odisha,India,2025-03-30,2025-04-30,214,6,63.44,380.64,499.83,240.97,20.08,"Credit Card",Paid,"Home & Kitchen",0,0,0,Top
+900,100899,"Mateo Bhatt",mateo.bhatt2974@example.com,+917663705487,Colombo,"Western Province","Sri Lanka",2017-02-15,2022-02-26,1373,6,16.38,83.54,96.37,28.86,2.41,Wallet,Refunded,Apparel,1,0.15,1,Mid
+901,100900,"Tarun Johnson",tarun.johnson9591@example.com,+919357126166,"San Francisco",California,"United States",2016-04-15,2019-05-21,2385,8,141.62,1132.96,1424.99,732.23,61.02,"Credit Card",Paid,Health,0,0,1,Top
+902,100901,"Olivia Dutta",olivia.dutta7142@example.com,+919659076908,Hyderabad,Telangana,India,2019-03-11,2019-04-11,2425,29,16.46,477.34,542.02,182.69,15.22,"Debit Card",Paid,Automotive,0,0,1,Top
+903,100902,"Owen Kumar",owen.kumar8057@example.com,+919661887188,"San Francisco",California,"United States",2019-02-23,2022-10-16,1141,9,37.23,335.07,368.29,276.09,23.01,"Debit Card",Paid,Books,0,0,1,Top
+904,100903,"Layla Thomas",layla.thomas1495@example.com,+919246058346,Varanasi,"Uttar Pradesh",India,2019-11-05,2023-05-20,925,3,88.8,266.4,336.9,111.67,9.31,"Credit Card",Refunded,Sports,0,0,1,High
+905,100904,"Mateo Iyer",mateo.iyer7701@example.com,+918392363043,Bhopal,"Madhya Pradesh",India,2025-02-04,2025-04-26,218,6,27.87,167.22,213.69,81.71,6.81,"Net Banking",Paid,Groceries,0,0,0,High
+906,100905,"Rohit Parekh",rohit.parekh5701@example.com,+918083546639,Chennai,"Tamil Nadu",India,2020-03-18,2020-04-12,2058,9,12.34,111.06,150.57,60.57,5.05,"Debit Card",Paid,Apparel,0,0,1,Mid
+907,100906,"Aanya Robinson",aanya.robinson6691@example.com,+916563156035,Varanasi,"Uttar Pradesh",India,2020-03-06,2025-03-21,254,2,52.06,104.12,142.96,68.87,5.74,Wallet,Paid,Automotive,0,0,0,Mid
+908,100907,"Vihaan Williams",vihaan.williams5461@example.com,+917071771824,"New York","New York","United States",2024-08-24,2024-10-09,417,6,31.07,186.42,259.93,41.11,3.43,UPI,Paid,Electronics,0,0,1,High
+909,100908,"Vihaan White",vihaan.white5261@example.com,+916246536131,Mysore,Karnataka,India,2023-12-21,2025-05-04,210,7,45.38,317.66,446.6,204.66,17.06,"Net Banking",Failed,"Home & Kitchen",0,0,0,Top
+910,100909,"Ava Green",ava.green1714@example.com,+917638916706,Vadodara,Gujarat,India,2018-07-22,2025-07-06,147,2,67.89,135.78,189.82,20.79,1.73,"Cash on Delivery",Paid,Toys,0,0,0,Mid
+911,100910,"Manish Iyer",manish.iyer2635@example.com,+918751506408,"Cape Town","Western Cape","South Africa",2017-01-30,2021-10-24,1498,4,41.88,167.52,228.72,154.15,12.85,"Debit Card",Paid,Apparel,0,0,1,High
+912,100911,"Jacob Patil",jacob.patil5404@example.com,+916900828049,Visakhapatnam,"Andhra Pradesh",India,2016-04-16,2024-03-12,628,7,38.82,271.74,277.58,252.92,21.08,Wallet,Paid,Sports,0,0,1,High
+913,100912,"Zoe Thompson",zoe.thompson6745@example.com,+917800010015,Melbourne,Victoria,Australia,2024-11-12,2025-05-16,198,5,80.52,402.6,567.67,113.88,9.49,Wallet,Paid,Electronics,0,0,0,Top
+914,100913,"Jacob Green",jacob.green8118@example.com,+917496615896,Delhi,Delhi,India,2019-08-10,2021-11-26,1465,7,22.94,160.58,202.23,102.84,8.57,"Bank Transfer",Paid,Automotive,0,0,1,High
+915,100914,"Pooja Allen",pooja.allen4723@example.com,+917918756620,Ahmedabad,Gujarat,India,2017-03-11,2019-03-21,2446,2,24.31,48.62,69.89,35.68,2.97,UPI,Paid,Sports,0,0,1,Low
+916,100915,"Hannah Davis",hannah.davis6562@example.com,+919708783176,Nashik,Maharashtra,India,2019-02-14,2019-11-04,2218,7,190.24,1198.51,1714.98,842.53,70.21,UPI,Paid,"Home & Kitchen",1,0.1,1,Top
+917,100916,"Varun Nambiar",varun.nambiar9013@example.com,+918262936495,Jalandhar,Punjab,India,2021-12-12,2024-05-27,552,4,37.68,150.72,202.5,130.36,10.86,"Credit Card",Pending,Books,0,0,1,Mid
+918,100917,"Lina Sethi",lina.sethi602@example.com,+916850765476,Colombo,"Western Province","Sri Lanka",2023-12-22,2025-10-07,54,4,25.06,95.23,99.82,61.92,5.16,"Debit Card",Paid,Sports,1,0.05,0,Mid
+919,100918,"Lucas Kumar",lucas.kumar7452@example.com,+917898635164,Nashik,Maharashtra,India,2025-05-13,2025-05-13,201,4,91.23,364.92,398.34,282.74,23.56,"Cash on Delivery",Paid,Health,0,0,0,Top
+920,100919,"Carlos Walker",carlos.walker1443@example.com,+918996990953,Jaipur,Rajasthan,India,2016-10-06,2023-05-17,928,7,32.02,224.14,251.01,94.63,7.89,"Debit Card",Paid,Apparel,0,0,1,High
+921,100920,"Amit Martinez",amit.martinez5154@example.com,+916316543908,Ahmedabad,Gujarat,India,2022-01-07,2022-08-30,1188,6,24.18,145.08,174.39,122.35,10.2,Wallet,Paid,Apparel,0,0,1,Mid
+922,100921,"Rhea Patil",rhea.patil4136@example.com,+918780350983,Dhaka,"Dhaka Division",Bangladesh,2017-11-17,2019-02-03,2492,6,20.28,121.68,142.26,98.29,8.19,Wallet,Paid,Beauty,0,0,1,Mid
+923,100922,"Arjun Smith",arjun.smith5297@example.com,+918924918208,Bhopal,"Madhya Pradesh",India,2023-03-27,2024-08-13,474,4,8.65,27.68,31.86,24.42,2.03,"Net Banking",Paid,Toys,1,0.2,1,Low
+924,100923,"John Shukla",john.shukla1900@example.com,+917590382399,"Los Angeles",California,"United States",2018-02-21,2023-06-11,903,7,52.06,309.76,396.87,7.49,0.62,"Debit Card",Paid,Health,1,0.15,1,Top
+925,100924,"Leah Davis",leah.davis6623@example.com,+916468835082,Kolkata,"West Bengal",India,2018-05-18,2025-08-22,100,5,26.46,132.3,172.48,33.41,2.78,UPI,Paid,Electronics,0,0,0,Mid
+926,100925,"Ritu King",ritu.king8432@example.com,+919382292495,Coimbatore,"Tamil Nadu",India,2023-10-04,2025-04-15,229,1,25.29,25.29,28.65,17.66,1.47,UPI,Paid,Apparel,0,0,0,Low
+927,100926,"Lucas Pillai",lucas.pillai19@example.com,+916225941451,Dubai,Dubai,UAE,2018-12-26,2023-07-19,865,6,35.68,181.97,262.01,0.03,0,"Cash on Delivery",Paid,Groceries,1,0.15,1,High
+928,100927,"Meera Smith",meera.smith8890@example.com,+917223285239,Kathmandu,Bagmati,Nepal,2025-02-16,2025-07-13,140,6,105.54,633.24,760.73,310.73,25.89,"Debit Card",Paid,Beauty,0,0,0,Top
+929,100928,"Rhea Jones",rhea.jones7570@example.com,+916425389035,Nagpur,Maharashtra,India,2025-08-20,2025-11-05,25,3,27.92,83.76,99.64,79.63,6.64,"Credit Card",Paid,Toys,0,0,0,Mid
+930,100929,"Alexander Anderson",alexander.anderson6771@example.com,+917014227749,London,England,"United Kingdom",2015-04-29,2024-09-02,454,9,40.89,349.61,364.92,304.94,25.41,"Net Banking",Pending,Automotive,1,0.05,1,Top
+931,100930,"Aarav King",aarav.king889@example.com,+917713415499,"San Francisco",California,"United States",2020-01-20,2024-06-22,526,5,16,80,87.78,69.76,5.81,"Credit Card",Paid,Books,0,0,1,Mid
+932,100931,"Arjun Parekh",arjun.parekh3074@example.com,+918085987777,Colombo,"Western Province","Sri Lanka",2019-11-15,2023-05-09,936,4,41.49,149.36,198.28,61.03,5.09,Wallet,Paid,Sports,1,0.1,1,Mid
+933,100932,"Ravi Jain",ravi.jain8495@example.com,+917956064437,Nairobi,Nairobi,Kenya,2018-08-16,2022-11-16,1110,5,152.51,762.55,851.99,51.86,4.32,"Credit Card",Paid,Sports,0,0,1,Top
+934,100933,"Grayson Dutta",grayson.dutta5928@example.com,+918075652694,Toronto,Ontario,Canada,2018-06-09,2022-02-01,1398,3,19.42,58.26,68.3,16.08,1.34,UPI,Pending,Electronics,0,0,1,Low
+935,100934,"Vikram Chakrabarti",vikram.chakrabarti8168@example.com,+917630565305,Lucknow,"Uttar Pradesh",India,2020-02-13,2025-11-14,16,5,69.43,347.15,420.45,24.79,2.07,"Bank Transfer",Paid,Health,0,0,0,Top
+936,100935,"Dev Rodriguez",dev.rodriguez7243@example.com,+918089978148,Gurgaon,Haryana,India,2020-12-02,2024-05-12,567,2,22.26,42.29,60.23,41.81,3.49,"Bank Transfer",Paid,Groceries,1,0.05,1,Low
+937,100936,"Omar Patil",omar.patil846@example.com,+918603634671,Gurgaon,Haryana,India,2025-01-15,2025-06-18,165,3,57.74,173.22,174.22,39.43,3.29,"Debit Card",Paid,Books,0,0,0,High
+938,100937,"Samuel Nguyen",samuel.nguyen3336@example.com,+917551647714,Kolkata,"West Bengal",India,2020-09-28,2024-02-17,652,5,53.83,269.15,320.89,123.95,10.33,"Bank Transfer",Paid,Automotive,0,0,1,High
+939,100938,"Grayson Bose",grayson.bose4376@example.com,+919455483608,"Cape Town","Western Cape","South Africa",2021-06-23,2022-04-09,1331,7,22.99,160.93,175.61,62.62,5.22,"Credit Card",Pending,Sports,0,0,1,High
+940,100939,"Rakesh Joshi",rakesh.joshi8999@example.com,+918491126763,Chennai,"Tamil Nadu",India,2016-02-04,2016-12-06,3281,5,24.35,115.66,157.89,94.09,7.84,"Credit Card",Failed,"Home & Kitchen",1,0.05,1,Mid
+941,100940,"Pooja Menon",pooja.menon2147@example.com,+918819335794,Kolkata,"West Bengal",India,2023-12-11,2025-10-30,31,5,16.76,83.8,97.81,81.28,6.77,"Debit Card",Failed,Books,0,0,0,Mid
+942,100941,"Henry Rodriguez",henry.rodriguez4720@example.com,+918977271885,Amritsar,Punjab,India,2018-07-20,2022-01-17,1413,3,48.37,145.11,200.32,135.41,11.28,"Net Banking",Paid,Apparel,0,0,1,Mid
+943,100942,"Anil Sanchez",anil.sanchez7179@example.com,+918764930908,Sydney,"New South Wales",Australia,2023-11-23,2025-04-12,232,8,41.25,330,378.9,45.72,3.81,"Debit Card",Paid,Sports,0,0,0,Top
+944,100943,"Maya Gupta",maya.gupta7942@example.com,+916866410903,"New York","New York","United States",2019-03-02,2023-05-07,938,11,72.61,798.71,1185.02,100.62,8.38,"Debit Card",Pending,Electronics,0,0,1,Top
+946,100945,"Ava Bhatt",ava.bhatt473@example.com,+916552418249,Muscat,Muscat,Oman,2017-09-14,2023-09-29,793,5,42.13,210.65,240.51,2.63,0.22,UPI,Paid,Automotive,0,0,1,High
+947,100946,"Chloe Clark",chloe.clark9976@example.com,+919090285924,Nagpur,Maharashtra,India,2021-12-25,2023-10-12,780,7,48.14,336.98,383.46,316.27,26.36,"Net Banking",Paid,Electronics,0,0,1,Top
+948,100947,"Ethan Mehta",ethan.mehta3921@example.com,+916569513468,Agra,"Uttar Pradesh",India,2021-01-01,2023-06-29,885,7,35.16,246.12,313.68,225.44,18.79,UPI,Refunded,Beauty,0,0,1,High
+949,100948,"Zoya Robinson",zoya.robinson2595@example.com,+917165266669,London,England,"United Kingdom",2021-07-23,2021-11-20,1471,6,92.81,556.86,597.77,412.16,34.35,Wallet,Paid,Sports,0,0,1,Top
+950,100949,"Lucas Sengupta",lucas.sengupta5092@example.com,+919737809161,"New York","New York","United States",2020-03-24,2023-01-17,1048,6,49.32,295.92,344.54,66.95,5.58,"Credit Card",Paid,Toys,0,0,1,Top
+951,100950,"Wyatt Williams",wyatt.williams9025@example.com,+918583324493,Pune,Maharashtra,India,2020-07-04,2020-09-01,1916,5,35.21,158.45,208.07,116.54,9.71,"Credit Card",Paid,Electronics,1,0.1,1,High
+952,100951,"Anil Silva",anil.silva225@example.com,+917645103305,Indore,"Madhya Pradesh",India,2025-08-03,2025-10-15,46,2,64.9,129.8,136.56,14.9,1.24,"Credit Card",Paid,Beauty,0,0,0,Mid
+953,100952,"Shreya Sethi",shreya.sethi9049@example.com,+918059179159,Muscat,Muscat,Oman,2019-01-25,2025-09-26,65,4,75.67,302.68,436.2,29.25,2.44,"Debit Card",Pending,Toys,0,0,0,Top
+954,100953,"Aarav Reddy",aarav.reddy6685@example.com,+916936825493,Colombo,"Western Province","Sri Lanka",2025-07-27,2025-10-20,41,2,57.26,114.52,123.31,29.33,2.44,"Debit Card",Paid,Books,0,0,0,Mid
+955,100954,"Aanya Chakrabarti",aanya.chakrabarti1528@example.com,+918009677726,Indore,"Madhya Pradesh",India,2025-09-16,2025-10-06,55,6,35.29,211.74,242.5,131.59,10.97,UPI,Paid,Toys,0,0,0,High
+956,100955,"Ella Brown",ella.brown3682@example.com,+916341729680,Lucknow,"Uttar Pradesh",India,2022-08-20,2024-11-08,387,12,34.94,419.28,512.87,414.15,34.51,"Credit Card",Pending,Books,0,0,1,Top
+957,100956,"Liam Verma",liam.verma1859@example.com,+918531253270,Sydney,"New South Wales",Australia,2025-01-16,2025-06-06,177,2,20.81,41.62,57.05,39.45,3.29,"Net Banking",Paid,"Home & Kitchen",0,0,0,Low
+958,100957,"Carter Moore",carter.moore7561@example.com,+917811085291,"Abu Dhabi","Abu Dhabi",UAE,2022-06-24,2023-08-27,826,11,17.44,134.29,142.39,55.06,4.58,"Credit Card",Paid,Beauty,1,0.3,1,Mid
+959,100958,"Maya Flores",maya.flores1925@example.com,+918025732973,Vancouver,"British Columbia",Canada,2016-04-26,2025-11-17,13,9,92.28,622.89,871.9,22.66,1.89,UPI,Paid,Automotive,1,0.25,0,Top
+960,100959,"Ava King",ava.king2523@example.com,+917346935096,Nairobi,Nairobi,Kenya,2024-09-02,2025-03-24,251,4,37.49,142.46,154.59,82.02,6.84,"Credit Card",Paid,"Home & Kitchen",1,0.05,0,Mid
+961,100960,"Dylan Kohli",dylan.kohli8166@example.com,+917410621327,Agra,"Uttar Pradesh",India,2018-06-13,2025-05-13,201,1,117.64,117.64,149.98,0.13,0.01,Wallet,Paid,Sports,0,0,0,Mid
+962,100961,"Karan Jones",karan.jones4782@example.com,+919347772153,Nashik,Maharashtra,India,2016-06-30,2023-10-24,768,2,8,16,19.69,5.8,0.48,Wallet,Pending,Sports,0,0,1,Low
+963,100962,"Grayson Reddy",grayson.reddy8338@example.com,+917939398958,Muscat,Muscat,Oman,2018-07-31,2018-12-27,2530,4,29.48,117.92,129.98,100.18,8.35,"Debit Card",Failed,Health,0,0,1,Mid
+964,100963,"Sneha Taylor",sneha.taylor4480@example.com,+918502338226,Melbourne,Victoria,Australia,2025-05-28,2025-06-29,154,30,27.73,831.9,948.56,426.42,35.54,"Debit Card",Pending,Apparel,0,0,0,Top
+965,100964,"Gabriel Harris",gabriel.harris6808@example.com,+916507965741,Auckland,Auckland,"New Zealand",2023-01-18,2025-02-16,287,6,10.71,64.26,82.98,21.06,1.76,"Debit Card",Paid,Health,0,0,0,Low
+966,100965,"Samuel Wilson",samuel.wilson7906@example.com,+919474875888,Vancouver,"British Columbia",Canada,2020-08-10,2025-02-03,300,6,48.44,290.64,328.06,39.34,3.28,"Net Banking",Paid,Electronics,0,0,0,Top
+967,100966,"Isaac Sharma",isaac.sharma7737@example.com,+916567712646,Kathmandu,Bagmati,Nepal,2015-03-28,2024-03-02,638,6,252.82,1516.92,1845.07,1072.47,89.37,Wallet,Paid,"Home & Kitchen",0,0,1,Top
+968,100967,"Vivaan Hussain",vivaan.hussain3994@example.com,+916129312219,Bengaluru,Karnataka,India,2020-07-29,2023-06-20,894,6,10.5,63,73.91,4.29,0.36,"Net Banking",Paid,Automotive,0,0,1,Low
+969,100968,"Anil Singh",anil.singh7484@example.com,+919596972399,Pune,Maharashtra,India,2023-05-05,2024-03-20,620,7,32.09,224.63,334.51,64.31,5.36,Wallet,Paid,Health,0,0,1,High
+970,100969,"Karan Pillai",karan.pillai9032@example.com,+918597559101,Pune,Maharashtra,India,2018-04-26,2022-01-01,1429,4,51.42,205.68,223.29,10.21,0.85,UPI,Paid,Sports,0,0,1,High
+971,100970,"Mia Chakrabarti",mia.chakrabarti2370@example.com,+917313138194,Dubai,Dubai,UAE,2016-08-17,2025-02-17,286,7,33.02,231.14,241.44,2.14,0.18,UPI,Paid,Health,0,0,0,High
+972,100971,"Ava Shrivastava",ava.shrivastava6285@example.com,+917436592918,Hyderabad,Telangana,India,2016-10-11,2018-10-21,2597,5,51,255,328.85,40.27,3.36,"Cash on Delivery",Paid,Sports,0,0,1,High
+973,100972,"Saanvi Das",saanvi.das3123@example.com,+917133751569,Lucknow,"Uttar Pradesh",India,2016-04-12,2020-03-20,2081,2,11.62,23.24,24.44,1.6,0.13,UPI,Paid,Toys,0,0,1,Low
+974,100973,"Aditya Martinez",aditya.martinez9821@example.com,+918877696745,"Cape Town","Western Cape","South Africa",2016-10-23,2017-07-06,3069,8,34.45,275.6,361.06,108.07,9.01,"Cash on Delivery",Paid,Toys,0,0,1,High
+975,100974,"Tarun Miller",tarun.miller8328@example.com,+916102702251,Toronto,Ontario,Canada,2015-01-06,2019-08-20,2294,9,19.95,179.55,269.18,42.4,3.53,"Debit Card",Paid,Books,0,0,1,High
+976,100975,"Akash Desai",akash.desai2237@example.com,+919962457585,Vancouver,"British Columbia",Canada,2023-10-04,2024-02-01,668,8,47.18,377.44,413.03,361,30.08,"Cash on Delivery",Paid,Beauty,0,0,1,Top
+977,100976,"Anya Thompson",anya.thompson1144@example.com,+916701097528,Colombo,"Western Province","Sri Lanka",2017-02-25,2018-10-07,2611,5,25.48,127.4,137.46,17.97,1.5,"Debit Card",Paid,Sports,0,0,1,Mid
+978,100977,"Ella Naik",ella.naik4527@example.com,+918311092403,Coimbatore,"Tamil Nadu",India,2023-10-02,2025-05-19,195,6,29.34,176.04,190.08,69.57,5.8,"Credit Card",Paid,Books,0,0,0,High
+979,100978,"Neha Verma",neha.verma6799@example.com,+919027363990,Lagos,Lagos,Nigeria,2020-04-05,2023-11-08,753,27,102.69,2495.37,2894.04,2310.6,192.55,"Cash on Delivery",Paid,Electronics,1,0.1,1,Top
+980,100979,"Logan Harris",logan.harris5569@example.com,+918682548665,Mumbai,Maharashtra,India,2023-05-03,2025-10-25,36,2,57.13,114.26,166.45,10.7,0.89,"Credit Card",Paid,Health,0,0,0,Mid
+981,100980,"Anthony Moore",anthony.moore8319@example.com,+919794179934,Mumbai,Maharashtra,India,2017-05-24,2020-07-24,1955,5,14.26,71.3,93.88,63.51,5.29,"Credit Card",Paid,Automotive,0,0,1,Low
+982,100981,"Sneha Gupta",sneha.gupta4378@example.com,+918953862349,Colombo,"Western Province","Sri Lanka",2023-12-13,2024-01-10,690,8,45.16,361.28,490.07,96.92,8.08,"Credit Card",Paid,Electronics,0,0,1,Top
+983,100982,"Sebastian Saxena",sebastian.saxena43@example.com,+917193272281,Bhubaneswar,Odisha,India,2019-08-21,2020-08-18,1930,4,81.62,326.48,471.68,140.58,11.72,"Credit Card",Paid,Beauty,0,0,1,Top
+984,100983,"Esha Verma",esha.verma4635@example.com,+919874735304,Vancouver,"British Columbia",Canada,2015-02-19,2020-03-13,2088,7,18.7,130.9,139.55,3.48,0.29,UPI,Refunded,Sports,0,0,1,Mid
+985,100984,"Isabella Kohli",isabella.kohli4892@example.com,+917280496586,Rajkot,Gujarat,India,2015-02-15,2021-12-07,1454,5,42.36,211.8,271.96,206.25,17.19,"Net Banking",Paid,Beauty,0,0,1,High
+986,100985,"Kritika Sethi",kritika.sethi9617@example.com,+916873500322,Dhaka,"Dhaka Division",Bangladesh,2016-03-10,2024-02-01,668,7,34.06,238.42,247.73,132.01,11,"Credit Card",Paid,Electronics,0,0,1,High
+987,100986,"Dylan Trivedi",dylan.trivedi9502@example.com,+918404398873,"Abu Dhabi","Abu Dhabi",UAE,2018-05-21,2022-07-12,1237,4,54.86,219.44,300.23,138.11,11.51,"Bank Transfer",Paid,Health,0,0,1,High
+988,100987,"Grayson Dutta",grayson.dutta8023@example.com,+919976131389,Toronto,Ontario,Canada,2018-08-12,2022-09-02,1185,5,27.5,137.5,148.97,85.62,7.14,"Debit Card",Paid,Groceries,0,0,1,Mid
+989,100988,"Kunal Saxena",kunal.saxena2435@example.com,+919164383260,Delhi,Delhi,India,2017-02-03,2023-06-15,899,5,48.62,194.48,229.6,142.22,11.85,"Credit Card",Paid,Automotive,1,0.2,1,High
+990,100989,"Manish Sethi",manish.sethi7317@example.com,+918269125568,Delhi,Delhi,India,2025-06-15,2025-10-26,35,2,27.56,55.12,68.09,3.04,0.25,"Credit Card",Paid,Apparel,0,0,0,Low
+991,100990,"Kritika Martinez",kritika.martinez8825@example.com,+916593767330,Kolkata,"West Bengal",India,2017-09-18,2024-11-17,378,2,40.63,81.26,92.8,50.19,4.18,"Net Banking",Paid,Automotive,0,0,1,Mid
+992,100991,"Priya Sethi",priya.sethi7936@example.com,+917619493487,Delhi,Delhi,India,2016-12-25,2025-04-12,232,3,14.18,42.54,57.63,31.95,2.66,"Credit Card",Paid,"Home & Kitchen",0,0,0,Low
+994,100993,"Manish Scott",manish.scott5447@example.com,+918525464434,Dhaka,"Dhaka Division",Bangladesh,2016-06-20,2023-04-06,969,7,44.75,313.25,385.21,256.24,21.35,"Debit Card",Paid,Groceries,0,0,1,Top
+995,100994,"William Nguyen",william.nguyen9043@example.com,+917919300060,Muscat,Muscat,Oman,2023-07-17,2025-02-11,292,6,44.38,199.71,246.61,153.44,12.79,UPI,Paid,Health,1,0.25,0,High
+996,100995,"Ananya Davis",ananya.davis8904@example.com,+917733802198,Agra,"Uttar Pradesh",India,2021-12-28,2023-05-02,943,3,87.93,263.79,277.51,27.53,2.29,"Credit Card",Paid,"Home & Kitchen",0,0,1,High
+997,100996,"Jacob Bhattacharya",jacob.bhattacharya6181@example.com,+918454246846,Sydney,"New South Wales",Australia,2016-03-23,2019-01-31,2495,5,46.67,233.35,337.92,50.55,4.21,"Credit Card",Paid,Health,0,0,1,High
+998,100997,"Akash Singh",akash.singh7461@example.com,+917197566723,"Los Angeles",California,"United States",2023-07-05,2024-01-18,682,5,20.98,104.9,116.77,69.87,5.82,UPI,Paid,Health,0,0,1,Mid
+999,100998,"Scarlett Verma",scarlett.verma5273@example.com,+916520044479,Coimbatore,"Tamil Nadu",India,2018-03-26,2023-08-12,841,8,8.69,62.57,63.17,26.93,2.24,"Debit Card",Paid,Sports,1,0.1,1,Low
+1000,100999,"Dylan Hussain",dylan.hussain3091@example.com,+917011666471,Toronto,Ontario,Canada,2016-07-01,2016-12-29,3258,7,257.94,1805.58,1831.37,1590.5,132.54,"Debit Card",Paid,Beauty,0,0,1,Top
+1001,101000,"Dev Ali",dev.ali3913@example.com,+918899493934,"Abu Dhabi","Abu Dhabi",UAE,2022-02-24,2023-02-08,1026,3,48.22,108.5,139.15,49.62,4.13,UPI,Paid,Sports,1,0.25,1,Mid
+1002,101001,"Aanya Martinez",aanya.martinez9369@example.com,+917669251502,Varanasi,"Uttar Pradesh",India,2025-02-24,2025-07-21,132,4,8.59,34.36,40.42,31.64,2.64,"Bank Transfer",Paid,Groceries,0,0,0,Low
+1003,101002,"Naveen Flores",naveen.flores6275@example.com,+917661644972,Surat,Gujarat,India,2015-05-19,2025-01-31,303,5,29.93,149.65,185.38,28.68,2.39,Wallet,Failed,Books,0,0,0,Mid
+1004,101003,"Jack Patil",jack.patil3827@example.com,+918091238390,Muscat,Muscat,Oman,2017-12-17,2018-09-23,2625,4,36.49,131.36,180.19,3.79,0.32,"Bank Transfer",Paid,Electronics,1,0.1,1,Mid
+1005,101004,"Ritu Flores",ritu.flores6731@example.com,+917157649011,Bengaluru,Karnataka,India,2023-06-10,2023-07-25,859,5,20.24,101.2,122.23,91.41,7.62,UPI,Pending,Groceries,0,0,1,Mid
+1006,101005,"Sumit Lewis",sumit.lewis716@example.com,+919292231555,Dhaka,"Dhaka Division",Bangladesh,2016-02-16,2020-01-22,2139,5,68.89,344.45,384.87,122.83,10.24,"Net Banking",Paid,Toys,0,0,1,Top
+1007,101006,"Isha Nair",isha.nair5214@example.com,+918344628079,Rajkot,Gujarat,India,2020-06-19,2021-05-30,1645,2,10.78,21.56,31.18,6.48,0.54,UPI,Paid,Beauty,0,0,1,Low
+1008,101007,"Liam Taylor",liam.taylor7750@example.com,+918237275983,Toronto,Ontario,Canada,2021-08-06,2024-06-08,540,6,52.89,317.34,458.02,163,13.58,"Credit Card",Paid,Sports,0,0,1,Top
