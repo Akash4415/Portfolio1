@@ -1,0 +1,3001 @@
+order_id,customer_id,order_date,status,shipping_city,shipping_state
+1,694,2022-12-19,shipped,Los Angeles,TX
+2,173,2022-10-04,shipped,Dallas,IL
+3,505,2022-07-24,shipped,Chicago,AZ
+4,664,2022-09-08,delivered,Phoenix,AZ
+5,542,2022-06-30,returned,Chicago,NY
+6,900,2022-12-04,cancelled,San Jose,NY
+7,618,2022-07-02,shipped,Philadelphia,TX
+8,609,2022-02-09,delivered,San Jose,TX
+9,146,2022-04-16,shipped,New York,IL
+10,9,2022-05-12,shipped,Philadelphia,CA
+11,812,2022-06-09,delivered,Los Angeles,TX
+12,612,2022-09-30,delivered,Chicago,TX
+13,193,2022-08-20,shipped,New York,IL
+14,410,2022-12-08,delivered,Dallas,CA
+15,146,2022-09-18,delivered,Dallas,AZ
+16,500,2022-07-10,shipped,New York,NY
+17,481,2022-05-14,processing,Dallas,TX
+18,134,2022-07-14,pending,Phoenix,IL
+19,69,2022-01-14,returned,Los Angeles,IL
+20,72,2022-04-02,pending,San Jose,CA
+21,740,2022-07-08,returned,Los Angeles,NY
+22,72,2022-05-13,delivered,San Jose,AZ
+23,332,2022-04-06,delivered,San Diego,AZ
+24,600,2022-03-05,shipped,San Diego,TX
+25,189,2022-06-23,cancelled,Chicago,TX
+26,897,2022-01-30,delivered,Los Angeles,AZ
+27,192,2022-07-16,shipped,San Jose,NY
+28,721,2022-01-05,shipped,San Diego,TX
+29,769,2022-10-12,delivered,Dallas,TX
+30,193,2022-01-01,delivered,Chicago,IL
+31,602,2022-03-06,delivered,Houston,TX
+32,833,2022-02-16,pending,Chicago,TX
+33,901,2022-09-22,pending,San Jose,TX
+34,174,2022-11-04,returned,New York,NY
+35,414,2022-02-08,delivered,New York,NY
+36,837,2022-11-03,returned,San Antonio,IL
+37,31,2022-11-05,delivered,Houston,NY
+38,602,2022-06-17,delivered,New York,AZ
+39,900,2022-05-30,delivered,Philadelphia,IL
+40,186,2022-04-14,delivered,Phoenix,CA
+41,844,2022-11-28,shipped,Dallas,CA
+42,761,2022-01-06,delivered,Dallas,PA
+43,739,2022-08-14,shipped,Philadelphia,PA
+44,633,2022-09-20,delivered,Philadelphia,CA
+45,988,2022-02-07,processing,New York,TX
+46,913,2022-02-20,pending,Chicago,CA
+47,338,2022-03-13,processing,Philadelphia,AZ
+48,714,2022-11-12,shipped,Phoenix,AZ
+49,919,2022-12-28,delivered,Philadelphia,PA
+50,611,2022-11-14,delivered,Houston,TX
+51,967,2022-10-01,shipped,Houston,NY
+52,633,2022-10-16,shipped,San Jose,CA
+53,25,2022-12-09,shipped,Los Angeles,TX
+54,790,2022-08-05,delivered,Houston,NY
+55,794,2022-06-26,shipped,Dallas,TX
+56,903,2022-11-03,delivered,San Diego,IL
+57,398,2022-02-25,shipped,Philadelphia,PA
+58,36,2022-12-11,processing,Phoenix,PA
+59,476,2022-05-15,delivered,Houston,TX
+60,965,2022-04-09,shipped,San Jose,CA
+61,789,2022-08-03,processing,New York,TX
+62,868,2022-01-20,processing,San Antonio,TX
+63,807,2022-03-02,shipped,San Antonio,AZ
+64,881,2022-11-20,shipped,Philadelphia,TX
+65,373,2022-03-31,cancelled,San Jose,TX
+66,605,2022-08-20,shipped,Phoenix,TX
+67,985,2022-03-10,delivered,Los Angeles,IL
+68,528,2022-01-02,processing,Chicago,CA
+69,629,2022-08-30,processing,Houston,TX
+70,37,2022-09-28,processing,Dallas,CA
+71,434,2022-12-05,delivered,Chicago,TX
+72,179,2022-10-02,delivered,San Jose,TX
+73,542,2022-06-30,shipped,San Diego,TX
+74,124,2022-07-27,delivered,Phoenix,TX
+75,657,2022-04-18,delivered,Dallas,CA
+76,903,2022-03-06,delivered,San Jose,TX
+77,171,2022-02-14,processing,Dallas,NY
+78,251,2022-11-14,delivered,Philadelphia,TX
+79,714,2022-08-08,delivered,Los Angeles,PA
+80,508,2022-02-08,shipped,San Antonio,TX
+81,713,2022-12-18,delivered,Los Angeles,PA
+82,331,2022-04-17,processing,Chicago,CA
+83,494,2022-11-23,returned,Chicago,AZ
+84,826,2022-10-09,delivered,Phoenix,CA
+85,570,2022-05-22,delivered,Dallas,NY
+86,755,2022-05-02,shipped,Los Angeles,PA
+87,474,2022-07-27,shipped,San Diego,NY
+88,616,2022-06-30,delivered,San Jose,TX
+89,75,2022-09-14,pending,Dallas,IL
+90,279,2022-08-17,returned,San Jose,CA
+91,641,2022-10-19,delivered,Chicago,TX
+92,833,2022-01-03,shipped,Houston,PA
+93,670,2022-11-29,shipped,Dallas,TX
+94,552,2022-12-03,delivered,Los Angeles,TX
+95,996,2022-05-17,shipped,New York,TX
+96,204,2022-02-22,shipped,San Antonio,AZ
+97,956,2022-05-20,delivered,San Diego,PA
+98,882,2022-10-23,shipped,San Jose,IL
+99,557,2022-04-04,shipped,San Diego,TX
+100,303,2022-08-05,shipped,Dallas,AZ
+101,909,2022-06-21,shipped,Chicago,PA
+102,430,2022-03-30,cancelled,New York,TX
+103,905,2022-10-29,delivered,New York,TX
+104,699,2022-03-02,delivered,San Diego,TX
+105,264,2022-01-06,cancelled,San Antonio,TX
+106,549,2022-03-05,cancelled,New York,AZ
+107,87,2022-06-30,delivered,San Diego,AZ
+108,491,2022-10-29,pending,San Diego,TX
+109,710,2022-07-15,pending,San Diego,TX
+110,319,2022-11-29,delivered,San Diego,CA
+111,475,2022-12-21,shipped,San Diego,CA
+112,586,2022-09-10,processing,Philadelphia,CA
+113,415,2022-04-17,processing,Chicago,AZ
+114,224,2022-06-21,delivered,San Antonio,TX
+115,478,2022-06-13,delivered,San Jose,PA
+116,58,2022-07-15,processing,San Diego,TX
+117,91,2022-01-23,shipped,Chicago,TX
+118,79,2022-11-02,returned,Chicago,CA
+119,232,2022-06-24,delivered,Los Angeles,TX
+120,572,2022-05-25,delivered,Chicago,CA
+121,979,2022-03-22,cancelled,Phoenix,CA
+122,692,2022-11-02,delivered,Los Angeles,PA
+123,824,2022-09-28,delivered,Dallas,PA
+124,49,2022-03-30,processing,Los Angeles,PA
+125,318,2022-07-26,cancelled,Phoenix,TX
+126,378,2022-06-07,delivered,Los Angeles,IL
+127,299,2022-07-11,pending,New York,CA
+128,468,2022-09-06,shipped,Chicago,CA
+129,289,2022-05-08,shipped,Philadelphia,CA
+130,5,2022-05-02,delivered,Houston,TX
+131,548,2022-05-07,delivered,Dallas,TX
+132,764,2022-06-09,shipped,Philadelphia,CA
+133,349,2022-03-14,returned,Philadelphia,TX
+134,151,2022-07-30,shipped,New York,TX
+135,542,2022-07-13,shipped,Dallas,CA
+136,958,2022-10-21,delivered,San Jose,NY
+137,745,2022-08-05,processing,Philadelphia,NY
+138,954,2022-11-11,processing,San Jose,TX
+139,406,2022-06-06,shipped,San Jose,CA
+140,624,2022-08-01,delivered,San Diego,CA
+141,872,2022-10-10,pending,Dallas,PA
+142,991,2022-01-17,delivered,Chicago,PA
+143,979,2022-07-07,pending,Chicago,CA
+144,483,2022-05-15,returned,San Diego,NY
+145,367,2022-01-19,processing,Chicago,TX
+146,515,2022-12-05,cancelled,Chicago,NY
+147,864,2022-03-15,shipped,Phoenix,CA
+148,595,2022-08-20,processing,Dallas,TX
+149,31,2022-05-24,delivered,Houston,PA
+150,594,2022-08-11,delivered,Houston,CA
+151,522,2022-03-23,processing,Philadelphia,NY
+152,999,2022-05-07,delivered,San Jose,CA
+153,96,2022-09-05,delivered,Philadelphia,PA
+154,456,2022-04-27,delivered,Chicago,IL
+155,346,2022-11-10,delivered,Philadelphia,CA
+156,598,2022-12-13,processing,New York,CA
+157,668,2022-04-22,delivered,Houston,TX
+158,429,2022-06-28,processing,San Jose,TX
+159,60,2022-05-26,pending,New York,IL
+160,90,2022-08-27,shipped,Houston,CA
+161,970,2022-11-07,processing,San Jose,CA
+162,245,2022-04-17,delivered,San Diego,CA
+163,264,2022-03-21,processing,Los Angeles,TX
+164,329,2022-02-18,delivered,Los Angeles,AZ
+165,6,2022-07-08,processing,Phoenix,CA
+166,641,2022-12-25,cancelled,San Jose,CA
+167,283,2022-04-10,cancelled,Dallas,TX
+168,820,2022-10-22,delivered,San Diego,CA
+169,851,2022-01-23,processing,San Jose,CA
+170,732,2022-12-14,processing,San Diego,AZ
+171,376,2022-02-09,processing,Dallas,NY
+172,643,2022-06-20,shipped,Houston,NY
+173,391,2022-07-25,pending,Chicago,TX
+174,54,2022-07-31,delivered,San Diego,PA
+175,41,2022-05-01,delivered,Los Angeles,CA
+176,724,2022-12-18,pending,San Antonio,TX
+177,735,2022-04-17,delivered,Phoenix,CA
+178,534,2022-01-14,processing,Philadelphia,TX
+179,66,2022-05-25,delivered,New York,CA
+180,703,2022-05-23,shipped,Dallas,NY
+181,17,2022-12-01,processing,San Diego,CA
+182,650,2022-06-11,processing,Chicago,TX
+183,72,2022-09-30,delivered,San Jose,AZ
+184,185,2022-08-03,shipped,San Diego,CA
+185,993,2022-06-18,delivered,Dallas,TX
+186,593,2022-12-30,returned,New York,CA
+187,954,2022-02-20,returned,San Diego,NY
+188,211,2022-01-15,processing,Houston,AZ
+189,608,2022-02-28,delivered,Dallas,NY
+190,552,2022-01-21,processing,San Jose,PA
+191,680,2022-03-25,pending,Phoenix,AZ
+192,77,2022-08-11,pending,Chicago,CA
+193,441,2022-11-22,delivered,Chicago,PA
+194,454,2022-10-02,pending,Phoenix,CA
+195,357,2022-05-27,delivered,Chicago,CA
+196,333,2022-03-03,delivered,New York,CA
+197,433,2022-07-20,delivered,San Diego,IL
+198,350,2022-01-27,shipped,San Jose,CA
+199,754,2022-04-21,processing,Los Angeles,CA
+200,748,2022-09-25,shipped,San Diego,PA
+201,44,2022-03-24,delivered,Los Angeles,CA
+202,436,2022-03-26,processing,San Antonio,IL
+203,268,2022-06-09,processing,San Jose,TX
+204,726,2022-03-18,returned,Chicago,CA
+205,707,2022-05-22,delivered,San Antonio,TX
+206,333,2022-12-04,processing,San Antonio,TX
+207,414,2022-10-23,delivered,Houston,CA
+208,461,2022-11-05,delivered,Houston,PA
+209,656,2022-01-18,processing,San Antonio,TX
+210,634,2022-07-19,shipped,Houston,NY
+211,953,2022-06-16,pending,San Antonio,IL
+212,908,2022-05-18,delivered,Phoenix,IL
+213,687,2022-09-17,shipped,San Jose,TX
+214,745,2022-07-15,pending,Chicago,AZ
+215,533,2022-10-10,shipped,Phoenix,AZ
+216,142,2022-10-25,pending,Los Angeles,TX
+217,468,2022-10-22,shipped,San Antonio,CA
+218,838,2022-04-24,delivered,New York,TX
+219,916,2022-03-30,shipped,Chicago,IL
+220,317,2022-01-14,pending,Houston,TX
+221,779,2022-03-25,shipped,Phoenix,TX
+222,865,2022-01-03,processing,Dallas,CA
+223,311,2022-07-06,shipped,Houston,TX
+224,940,2022-12-12,delivered,San Antonio,IL
+225,55,2022-05-02,delivered,New York,TX
+226,588,2022-07-09,pending,Dallas,CA
+227,38,2022-05-20,shipped,New York,TX
+228,564,2022-06-18,pending,San Antonio,CA
+229,123,2022-12-30,shipped,Chicago,CA
+230,122,2022-05-14,delivered,Philadelphia,IL
+231,382,2022-12-21,delivered,Chicago,PA
+232,236,2022-09-29,processing,Chicago,IL
+233,378,2022-10-31,delivered,Chicago,TX
+234,881,2022-03-21,delivered,Los Angeles,NY
+235,227,2022-07-14,processing,Phoenix,CA
+236,937,2022-06-16,delivered,Dallas,IL
+237,904,2022-01-15,returned,San Antonio,CA
+238,837,2022-05-04,delivered,San Jose,TX
+239,282,2022-04-23,shipped,Los Angeles,AZ
+240,535,2022-04-05,processing,New York,CA
+241,970,2022-06-30,shipped,Dallas,CA
+242,346,2022-05-07,delivered,Phoenix,NY
+243,256,2022-07-05,processing,San Jose,NY
+244,602,2022-01-13,delivered,Dallas,NY
+245,90,2022-02-09,delivered,Dallas,NY
+246,73,2022-02-10,delivered,Phoenix,AZ
+247,247,2022-09-29,pending,New York,NY
+248,589,2022-11-17,delivered,Chicago,TX
+249,105,2022-12-22,delivered,San Antonio,CA
+250,772,2022-06-03,shipped,Phoenix,PA
+251,641,2022-09-04,delivered,Dallas,CA
+252,366,2022-03-19,processing,New York,PA
+253,112,2022-08-02,delivered,Chicago,AZ
+254,673,2022-08-28,delivered,Phoenix,NY
+255,238,2022-09-03,delivered,San Antonio,IL
+256,376,2022-10-26,delivered,San Diego,TX
+257,220,2022-08-12,delivered,San Diego,CA
+258,888,2022-05-22,delivered,Chicago,CA
+259,873,2022-10-10,delivered,Chicago,CA
+260,829,2022-05-25,processing,San Jose,CA
+261,400,2022-08-29,processing,Dallas,NY
+262,438,2022-11-04,delivered,Dallas,TX
+263,717,2022-01-01,delivered,Philadelphia,CA
+264,215,2022-06-16,shipped,San Antonio,NY
+265,298,2022-06-23,processing,Chicago,CA
+266,981,2022-03-23,processing,San Jose,AZ
+267,973,2022-05-12,delivered,Los Angeles,AZ
+268,995,2022-03-31,pending,San Antonio,TX
+269,493,2022-09-29,processing,San Antonio,CA
+270,249,2022-10-18,processing,San Diego,PA
+271,451,2022-04-17,processing,San Diego,TX
+272,151,2022-08-03,delivered,Los Angeles,CA
+273,526,2022-02-07,delivered,Chicago,TX
+274,785,2022-10-07,delivered,Phoenix,CA
+275,806,2022-01-22,delivered,San Diego,CA
+276,604,2022-10-27,delivered,San Jose,TX
+277,153,2022-07-07,delivered,San Antonio,TX
+278,519,2022-04-10,pending,Los Angeles,IL
+279,924,2022-11-16,delivered,San Jose,CA
+280,84,2022-12-17,processing,San Antonio,IL
+281,682,2022-03-25,shipped,Chicago,PA
+282,575,2022-05-07,shipped,San Diego,TX
+283,393,2022-12-24,pending,Philadelphia,CA
+284,662,2022-07-21,delivered,San Antonio,CA
+285,310,2022-01-07,delivered,San Diego,NY
+286,710,2022-12-01,processing,San Diego,CA
+287,466,2022-04-01,shipped,Los Angeles,TX
+288,187,2022-06-03,delivered,Chicago,IL
+289,654,2022-11-22,shipped,Chicago,AZ
+290,604,2022-10-07,cancelled,Los Angeles,CA
+291,354,2022-03-06,processing,San Jose,CA
+292,497,2022-03-26,pending,San Antonio,IL
+293,990,2022-05-02,processing,Houston,NY
+294,960,2022-08-22,processing,San Jose,IL
+295,130,2022-11-21,processing,San Diego,CA
+296,525,2022-01-01,processing,San Antonio,TX
+297,705,2022-09-25,delivered,Chicago,TX
+298,407,2022-11-12,returned,Philadelphia,AZ
+299,337,2022-06-01,processing,San Antonio,TX
+300,586,2022-10-19,processing,San Diego,PA
+301,273,2022-05-01,delivered,Dallas,PA
+302,473,2022-09-30,shipped,Phoenix,PA
+303,617,2022-05-26,delivered,Houston,NY
+304,957,2022-10-16,pending,Chicago,CA
+305,543,2022-11-11,shipped,San Diego,AZ
+306,355,2022-06-17,processing,Philadelphia,TX
+307,243,2022-11-03,cancelled,San Diego,CA
+308,649,2022-01-02,delivered,San Jose,IL
+309,440,2022-11-11,processing,San Jose,PA
+310,550,2022-07-04,processing,San Jose,NY
+311,253,2022-12-25,delivered,Chicago,TX
+312,871,2022-10-23,pending,Chicago,IL
+313,14,2022-07-14,pending,Phoenix,AZ
+314,173,2022-06-28,processing,San Diego,AZ
+315,498,2022-06-02,delivered,Los Angeles,TX
+316,964,2022-01-06,shipped,Dallas,CA
+317,368,2022-11-20,processing,San Antonio,TX
+318,515,2022-09-14,shipped,Phoenix,CA
+319,169,2022-07-10,delivered,Chicago,PA
+320,651,2022-02-12,shipped,Philadelphia,IL
+321,776,2022-08-04,delivered,San Jose,CA
+322,930,2022-01-21,delivered,San Jose,CA
+323,322,2022-11-19,cancelled,San Antonio,CA
+324,10,2022-10-12,pending,New York,CA
+325,938,2022-09-26,cancelled,Chicago,TX
+326,688,2022-09-26,shipped,New York,AZ
+327,472,2022-03-01,delivered,Los Angeles,CA
+328,423,2022-04-02,returned,Los Angeles,NY
+329,772,2022-03-30,pending,Dallas,TX
+330,323,2022-05-09,returned,Houston,CA
+331,939,2022-02-06,delivered,New York,TX
+332,707,2022-11-20,delivered,Philadelphia,AZ
+333,644,2022-08-10,delivered,Chicago,CA
+334,686,2022-02-05,delivered,Philadelphia,CA
+335,191,2022-08-09,processing,Dallas,TX
+336,897,2022-07-28,delivered,Los Angeles,TX
+337,395,2022-06-24,delivered,New York,PA
+338,502,2022-11-05,pending,San Antonio,CA
+339,19,2022-11-06,pending,Houston,IL
+340,880,2022-07-07,shipped,San Jose,NY
+341,995,2022-03-24,shipped,Dallas,AZ
+342,259,2022-01-30,delivered,New York,TX
+343,248,2022-09-25,delivered,San Antonio,AZ
+344,773,2022-11-05,processing,Chicago,CA
+345,30,2022-10-28,processing,Dallas,NY
+346,861,2022-07-02,shipped,San Jose,IL
+347,191,2022-01-19,delivered,Phoenix,PA
+348,817,2022-01-31,shipped,Los Angeles,CA
+349,941,2022-11-06,shipped,Philadelphia,CA
+350,226,2022-06-24,pending,Phoenix,TX
+351,822,2022-10-30,shipped,New York,CA
+352,215,2022-09-04,pending,New York,CA
+353,945,2022-08-31,shipped,Philadelphia,IL
+354,30,2022-08-20,processing,Los Angeles,PA
+355,534,2022-06-23,shipped,Dallas,CA
+356,404,2022-11-28,delivered,Phoenix,IL
+357,17,2022-10-23,shipped,Phoenix,PA
+358,937,2022-06-15,delivered,San Diego,IL
+359,524,2022-01-29,delivered,San Jose,TX
+360,164,2022-04-21,delivered,Chicago,AZ
+361,383,2022-07-10,shipped,Dallas,NY
+362,626,2022-05-03,delivered,Los Angeles,CA
+363,228,2022-01-10,delivered,San Antonio,NY
+364,442,2022-12-03,delivered,San Antonio,TX
+365,618,2022-10-20,pending,Houston,CA
+366,273,2022-09-30,processing,San Antonio,IL
+367,335,2022-12-19,delivered,Houston,AZ
+368,358,2022-03-27,processing,Los Angeles,AZ
+369,598,2022-07-25,returned,Los Angeles,AZ
+370,476,2022-01-24,processing,San Diego,CA
+371,871,2022-12-27,shipped,San Antonio,TX
+372,613,2022-07-13,pending,San Antonio,PA
+373,403,2022-12-06,delivered,Phoenix,PA
+374,462,2022-08-01,delivered,New York,CA
+375,771,2022-05-01,delivered,New York,CA
+376,85,2022-03-02,shipped,San Diego,PA
+377,76,2022-02-06,shipped,San Jose,CA
+378,185,2022-06-25,processing,New York,IL
+379,770,2022-06-13,processing,Phoenix,CA
+380,225,2022-12-20,delivered,Philadelphia,CA
+381,909,2022-04-24,delivered,Philadelphia,PA
+382,86,2022-11-08,delivered,Houston,CA
+383,779,2022-08-15,cancelled,Philadelphia,CA
+384,195,2022-03-04,delivered,Dallas,AZ
+385,587,2022-08-26,processing,New York,TX
+386,709,2022-01-18,processing,Los Angeles,PA
+387,56,2022-07-28,shipped,San Diego,NY
+388,783,2022-07-18,pending,San Diego,CA
+389,215,2022-06-29,shipped,Dallas,CA
+390,23,2022-05-05,shipped,Houston,CA
+391,423,2022-06-26,pending,Chicago,PA
+392,563,2022-09-02,delivered,New York,NY
+393,503,2022-06-27,delivered,Chicago,TX
+394,251,2022-12-07,delivered,New York,TX
+395,46,2022-04-30,pending,San Antonio,AZ
+396,924,2022-04-23,delivered,Houston,PA
+397,611,2022-08-05,shipped,Phoenix,NY
+398,309,2022-02-14,delivered,Los Angeles,TX
+399,39,2022-10-28,delivered,San Diego,TX
+400,796,2022-07-25,processing,New York,NY
+401,764,2022-03-10,delivered,Los Angeles,TX
+402,324,2022-09-13,shipped,Dallas,CA
+403,728,2022-01-26,processing,Dallas,TX
+404,589,2022-06-12,delivered,Los Angeles,AZ
+405,973,2022-10-28,shipped,Philadelphia,CA
+406,964,2022-08-17,shipped,San Diego,IL
+407,657,2022-08-14,processing,Phoenix,CA
+408,903,2022-09-08,shipped,Chicago,TX
+409,522,2022-07-12,shipped,San Diego,CA
+410,314,2022-09-28,shipped,New York,IL
+411,58,2022-04-02,shipped,Houston,TX
+412,962,2022-10-23,processing,Chicago,IL
+413,79,2022-05-31,shipped,San Jose,TX
+414,382,2022-08-03,shipped,Houston,CA
+415,503,2022-11-15,delivered,San Jose,CA
+416,830,2022-06-14,pending,Los Angeles,IL
+417,247,2022-03-07,processing,Phoenix,IL
+418,965,2022-07-30,shipped,New York,CA
+419,200,2022-10-27,shipped,San Jose,NY
+420,203,2022-07-27,shipped,Los Angeles,IL
+421,644,2022-07-28,shipped,Los Angeles,TX
+422,44,2022-06-08,shipped,New York,TX
+423,90,2022-02-23,shipped,Chicago,PA
+424,169,2022-07-05,shipped,New York,PA
+425,457,2022-10-29,processing,San Antonio,NY
+426,236,2022-07-16,delivered,New York,CA
+427,149,2022-03-19,processing,San Antonio,CA
+428,916,2022-01-18,shipped,Dallas,CA
+429,12,2022-08-23,delivered,Houston,TX
+430,307,2022-10-03,delivered,San Jose,TX
+431,358,2022-12-04,shipped,Houston,NY
+432,307,2022-10-05,delivered,San Diego,IL
+433,70,2022-10-05,shipped,Chicago,PA
+434,336,2022-05-15,shipped,Chicago,AZ
+435,944,2022-08-21,processing,New York,CA
+436,704,2022-09-13,pending,San Jose,IL
+437,884,2022-01-12,processing,San Diego,TX
+438,112,2022-06-28,processing,Phoenix,CA
+439,456,2022-06-11,shipped,San Jose,NY
+440,100,2022-06-13,processing,San Antonio,TX
+441,396,2022-09-04,processing,Houston,TX
+442,360,2022-09-21,shipped,San Jose,AZ
+443,802,2022-03-22,delivered,Dallas,TX
+444,129,2022-07-28,delivered,Dallas,IL
+445,717,2022-02-10,processing,Dallas,TX
+446,378,2022-12-20,pending,Houston,IL
+447,717,2022-05-25,shipped,Phoenix,CA
+448,37,2022-08-13,processing,San Diego,TX
+449,817,2022-03-04,shipped,San Antonio,TX
+450,758,2022-01-14,shipped,Phoenix,TX
+451,151,2022-09-14,delivered,San Jose,TX
+452,88,2022-11-12,pending,San Diego,IL
+453,99,2022-06-02,returned,San Jose,NY
+454,515,2022-02-26,pending,Phoenix,CA
+455,532,2022-12-25,delivered,San Jose,CA
+456,509,2022-07-23,delivered,Chicago,TX
+457,255,2022-02-11,processing,San Antonio,TX
+458,102,2022-08-28,shipped,Phoenix,TX
+459,527,2022-12-06,returned,Houston,TX
+460,557,2022-05-29,delivered,San Antonio,TX
+461,69,2022-01-28,shipped,Phoenix,CA
+462,828,2022-03-07,delivered,San Antonio,AZ
+463,572,2022-06-06,returned,San Jose,AZ
+464,93,2022-04-09,shipped,Houston,CA
+465,632,2022-08-28,delivered,Dallas,NY
+466,27,2022-02-25,delivered,Phoenix,IL
+467,917,2022-07-29,processing,Chicago,NY
+468,144,2022-01-18,returned,Dallas,CA
+469,830,2022-07-14,shipped,Chicago,CA
+470,258,2022-11-12,shipped,Dallas,IL
+471,145,2022-02-24,cancelled,Chicago,TX
+472,879,2022-08-19,delivered,Los Angeles,CA
+473,713,2022-10-19,shipped,San Jose,TX
+474,264,2022-02-12,processing,Los Angeles,TX
+475,776,2022-11-16,pending,Dallas,TX
+476,686,2022-10-01,processing,San Jose,AZ
+477,843,2022-05-31,processing,Philadelphia,TX
+478,355,2022-03-26,processing,Los Angeles,IL
+479,362,2022-05-26,returned,Chicago,NY
+480,638,2022-02-12,processing,San Antonio,TX
+481,977,2022-03-21,pending,San Jose,TX
+482,965,2022-11-04,processing,Houston,NY
+483,831,2022-07-11,delivered,San Diego,IL
+484,681,2022-10-11,delivered,Philadelphia,TX
+485,166,2022-12-29,shipped,Philadelphia,TX
+486,79,2022-09-18,delivered,Philadelphia,CA
+487,765,2022-09-10,delivered,Phoenix,PA
+488,29,2022-11-12,processing,San Jose,CA
+489,5,2022-03-20,delivered,Dallas,CA
+490,522,2022-04-16,delivered,Phoenix,CA
+491,622,2022-01-12,processing,New York,CA
+492,824,2022-02-21,delivered,San Jose,TX
+493,625,2022-04-27,cancelled,Los Angeles,NY
+494,335,2022-05-07,processing,Houston,PA
+495,214,2022-01-29,cancelled,Chicago,CA
+496,793,2022-04-10,returned,Philadelphia,TX
+497,733,2022-02-16,processing,Philadelphia,CA
+498,894,2022-08-19,processing,Houston,IL
+499,44,2022-01-15,pending,New York,TX
+500,472,2022-08-12,delivered,Phoenix,CA
+501,560,2022-05-05,processing,San Diego,PA
+502,425,2022-08-18,returned,Dallas,AZ
+503,231,2022-05-09,delivered,Philadelphia,IL
+504,911,2022-03-20,shipped,Phoenix,PA
+505,211,2022-02-14,processing,Houston,CA
+506,575,2022-03-02,processing,San Antonio,AZ
+507,697,2022-01-30,processing,San Diego,CA
+508,134,2022-02-20,delivered,Chicago,IL
+509,59,2022-11-11,delivered,Los Angeles,CA
+510,52,2022-03-22,pending,Dallas,CA
+511,825,2022-12-31,delivered,Philadelphia,TX
+512,805,2022-04-10,delivered,Houston,IL
+513,593,2022-05-02,delivered,Philadelphia,PA
+514,661,2022-07-09,processing,Houston,TX
+515,668,2022-12-29,shipped,Dallas,IL
+516,228,2022-09-04,delivered,Houston,PA
+517,393,2022-08-10,cancelled,New York,IL
+518,90,2022-03-31,cancelled,Philadelphia,CA
+519,289,2022-01-27,shipped,Dallas,CA
+520,548,2022-06-11,pending,Philadelphia,TX
+521,76,2022-04-21,returned,New York,PA
+522,779,2022-05-04,cancelled,Houston,TX
+523,867,2022-10-12,delivered,San Diego,TX
+524,915,2022-03-14,delivered,New York,CA
+525,892,2022-11-13,processing,Chicago,PA
+526,630,2022-05-24,shipped,San Antonio,AZ
+527,719,2022-12-14,processing,San Diego,AZ
+528,233,2022-11-02,processing,Los Angeles,CA
+529,826,2022-12-24,shipped,Philadelphia,TX
+530,588,2022-01-17,processing,Houston,TX
+531,332,2022-12-12,shipped,Houston,TX
+532,124,2022-02-16,returned,Chicago,PA
+533,16,2022-02-20,shipped,San Diego,TX
+534,411,2022-10-16,processing,Houston,TX
+535,286,2022-05-04,processing,Phoenix,NY
+536,870,2022-10-13,delivered,Houston,PA
+537,986,2022-12-10,delivered,Philadelphia,CA
+538,273,2022-03-31,processing,Phoenix,CA
+539,538,2022-01-04,processing,Houston,TX
+540,918,2022-12-29,delivered,San Antonio,TX
+541,521,2022-10-31,cancelled,San Jose,TX
+542,165,2022-11-22,shipped,Phoenix,CA
+543,291,2022-02-26,processing,San Jose,IL
+544,945,2022-08-20,delivered,Chicago,TX
+545,978,2022-08-21,pending,Los Angeles,AZ
+546,980,2022-03-16,shipped,San Jose,CA
+547,369,2022-07-11,processing,Los Angeles,CA
+548,983,2022-10-31,processing,Dallas,AZ
+549,816,2022-05-14,delivered,San Diego,TX
+550,527,2022-02-14,shipped,Phoenix,IL
+551,965,2022-09-04,delivered,Houston,CA
+552,430,2022-11-24,shipped,Philadelphia,CA
+553,355,2022-06-15,shipped,Chicago,IL
+554,738,2022-07-17,shipped,New York,CA
+555,768,2022-01-03,delivered,Dallas,NY
+556,436,2022-09-17,shipped,Philadelphia,CA
+557,705,2022-01-13,pending,Chicago,NY
+558,360,2022-01-26,shipped,San Jose,TX
+559,542,2022-08-20,pending,Houston,TX
+560,934,2022-05-12,delivered,Philadelphia,TX
+561,882,2022-10-04,processing,New York,CA
+562,216,2022-05-02,pending,Los Angeles,TX
+563,28,2022-08-25,shipped,San Diego,CA
+564,496,2022-01-18,delivered,Chicago,PA
+565,707,2022-01-01,pending,San Diego,TX
+566,137,2022-10-17,processing,San Diego,PA
+567,990,2022-02-16,delivered,Houston,CA
+568,663,2022-04-14,processing,San Jose,NY
+569,758,2022-12-05,shipped,San Diego,AZ
+570,439,2022-04-11,delivered,New York,TX
+571,123,2022-06-28,shipped,Houston,AZ
+572,388,2022-11-12,delivered,Los Angeles,CA
+573,504,2022-12-18,delivered,Los Angeles,IL
+574,920,2022-09-09,delivered,San Jose,TX
+575,211,2022-09-09,delivered,San Antonio,TX
+576,94,2022-04-29,delivered,Los Angeles,CA
+577,685,2022-07-14,shipped,Houston,TX
+578,577,2022-12-08,shipped,San Jose,CA
+579,925,2022-10-01,pending,San Antonio,TX
+580,345,2022-01-02,pending,New York,TX
+581,364,2022-08-19,shipped,San Diego,AZ
+582,120,2022-06-29,shipped,Los Angeles,TX
+583,64,2022-08-08,cancelled,Houston,PA
+584,751,2022-06-16,shipped,San Antonio,TX
+585,739,2022-07-09,shipped,Phoenix,AZ
+586,363,2022-02-10,shipped,Dallas,TX
+587,271,2022-02-19,delivered,Houston,NY
+588,311,2022-12-08,shipped,Los Angeles,CA
+589,60,2022-03-05,delivered,San Diego,IL
+590,52,2022-01-27,pending,Philadelphia,TX
+591,725,2022-10-03,returned,Chicago,AZ
+592,837,2022-04-30,delivered,Chicago,CA
+593,562,2022-07-21,shipped,Dallas,CA
+594,243,2022-11-22,delivered,Chicago,NY
+595,183,2022-11-05,delivered,Houston,CA
+596,664,2022-04-11,processing,San Antonio,PA
+597,338,2022-11-28,pending,Houston,IL
+598,462,2022-09-04,cancelled,Philadelphia,IL
+599,838,2022-06-18,delivered,Chicago,AZ
+600,878,2022-01-11,delivered,Dallas,TX
+601,338,2022-01-30,delivered,San Antonio,CA
+602,220,2022-04-27,delivered,San Antonio,NY
+603,244,2022-01-08,pending,Chicago,IL
+604,993,2022-12-15,processing,San Antonio,TX
+605,246,2022-02-09,returned,San Jose,TX
+606,109,2022-03-18,delivered,San Diego,TX
+607,532,2022-11-18,delivered,Chicago,TX
+608,103,2022-11-28,delivered,Dallas,TX
+609,353,2022-12-14,processing,San Antonio,IL
+610,252,2022-10-03,shipped,Philadelphia,NY
+611,925,2022-10-13,shipped,Los Angeles,NY
+612,24,2022-09-01,delivered,Houston,NY
+613,352,2022-02-25,processing,Phoenix,IL
+614,660,2022-11-20,processing,Houston,PA
+615,461,2022-09-22,processing,Chicago,AZ
+616,764,2022-05-08,delivered,Houston,IL
+617,263,2022-03-25,shipped,Chicago,PA
+618,510,2022-03-12,shipped,Philadelphia,CA
+619,529,2022-11-20,shipped,San Diego,CA
+620,447,2022-04-19,delivered,New York,CA
+621,156,2022-12-29,shipped,New York,TX
+622,173,2022-09-16,delivered,New York,TX
+623,388,2022-03-06,delivered,San Jose,AZ
+624,677,2022-11-03,delivered,New York,CA
+625,565,2022-07-13,cancelled,Houston,TX
+626,737,2022-01-09,delivered,San Antonio,PA
+627,816,2022-03-28,shipped,Chicago,CA
+628,107,2022-01-21,pending,Phoenix,TX
+629,65,2022-07-25,pending,Houston,TX
+630,85,2022-03-06,shipped,San Jose,CA
+631,434,2022-08-09,pending,Chicago,PA
+632,477,2022-06-08,shipped,Philadelphia,CA
+633,829,2022-03-16,pending,San Diego,AZ
+634,34,2022-10-04,shipped,San Diego,CA
+635,439,2022-08-13,delivered,San Diego,TX
+636,474,2022-06-13,processing,Philadelphia,TX
+637,292,2022-10-24,shipped,San Diego,AZ
+638,755,2022-03-10,delivered,San Antonio,NY
+639,237,2022-06-27,delivered,Chicago,PA
+640,250,2022-12-03,cancelled,Dallas,CA
+641,605,2022-03-17,delivered,Dallas,CA
+642,339,2022-07-15,processing,Phoenix,NY
+643,125,2022-03-01,shipped,Chicago,PA
+644,93,2022-05-09,returned,Philadelphia,TX
+645,723,2022-04-03,processing,Houston,TX
+646,842,2022-09-28,processing,New York,TX
+647,500,2022-05-12,shipped,San Diego,TX
+648,797,2022-01-16,pending,New York,PA
+649,430,2022-10-01,shipped,Houston,TX
+650,896,2022-05-21,processing,Phoenix,PA
+651,313,2022-05-29,shipped,San Antonio,IL
+652,821,2022-07-01,shipped,Houston,CA
+653,766,2022-05-29,returned,Los Angeles,CA
+654,295,2022-04-09,delivered,Dallas,AZ
+655,202,2022-01-16,delivered,Houston,CA
+656,821,2022-12-20,shipped,San Antonio,TX
+657,132,2022-12-22,delivered,Chicago,IL
+658,694,2022-12-25,returned,New York,TX
+659,73,2022-08-08,delivered,Phoenix,PA
+660,326,2022-06-20,shipped,Los Angeles,PA
+661,396,2022-05-21,shipped,Los Angeles,TX
+662,83,2022-05-24,delivered,San Jose,PA
+663,752,2022-01-09,delivered,San Jose,TX
+664,699,2022-10-18,shipped,San Jose,CA
+665,678,2022-12-22,shipped,Chicago,CA
+666,606,2022-03-27,shipped,Chicago,NY
+667,844,2022-03-31,delivered,Dallas,AZ
+668,601,2022-05-24,delivered,San Jose,CA
+669,995,2022-03-19,cancelled,Philadelphia,CA
+670,336,2022-02-08,shipped,Houston,IL
+671,226,2022-11-17,shipped,Houston,CA
+672,983,2022-07-18,cancelled,Chicago,CA
+673,577,2022-12-21,shipped,San Diego,PA
+674,989,2022-07-10,cancelled,New York,NY
+675,383,2022-02-24,delivered,San Diego,IL
+676,735,2022-10-25,delivered,San Antonio,CA
+677,18,2022-03-31,delivered,Dallas,PA
+678,256,2022-08-11,processing,Dallas,PA
+679,116,2022-12-15,shipped,San Diego,TX
+680,57,2022-08-28,processing,Houston,IL
+681,503,2022-11-13,delivered,San Antonio,TX
+682,572,2022-08-23,delivered,New York,AZ
+683,311,2022-10-21,shipped,Chicago,PA
+684,206,2022-08-25,delivered,Chicago,PA
+685,1,2022-04-10,delivered,Chicago,NY
+686,239,2022-02-06,delivered,Dallas,CA
+687,16,2022-12-27,processing,Los Angeles,CA
+688,7,2022-04-13,processing,San Diego,CA
+689,383,2022-04-20,delivered,San Diego,CA
+690,886,2022-07-23,processing,San Antonio,CA
+691,717,2022-02-07,delivered,San Jose,TX
+692,784,2022-06-19,processing,Los Angeles,TX
+693,139,2022-04-07,shipped,Los Angeles,PA
+694,148,2022-09-25,delivered,San Antonio,TX
+695,760,2022-04-11,processing,San Antonio,AZ
+696,414,2022-05-09,processing,Phoenix,CA
+697,167,2022-03-20,processing,Los Angeles,PA
+698,63,2022-10-21,pending,San Diego,CA
+699,114,2022-12-11,processing,Phoenix,IL
+700,318,2022-09-13,processing,Los Angeles,CA
+701,169,2022-04-29,processing,New York,CA
+702,972,2022-08-22,delivered,Los Angeles,TX
+703,170,2022-07-11,pending,Dallas,CA
+704,610,2022-10-22,delivered,San Antonio,TX
+705,311,2022-02-26,processing,San Jose,PA
+706,349,2022-09-16,delivered,San Diego,CA
+707,519,2022-11-19,shipped,Phoenix,AZ
+708,463,2022-01-21,shipped,Houston,AZ
+709,3,2022-03-13,delivered,San Antonio,TX
+710,518,2022-10-26,delivered,Chicago,CA
+711,304,2022-01-16,processing,Philadelphia,CA
+712,819,2022-10-13,pending,Houston,TX
+713,525,2022-10-06,delivered,Los Angeles,TX
+714,661,2022-12-10,delivered,Houston,NY
+715,347,2022-05-11,processing,Chicago,CA
+716,442,2022-07-31,delivered,Los Angeles,IL
+717,844,2022-03-11,delivered,Phoenix,CA
+718,437,2022-01-06,shipped,San Diego,NY
+719,590,2022-09-26,shipped,San Jose,TX
+720,870,2022-05-13,delivered,San Diego,CA
+721,281,2022-01-24,delivered,Houston,TX
+722,251,2022-09-28,pending,Chicago,TX
+723,371,2022-06-30,pending,San Diego,TX
+724,338,2022-03-17,delivered,Dallas,CA
+725,52,2022-12-25,delivered,Chicago,TX
+726,793,2022-11-14,delivered,New York,CA
+727,6,2022-10-23,returned,New York,CA
+728,439,2022-05-09,pending,San Antonio,TX
+729,66,2022-04-06,processing,Philadelphia,TX
+730,723,2022-03-05,processing,Los Angeles,AZ
+731,307,2022-12-08,shipped,New York,CA
+732,26,2022-05-16,delivered,San Diego,CA
+733,569,2022-02-20,delivered,Dallas,CA
+734,420,2022-08-13,shipped,San Diego,AZ
+735,252,2022-06-22,shipped,Phoenix,NY
+736,845,2022-05-14,processing,San Jose,CA
+737,280,2022-12-18,processing,Philadelphia,IL
+738,225,2022-08-14,shipped,Houston,CA
+739,823,2022-04-12,shipped,Philadelphia,TX
+740,226,2022-11-23,shipped,Los Angeles,NY
+741,197,2022-04-11,delivered,San Diego,AZ
+742,599,2022-03-07,delivered,San Antonio,CA
+743,917,2022-05-06,shipped,Houston,PA
+744,918,2022-11-20,pending,San Jose,CA
+745,935,2022-04-13,processing,San Jose,TX
+746,484,2022-12-23,processing,Dallas,TX
+747,880,2022-12-04,processing,Phoenix,CA
+748,444,2022-11-07,delivered,New York,AZ
+749,723,2022-01-07,processing,Houston,CA
+750,360,2022-05-12,pending,New York,NY
+751,182,2022-07-24,shipped,Phoenix,TX
+752,352,2022-01-15,processing,New York,TX
+753,352,2022-01-29,cancelled,Dallas,AZ
+754,213,2022-07-22,delivered,Chicago,CA
+755,575,2022-03-10,returned,Philadelphia,AZ
+756,885,2022-03-10,returned,Houston,TX
+757,386,2022-02-04,shipped,San Jose,CA
+758,677,2022-03-05,shipped,Dallas,PA
+759,109,2022-10-16,processing,Houston,TX
+760,723,2022-10-04,delivered,Los Angeles,TX
+761,281,2022-11-19,cancelled,Philadelphia,IL
+762,823,2022-11-16,delivered,Los Angeles,IL
+763,920,2022-12-24,shipped,New York,PA
+764,741,2022-01-05,processing,San Diego,CA
+765,988,2022-01-29,delivered,Dallas,IL
+766,811,2022-05-15,delivered,Phoenix,CA
+767,978,2022-05-19,delivered,Dallas,CA
+768,722,2022-05-10,pending,New York,CA
+769,236,2022-09-11,shipped,Philadelphia,AZ
+770,825,2022-07-23,delivered,New York,TX
+771,469,2022-05-17,shipped,Philadelphia,CA
+772,835,2022-04-20,processing,San Diego,CA
+773,272,2022-12-07,shipped,San Jose,CA
+774,444,2022-02-22,processing,Phoenix,TX
+775,59,2022-07-17,delivered,San Jose,AZ
+776,654,2022-05-28,delivered,Phoenix,IL
+777,127,2022-11-06,delivered,San Jose,NY
+778,981,2022-03-30,processing,Los Angeles,TX
+779,358,2022-10-23,shipped,Chicago,CA
+780,867,2022-04-28,delivered,San Antonio,TX
+781,923,2022-07-22,shipped,Dallas,AZ
+782,774,2022-08-20,shipped,Philadelphia,PA
+783,710,2022-05-16,processing,New York,NY
+784,472,2022-01-26,delivered,Chicago,TX
+785,801,2022-02-12,shipped,Los Angeles,NY
+786,770,2022-10-08,shipped,Houston,AZ
+787,538,2022-12-02,shipped,New York,PA
+788,685,2022-01-03,delivered,Houston,NY
+789,27,2022-02-16,delivered,Philadelphia,TX
+790,105,2022-02-11,delivered,San Jose,CA
+791,330,2022-10-28,pending,San Jose,TX
+792,109,2022-05-14,pending,New York,TX
+793,863,2022-02-10,delivered,Houston,CA
+794,543,2022-06-29,delivered,Dallas,CA
+795,136,2022-05-25,processing,Phoenix,TX
+796,342,2022-02-22,shipped,San Antonio,CA
+797,294,2022-02-10,shipped,San Jose,CA
+798,362,2022-11-11,delivered,San Jose,AZ
+799,395,2022-10-19,processing,San Antonio,AZ
+800,523,2022-09-22,delivered,San Jose,CA
+801,219,2022-06-23,processing,San Diego,CA
+802,104,2022-09-22,pending,Houston,CA
+803,737,2022-11-20,delivered,Chicago,NY
+804,383,2022-05-11,shipped,San Jose,CA
+805,380,2022-01-14,delivered,Houston,TX
+806,718,2022-08-08,shipped,San Antonio,CA
+807,142,2022-07-18,delivered,Phoenix,TX
+808,724,2022-05-28,shipped,Phoenix,CA
+809,524,2022-06-24,processing,Chicago,CA
+810,965,2022-07-14,delivered,Los Angeles,NY
+811,47,2022-02-24,processing,Dallas,TX
+812,42,2022-07-11,returned,Phoenix,NY
+813,38,2022-07-31,delivered,Philadelphia,NY
+814,621,2022-12-28,delivered,Dallas,CA
+815,831,2022-06-06,processing,San Jose,IL
+816,928,2022-12-28,shipped,San Antonio,CA
+817,763,2022-12-21,delivered,Chicago,CA
+818,825,2022-09-19,pending,Philadelphia,NY
+819,518,2022-09-22,delivered,Chicago,IL
+820,802,2022-03-21,shipped,Houston,IL
+821,111,2022-03-30,delivered,Dallas,IL
+822,903,2022-09-24,shipped,Phoenix,TX
+823,890,2022-04-19,delivered,Phoenix,PA
+824,179,2022-09-16,delivered,Chicago,IL
+825,451,2022-06-09,delivered,San Diego,NY
+826,205,2022-11-06,delivered,Chicago,NY
+827,126,2022-04-30,pending,Philadelphia,CA
+828,369,2022-02-28,processing,San Antonio,TX
+829,834,2022-11-17,processing,New York,NY
+830,703,2022-11-29,processing,Dallas,TX
+831,322,2022-01-13,shipped,Chicago,CA
+832,767,2022-06-26,returned,San Jose,CA
+833,653,2022-12-12,processing,Philadelphia,CA
+834,328,2022-05-18,delivered,New York,TX
+835,400,2022-09-16,delivered,San Jose,CA
+836,620,2022-09-26,delivered,Dallas,TX
+837,3,2022-11-22,shipped,Houston,IL
+838,915,2022-04-09,delivered,Houston,TX
+839,795,2022-07-10,delivered,San Diego,CA
+840,169,2022-08-27,delivered,New York,NY
+841,832,2022-04-22,shipped,Phoenix,TX
+842,807,2022-05-28,shipped,Philadelphia,TX
+843,752,2022-09-02,processing,Philadelphia,PA
+844,887,2022-01-13,delivered,San Antonio,TX
+845,968,2022-11-29,processing,Los Angeles,IL
+846,493,2022-11-19,shipped,New York,AZ
+847,669,2022-07-28,shipped,Los Angeles,AZ
+848,190,2022-07-12,shipped,San Diego,CA
+849,917,2022-07-03,shipped,San Jose,TX
+850,525,2022-01-24,delivered,Philadelphia,CA
+851,779,2022-12-28,shipped,Dallas,PA
+852,66,2022-10-31,delivered,Los Angeles,IL
+853,14,2022-05-28,cancelled,San Antonio,TX
+854,729,2022-09-03,shipped,Houston,NY
+855,759,2022-02-11,processing,Chicago,NY
+856,890,2022-03-09,pending,San Antonio,AZ
+857,552,2022-05-25,pending,San Diego,AZ
+858,699,2022-04-30,delivered,San Antonio,CA
+859,637,2022-07-14,delivered,Dallas,NY
+860,646,2022-07-19,returned,New York,TX
+861,986,2022-10-21,delivered,Phoenix,CA
+862,405,2022-12-31,processing,San Jose,TX
+863,12,2022-06-30,delivered,Houston,TX
+864,710,2022-09-30,pending,Houston,CA
+865,288,2022-02-10,delivered,Philadelphia,PA
+866,923,2022-01-16,delivered,Los Angeles,CA
+867,991,2022-06-23,delivered,San Antonio,AZ
+868,606,2022-07-11,shipped,Phoenix,PA
+869,863,2022-05-23,pending,San Antonio,TX
+870,909,2022-02-02,cancelled,Dallas,PA
+871,284,2022-12-05,delivered,Philadelphia,CA
+872,542,2022-12-01,returned,Los Angeles,CA
+873,289,2022-10-27,delivered,Los Angeles,NY
+874,638,2022-06-22,shipped,San Antonio,PA
+875,717,2022-04-06,processing,Dallas,CA
+876,501,2022-09-12,pending,Philadelphia,AZ
+877,251,2022-10-25,delivered,Chicago,TX
+878,647,2022-09-06,shipped,San Jose,IL
+879,449,2022-12-27,delivered,San Antonio,CA
+880,793,2022-04-22,delivered,Los Angeles,CA
+881,59,2022-08-08,pending,New York,CA
+882,894,2022-06-08,delivered,San Jose,TX
+883,300,2022-09-27,delivered,San Antonio,CA
+884,930,2022-09-14,delivered,Houston,CA
+885,636,2022-08-07,pending,Philadelphia,TX
+886,9,2022-03-02,delivered,San Jose,CA
+887,896,2022-01-10,delivered,Dallas,NY
+888,995,2022-07-27,delivered,Phoenix,CA
+889,460,2022-11-02,pending,Chicago,TX
+890,499,2022-05-23,shipped,Los Angeles,CA
+891,341,2022-10-14,shipped,San Antonio,IL
+892,359,2022-10-30,shipped,Los Angeles,CA
+893,854,2022-02-18,shipped,San Diego,CA
+894,941,2022-05-26,pending,San Diego,CA
+895,892,2022-07-23,processing,Los Angeles,TX
+896,624,2022-11-28,returned,Los Angeles,NY
+897,653,2022-01-23,pending,Chicago,CA
+898,898,2022-03-30,processing,San Diego,CA
+899,99,2022-10-19,shipped,Dallas,PA
+900,321,2022-08-01,processing,San Diego,PA
+901,642,2022-07-29,cancelled,Philadelphia,TX
+902,913,2022-12-03,delivered,San Antonio,CA
+903,447,2022-07-25,shipped,Los Angeles,CA
+904,680,2022-09-26,shipped,New York,TX
+905,466,2022-12-12,shipped,Philadelphia,IL
+906,958,2022-10-12,pending,Chicago,NY
+907,994,2022-06-18,shipped,Houston,IL
+908,816,2022-02-17,delivered,Philadelphia,PA
+909,189,2022-01-08,shipped,Los Angeles,PA
+910,368,2022-04-16,processing,Dallas,AZ
+911,664,2022-06-26,processing,San Jose,PA
+912,715,2022-09-14,pending,Chicago,PA
+913,926,2022-01-15,delivered,Dallas,IL
+914,860,2022-08-29,shipped,San Diego,TX
+915,385,2022-03-03,processing,Houston,IL
+916,654,2022-12-26,cancelled,Houston,TX
+917,350,2022-10-09,delivered,San Jose,TX
+918,949,2022-04-01,processing,Philadelphia,CA
+919,490,2022-11-21,shipped,Chicago,CA
+920,33,2022-12-01,shipped,San Antonio,IL
+921,434,2022-11-23,cancelled,Houston,AZ
+922,54,2022-03-30,delivered,San Jose,NY
+923,72,2022-02-09,shipped,Houston,AZ
+924,317,2022-07-09,processing,Dallas,TX
+925,769,2022-01-16,delivered,San Antonio,CA
+926,304,2022-09-27,shipped,San Diego,NY
+927,772,2022-12-21,pending,San Diego,TX
+928,985,2022-09-05,processing,Los Angeles,CA
+929,876,2022-04-09,delivered,Los Angeles,IL
+930,712,2022-01-05,returned,San Antonio,CA
+931,373,2022-03-17,delivered,San Antonio,IL
+932,372,2022-06-06,processing,Houston,IL
+933,140,2022-12-06,delivered,San Diego,TX
+934,488,2022-03-29,processing,New York,TX
+935,762,2022-04-19,processing,Houston,PA
+936,651,2022-02-20,shipped,New York,TX
+937,989,2022-09-29,processing,Houston,TX
+938,240,2022-05-04,returned,Philadelphia,CA
+939,904,2022-06-29,shipped,Philadelphia,IL
+940,44,2022-05-10,pending,San Antonio,TX
+941,971,2022-10-07,shipped,Chicago,CA
+942,351,2022-01-05,processing,San Antonio,IL
+943,609,2022-11-19,shipped,San Jose,NY
+944,993,2022-04-08,delivered,San Antonio,TX
+945,105,2022-06-04,pending,San Diego,IL
+946,838,2022-04-07,delivered,San Jose,TX
+947,71,2022-06-28,shipped,Houston,IL
+948,21,2022-02-06,shipped,New York,CA
+949,639,2022-03-07,delivered,Dallas,AZ
+950,159,2022-02-09,delivered,Los Angeles,PA
+951,568,2022-08-13,delivered,Houston,CA
+952,970,2022-01-16,delivered,San Antonio,CA
+953,506,2022-10-24,delivered,Phoenix,PA
+954,398,2022-11-03,processing,San Antonio,CA
+955,356,2022-05-31,returned,Los Angeles,CA
+956,573,2022-05-10,delivered,New York,PA
+957,93,2022-10-10,shipped,Houston,CA
+958,473,2022-02-19,shipped,Dallas,AZ
+959,819,2022-12-23,delivered,San Diego,PA
+960,403,2022-02-24,processing,Chicago,NY
+961,119,2022-06-17,processing,Philadelphia,CA
+962,17,2022-07-20,delivered,New York,CA
+963,387,2022-05-29,pending,Houston,TX
+964,253,2022-08-23,delivered,Los Angeles,CA
+965,989,2022-03-07,delivered,Philadelphia,NY
+966,612,2022-04-19,cancelled,Dallas,CA
+967,69,2022-08-11,shipped,Chicago,CA
+968,499,2022-07-07,delivered,San Jose,NY
+969,76,2022-03-15,shipped,San Antonio,CA
+970,211,2022-02-22,cancelled,San Antonio,CA
+971,481,2022-06-22,delivered,San Antonio,TX
+972,804,2022-08-12,processing,Phoenix,CA
+973,683,2022-07-10,processing,San Diego,CA
+974,438,2022-04-22,processing,Los Angeles,TX
+975,159,2022-06-08,shipped,Phoenix,CA
+976,732,2022-06-23,pending,San Jose,CA
+977,584,2022-04-15,pending,Los Angeles,IL
+978,895,2022-04-13,delivered,Philadelphia,CA
+979,821,2022-10-20,shipped,San Jose,TX
+980,260,2022-04-06,delivered,Dallas,IL
+981,666,2022-12-29,delivered,New York,CA
+982,557,2022-11-05,delivered,Los Angeles,TX
+983,88,2022-01-27,pending,San Diego,TX
+984,134,2022-04-17,delivered,San Diego,TX
+985,391,2022-08-18,pending,Phoenix,PA
+986,619,2022-03-25,delivered,San Antonio,AZ
+987,648,2022-01-24,shipped,San Antonio,IL
+988,422,2022-09-19,delivered,Houston,CA
+989,240,2022-04-09,delivered,Phoenix,TX
+990,711,2022-05-28,delivered,San Diego,TX
+991,486,2022-07-02,delivered,New York,TX
+992,305,2022-09-07,pending,San Jose,NY
+993,498,2022-07-24,delivered,New York,TX
+994,798,2022-09-16,cancelled,New York,TX
+995,638,2022-10-04,shipped,Houston,CA
+996,544,2022-05-04,delivered,San Antonio,TX
+997,23,2022-10-05,pending,Dallas,CA
+998,926,2022-02-24,pending,San Antonio,TX
+999,118,2022-05-09,shipped,Chicago,CA
+1000,281,2022-03-17,shipped,Philadelphia,TX
+1001,981,2022-01-31,pending,Chicago,TX
+1002,483,2022-12-17,processing,San Jose,CA
+1003,557,2022-11-19,pending,Los Angeles,TX
+1004,493,2022-05-02,delivered,San Antonio,TX
+1005,923,2022-07-15,shipped,Philadelphia,PA
+1006,412,2022-04-11,delivered,Los Angeles,IL
+1007,63,2022-03-09,delivered,Phoenix,TX
+1008,220,2022-06-27,processing,Dallas,IL
+1009,323,2022-08-04,cancelled,Phoenix,TX
+1010,966,2022-07-07,delivered,Houston,CA
+1011,719,2022-07-30,shipped,Dallas,CA
+1012,428,2022-05-12,shipped,San Diego,IL
+1013,536,2022-12-10,delivered,Philadelphia,TX
+1014,522,2022-08-11,pending,New York,TX
+1015,181,2022-05-22,delivered,Houston,CA
+1016,737,2022-02-04,delivered,Houston,TX
+1017,878,2022-12-02,processing,Phoenix,NY
+1018,1,2022-10-01,delivered,Houston,CA
+1019,717,2022-11-06,delivered,Phoenix,NY
+1020,796,2022-12-25,shipped,Chicago,CA
+1021,611,2022-04-10,delivered,Philadelphia,IL
+1022,925,2022-11-17,delivered,San Diego,CA
+1023,798,2022-02-27,delivered,San Jose,CA
+1024,408,2022-10-19,delivered,San Diego,IL
+1025,501,2022-11-28,shipped,Chicago,NY
+1026,269,2022-04-24,processing,San Antonio,TX
+1027,121,2022-12-02,shipped,New York,CA
+1028,910,2022-02-09,delivered,Houston,IL
+1029,883,2022-01-09,delivered,Houston,NY
+1030,122,2022-04-13,pending,Houston,CA
+1031,768,2022-11-12,shipped,San Diego,TX
+1032,209,2022-01-15,delivered,New York,CA
+1033,81,2022-09-30,shipped,Houston,TX
+1034,610,2022-07-10,delivered,Houston,NY
+1035,752,2022-01-16,cancelled,New York,TX
+1036,442,2022-10-23,delivered,Phoenix,IL
+1037,787,2022-08-27,delivered,Los Angeles,TX
+1038,739,2022-04-06,shipped,San Jose,AZ
+1039,809,2022-06-25,pending,Phoenix,IL
+1040,361,2022-10-26,delivered,Philadelphia,TX
+1041,938,2022-07-10,processing,Los Angeles,AZ
+1042,73,2022-02-16,pending,Houston,IL
+1043,611,2022-02-03,returned,San Diego,AZ
+1044,959,2022-11-09,delivered,San Antonio,TX
+1045,931,2022-03-22,shipped,Los Angeles,PA
+1046,166,2022-02-17,delivered,San Antonio,CA
+1047,613,2022-07-22,shipped,San Jose,IL
+1048,216,2022-09-23,delivered,Los Angeles,IL
+1049,746,2022-06-15,shipped,Los Angeles,CA
+1050,176,2022-06-05,shipped,Philadelphia,CA
+1051,165,2022-12-06,shipped,San Jose,NY
+1052,841,2022-02-28,shipped,San Diego,TX
+1053,633,2022-10-12,processing,San Antonio,TX
+1054,247,2022-07-13,processing,Los Angeles,PA
+1055,767,2022-07-09,processing,San Diego,TX
+1056,586,2022-10-31,shipped,Philadelphia,TX
+1057,698,2022-06-27,cancelled,San Diego,TX
+1058,610,2022-10-04,processing,Dallas,AZ
+1059,514,2022-12-26,delivered,Philadelphia,TX
+1060,977,2022-10-16,shipped,San Diego,CA
+1061,427,2022-01-12,shipped,San Jose,TX
+1062,501,2022-06-17,processing,San Antonio,IL
+1063,332,2022-09-13,processing,Philadelphia,CA
+1064,630,2022-10-15,delivered,Houston,TX
+1065,560,2022-10-01,shipped,San Diego,TX
+1066,322,2022-11-28,shipped,New York,IL
+1067,202,2022-07-06,delivered,San Jose,NY
+1068,824,2022-12-30,returned,San Jose,TX
+1069,968,2022-06-16,delivered,Los Angeles,CA
+1070,82,2022-08-24,pending,San Diego,CA
+1071,127,2022-04-06,delivered,Philadelphia,IL
+1072,18,2022-07-16,delivered,Philadelphia,CA
+1073,892,2022-02-20,delivered,San Antonio,IL
+1074,871,2022-04-28,pending,Dallas,PA
+1075,871,2022-10-15,processing,Chicago,CA
+1076,139,2022-05-04,pending,Chicago,CA
+1077,262,2022-10-18,delivered,San Diego,AZ
+1078,278,2022-07-23,processing,Dallas,CA
+1079,927,2022-10-27,returned,San Jose,CA
+1080,37,2022-11-03,delivered,Houston,CA
+1081,142,2022-07-28,delivered,San Diego,CA
+1082,242,2022-10-14,processing,San Diego,CA
+1083,624,2022-03-15,pending,Los Angeles,AZ
+1084,40,2022-05-25,shipped,Phoenix,CA
+1085,946,2022-03-26,delivered,Los Angeles,CA
+1086,267,2022-02-28,delivered,San Diego,TX
+1087,88,2022-07-06,shipped,San Diego,CA
+1088,435,2022-01-02,delivered,Houston,AZ
+1089,666,2022-02-01,delivered,San Antonio,PA
+1090,403,2022-02-10,processing,Los Angeles,CA
+1091,613,2022-02-17,processing,New York,PA
+1092,568,2022-12-03,returned,San Diego,CA
+1093,25,2022-08-22,delivered,Philadelphia,CA
+1094,504,2022-07-19,returned,Los Angeles,PA
+1095,932,2022-11-10,delivered,Houston,AZ
+1096,630,2022-03-12,returned,Los Angeles,CA
+1097,800,2022-01-21,processing,San Diego,CA
+1098,789,2022-09-13,processing,Dallas,TX
+1099,880,2022-04-28,shipped,Houston,TX
+1100,671,2022-04-25,delivered,Chicago,CA
+1101,393,2022-03-09,delivered,Chicago,CA
+1102,637,2022-05-21,returned,Dallas,TX
+1103,738,2022-09-18,delivered,Dallas,PA
+1104,43,2022-11-14,delivered,San Diego,IL
+1105,562,2022-01-23,returned,San Antonio,CA
+1106,732,2022-04-21,returned,Los Angeles,NY
+1107,216,2022-07-28,pending,Philadelphia,TX
+1108,529,2022-07-25,processing,Phoenix,TX
+1109,913,2022-04-08,pending,Houston,CA
+1110,224,2022-02-12,delivered,San Jose,CA
+1111,449,2022-02-15,shipped,Houston,CA
+1112,642,2022-05-31,processing,Dallas,IL
+1113,976,2022-01-11,pending,Los Angeles,CA
+1114,948,2022-02-19,shipped,San Antonio,TX
+1115,872,2022-03-26,delivered,Phoenix,CA
+1116,795,2022-01-16,delivered,San Diego,TX
+1117,709,2022-07-02,cancelled,San Jose,TX
+1118,929,2022-11-09,delivered,New York,PA
+1119,298,2022-11-28,shipped,Houston,CA
+1120,570,2022-07-11,processing,San Antonio,NY
+1121,161,2022-12-23,delivered,Dallas,PA
+1122,594,2022-05-10,processing,Chicago,TX
+1123,657,2022-03-23,processing,San Diego,CA
+1124,74,2022-07-08,shipped,Dallas,CA
+1125,330,2022-07-07,delivered,San Diego,TX
+1126,680,2022-06-21,delivered,Dallas,CA
+1127,652,2022-02-16,delivered,Dallas,CA
+1128,701,2022-09-27,shipped,Phoenix,TX
+1129,661,2022-08-13,pending,San Diego,CA
+1130,596,2022-02-09,shipped,Philadelphia,PA
+1131,941,2022-04-20,delivered,Los Angeles,CA
+1132,240,2022-11-21,delivered,Los Angeles,CA
+1133,846,2022-12-01,delivered,San Antonio,NY
+1134,285,2022-10-28,shipped,Phoenix,TX
+1135,429,2022-09-24,delivered,Dallas,TX
+1136,397,2022-05-11,delivered,San Diego,TX
+1137,500,2022-08-20,shipped,San Diego,IL
+1138,343,2022-03-27,processing,Houston,IL
+1139,316,2022-02-23,shipped,Houston,CA
+1140,107,2022-05-12,delivered,San Diego,TX
+1141,492,2022-12-17,shipped,San Diego,PA
+1142,752,2022-07-17,shipped,San Jose,NY
+1143,931,2022-04-10,delivered,Dallas,TX
+1144,257,2022-08-14,processing,New York,CA
+1145,314,2022-11-26,delivered,Los Angeles,CA
+1146,220,2022-01-31,delivered,Philadelphia,TX
+1147,772,2022-02-19,shipped,Phoenix,CA
+1148,20,2022-12-30,processing,Philadelphia,PA
+1149,955,2022-09-06,delivered,San Antonio,IL
+1150,680,2022-08-16,delivered,San Jose,CA
+1151,795,2022-07-29,delivered,Dallas,TX
+1152,42,2022-09-06,processing,Philadelphia,NY
+1153,688,2022-03-18,delivered,San Antonio,TX
+1154,190,2022-10-14,pending,Dallas,CA
+1155,203,2022-03-12,delivered,Phoenix,CA
+1156,863,2022-02-19,delivered,Los Angeles,CA
+1157,101,2022-06-24,delivered,Chicago,CA
+1158,859,2022-11-13,delivered,Chicago,TX
+1159,723,2022-04-08,delivered,Philadelphia,CA
+1160,692,2022-06-14,delivered,Philadelphia,PA
+1161,680,2022-03-30,delivered,New York,PA
+1162,46,2022-09-30,processing,San Diego,IL
+1163,146,2022-09-02,returned,Los Angeles,PA
+1164,100,2022-06-09,shipped,New York,TX
+1165,878,2022-05-31,shipped,San Diego,PA
+1166,928,2022-09-19,delivered,Dallas,CA
+1167,413,2022-08-01,returned,Philadelphia,AZ
+1168,582,2022-05-21,processing,Phoenix,CA
+1169,863,2022-11-27,delivered,New York,CA
+1170,307,2022-07-24,delivered,New York,TX
+1171,813,2022-12-03,shipped,San Antonio,TX
+1172,545,2022-12-25,delivered,New York,TX
+1173,285,2022-01-07,processing,Houston,PA
+1174,910,2022-07-19,shipped,San Antonio,TX
+1175,122,2022-12-11,pending,Chicago,TX
+1176,669,2022-10-13,processing,Phoenix,NY
+1177,820,2022-10-22,shipped,Dallas,TX
+1178,532,2022-10-30,shipped,San Diego,PA
+1179,956,2022-03-13,processing,San Diego,CA
+1180,911,2022-06-15,cancelled,New York,AZ
+1181,266,2022-12-02,pending,Phoenix,TX
+1182,527,2022-04-28,shipped,Los Angeles,CA
+1183,954,2022-05-08,pending,Los Angeles,AZ
+1184,415,2022-05-21,delivered,Chicago,PA
+1185,898,2022-04-05,pending,New York,IL
+1186,70,2022-04-20,cancelled,San Diego,TX
+1187,997,2022-10-04,returned,Chicago,PA
+1188,236,2022-02-04,returned,Phoenix,TX
+1189,291,2022-08-12,pending,San Jose,NY
+1190,27,2022-06-09,processing,New York,PA
+1191,27,2022-01-01,delivered,San Jose,CA
+1192,986,2022-09-14,delivered,Los Angeles,PA
+1193,352,2022-07-16,delivered,Chicago,CA
+1194,472,2022-01-08,cancelled,Los Angeles,CA
+1195,750,2022-04-27,shipped,Philadelphia,PA
+1196,785,2022-02-04,processing,Chicago,TX
+1197,319,2022-11-22,shipped,Dallas,AZ
+1198,561,2022-12-18,delivered,San Jose,TX
+1199,766,2022-10-26,pending,San Jose,TX
+1200,768,2022-04-26,cancelled,Los Angeles,NY
+1201,947,2022-06-19,delivered,Phoenix,TX
+1202,576,2022-08-12,delivered,San Diego,CA
+1203,452,2022-01-08,shipped,Dallas,TX
+1204,91,2022-09-08,processing,New York,CA
+1205,521,2022-10-26,delivered,Houston,NY
+1206,696,2022-10-24,delivered,Houston,TX
+1207,392,2022-06-20,pending,Los Angeles,PA
+1208,663,2022-03-21,shipped,Dallas,TX
+1209,560,2022-05-04,pending,Houston,TX
+1210,167,2022-01-18,delivered,Los Angeles,TX
+1211,939,2022-11-30,delivered,Philadelphia,PA
+1212,199,2022-09-12,delivered,New York,NY
+1213,685,2022-04-08,shipped,San Jose,CA
+1214,444,2022-06-07,delivered,San Jose,TX
+1215,397,2022-09-13,returned,Los Angeles,AZ
+1216,772,2022-12-02,returned,Philadelphia,CA
+1217,198,2022-08-01,delivered,New York,CA
+1218,766,2022-08-29,shipped,Philadelphia,PA
+1219,646,2022-08-02,pending,New York,TX
+1220,478,2022-01-15,delivered,New York,CA
+1221,90,2022-03-06,processing,San Diego,TX
+1222,242,2022-05-22,processing,Dallas,CA
+1223,228,2022-09-14,shipped,Houston,NY
+1224,907,2022-03-20,cancelled,San Diego,AZ
+1225,348,2022-11-10,processing,Houston,CA
+1226,400,2022-10-07,processing,Chicago,TX
+1227,22,2022-12-12,processing,San Jose,AZ
+1228,955,2022-12-05,processing,Houston,TX
+1229,695,2022-01-19,processing,Houston,TX
+1230,289,2022-04-15,pending,San Antonio,AZ
+1231,510,2022-02-13,shipped,New York,TX
+1232,868,2022-02-11,shipped,San Diego,TX
+1233,94,2022-11-26,pending,Philadelphia,TX
+1234,572,2022-11-17,returned,San Jose,TX
+1235,524,2022-01-27,delivered,Chicago,TX
+1236,265,2022-01-22,delivered,Chicago,NY
+1237,308,2022-06-01,processing,Philadelphia,IL
+1238,941,2022-08-04,processing,San Diego,TX
+1239,985,2022-05-02,delivered,San Jose,CA
+1240,773,2022-06-25,shipped,Chicago,TX
+1241,270,2022-05-28,delivered,Dallas,TX
+1242,455,2022-09-17,delivered,Philadelphia,TX
+1243,907,2022-01-03,processing,Chicago,TX
+1244,818,2022-10-17,processing,San Jose,CA
+1245,823,2022-06-24,shipped,New York,CA
+1246,626,2022-08-19,delivered,New York,CA
+1247,606,2022-10-03,shipped,Phoenix,CA
+1248,204,2022-09-17,returned,Dallas,NY
+1249,56,2022-02-04,processing,Phoenix,TX
+1250,39,2022-01-14,processing,Dallas,CA
+1251,25,2022-03-29,processing,New York,IL
+1252,638,2022-07-19,delivered,Phoenix,PA
+1253,468,2022-10-25,shipped,Philadelphia,IL
+1254,924,2022-06-30,delivered,San Jose,NY
+1255,189,2022-01-15,shipped,Chicago,NY
+1256,769,2022-04-21,shipped,San Jose,TX
+1257,849,2022-08-21,processing,Phoenix,IL
+1258,666,2022-07-28,shipped,Houston,CA
+1259,833,2022-04-23,delivered,Chicago,NY
+1260,351,2022-12-26,processing,New York,AZ
+1261,349,2022-04-14,shipped,San Jose,CA
+1262,620,2022-11-28,delivered,San Diego,NY
+1263,881,2022-04-27,processing,Dallas,CA
+1264,381,2022-01-15,processing,Phoenix,CA
+1265,948,2022-05-27,delivered,San Antonio,TX
+1266,537,2022-03-29,returned,Philadelphia,PA
+1267,923,2022-07-20,cancelled,San Jose,IL
+1268,411,2022-05-23,processing,Phoenix,CA
+1269,3,2022-09-30,returned,Los Angeles,TX
+1270,390,2022-08-06,delivered,Dallas,TX
+1271,965,2022-02-05,shipped,San Jose,CA
+1272,522,2022-01-06,delivered,Phoenix,TX
+1273,930,2022-10-07,delivered,Los Angeles,NY
+1274,358,2022-05-17,pending,Philadelphia,CA
+1275,294,2022-02-22,delivered,San Diego,IL
+1276,911,2022-03-07,delivered,Philadelphia,TX
+1277,144,2022-07-20,pending,Los Angeles,NY
+1278,563,2022-06-24,delivered,San Jose,TX
+1279,548,2022-01-25,delivered,San Diego,CA
+1280,26,2022-05-13,shipped,Chicago,CA
+1281,915,2022-10-25,delivered,Los Angeles,TX
+1282,239,2022-07-20,delivered,New York,TX
+1283,523,2022-05-21,pending,Phoenix,CA
+1284,460,2022-09-13,delivered,San Jose,CA
+1285,547,2022-03-20,shipped,San Antonio,CA
+1286,923,2022-03-22,delivered,Phoenix,TX
+1287,814,2022-07-12,delivered,Chicago,CA
+1288,504,2022-04-18,pending,San Jose,TX
+1289,724,2022-02-05,processing,San Jose,CA
+1290,236,2022-11-12,delivered,Los Angeles,AZ
+1291,433,2022-08-12,pending,San Antonio,TX
+1292,77,2022-08-13,shipped,New York,AZ
+1293,409,2022-01-03,delivered,Phoenix,AZ
+1294,17,2022-04-03,cancelled,Los Angeles,TX
+1295,118,2022-12-09,pending,Los Angeles,CA
+1296,432,2022-12-28,returned,Phoenix,CA
+1297,535,2022-02-02,shipped,Phoenix,CA
+1298,117,2022-12-21,delivered,Chicago,CA
+1299,987,2022-12-17,shipped,San Diego,TX
+1300,836,2022-11-01,delivered,Philadelphia,TX
+1301,817,2022-09-06,processing,Philadelphia,CA
+1302,645,2022-06-28,delivered,Los Angeles,PA
+1303,872,2022-04-25,cancelled,San Diego,CA
+1304,829,2022-01-05,pending,San Jose,IL
+1305,239,2022-12-30,delivered,Phoenix,IL
+1306,472,2022-06-10,delivered,San Diego,CA
+1307,994,2022-06-22,shipped,San Diego,NY
+1308,786,2022-07-10,delivered,San Antonio,TX
+1309,715,2022-02-04,cancelled,Philadelphia,TX
+1310,28,2022-06-27,delivered,Dallas,CA
+1311,901,2022-02-09,delivered,Dallas,IL
+1312,731,2022-04-24,shipped,San Jose,CA
+1313,946,2022-12-07,shipped,San Antonio,PA
+1314,10,2022-12-30,processing,New York,CA
+1315,722,2022-01-15,cancelled,Phoenix,TX
+1316,677,2022-09-26,delivered,San Diego,TX
+1317,351,2022-03-30,cancelled,San Jose,NY
+1318,851,2022-04-30,pending,San Jose,CA
+1319,394,2022-12-12,delivered,Dallas,IL
+1320,557,2022-09-29,delivered,San Jose,TX
+1321,445,2022-03-30,shipped,San Diego,CA
+1322,870,2022-09-23,processing,Philadelphia,AZ
+1323,841,2022-04-22,delivered,San Antonio,CA
+1324,682,2022-09-23,shipped,Phoenix,TX
+1325,638,2022-01-31,processing,Philadelphia,IL
+1326,632,2022-04-13,shipped,San Antonio,AZ
+1327,196,2022-10-21,pending,San Antonio,TX
+1328,457,2022-11-18,delivered,Los Angeles,TX
+1329,100,2022-03-25,delivered,San Antonio,TX
+1330,170,2022-02-10,delivered,New York,TX
+1331,604,2022-11-08,processing,Houston,TX
+1332,931,2022-11-08,delivered,San Jose,CA
+1333,355,2022-09-09,delivered,Philadelphia,TX
+1334,342,2022-03-17,pending,Philadelphia,CA
+1335,795,2022-06-15,shipped,Houston,TX
+1336,51,2022-01-17,delivered,Dallas,TX
+1337,661,2022-09-07,returned,Los Angeles,TX
+1338,306,2022-02-26,processing,San Diego,TX
+1339,765,2022-09-20,processing,San Antonio,TX
+1340,608,2022-07-11,delivered,San Jose,TX
+1341,185,2022-01-09,shipped,Philadelphia,CA
+1342,820,2022-10-12,pending,Dallas,CA
+1343,334,2022-09-19,returned,Chicago,IL
+1344,861,2022-01-26,delivered,Houston,NY
+1345,475,2022-11-24,pending,Dallas,TX
+1346,872,2022-03-10,shipped,Phoenix,CA
+1347,81,2022-01-26,cancelled,San Antonio,IL
+1348,324,2022-02-20,processing,Houston,CA
+1349,232,2022-12-17,shipped,San Jose,AZ
+1350,356,2022-02-16,processing,Phoenix,PA
+1351,639,2022-08-06,processing,Phoenix,AZ
+1352,539,2022-02-17,pending,Houston,TX
+1353,819,2022-07-21,pending,Dallas,PA
+1354,28,2022-10-21,shipped,New York,PA
+1355,876,2022-07-03,delivered,Philadelphia,CA
+1356,600,2022-10-25,processing,Dallas,TX
+1357,315,2022-07-21,shipped,Phoenix,CA
+1358,282,2022-03-18,delivered,Dallas,TX
+1359,290,2022-01-24,cancelled,Philadelphia,CA
+1360,446,2022-09-06,processing,Phoenix,PA
+1361,41,2022-09-03,pending,Dallas,CA
+1362,336,2022-05-20,delivered,Houston,TX
+1363,980,2022-03-15,processing,Houston,TX
+1364,430,2022-08-14,returned,San Diego,NY
+1365,329,2022-10-27,cancelled,San Diego,TX
+1366,932,2022-01-21,pending,Philadelphia,NY
+1367,438,2022-10-04,shipped,Los Angeles,TX
+1368,582,2022-01-11,delivered,New York,TX
+1369,351,2022-06-10,processing,Houston,NY
+1370,811,2022-08-19,delivered,Philadelphia,TX
+1371,995,2022-10-11,shipped,San Antonio,TX
+1372,503,2022-09-22,processing,Houston,TX
+1373,765,2022-01-09,delivered,San Diego,CA
+1374,298,2022-12-04,shipped,Houston,TX
+1375,41,2022-06-23,pending,San Jose,PA
+1376,486,2022-12-14,shipped,Phoenix,CA
+1377,836,2022-05-31,processing,Dallas,TX
+1378,198,2022-12-12,shipped,San Antonio,CA
+1379,244,2022-09-18,shipped,New York,CA
+1380,950,2022-09-11,processing,New York,CA
+1381,459,2022-05-22,delivered,Philadelphia,TX
+1382,890,2022-10-25,pending,Phoenix,NY
+1383,912,2022-01-21,processing,Houston,CA
+1384,379,2022-10-26,cancelled,Philadelphia,TX
+1385,102,2022-06-14,pending,Los Angeles,TX
+1386,914,2022-07-21,processing,Los Angeles,CA
+1387,562,2022-07-03,shipped,New York,TX
+1388,644,2022-07-17,delivered,Phoenix,PA
+1389,208,2022-08-30,shipped,Houston,CA
+1390,385,2022-06-11,delivered,New York,CA
+1391,703,2022-11-26,processing,Phoenix,PA
+1392,900,2022-06-09,delivered,New York,NY
+1393,233,2022-06-14,shipped,Dallas,TX
+1394,937,2022-06-13,delivered,San Jose,TX
+1395,13,2022-11-09,delivered,Dallas,TX
+1396,248,2022-04-06,delivered,Los Angeles,IL
+1397,447,2022-08-29,shipped,Philadelphia,TX
+1398,951,2022-10-19,shipped,Dallas,CA
+1399,155,2022-06-10,pending,Philadelphia,PA
+1400,668,2022-06-17,pending,Chicago,NY
+1401,946,2022-12-09,processing,Houston,CA
+1402,197,2022-05-25,shipped,Phoenix,NY
+1403,230,2022-07-13,pending,New York,AZ
+1404,909,2022-06-03,returned,Chicago,CA
+1405,645,2022-07-03,delivered,Dallas,CA
+1406,681,2022-05-28,returned,San Diego,CA
+1407,235,2022-05-15,delivered,Philadelphia,TX
+1408,922,2022-12-08,delivered,San Diego,AZ
+1409,139,2022-05-24,shipped,Houston,PA
+1410,923,2022-12-04,shipped,Philadelphia,CA
+1411,447,2022-12-24,shipped,New York,PA
+1412,299,2022-04-14,shipped,New York,PA
+1413,686,2022-11-19,delivered,Philadelphia,CA
+1414,32,2022-11-09,shipped,Philadelphia,TX
+1415,810,2022-10-05,shipped,San Jose,TX
+1416,70,2022-03-20,cancelled,Philadelphia,TX
+1417,74,2022-10-29,delivered,San Antonio,CA
+1418,810,2022-04-16,delivered,New York,CA
+1419,177,2022-05-15,shipped,San Antonio,TX
+1420,300,2022-03-15,shipped,New York,NY
+1421,244,2022-06-06,pending,Los Angeles,CA
+1422,633,2022-08-14,delivered,Philadelphia,PA
+1423,782,2022-12-17,shipped,Chicago,IL
+1424,565,2022-05-10,shipped,San Jose,CA
+1425,901,2022-03-01,delivered,Houston,CA
+1426,214,2022-11-04,shipped,New York,TX
+1427,243,2022-04-26,shipped,Philadelphia,PA
+1428,615,2022-12-10,delivered,Los Angeles,NY
+1429,854,2022-04-23,shipped,Chicago,NY
+1430,170,2022-02-22,shipped,San Diego,CA
+1431,267,2022-08-04,shipped,Los Angeles,TX
+1432,174,2022-04-19,processing,Los Angeles,IL
+1433,544,2022-09-21,cancelled,Los Angeles,IL
+1434,161,2022-10-21,delivered,Houston,TX
+1435,877,2022-09-11,shipped,Houston,AZ
+1436,731,2022-11-24,delivered,New York,CA
+1437,322,2022-05-06,shipped,Dallas,PA
+1438,951,2022-12-25,shipped,Chicago,TX
+1439,846,2022-12-07,delivered,New York,CA
+1440,594,2022-09-08,delivered,Chicago,PA
+1441,404,2022-08-09,processing,San Diego,IL
+1442,151,2022-11-29,delivered,Phoenix,IL
+1443,383,2022-12-08,shipped,Philadelphia,TX
+1444,115,2022-02-23,delivered,Chicago,NY
+1445,763,2022-09-26,shipped,San Diego,TX
+1446,309,2022-05-25,processing,Dallas,TX
+1447,59,2022-11-23,delivered,New York,AZ
+1448,110,2022-11-07,delivered,Phoenix,CA
+1449,935,2022-02-10,shipped,San Jose,TX
+1450,570,2022-08-23,pending,Houston,CA
+1451,564,2022-12-10,shipped,Los Angeles,TX
+1452,197,2022-04-27,shipped,Dallas,PA
+1453,479,2022-11-20,processing,New York,IL
+1454,601,2022-10-16,shipped,Chicago,CA
+1455,813,2022-01-12,shipped,San Antonio,CA
+1456,611,2022-03-21,processing,Dallas,NY
+1457,822,2022-10-02,processing,New York,CA
+1458,545,2022-12-17,shipped,Dallas,AZ
+1459,113,2022-08-06,processing,Philadelphia,AZ
+1460,682,2022-06-21,delivered,Houston,TX
+1461,766,2022-06-03,processing,Chicago,CA
+1462,495,2022-04-23,processing,Houston,TX
+1463,880,2022-07-25,delivered,Dallas,PA
+1464,872,2022-10-27,delivered,Chicago,TX
+1465,327,2022-01-06,pending,Houston,AZ
+1466,383,2022-09-24,processing,Houston,IL
+1467,761,2022-02-17,shipped,Phoenix,TX
+1468,638,2022-07-23,delivered,Dallas,NY
+1469,581,2022-10-10,pending,San Antonio,CA
+1470,965,2022-02-09,shipped,Chicago,AZ
+1471,101,2022-01-21,delivered,Los Angeles,TX
+1472,415,2022-03-09,shipped,Dallas,IL
+1473,169,2022-05-15,returned,San Diego,PA
+1474,384,2022-09-19,shipped,San Antonio,PA
+1475,197,2022-07-25,delivered,New York,TX
+1476,68,2022-04-22,pending,San Antonio,TX
+1477,937,2022-06-10,delivered,Dallas,CA
+1478,733,2022-08-13,processing,Phoenix,TX
+1479,680,2022-06-14,delivered,Los Angeles,TX
+1480,617,2022-02-28,returned,San Antonio,TX
+1481,347,2022-11-10,delivered,Philadelphia,TX
+1482,843,2022-08-02,shipped,Dallas,CA
+1483,921,2022-01-15,shipped,San Antonio,TX
+1484,450,2022-08-20,delivered,San Antonio,TX
+1485,985,2022-07-30,delivered,Chicago,CA
+1486,599,2022-03-16,delivered,San Diego,TX
+1487,961,2022-03-13,pending,Dallas,NY
+1488,682,2022-03-24,pending,Chicago,NY
+1489,451,2022-02-12,pending,Dallas,CA
+1490,557,2022-08-17,processing,San Antonio,NY
+1491,159,2022-07-16,processing,Phoenix,TX
+1492,344,2022-04-30,shipped,Phoenix,AZ
+1493,462,2022-04-05,delivered,New York,CA
+1494,826,2022-02-10,delivered,Los Angeles,TX
+1495,936,2022-05-13,shipped,Philadelphia,CA
+1496,595,2022-11-12,returned,Dallas,IL
+1497,564,2022-03-16,returned,San Antonio,CA
+1498,961,2022-03-25,delivered,San Diego,IL
+1499,283,2022-05-26,delivered,New York,PA
+1500,101,2022-06-06,delivered,San Diego,CA
+1501,123,2022-04-03,shipped,Philadelphia,NY
+1502,924,2022-11-19,processing,Philadelphia,TX
+1503,676,2022-06-28,delivered,Los Angeles,NY
+1504,507,2022-10-15,pending,Phoenix,CA
+1505,590,2022-08-16,delivered,Los Angeles,IL
+1506,612,2022-01-07,processing,New York,TX
+1507,538,2022-04-27,shipped,Chicago,CA
+1508,165,2022-04-09,processing,San Antonio,TX
+1509,526,2022-03-02,cancelled,San Antonio,NY
+1510,880,2022-07-02,delivered,San Diego,AZ
+1511,823,2022-12-11,shipped,Chicago,AZ
+1512,34,2022-04-01,delivered,San Jose,TX
+1513,570,2022-07-24,delivered,Los Angeles,IL
+1514,772,2022-02-12,returned,Houston,TX
+1515,868,2022-01-07,returned,San Jose,CA
+1516,69,2022-05-20,processing,Chicago,AZ
+1517,413,2022-02-27,processing,Philadelphia,CA
+1518,369,2022-03-08,delivered,New York,IL
+1519,755,2022-09-24,shipped,Philadelphia,CA
+1520,782,2022-09-14,delivered,Philadelphia,CA
+1521,139,2022-02-14,returned,Dallas,TX
+1522,53,2022-11-10,pending,Phoenix,PA
+1523,400,2022-02-09,processing,Los Angeles,CA
+1524,476,2022-06-30,delivered,Chicago,CA
+1525,841,2022-07-11,pending,San Diego,CA
+1526,706,2022-09-02,cancelled,San Antonio,CA
+1527,119,2022-05-28,cancelled,San Diego,CA
+1528,388,2022-09-14,returned,Houston,IL
+1529,535,2022-07-15,delivered,Philadelphia,NY
+1530,129,2022-10-09,processing,Los Angeles,CA
+1531,745,2022-03-30,processing,Chicago,AZ
+1532,441,2022-10-04,delivered,San Antonio,PA
+1533,507,2022-03-11,returned,Los Angeles,TX
+1534,956,2022-08-20,returned,Phoenix,TX
+1535,324,2022-06-30,cancelled,San Antonio,CA
+1536,901,2022-04-23,pending,Houston,TX
+1537,482,2022-03-11,shipped,Philadelphia,CA
+1538,91,2022-08-30,returned,New York,AZ
+1539,267,2022-02-06,pending,Dallas,NY
+1540,243,2022-03-14,delivered,Chicago,TX
+1541,132,2022-03-21,returned,San Jose,IL
+1542,133,2022-04-03,pending,San Antonio,IL
+1543,579,2022-09-19,processing,Phoenix,CA
+1544,545,2022-02-25,shipped,San Jose,AZ
+1545,673,2022-01-14,processing,Los Angeles,TX
+1546,123,2022-06-13,pending,Los Angeles,TX
+1547,450,2022-12-04,delivered,Phoenix,NY
+1548,923,2022-10-19,pending,Los Angeles,NY
+1549,467,2022-02-10,delivered,Philadelphia,IL
+1550,986,2022-12-16,processing,Dallas,NY
+1551,780,2022-04-11,processing,Los Angeles,TX
+1552,376,2022-09-13,returned,Phoenix,TX
+1553,277,2022-04-09,shipped,Houston,TX
+1554,15,2022-09-10,delivered,Dallas,NY
+1555,220,2022-05-17,delivered,San Diego,CA
+1556,768,2022-11-27,shipped,San Diego,TX
+1557,304,2022-03-28,pending,Chicago,CA
+1558,919,2022-09-04,delivered,Chicago,CA
+1559,864,2022-06-30,delivered,San Antonio,CA
+1560,407,2022-12-25,delivered,Los Angeles,PA
+1561,256,2022-09-09,delivered,Chicago,TX
+1562,21,2022-06-16,delivered,Chicago,TX
+1563,571,2022-03-31,shipped,San Jose,CA
+1564,940,2022-09-14,returned,Phoenix,NY
+1565,812,2022-03-14,returned,Los Angeles,NY
+1566,950,2022-02-09,returned,Houston,TX
+1567,391,2022-11-07,delivered,Chicago,PA
+1568,581,2022-07-26,returned,Houston,TX
+1569,360,2022-11-30,shipped,San Jose,CA
+1570,417,2022-08-09,delivered,San Diego,TX
+1571,914,2022-05-29,delivered,Los Angeles,TX
+1572,658,2022-12-21,shipped,Los Angeles,TX
+1573,598,2022-09-07,delivered,Phoenix,CA
+1574,650,2022-05-23,pending,Philadelphia,TX
+1575,444,2022-10-02,shipped,Dallas,TX
+1576,562,2022-11-29,delivered,Houston,AZ
+1577,77,2022-11-30,processing,Dallas,CA
+1578,862,2022-07-15,delivered,San Antonio,TX
+1579,182,2022-03-22,delivered,San Diego,NY
+1580,790,2022-07-09,processing,Los Angeles,TX
+1581,163,2022-10-28,delivered,Chicago,TX
+1582,432,2022-05-08,delivered,San Antonio,TX
+1583,745,2022-01-11,delivered,Phoenix,TX
+1584,351,2022-03-14,pending,San Diego,CA
+1585,814,2022-04-06,processing,Dallas,IL
+1586,197,2022-03-20,shipped,Los Angeles,CA
+1587,882,2022-02-17,delivered,Houston,CA
+1588,32,2022-01-31,pending,San Antonio,IL
+1589,712,2022-02-24,processing,New York,PA
+1590,308,2022-08-08,delivered,Philadelphia,CA
+1591,175,2022-03-10,processing,Chicago,CA
+1592,555,2022-02-09,processing,New York,CA
+1593,743,2022-01-30,processing,Houston,TX
+1594,59,2022-10-13,cancelled,Houston,TX
+1595,704,2022-01-04,shipped,San Diego,PA
+1596,495,2022-01-12,processing,Phoenix,TX
+1597,740,2022-08-13,pending,Phoenix,CA
+1598,448,2022-01-09,delivered,San Diego,NY
+1599,33,2022-05-14,pending,Chicago,CA
+1600,139,2022-06-11,shipped,New York,CA
+1601,23,2022-08-27,delivered,San Jose,CA
+1602,720,2022-07-24,pending,Dallas,AZ
+1603,833,2022-10-20,processing,Philadelphia,AZ
+1604,416,2022-11-25,delivered,Houston,CA
+1605,116,2022-03-19,pending,San Jose,TX
+1606,729,2022-04-07,shipped,Philadelphia,TX
+1607,247,2022-01-14,shipped,Houston,TX
+1608,210,2022-08-31,shipped,San Diego,CA
+1609,893,2022-07-09,delivered,Houston,IL
+1610,411,2022-12-24,shipped,San Diego,NY
+1611,356,2022-03-17,delivered,Houston,TX
+1612,473,2022-11-26,cancelled,New York,CA
+1613,141,2022-03-13,delivered,Phoenix,NY
+1614,468,2022-12-29,processing,Chicago,IL
+1615,480,2022-05-28,shipped,Philadelphia,CA
+1616,233,2022-09-29,shipped,Dallas,PA
+1617,616,2022-04-06,shipped,Phoenix,TX
+1618,38,2022-10-23,shipped,Houston,AZ
+1619,605,2022-05-11,shipped,Phoenix,CA
+1620,61,2022-04-09,shipped,Chicago,CA
+1621,823,2022-11-29,returned,Philadelphia,NY
+1622,692,2022-04-23,processing,Chicago,IL
+1623,288,2022-02-24,pending,Los Angeles,CA
+1624,989,2022-09-08,delivered,Los Angeles,CA
+1625,128,2022-01-02,shipped,Chicago,TX
+1626,209,2022-09-19,delivered,San Jose,NY
+1627,602,2022-01-11,cancelled,Philadelphia,PA
+1628,908,2022-10-26,shipped,Dallas,AZ
+1629,204,2022-04-28,processing,Philadelphia,NY
+1630,762,2022-04-22,processing,New York,TX
+1631,963,2022-01-29,processing,San Jose,IL
+1632,760,2022-06-28,delivered,Dallas,AZ
+1633,635,2022-04-21,pending,New York,IL
+1634,716,2022-08-24,shipped,Dallas,IL
+1635,942,2022-11-01,cancelled,Los Angeles,TX
+1636,444,2022-08-28,pending,San Antonio,TX
+1637,747,2022-09-23,shipped,Phoenix,TX
+1638,212,2022-08-22,pending,New York,TX
+1639,169,2022-03-02,shipped,New York,TX
+1640,191,2022-06-19,delivered,Phoenix,AZ
+1641,601,2022-04-02,delivered,Los Angeles,CA
+1642,422,2022-04-23,processing,San Diego,TX
+1643,954,2022-07-18,shipped,Los Angeles,PA
+1644,675,2022-12-21,processing,Phoenix,IL
+1645,61,2022-01-04,cancelled,Dallas,CA
+1646,276,2022-05-28,processing,Dallas,NY
+1647,934,2022-09-30,shipped,New York,NY
+1648,218,2022-09-04,delivered,San Jose,TX
+1649,156,2022-04-20,processing,Dallas,CA
+1650,490,2022-03-12,delivered,Houston,IL
+1651,507,2022-09-25,processing,San Antonio,TX
+1652,879,2022-05-06,processing,Dallas,AZ
+1653,202,2022-06-28,processing,New York,TX
+1654,569,2022-07-30,processing,Houston,CA
+1655,107,2022-03-11,shipped,Phoenix,CA
+1656,700,2022-11-24,shipped,Chicago,IL
+1657,693,2022-05-29,shipped,Houston,IL
+1658,778,2022-08-29,cancelled,Philadelphia,TX
+1659,81,2022-01-30,shipped,Chicago,CA
+1660,325,2022-09-11,shipped,New York,IL
+1661,129,2022-03-11,processing,Los Angeles,NY
+1662,292,2022-12-10,processing,Philadelphia,CA
+1663,242,2022-10-31,returned,Dallas,TX
+1664,96,2022-05-04,delivered,Phoenix,NY
+1665,395,2022-06-26,delivered,New York,TX
+1666,423,2022-06-09,shipped,San Diego,CA
+1667,97,2022-10-25,shipped,New York,TX
+1668,129,2022-07-31,pending,Houston,TX
+1669,83,2022-07-18,processing,San Jose,CA
+1670,631,2022-11-24,shipped,Phoenix,PA
+1671,251,2022-01-14,processing,Los Angeles,CA
+1672,467,2022-09-18,delivered,Los Angeles,NY
+1673,693,2022-12-03,processing,Dallas,TX
+1674,856,2022-01-27,delivered,Phoenix,CA
+1675,382,2022-10-09,shipped,Dallas,PA
+1676,217,2022-10-12,delivered,Houston,TX
+1677,131,2022-01-15,delivered,Houston,NY
+1678,635,2022-10-16,delivered,New York,AZ
+1679,119,2022-12-15,processing,San Antonio,PA
+1680,418,2022-08-27,shipped,Philadelphia,PA
+1681,192,2022-09-24,shipped,New York,IL
+1682,383,2022-07-18,shipped,Houston,NY
+1683,695,2022-07-14,processing,Los Angeles,PA
+1684,233,2022-08-16,delivered,Chicago,NY
+1685,691,2022-12-03,returned,Chicago,PA
+1686,407,2022-11-07,processing,Chicago,CA
+1687,494,2022-02-28,shipped,Dallas,IL
+1688,407,2022-07-27,delivered,Dallas,CA
+1689,592,2022-05-27,delivered,Houston,NY
+1690,44,2022-11-05,delivered,San Jose,TX
+1691,272,2022-01-06,pending,Dallas,NY
+1692,605,2022-05-14,delivered,Los Angeles,NY
+1693,485,2022-11-16,processing,Dallas,TX
+1694,673,2022-10-06,cancelled,San Antonio,CA
+1695,607,2022-11-08,shipped,Philadelphia,NY
+1696,422,2022-10-27,processing,San Jose,IL
+1697,292,2022-11-03,returned,Houston,IL
+1698,129,2022-05-27,shipped,San Antonio,CA
+1699,350,2022-03-10,shipped,Chicago,TX
+1700,602,2022-12-18,processing,Dallas,IL
+1701,416,2022-11-21,cancelled,Philadelphia,NY
+1702,937,2022-03-16,pending,New York,PA
+1703,531,2022-10-21,processing,Los Angeles,CA
+1704,646,2022-06-07,delivered,Houston,NY
+1705,718,2022-11-11,delivered,Dallas,CA
+1706,221,2022-05-25,shipped,San Jose,TX
+1707,426,2022-12-21,processing,New York,PA
+1708,781,2022-09-09,delivered,Los Angeles,CA
+1709,427,2022-07-18,shipped,San Antonio,AZ
+1710,166,2022-09-28,cancelled,New York,NY
+1711,167,2022-03-17,pending,Phoenix,AZ
+1712,193,2022-06-12,shipped,Houston,IL
+1713,33,2022-04-01,delivered,Dallas,CA
+1714,998,2022-12-02,shipped,San Antonio,CA
+1715,378,2022-02-09,delivered,San Diego,IL
+1716,14,2022-03-14,shipped,Chicago,NY
+1717,360,2022-01-07,delivered,Los Angeles,NY
+1718,199,2022-08-18,shipped,New York,TX
+1719,2,2022-02-11,returned,Los Angeles,PA
+1720,921,2022-12-09,delivered,Houston,PA
+1721,600,2022-06-11,delivered,Philadelphia,AZ
+1722,814,2022-04-12,processing,Philadelphia,TX
+1723,200,2022-02-22,delivered,Chicago,NY
+1724,147,2022-07-03,shipped,Phoenix,IL
+1725,766,2022-06-12,pending,Los Angeles,TX
+1726,538,2022-01-27,delivered,Dallas,CA
+1727,444,2022-11-19,shipped,New York,TX
+1728,566,2022-05-10,processing,San Diego,CA
+1729,425,2022-10-28,processing,Phoenix,PA
+1730,421,2022-04-17,shipped,Philadelphia,AZ
+1731,179,2022-12-21,delivered,San Jose,AZ
+1732,2,2022-08-30,delivered,Chicago,TX
+1733,773,2022-02-11,processing,Phoenix,AZ
+1734,938,2022-04-14,delivered,San Diego,NY
+1735,934,2022-10-05,delivered,Chicago,CA
+1736,781,2022-02-28,shipped,Houston,PA
+1737,500,2022-08-20,shipped,New York,CA
+1738,208,2022-05-10,shipped,Los Angeles,IL
+1739,800,2022-01-02,delivered,Houston,CA
+1740,869,2022-02-01,delivered,Houston,TX
+1741,881,2022-09-18,processing,Houston,PA
+1742,527,2022-06-14,cancelled,Philadelphia,CA
+1743,230,2022-04-12,delivered,San Diego,TX
+1744,194,2022-10-20,processing,Chicago,TX
+1745,907,2022-07-04,delivered,Houston,PA
+1746,530,2022-11-12,pending,Houston,CA
+1747,352,2022-02-06,shipped,San Diego,IL
+1748,955,2022-01-10,delivered,Chicago,TX
+1749,534,2022-03-05,processing,New York,TX
+1750,983,2022-05-28,shipped,Los Angeles,NY
+1751,279,2022-12-26,pending,San Antonio,AZ
+1752,705,2022-09-30,delivered,Chicago,CA
+1753,540,2022-02-03,shipped,Phoenix,NY
+1754,165,2022-08-19,processing,Los Angeles,NY
+1755,436,2022-03-18,delivered,Los Angeles,AZ
+1756,166,2022-12-13,processing,San Diego,IL
+1757,658,2022-08-29,pending,San Jose,CA
+1758,519,2022-04-30,shipped,San Antonio,TX
+1759,465,2022-03-23,delivered,Phoenix,AZ
+1760,429,2022-07-25,delivered,Houston,AZ
+1761,308,2022-06-26,pending,Dallas,TX
+1762,89,2022-05-09,processing,Houston,NY
+1763,619,2022-01-29,shipped,Dallas,CA
+1764,225,2022-05-07,processing,Chicago,IL
+1765,825,2022-05-27,processing,New York,TX
+1766,457,2022-08-07,delivered,Los Angeles,PA
+1767,349,2022-10-26,processing,Houston,AZ
+1768,17,2022-06-01,processing,Dallas,TX
+1769,490,2022-08-16,shipped,Chicago,TX
+1770,65,2022-03-24,delivered,Phoenix,TX
+1771,818,2022-09-02,processing,San Jose,AZ
+1772,153,2022-07-03,shipped,Los Angeles,TX
+1773,915,2022-07-21,processing,San Diego,TX
+1774,864,2022-08-14,pending,Los Angeles,AZ
+1775,85,2022-08-04,shipped,Dallas,CA
+1776,359,2022-09-07,returned,San Jose,CA
+1777,380,2022-06-18,shipped,San Diego,AZ
+1778,174,2022-12-27,delivered,Philadelphia,TX
+1779,31,2022-10-14,processing,Los Angeles,CA
+1780,124,2022-12-08,delivered,Dallas,TX
+1781,8,2022-05-22,processing,Phoenix,TX
+1782,910,2022-12-19,processing,Chicago,TX
+1783,366,2022-06-02,shipped,San Antonio,CA
+1784,338,2022-03-10,pending,Los Angeles,TX
+1785,235,2022-07-18,shipped,Dallas,AZ
+1786,487,2022-06-26,processing,Houston,CA
+1787,746,2022-08-30,shipped,San Antonio,CA
+1788,334,2022-02-11,cancelled,New York,PA
+1789,252,2022-10-05,delivered,Philadelphia,CA
+1790,847,2022-12-30,delivered,New York,CA
+1791,529,2022-06-26,delivered,San Jose,AZ
+1792,199,2022-05-15,returned,Houston,AZ
+1793,857,2022-03-17,shipped,San Jose,NY
+1794,743,2022-04-15,cancelled,San Diego,TX
+1795,840,2022-09-13,delivered,San Jose,TX
+1796,114,2022-02-27,delivered,Dallas,PA
+1797,59,2022-06-18,delivered,San Jose,NY
+1798,925,2022-12-09,shipped,New York,CA
+1799,37,2022-05-03,processing,New York,NY
+1800,928,2022-09-01,delivered,Phoenix,CA
+1801,915,2022-12-16,shipped,Dallas,TX
+1802,703,2022-01-18,delivered,Los Angeles,TX
+1803,127,2022-07-10,processing,San Jose,AZ
+1804,710,2022-02-28,delivered,New York,TX
+1805,569,2022-11-24,shipped,Chicago,CA
+1806,946,2022-12-22,processing,San Antonio,TX
+1807,490,2022-04-20,shipped,Los Angeles,TX
+1808,272,2022-05-01,delivered,San Antonio,NY
+1809,94,2022-04-23,processing,San Antonio,CA
+1810,316,2022-02-15,shipped,San Antonio,TX
+1811,756,2022-01-08,delivered,San Jose,CA
+1812,911,2022-10-20,delivered,New York,TX
+1813,727,2022-11-28,shipped,Phoenix,TX
+1814,743,2022-03-11,pending,Houston,IL
+1815,160,2022-09-18,delivered,San Antonio,AZ
+1816,524,2022-12-17,delivered,Houston,CA
+1817,993,2022-03-30,delivered,Dallas,CA
+1818,129,2022-05-31,pending,San Diego,TX
+1819,161,2022-11-15,shipped,San Jose,CA
+1820,272,2022-03-06,returned,Los Angeles,CA
+1821,813,2022-01-23,processing,San Diego,IL
+1822,714,2022-09-11,processing,San Jose,NY
+1823,149,2022-01-14,shipped,New York,CA
+1824,9,2022-10-10,delivered,Chicago,NY
+1825,746,2022-12-30,delivered,Dallas,TX
+1826,516,2022-08-02,shipped,San Antonio,IL
+1827,7,2022-10-15,returned,Philadelphia,IL
+1828,780,2022-10-27,delivered,San Jose,NY
+1829,974,2022-11-06,delivered,New York,CA
+1830,288,2022-03-21,shipped,San Diego,PA
+1831,766,2022-12-31,processing,San Antonio,IL
+1832,873,2022-06-26,shipped,San Antonio,CA
+1833,59,2022-05-21,shipped,San Jose,TX
+1834,502,2022-12-11,shipped,Dallas,PA
+1835,802,2022-11-20,delivered,Chicago,TX
+1836,289,2022-07-14,delivered,Phoenix,TX
+1837,620,2022-10-16,cancelled,Phoenix,CA
+1838,246,2022-08-05,pending,Chicago,IL
+1839,783,2022-01-21,processing,Dallas,CA
+1840,598,2022-07-20,delivered,Chicago,IL
+1841,859,2022-08-16,delivered,San Antonio,TX
+1842,888,2022-04-07,delivered,Dallas,CA
+1843,447,2022-02-20,processing,Los Angeles,PA
+1844,836,2022-05-22,pending,Phoenix,IL
+1845,78,2022-08-02,delivered,Philadelphia,TX
+1846,220,2022-11-24,shipped,San Antonio,CA
+1847,133,2022-10-05,pending,San Jose,TX
+1848,992,2022-11-30,delivered,San Jose,PA
+1849,123,2022-04-21,shipped,San Diego,NY
+1850,529,2022-10-07,shipped,New York,AZ
+1851,538,2022-12-08,delivered,Dallas,TX
+1852,733,2022-08-10,cancelled,Chicago,TX
+1853,553,2022-08-26,delivered,Philadelphia,IL
+1854,490,2022-09-19,delivered,Phoenix,TX
+1855,83,2022-05-21,processing,San Diego,PA
+1856,704,2022-01-25,pending,Dallas,CA
+1857,66,2022-01-06,shipped,Chicago,TX
+1858,889,2022-03-06,pending,New York,CA
+1859,397,2022-03-22,pending,Philadelphia,AZ
+1860,161,2022-02-17,shipped,Chicago,NY
+1861,391,2022-10-23,delivered,Phoenix,TX
+1862,87,2022-10-10,returned,Phoenix,PA
+1863,975,2022-05-27,shipped,San Jose,CA
+1864,478,2022-03-05,pending,New York,NY
+1865,158,2022-11-14,shipped,San Jose,CA
+1866,146,2022-05-24,processing,Los Angeles,TX
+1867,820,2022-07-22,shipped,San Jose,PA
+1868,855,2022-07-20,pending,Phoenix,NY
+1869,513,2022-07-01,cancelled,Dallas,CA
+1870,121,2022-07-24,delivered,Chicago,AZ
+1871,839,2022-05-11,pending,Dallas,CA
+1872,32,2022-05-02,shipped,Los Angeles,TX
+1873,651,2022-06-20,delivered,New York,AZ
+1874,279,2022-05-13,delivered,Houston,NY
+1875,658,2022-11-30,cancelled,Chicago,CA
+1876,275,2022-04-25,delivered,New York,PA
+1877,842,2022-04-29,processing,Los Angeles,TX
+1878,325,2022-08-13,shipped,Phoenix,TX
+1879,753,2022-08-12,shipped,New York,CA
+1880,358,2022-01-21,delivered,Houston,IL
+1881,498,2022-04-26,cancelled,Dallas,IL
+1882,273,2022-11-27,returned,Philadelphia,TX
+1883,703,2022-10-25,processing,San Jose,CA
+1884,214,2022-03-29,delivered,Philadelphia,IL
+1885,473,2022-08-12,processing,Phoenix,TX
+1886,446,2022-03-04,delivered,Chicago,CA
+1887,877,2022-03-11,processing,Los Angeles,AZ
+1888,656,2022-06-03,delivered,San Diego,CA
+1889,933,2022-08-10,shipped,San Diego,PA
+1890,801,2022-02-08,delivered,Phoenix,IL
+1891,379,2022-08-23,pending,New York,AZ
+1892,905,2022-04-28,shipped,Philadelphia,PA
+1893,818,2022-03-13,cancelled,Chicago,NY
+1894,337,2022-02-09,delivered,Philadelphia,TX
+1895,852,2022-10-22,shipped,San Jose,TX
+1896,309,2022-08-26,delivered,San Jose,CA
+1897,753,2022-03-26,shipped,Chicago,AZ
+1898,157,2022-10-01,pending,Dallas,CA
+1899,775,2022-09-19,processing,San Jose,TX
+1900,428,2022-08-22,cancelled,Phoenix,IL
+1901,528,2022-08-23,shipped,Philadelphia,CA
+1902,313,2022-08-17,shipped,New York,TX
+1903,882,2022-03-12,shipped,San Antonio,CA
+1904,228,2022-05-29,delivered,Chicago,NY
+1905,654,2022-05-14,pending,Los Angeles,PA
+1906,537,2022-06-17,shipped,Chicago,TX
+1907,115,2022-07-17,delivered,Chicago,CA
+1908,111,2022-08-29,shipped,Philadelphia,IL
+1909,40,2022-06-18,processing,San Diego,CA
+1910,531,2022-10-05,delivered,Chicago,CA
+1911,981,2022-12-24,processing,Los Angeles,CA
+1912,359,2022-04-01,processing,Los Angeles,PA
+1913,496,2022-05-03,delivered,San Diego,IL
+1914,639,2022-05-01,delivered,Philadelphia,CA
+1915,842,2022-08-07,delivered,Philadelphia,CA
+1916,793,2022-03-31,processing,Los Angeles,CA
+1917,765,2022-09-19,pending,Los Angeles,PA
+1918,587,2022-08-12,delivered,San Jose,TX
+1919,364,2022-11-22,processing,Los Angeles,CA
+1920,302,2022-01-03,shipped,Chicago,TX
+1921,893,2022-12-11,delivered,Phoenix,CA
+1922,133,2022-12-31,shipped,Houston,TX
+1923,317,2022-04-16,shipped,San Jose,IL
+1924,640,2022-07-11,processing,Dallas,CA
+1925,988,2022-06-09,pending,San Jose,TX
+1926,506,2022-02-01,shipped,Houston,NY
+1927,830,2022-12-01,delivered,Dallas,PA
+1928,28,2022-06-04,delivered,San Diego,PA
+1929,375,2022-09-06,delivered,Los Angeles,CA
+1930,590,2022-02-28,delivered,Los Angeles,IL
+1931,452,2022-04-06,delivered,Houston,TX
+1932,671,2022-06-16,delivered,Dallas,AZ
+1933,683,2022-02-16,shipped,Chicago,AZ
+1934,785,2022-06-22,processing,Los Angeles,IL
+1935,470,2022-03-01,delivered,Dallas,PA
+1936,164,2022-04-01,delivered,San Jose,NY
+1937,578,2022-09-18,shipped,Los Angeles,PA
+1938,766,2022-12-15,processing,San Diego,AZ
+1939,605,2022-05-29,shipped,San Diego,CA
+1940,95,2022-04-13,delivered,San Antonio,IL
+1941,104,2022-01-28,returned,New York,TX
+1942,676,2022-02-07,processing,San Antonio,TX
+1943,977,2022-07-15,delivered,Los Angeles,TX
+1944,696,2022-03-25,delivered,Dallas,PA
+1945,914,2022-09-16,delivered,Chicago,TX
+1946,420,2022-03-30,pending,San Antonio,AZ
+1947,795,2022-09-05,cancelled,Philadelphia,TX
+1948,358,2022-06-03,shipped,San Antonio,PA
+1949,169,2022-07-15,shipped,Dallas,CA
+1950,318,2022-11-30,pending,Phoenix,PA
+1951,688,2022-11-24,processing,Phoenix,CA
+1952,208,2022-05-12,shipped,San Diego,TX
+1953,615,2022-01-17,shipped,Chicago,CA
+1954,609,2022-07-24,shipped,San Diego,CA
+1955,500,2022-05-29,pending,Chicago,CA
+1956,306,2022-11-07,cancelled,Chicago,NY
+1957,862,2022-11-01,delivered,San Antonio,NY
+1958,361,2022-04-03,shipped,Chicago,TX
+1959,7,2022-10-13,delivered,San Antonio,PA
+1960,247,2022-05-17,cancelled,New York,AZ
+1961,719,2022-07-18,processing,Los Angeles,CA
+1962,582,2022-12-10,delivered,Dallas,TX
+1963,774,2022-03-23,shipped,Los Angeles,TX
+1964,861,2022-02-20,delivered,San Jose,TX
+1965,87,2022-11-06,returned,Philadelphia,TX
+1966,937,2022-04-01,shipped,Houston,TX
+1967,639,2022-03-28,shipped,San Diego,CA
+1968,59,2022-12-14,processing,Phoenix,CA
+1969,850,2022-09-05,processing,New York,PA
+1970,247,2022-04-22,cancelled,Dallas,CA
+1971,927,2022-04-22,processing,Los Angeles,TX
+1972,340,2022-02-05,delivered,Philadelphia,TX
+1973,135,2022-04-21,returned,Houston,TX
+1974,859,2022-10-30,processing,San Diego,IL
+1975,979,2022-05-12,pending,New York,CA
+1976,277,2022-09-24,processing,San Jose,CA
+1977,578,2022-12-20,shipped,San Jose,PA
+1978,1,2022-01-26,processing,Houston,CA
+1979,732,2022-11-04,delivered,Los Angeles,AZ
+1980,868,2022-09-14,shipped,Los Angeles,TX
+1981,350,2022-02-12,delivered,Dallas,CA
+1982,775,2022-11-15,delivered,Philadelphia,CA
+1983,457,2022-11-24,shipped,Phoenix,IL
+1984,978,2022-07-27,processing,Houston,NY
+1985,619,2022-10-10,delivered,San Diego,CA
+1986,347,2022-06-16,processing,San Antonio,TX
+1987,224,2022-06-10,delivered,San Antonio,CA
+1988,179,2022-10-11,pending,San Jose,AZ
+1989,716,2022-03-04,delivered,San Jose,NY
+1990,681,2022-08-20,shipped,Dallas,CA
+1991,498,2022-03-31,pending,New York,PA
+1992,883,2022-03-21,shipped,Los Angeles,IL
+1993,788,2022-01-01,shipped,Philadelphia,TX
+1994,190,2022-01-17,delivered,San Jose,TX
+1995,433,2022-05-06,shipped,Philadelphia,CA
+1996,638,2022-11-18,shipped,San Diego,NY
+1997,233,2022-01-28,returned,Dallas,PA
+1998,200,2022-02-17,shipped,Houston,TX
+1999,172,2022-11-27,pending,Dallas,CA
+2000,759,2022-04-02,delivered,Philadelphia,TX
+2001,447,2022-03-21,processing,San Antonio,CA
+2002,861,2022-02-12,shipped,San Antonio,TX
+2003,605,2022-06-23,processing,New York,CA
+2004,627,2022-01-15,returned,Houston,AZ
+2005,614,2022-10-29,shipped,San Antonio,TX
+2006,588,2022-12-18,shipped,Chicago,TX
+2007,383,2022-08-01,delivered,San Antonio,TX
+2008,791,2022-07-26,shipped,Phoenix,TX
+2009,681,2022-05-03,processing,Houston,IL
+2010,516,2022-10-18,pending,Dallas,TX
+2011,422,2022-06-29,delivered,Philadelphia,IL
+2012,375,2022-10-11,delivered,Phoenix,AZ
+2013,556,2022-07-10,delivered,San Antonio,PA
+2014,18,2022-02-08,pending,Los Angeles,CA
+2015,560,2022-08-14,shipped,San Antonio,CA
+2016,509,2022-03-12,delivered,Los Angeles,CA
+2017,784,2022-06-04,shipped,San Diego,CA
+2018,393,2022-12-17,processing,San Antonio,TX
+2019,725,2022-02-20,delivered,Dallas,TX
+2020,632,2022-12-29,shipped,New York,PA
+2021,789,2022-01-21,delivered,Dallas,TX
+2022,360,2022-11-23,pending,Phoenix,PA
+2023,939,2022-03-10,pending,Houston,PA
+2024,542,2022-08-24,processing,Houston,NY
+2025,198,2022-06-28,processing,Philadelphia,CA
+2026,519,2022-12-26,shipped,Phoenix,TX
+2027,175,2022-11-08,shipped,Dallas,TX
+2028,258,2022-09-27,shipped,Phoenix,PA
+2029,1,2022-04-20,delivered,San Antonio,TX
+2030,968,2022-09-13,delivered,Dallas,CA
+2031,644,2022-05-08,delivered,Phoenix,CA
+2032,67,2022-06-19,cancelled,New York,CA
+2033,338,2022-03-31,delivered,Los Angeles,TX
+2034,392,2022-10-13,pending,Dallas,CA
+2035,261,2022-02-28,shipped,Dallas,CA
+2036,666,2022-12-12,returned,Philadelphia,CA
+2037,916,2022-11-08,delivered,San Diego,CA
+2038,519,2022-08-25,shipped,Los Angeles,TX
+2039,510,2022-06-04,delivered,San Jose,IL
+2040,689,2022-01-18,processing,Phoenix,TX
+2041,812,2022-08-08,delivered,Dallas,CA
+2042,623,2022-10-24,delivered,Philadelphia,NY
+2043,833,2022-10-16,delivered,San Diego,TX
+2044,95,2022-05-12,shipped,Los Angeles,TX
+2045,692,2022-03-19,processing,San Jose,CA
+2046,664,2022-01-14,delivered,Houston,AZ
+2047,522,2022-09-12,shipped,New York,NY
+2048,985,2022-10-09,shipped,Phoenix,CA
+2049,349,2022-07-28,pending,San Antonio,TX
+2050,507,2022-01-03,shipped,New York,TX
+2051,50,2022-03-19,processing,Chicago,NY
+2052,284,2022-12-13,processing,Dallas,CA
+2053,919,2022-07-27,pending,San Antonio,PA
+2054,251,2022-07-02,pending,San Diego,TX
+2055,552,2022-05-08,processing,Los Angeles,IL
+2056,419,2022-04-27,pending,Philadelphia,CA
+2057,555,2022-04-27,processing,Los Angeles,NY
+2058,238,2022-01-08,delivered,Chicago,NY
+2059,65,2022-12-01,processing,San Antonio,PA
+2060,126,2022-12-10,cancelled,San Antonio,TX
+2061,818,2022-12-21,processing,Chicago,TX
+2062,839,2022-05-10,delivered,Philadelphia,CA
+2063,664,2022-09-26,pending,Los Angeles,CA
+2064,748,2022-01-24,processing,Chicago,TX
+2065,94,2022-07-07,shipped,Houston,TX
+2066,8,2022-03-26,shipped,Phoenix,PA
+2067,487,2022-11-25,delivered,Philadelphia,NY
+2068,643,2022-02-24,shipped,Chicago,TX
+2069,443,2022-02-07,returned,Houston,NY
+2070,609,2022-01-11,pending,Chicago,CA
+2071,579,2022-09-27,pending,San Jose,TX
+2072,659,2022-05-02,delivered,Phoenix,NY
+2073,568,2022-06-10,shipped,New York,CA
+2074,733,2022-06-03,processing,New York,TX
+2075,674,2022-01-06,delivered,San Antonio,PA
+2076,309,2022-12-11,processing,Chicago,CA
+2077,497,2022-02-02,delivered,Chicago,IL
+2078,812,2022-12-16,delivered,Houston,NY
+2079,263,2022-02-06,processing,Houston,CA
+2080,382,2022-08-27,delivered,Houston,PA
+2081,443,2022-06-09,pending,San Jose,CA
+2082,444,2022-06-21,delivered,Philadelphia,PA
+2083,824,2022-01-09,shipped,Philadelphia,TX
+2084,913,2022-04-02,delivered,San Diego,TX
+2085,62,2022-07-14,delivered,Houston,TX
+2086,895,2022-05-20,delivered,Philadelphia,CA
+2087,431,2022-07-22,shipped,Chicago,PA
+2088,382,2022-05-10,shipped,Philadelphia,CA
+2089,509,2022-08-22,delivered,Houston,CA
+2090,124,2022-08-20,shipped,Houston,CA
+2091,747,2022-05-25,cancelled,Philadelphia,TX
+2092,4,2022-10-28,shipped,Philadelphia,IL
+2093,199,2022-03-09,pending,Philadelphia,NY
+2094,446,2022-09-24,processing,San Antonio,AZ
+2095,617,2022-02-21,processing,Chicago,CA
+2096,49,2022-02-06,processing,San Antonio,PA
+2097,456,2022-04-30,delivered,San Antonio,CA
+2098,730,2022-04-21,delivered,San Jose,IL
+2099,30,2022-09-16,delivered,San Diego,TX
+2100,742,2022-11-03,processing,San Jose,TX
+2101,427,2022-04-12,delivered,New York,CA
+2102,268,2022-05-30,pending,San Antonio,CA
+2103,929,2022-11-04,processing,New York,CA
+2104,461,2022-01-06,delivered,San Antonio,AZ
+2105,238,2022-04-17,shipped,Philadelphia,PA
+2106,151,2022-05-28,cancelled,Phoenix,TX
+2107,697,2022-02-16,returned,Chicago,CA
+2108,744,2022-04-18,delivered,San Diego,TX
+2109,852,2022-12-11,processing,Philadelphia,NY
+2110,345,2022-05-27,delivered,Dallas,CA
+2111,364,2022-01-22,delivered,San Diego,IL
+2112,621,2022-05-19,shipped,Dallas,TX
+2113,519,2022-02-14,shipped,Chicago,CA
+2114,689,2022-12-25,delivered,Chicago,CA
+2115,507,2022-01-05,shipped,Philadelphia,TX
+2116,84,2022-10-14,shipped,New York,TX
+2117,441,2022-04-26,delivered,Phoenix,PA
+2118,632,2022-04-17,delivered,San Antonio,TX
+2119,519,2022-09-25,pending,Dallas,TX
+2120,998,2022-02-03,pending,Chicago,CA
+2121,72,2022-10-30,shipped,Phoenix,TX
+2122,915,2022-06-27,processing,Los Angeles,NY
+2123,258,2022-04-01,processing,Houston,IL
+2124,594,2022-04-09,delivered,Chicago,TX
+2125,240,2022-01-15,processing,Phoenix,TX
+2126,918,2022-12-04,processing,Houston,TX
+2127,268,2022-10-25,processing,San Diego,NY
+2128,30,2022-09-20,shipped,San Antonio,IL
+2129,904,2022-12-12,shipped,Houston,AZ
+2130,242,2022-03-06,shipped,New York,NY
+2131,315,2022-01-12,processing,Philadelphia,PA
+2132,304,2022-01-04,delivered,San Jose,CA
+2133,428,2022-04-30,delivered,San Diego,IL
+2134,359,2022-07-10,shipped,New York,AZ
+2135,469,2022-10-18,delivered,New York,IL
+2136,772,2022-11-17,processing,Dallas,AZ
+2137,855,2022-05-20,shipped,San Antonio,CA
+2138,72,2022-05-09,delivered,Philadelphia,TX
+2139,612,2022-07-28,processing,San Diego,PA
+2140,852,2022-08-06,shipped,San Antonio,IL
+2141,378,2022-08-20,processing,San Antonio,TX
+2142,941,2022-02-24,delivered,San Antonio,CA
+2143,469,2022-02-22,processing,Chicago,AZ
+2144,918,2022-06-24,shipped,Dallas,CA
+2145,313,2022-04-30,delivered,San Diego,CA
+2146,312,2022-03-18,delivered,Phoenix,TX
+2147,416,2022-05-25,delivered,Chicago,IL
+2148,971,2022-05-29,pending,San Jose,CA
+2149,468,2022-12-15,cancelled,San Antonio,TX
+2150,475,2022-03-30,processing,San Antonio,CA
+2151,45,2022-10-31,delivered,Los Angeles,CA
+2152,799,2022-09-07,processing,Chicago,NY
+2153,71,2022-05-10,pending,Dallas,CA
+2154,403,2022-11-23,processing,Philadelphia,TX
+2155,893,2022-07-07,delivered,San Jose,TX
+2156,45,2022-04-28,processing,New York,TX
+2157,934,2022-01-19,delivered,Los Angeles,TX
+2158,686,2022-09-29,pending,Dallas,CA
+2159,387,2022-04-11,processing,San Jose,AZ
+2160,277,2022-08-09,pending,Chicago,CA
+2161,33,2022-09-01,delivered,San Diego,TX
+2162,491,2022-03-13,pending,Los Angeles,PA
+2163,851,2022-04-06,returned,Phoenix,IL
+2164,365,2022-12-23,processing,New York,NY
+2165,563,2022-01-12,processing,New York,NY
+2166,994,2022-08-13,delivered,Dallas,CA
+2167,388,2022-03-21,shipped,San Antonio,CA
+2168,598,2022-09-29,cancelled,Houston,AZ
+2169,168,2022-03-04,delivered,San Diego,IL
+2170,108,2022-07-31,shipped,San Antonio,IL
+2171,950,2022-01-01,processing,Phoenix,IL
+2172,796,2022-07-13,delivered,New York,AZ
+2173,872,2022-01-21,returned,Phoenix,CA
+2174,255,2022-08-11,delivered,Philadelphia,IL
+2175,650,2022-06-30,shipped,San Jose,CA
+2176,723,2022-12-10,processing,Chicago,NY
+2177,831,2022-12-01,pending,Houston,TX
+2178,238,2022-05-23,shipped,San Antonio,IL
+2179,327,2022-05-24,shipped,San Diego,CA
+2180,499,2022-10-31,cancelled,Los Angeles,PA
+2181,259,2022-06-14,shipped,New York,NY
+2182,250,2022-04-23,processing,San Jose,CA
+2183,199,2022-09-05,delivered,Los Angeles,CA
+2184,427,2022-04-29,pending,Chicago,CA
+2185,624,2022-02-16,delivered,New York,TX
+2186,542,2022-01-07,returned,Philadelphia,CA
+2187,698,2022-12-14,delivered,Los Angeles,TX
+2188,751,2022-08-24,delivered,San Diego,CA
+2189,82,2022-03-12,delivered,Chicago,CA
+2190,133,2022-06-14,shipped,Los Angeles,CA
+2191,552,2022-12-18,pending,Houston,AZ
+2192,468,2022-06-10,shipped,New York,PA
+2193,941,2022-02-04,processing,Los Angeles,IL
+2194,62,2022-07-24,shipped,Dallas,NY
+2195,661,2022-04-13,delivered,Los Angeles,PA
+2196,423,2022-08-17,processing,New York,NY
+2197,451,2022-10-07,delivered,San Jose,CA
+2198,581,2022-05-27,delivered,San Antonio,IL
+2199,695,2022-12-07,delivered,New York,CA
+2200,632,2022-05-04,cancelled,Houston,CA
+2201,94,2022-11-27,delivered,San Antonio,CA
+2202,303,2022-08-27,delivered,San Antonio,CA
+2203,775,2022-06-13,delivered,San Diego,TX
+2204,825,2022-01-09,processing,Chicago,CA
+2205,700,2022-05-17,pending,Los Angeles,CA
+2206,371,2022-06-08,shipped,Houston,TX
+2207,121,2022-11-10,delivered,Phoenix,NY
+2208,30,2022-12-21,pending,Chicago,NY
+2209,221,2022-05-11,processing,Houston,PA
+2210,858,2022-01-22,delivered,Phoenix,TX
+2211,963,2022-11-10,processing,Chicago,TX
+2212,628,2022-07-18,delivered,Dallas,NY
+2213,529,2022-02-06,processing,Houston,AZ
+2214,27,2022-11-11,processing,Chicago,AZ
+2215,464,2022-12-01,delivered,Dallas,AZ
+2216,896,2022-05-31,processing,Chicago,CA
+2217,598,2022-03-29,shipped,San Antonio,PA
+2218,476,2022-04-01,delivered,Los Angeles,TX
+2219,698,2022-10-03,shipped,San Antonio,PA
+2220,83,2022-05-25,shipped,Houston,CA
+2221,239,2022-12-03,shipped,Phoenix,CA
+2222,828,2022-08-19,processing,Los Angeles,AZ
+2223,320,2022-06-03,pending,Chicago,TX
+2224,118,2022-10-11,processing,Houston,IL
+2225,634,2022-01-16,delivered,Philadelphia,TX
+2226,618,2022-03-18,shipped,Houston,TX
+2227,93,2022-01-13,delivered,New York,CA
+2228,618,2022-07-04,delivered,Houston,TX
+2229,910,2022-03-10,delivered,San Jose,CA
+2230,958,2022-04-12,delivered,Houston,TX
+2231,725,2022-03-10,pending,San Jose,TX
+2232,287,2022-04-26,delivered,Philadelphia,PA
+2233,554,2022-04-18,pending,Chicago,AZ
+2234,58,2022-12-23,delivered,Philadelphia,NY
+2235,448,2022-12-04,shipped,Philadelphia,CA
+2236,923,2022-04-23,pending,Los Angeles,AZ
+2237,255,2022-09-06,delivered,New York,CA
+2238,484,2022-08-30,delivered,Houston,CA
+2239,838,2022-09-03,delivered,Los Angeles,TX
+2240,231,2022-04-11,shipped,Chicago,IL
+2241,864,2022-03-18,cancelled,Houston,TX
+2242,739,2022-09-30,delivered,San Jose,AZ
+2243,221,2022-08-10,delivered,Philadelphia,NY
+2244,840,2022-10-05,returned,Dallas,TX
+2245,258,2022-09-25,processing,Chicago,IL
+2246,812,2022-11-26,delivered,Philadelphia,TX
+2247,32,2022-04-15,pending,San Jose,TX
+2248,247,2022-01-28,delivered,Philadelphia,TX
+2249,591,2022-06-07,shipped,Chicago,CA
+2250,435,2022-05-03,processing,San Diego,AZ
+2251,871,2022-09-18,shipped,New York,TX
+2252,8,2022-07-18,processing,Phoenix,TX
+2253,237,2022-07-13,delivered,Phoenix,IL
+2254,822,2022-10-05,processing,Philadelphia,NY
+2255,109,2022-08-14,processing,San Diego,IL
+2256,40,2022-02-13,pending,New York,TX
+2257,356,2022-07-28,pending,Dallas,AZ
+2258,802,2022-12-12,returned,San Diego,CA
+2259,735,2022-05-15,shipped,New York,TX
+2260,892,2022-12-27,delivered,Phoenix,CA
+2261,12,2022-03-05,shipped,Chicago,CA
+2262,458,2022-01-06,cancelled,Chicago,TX
+2263,627,2022-05-10,processing,San Antonio,TX
+2264,236,2022-04-10,shipped,New York,PA
+2265,296,2022-08-16,delivered,Phoenix,TX
+2266,267,2022-09-28,pending,Chicago,AZ
+2267,161,2022-04-29,processing,Los Angeles,AZ
+2268,235,2022-06-12,delivered,Phoenix,TX
+2269,419,2022-09-13,returned,Philadelphia,TX
+2270,483,2022-05-04,delivered,Philadelphia,CA
+2271,259,2022-07-22,delivered,Philadelphia,TX
+2272,933,2022-12-14,delivered,San Diego,TX
+2273,663,2022-10-20,delivered,Philadelphia,TX
+2274,833,2022-11-25,returned,Dallas,IL
+2275,117,2022-05-09,delivered,Phoenix,TX
+2276,1,2022-12-25,shipped,San Diego,TX
+2277,975,2022-10-21,shipped,Philadelphia,TX
+2278,644,2022-05-10,delivered,Phoenix,AZ
+2279,63,2022-10-28,processing,Philadelphia,IL
+2280,179,2022-03-14,delivered,Chicago,IL
+2281,840,2022-12-17,delivered,Chicago,CA
+2282,758,2022-12-24,delivered,New York,IL
+2283,277,2022-09-07,pending,San Jose,TX
+2284,409,2022-11-13,processing,Los Angeles,TX
+2285,43,2022-03-08,delivered,Los Angeles,TX
+2286,903,2022-02-13,pending,San Diego,TX
+2287,999,2022-08-03,shipped,San Diego,TX
+2288,444,2022-08-17,delivered,San Antonio,IL
+2289,247,2022-03-07,delivered,Houston,NY
+2290,207,2022-02-24,pending,Chicago,NY
+2291,791,2022-01-10,delivered,Los Angeles,AZ
+2292,943,2022-08-02,delivered,Phoenix,CA
+2293,92,2022-07-26,processing,Dallas,NY
+2294,623,2022-04-25,processing,San Jose,TX
+2295,933,2022-05-22,processing,San Diego,IL
+2296,732,2022-09-11,delivered,Chicago,AZ
+2297,972,2022-03-26,delivered,Phoenix,TX
+2298,301,2022-04-05,returned,New York,CA
+2299,107,2022-08-16,processing,Dallas,CA
+2300,719,2022-11-08,delivered,Dallas,NY
+2301,602,2022-12-09,cancelled,Chicago,CA
+2302,848,2022-03-11,delivered,Phoenix,NY
+2303,176,2022-11-12,processing,Philadelphia,TX
+2304,16,2022-03-03,cancelled,New York,TX
+2305,88,2022-07-11,delivered,Houston,CA
+2306,48,2022-10-24,delivered,Phoenix,PA
+2307,179,2022-12-13,shipped,Chicago,CA
+2308,511,2022-08-03,processing,Philadelphia,NY
+2309,31,2022-07-31,shipped,Philadelphia,TX
+2310,950,2022-02-06,shipped,Dallas,TX
+2311,215,2022-08-03,delivered,Phoenix,CA
+2312,644,2022-02-28,delivered,San Diego,IL
+2313,532,2022-12-12,shipped,Dallas,PA
+2314,977,2022-09-13,delivered,Los Angeles,TX
+2315,967,2022-11-18,shipped,Philadelphia,CA
+2316,678,2022-03-10,pending,Chicago,TX
+2317,627,2022-03-26,cancelled,Dallas,CA
+2318,689,2022-07-07,returned,Phoenix,IL
+2319,887,2022-08-30,shipped,Houston,TX
+2320,893,2022-09-20,shipped,Los Angeles,AZ
+2321,449,2022-03-12,delivered,Dallas,AZ
+2322,720,2022-01-14,shipped,Chicago,AZ
+2323,187,2022-01-26,shipped,San Jose,TX
+2324,830,2022-08-17,pending,San Antonio,TX
+2325,603,2022-12-02,processing,Philadelphia,CA
+2326,43,2022-07-14,processing,Dallas,TX
+2327,256,2022-10-18,cancelled,Houston,TX
+2328,143,2022-07-07,pending,San Antonio,NY
+2329,144,2022-08-26,processing,Houston,IL
+2330,94,2022-12-26,processing,Chicago,PA
+2331,514,2022-03-18,shipped,New York,CA
+2332,916,2022-07-05,processing,Phoenix,NY
+2333,463,2022-06-27,shipped,Chicago,AZ
+2334,416,2022-08-14,delivered,San Diego,TX
+2335,80,2022-11-27,processing,Los Angeles,TX
+2336,467,2022-01-08,pending,Dallas,NY
+2337,617,2022-09-06,returned,Houston,IL
+2338,331,2022-04-26,delivered,Chicago,CA
+2339,116,2022-02-24,processing,Phoenix,TX
+2340,434,2022-07-02,returned,Chicago,PA
+2341,34,2022-12-20,shipped,Dallas,TX
+2342,257,2022-01-23,delivered,Philadelphia,CA
+2343,358,2022-06-23,delivered,Los Angeles,TX
+2344,843,2022-05-28,pending,Houston,TX
+2345,91,2022-05-28,delivered,San Diego,CA
+2346,603,2022-10-01,shipped,Phoenix,NY
+2347,402,2022-07-27,processing,Phoenix,CA
+2348,1000,2022-07-05,pending,New York,CA
+2349,121,2022-03-29,returned,Chicago,AZ
+2350,764,2022-06-04,processing,New York,CA
+2351,906,2022-12-11,delivered,Phoenix,IL
+2352,71,2022-05-30,processing,Los Angeles,PA
+2353,394,2022-04-03,delivered,Houston,AZ
+2354,424,2022-01-26,processing,Philadelphia,CA
+2355,288,2022-05-17,processing,San Diego,CA
+2356,511,2022-03-10,delivered,Philadelphia,NY
+2357,906,2022-08-18,processing,Los Angeles,CA
+2358,318,2022-02-21,delivered,Phoenix,IL
+2359,575,2022-01-05,delivered,San Diego,TX
+2360,913,2022-12-18,shipped,Philadelphia,TX
+2361,84,2022-02-22,pending,Chicago,PA
+2362,652,2022-06-03,processing,Los Angeles,CA
+2363,418,2022-08-10,pending,San Antonio,PA
+2364,342,2022-04-07,delivered,San Jose,AZ
+2365,600,2022-03-21,processing,Philadelphia,PA
+2366,750,2022-06-16,processing,Phoenix,CA
+2367,29,2022-12-15,shipped,Dallas,CA
+2368,949,2022-02-18,shipped,Phoenix,AZ
+2369,798,2022-10-09,cancelled,Houston,NY
+2370,424,2022-06-29,delivered,Phoenix,TX
+2371,225,2022-04-22,delivered,Dallas,PA
+2372,628,2022-07-16,processing,Los Angeles,NY
+2373,373,2022-04-22,processing,Philadelphia,TX
+2374,526,2022-07-21,delivered,San Diego,CA
+2375,200,2022-07-02,shipped,San Jose,TX
+2376,219,2022-04-06,delivered,New York,TX
+2377,497,2022-02-21,pending,Chicago,CA
+2378,141,2022-07-03,delivered,New York,IL
+2379,605,2022-08-26,processing,Los Angeles,AZ
+2380,403,2022-02-07,shipped,Phoenix,AZ
+2381,196,2022-08-17,delivered,Phoenix,TX
+2382,413,2022-08-17,processing,San Jose,IL
+2383,585,2022-06-14,delivered,Chicago,PA
+2384,37,2022-11-19,cancelled,Philadelphia,TX
+2385,4,2022-09-19,shipped,Philadelphia,TX
+2386,764,2022-06-29,shipped,Chicago,TX
+2387,765,2022-02-28,delivered,Chicago,TX
+2388,951,2022-08-25,delivered,Chicago,PA
+2389,860,2022-12-21,shipped,Dallas,CA
+2390,861,2022-08-22,pending,San Jose,IL
+2391,8,2022-10-09,delivered,Philadelphia,CA
+2392,839,2022-11-10,delivered,Chicago,PA
+2393,699,2022-02-18,processing,Phoenix,TX
+2394,488,2022-05-10,pending,Houston,CA
+2395,515,2022-06-05,delivered,San Antonio,CA
+2396,62,2022-08-09,delivered,Dallas,AZ
+2397,255,2022-09-06,processing,Houston,IL
+2398,154,2022-11-03,pending,San Antonio,IL
+2399,981,2022-09-29,delivered,Los Angeles,AZ
+2400,554,2022-02-20,pending,Chicago,TX
+2401,462,2022-01-27,shipped,San Jose,PA
+2402,445,2022-05-26,delivered,Dallas,CA
+2403,677,2022-06-27,delivered,Chicago,CA
+2404,596,2022-09-25,delivered,Philadelphia,TX
+2405,624,2022-02-21,shipped,Phoenix,CA
+2406,684,2022-02-07,shipped,San Jose,AZ
+2407,78,2022-07-15,processing,Philadelphia,CA
+2408,147,2022-09-01,shipped,Phoenix,NY
+2409,452,2022-03-12,pending,San Diego,NY
+2410,670,2022-12-12,returned,Dallas,AZ
+2411,247,2022-12-31,delivered,Houston,CA
+2412,240,2022-10-19,delivered,Chicago,TX
+2413,678,2022-01-10,processing,Phoenix,PA
+2414,249,2022-01-11,processing,San Jose,PA
+2415,243,2022-02-25,delivered,Los Angeles,CA
+2416,947,2022-09-22,delivered,Phoenix,IL
+2417,839,2022-07-02,delivered,Phoenix,CA
+2418,872,2022-10-25,cancelled,Houston,PA
+2419,39,2022-05-09,delivered,San Antonio,CA
+2420,182,2022-02-06,delivered,Los Angeles,CA
+2421,201,2022-02-16,delivered,Chicago,CA
+2422,841,2022-12-29,delivered,New York,CA
+2423,21,2022-04-22,delivered,San Antonio,IL
+2424,530,2022-05-02,delivered,Dallas,TX
+2425,138,2022-02-27,delivered,Dallas,CA
+2426,553,2022-11-24,delivered,Philadelphia,AZ
+2427,397,2022-02-09,delivered,Philadelphia,CA
+2428,954,2022-12-24,delivered,Houston,NY
+2429,653,2022-05-02,delivered,New York,AZ
+2430,579,2022-08-24,pending,San Antonio,TX
+2431,314,2022-12-07,shipped,Dallas,CA
+2432,120,2022-02-23,shipped,San Antonio,IL
+2433,46,2022-03-05,processing,Los Angeles,CA
+2434,440,2022-07-31,shipped,San Diego,CA
+2435,219,2022-01-31,pending,San Jose,CA
+2436,963,2022-11-13,shipped,Los Angeles,TX
+2437,206,2022-06-17,delivered,Chicago,PA
+2438,940,2022-05-18,processing,Phoenix,CA
+2439,148,2022-05-15,delivered,Philadelphia,TX
+2440,416,2022-04-03,pending,New York,TX
+2441,128,2022-07-01,shipped,San Antonio,CA
+2442,333,2022-03-05,delivered,Los Angeles,CA
+2443,115,2022-11-09,delivered,San Antonio,TX
+2444,765,2022-06-04,shipped,San Antonio,PA
+2445,560,2022-03-07,delivered,New York,TX
+2446,970,2022-08-24,processing,Phoenix,CA
+2447,763,2022-08-05,delivered,San Diego,TX
+2448,667,2022-10-04,processing,San Antonio,TX
+2449,558,2022-12-01,delivered,New York,PA
+2450,194,2022-06-27,processing,Dallas,CA
+2451,891,2022-08-28,delivered,San Diego,AZ
+2452,255,2022-12-19,processing,Los Angeles,NY
+2453,15,2022-11-21,delivered,New York,TX
+2454,249,2022-04-17,processing,Dallas,TX
+2455,137,2022-05-13,pending,Los Angeles,CA
+2456,592,2022-04-17,shipped,Chicago,NY
+2457,32,2022-01-15,returned,San Antonio,TX
+2458,580,2022-01-09,delivered,Houston,TX
+2459,136,2022-08-24,processing,Philadelphia,TX
+2460,160,2022-05-14,delivered,Chicago,CA
+2461,14,2022-10-15,processing,Phoenix,CA
+2462,561,2022-11-05,processing,Los Angeles,CA
+2463,495,2022-09-17,processing,New York,IL
+2464,199,2022-10-05,returned,Dallas,CA
+2465,326,2022-03-22,returned,Dallas,CA
+2466,462,2022-01-25,delivered,Dallas,TX
+2467,527,2022-04-06,delivered,Phoenix,CA
+2468,213,2022-06-23,shipped,Los Angeles,CA
+2469,829,2022-10-16,cancelled,San Jose,CA
+2470,726,2022-09-01,pending,San Diego,AZ
+2471,687,2022-03-04,shipped,Philadelphia,TX
+2472,715,2022-09-22,delivered,San Antonio,TX
+2473,904,2022-09-24,cancelled,Phoenix,CA
+2474,431,2022-09-30,delivered,Dallas,CA
+2475,482,2022-01-07,shipped,New York,NY
+2476,681,2022-02-16,delivered,Houston,PA
+2477,314,2022-12-08,delivered,Chicago,NY
+2478,772,2022-10-28,shipped,San Diego,AZ
+2479,713,2022-10-26,processing,Dallas,CA
+2480,89,2022-11-10,processing,Los Angeles,CA
+2481,450,2022-10-01,pending,Los Angeles,IL
+2482,905,2022-12-05,shipped,San Antonio,NY
+2483,869,2022-12-10,shipped,Chicago,TX
+2484,574,2022-02-20,processing,Philadelphia,CA
+2485,380,2022-01-10,cancelled,Chicago,TX
+2486,682,2022-11-29,processing,Philadelphia,TX
+2487,800,2022-09-01,delivered,Dallas,TX
+2488,927,2022-08-20,delivered,Chicago,IL
+2489,863,2022-03-08,shipped,Chicago,IL
+2490,318,2022-05-06,delivered,Dallas,AZ
+2491,100,2022-09-13,delivered,San Diego,CA
+2492,736,2022-02-05,shipped,Houston,CA
+2493,59,2022-08-07,processing,San Jose,TX
+2494,293,2022-05-01,delivered,San Antonio,TX
+2495,265,2022-05-18,processing,Phoenix,PA
+2496,673,2022-04-09,delivered,Chicago,CA
+2497,997,2022-03-24,processing,Los Angeles,TX
+2498,228,2022-09-05,processing,Houston,IL
+2499,502,2022-01-05,delivered,Houston,NY
+2500,324,2022-05-18,delivered,San Antonio,CA
+2501,878,2022-03-07,shipped,Los Angeles,TX
+2502,955,2022-12-23,pending,Phoenix,PA
+2503,708,2022-08-21,processing,Dallas,CA
+2504,910,2022-12-10,shipped,San Diego,CA
+2505,629,2022-11-08,shipped,New York,CA
+2506,759,2022-02-21,shipped,Chicago,TX
+2507,292,2022-05-14,pending,Chicago,CA
+2508,672,2022-02-26,pending,Dallas,AZ
+2509,524,2022-08-02,pending,San Jose,PA
+2510,830,2022-01-12,processing,New York,TX
+2511,949,2022-09-18,cancelled,Philadelphia,CA
+2512,914,2022-04-08,processing,Dallas,PA
+2513,63,2022-08-09,processing,Chicago,TX
+2514,471,2022-01-10,processing,Houston,TX
+2515,456,2022-11-09,delivered,Los Angeles,TX
+2516,623,2022-10-26,shipped,Houston,CA
+2517,912,2022-09-23,delivered,San Diego,CA
+2518,371,2022-03-09,shipped,San Diego,CA
+2519,733,2022-07-18,pending,New York,TX
+2520,597,2022-04-03,delivered,Los Angeles,IL
+2521,777,2022-07-28,processing,San Diego,CA
+2522,952,2022-09-27,shipped,Los Angeles,CA
+2523,84,2022-06-07,shipped,Dallas,CA
+2524,957,2022-03-08,shipped,San Jose,CA
+2525,410,2022-08-13,shipped,San Antonio,CA
+2526,778,2022-09-21,delivered,Philadelphia,TX
+2527,685,2022-08-29,delivered,Chicago,AZ
+2528,207,2022-04-03,processing,San Diego,TX
+2529,321,2022-02-02,returned,San Jose,IL
+2530,977,2022-09-30,shipped,Phoenix,AZ
+2531,960,2022-09-19,delivered,Phoenix,CA
+2532,147,2022-03-04,processing,Houston,CA
+2533,647,2022-02-02,pending,Los Angeles,NY
+2534,472,2022-03-25,cancelled,Philadelphia,AZ
+2535,189,2022-05-21,delivered,San Jose,TX
+2536,384,2022-05-30,returned,Los Angeles,NY
+2537,381,2022-11-11,pending,Phoenix,TX
+2538,978,2022-10-20,delivered,Philadelphia,TX
+2539,367,2022-03-05,shipped,San Jose,CA
+2540,803,2022-03-30,delivered,San Diego,CA
+2541,840,2022-11-24,pending,Dallas,AZ
+2542,408,2022-10-17,delivered,New York,IL
+2543,352,2022-09-15,shipped,Dallas,TX
+2544,223,2022-08-25,shipped,Dallas,TX
+2545,788,2022-01-21,processing,New York,TX
+2546,631,2022-01-15,cancelled,Houston,TX
+2547,79,2022-11-17,pending,Phoenix,CA
+2548,278,2022-10-31,shipped,Dallas,IL
+2549,399,2022-09-16,shipped,Philadelphia,TX
+2550,55,2022-06-14,delivered,Philadelphia,CA
+2551,635,2022-02-28,shipped,New York,TX
+2552,545,2022-09-24,processing,San Diego,TX
+2553,739,2022-03-19,cancelled,Houston,TX
+2554,862,2022-09-29,shipped,Phoenix,CA
+2555,469,2022-07-11,processing,San Jose,PA
+2556,746,2022-05-09,processing,San Jose,NY
+2557,186,2022-01-06,processing,Dallas,PA
+2558,145,2022-07-21,shipped,San Jose,PA
+2559,634,2022-06-19,processing,New York,TX
+2560,466,2022-04-19,delivered,San Antonio,CA
+2561,927,2022-07-14,processing,San Diego,NY
+2562,395,2022-06-01,shipped,Houston,AZ
+2563,234,2022-10-25,shipped,Philadelphia,TX
+2564,396,2022-04-19,shipped,San Antonio,CA
+2565,667,2022-01-09,pending,Chicago,CA
+2566,893,2022-03-18,shipped,San Jose,CA
+2567,480,2022-12-12,cancelled,Los Angeles,PA
+2568,113,2022-02-26,delivered,Chicago,AZ
+2569,865,2022-10-22,delivered,San Jose,IL
+2570,677,2022-03-18,shipped,Dallas,CA
+2571,312,2022-08-09,shipped,San Antonio,TX
+2572,831,2022-02-23,processing,Los Angeles,PA
+2573,341,2022-01-19,delivered,San Jose,CA
+2574,345,2022-11-21,shipped,Houston,CA
+2575,269,2022-05-15,delivered,San Diego,CA
+2576,413,2022-09-12,returned,Phoenix,CA
+2577,484,2022-06-09,delivered,Chicago,CA
+2578,346,2022-06-21,processing,Phoenix,TX
+2579,299,2022-11-04,delivered,Philadelphia,CA
+2580,808,2022-06-11,delivered,New York,NY
+2581,335,2022-11-11,shipped,Philadelphia,TX
+2582,679,2022-09-17,pending,San Diego,CA
+2583,173,2022-07-08,processing,Houston,TX
+2584,16,2022-01-21,delivered,San Jose,AZ
+2585,925,2022-10-03,returned,San Jose,TX
+2586,332,2022-10-10,delivered,Dallas,PA
+2587,971,2022-03-29,processing,New York,IL
+2588,566,2022-08-14,delivered,Los Angeles,PA
+2589,733,2022-11-01,shipped,Phoenix,NY
+2590,655,2022-07-09,delivered,San Antonio,CA
+2591,700,2022-04-08,shipped,Phoenix,TX
+2592,933,2022-10-03,delivered,San Jose,CA
+2593,804,2022-03-03,shipped,San Jose,CA
+2594,578,2022-04-21,processing,San Antonio,CA
+2595,773,2022-10-04,delivered,San Antonio,CA
+2596,968,2022-09-06,pending,San Antonio,TX
+2597,246,2022-04-26,cancelled,Dallas,IL
+2598,160,2022-07-22,processing,Chicago,IL
+2599,449,2022-04-20,cancelled,Los Angeles,CA
+2600,590,2022-06-21,shipped,Philadelphia,CA
+2601,608,2022-03-28,delivered,Houston,CA
+2602,344,2022-11-16,processing,San Antonio,IL
+2603,848,2022-10-17,delivered,New York,TX
+2604,130,2022-12-02,pending,San Jose,TX
+2605,1,2022-06-30,pending,San Antonio,CA
+2606,172,2022-10-05,shipped,New York,CA
+2607,499,2022-09-14,delivered,Los Angeles,CA
+2608,848,2022-10-31,delivered,San Diego,TX
+2609,776,2022-02-12,shipped,San Antonio,AZ
+2610,458,2022-08-17,delivered,Dallas,PA
+2611,346,2022-03-22,shipped,Los Angeles,AZ
+2612,931,2022-03-12,delivered,Philadelphia,TX
+2613,810,2022-10-03,cancelled,New York,PA
+2614,21,2022-12-16,delivered,Chicago,IL
+2615,133,2022-03-04,delivered,Los Angeles,TX
+2616,469,2022-10-20,delivered,Phoenix,IL
+2617,419,2022-06-23,processing,Philadelphia,AZ
+2618,49,2022-05-28,shipped,San Jose,CA
+2619,402,2022-10-19,shipped,Houston,CA
+2620,583,2022-07-07,processing,Dallas,TX
+2621,573,2022-11-19,shipped,Chicago,IL
+2622,645,2022-06-18,pending,Phoenix,CA
+2623,48,2022-06-12,processing,San Antonio,CA
+2624,721,2022-12-11,delivered,Chicago,CA
+2625,571,2022-12-16,shipped,San Antonio,TX
+2626,127,2022-02-08,shipped,Houston,AZ
+2627,884,2022-01-02,delivered,Phoenix,CA
+2628,27,2022-12-31,delivered,Phoenix,AZ
+2629,824,2022-02-18,processing,Dallas,AZ
+2630,924,2022-07-22,delivered,Houston,AZ
+2631,46,2022-08-16,shipped,Los Angeles,TX
+2632,201,2022-09-14,processing,Philadelphia,AZ
+2633,785,2022-07-09,delivered,San Jose,TX
+2634,46,2022-02-26,delivered,Philadelphia,CA
+2635,544,2022-06-18,cancelled,Chicago,TX
+2636,281,2022-05-22,cancelled,San Diego,IL
+2637,162,2022-12-21,shipped,Los Angeles,TX
+2638,897,2022-09-23,processing,Los Angeles,PA
+2639,609,2022-04-19,delivered,Dallas,TX
+2640,805,2022-07-27,shipped,Dallas,TX
+2641,189,2022-09-06,delivered,New York,CA
+2642,786,2022-11-19,cancelled,Los Angeles,CA
+2643,443,2022-11-15,processing,Los Angeles,TX
+2644,863,2022-12-06,shipped,Chicago,CA
+2645,296,2022-09-16,pending,San Diego,TX
+2646,247,2022-08-03,shipped,Los Angeles,NY
+2647,108,2022-05-29,cancelled,San Diego,TX
+2648,177,2022-10-04,shipped,Dallas,CA
+2649,467,2022-07-24,returned,Phoenix,AZ
+2650,99,2022-12-14,processing,Chicago,TX
+2651,703,2022-06-05,processing,San Antonio,TX
+2652,122,2022-10-03,shipped,Phoenix,CA
+2653,765,2022-06-29,cancelled,Philadelphia,TX
+2654,206,2022-05-29,shipped,San Antonio,AZ
+2655,713,2022-07-06,pending,Los Angeles,IL
+2656,660,2022-06-22,processing,Philadelphia,PA
+2657,67,2022-04-18,shipped,Houston,CA
+2658,138,2022-01-07,shipped,San Jose,IL
+2659,647,2022-03-22,shipped,San Diego,AZ
+2660,797,2022-10-27,delivered,Houston,CA
+2661,1,2022-06-05,shipped,Philadelphia,TX
+2662,846,2022-06-22,delivered,Dallas,TX
+2663,180,2022-09-18,shipped,San Diego,CA
+2664,95,2022-01-09,processing,Dallas,PA
+2665,318,2022-06-07,shipped,Los Angeles,TX
+2666,754,2022-12-26,delivered,San Antonio,TX
+2667,734,2022-10-02,delivered,Philadelphia,NY
+2668,561,2022-03-15,shipped,Philadelphia,TX
+2669,528,2022-07-26,processing,Los Angeles,AZ
+2670,71,2022-06-20,processing,Los Angeles,NY
+2671,899,2022-08-20,cancelled,San Diego,NY
+2672,671,2022-07-12,delivered,San Antonio,PA
+2673,725,2022-07-22,shipped,San Diego,PA
+2674,391,2022-04-16,delivered,Chicago,PA
+2675,277,2022-02-20,delivered,San Jose,TX
+2676,144,2022-02-12,returned,Phoenix,CA
+2677,998,2022-03-24,processing,San Antonio,NY
+2678,796,2022-09-01,delivered,Houston,NY
+2679,746,2022-08-28,processing,San Jose,AZ
+2680,514,2022-11-25,pending,New York,PA
+2681,96,2022-12-01,delivered,Phoenix,IL
+2682,908,2022-02-24,delivered,Houston,AZ
+2683,999,2022-03-30,delivered,San Diego,AZ
+2684,322,2022-08-12,shipped,New York,NY
+2685,595,2022-01-09,pending,San Jose,NY
+2686,528,2022-07-07,processing,Philadelphia,CA
+2687,366,2022-05-11,shipped,San Antonio,NY
+2688,399,2022-05-24,returned,San Antonio,PA
+2689,561,2022-10-02,delivered,Houston,CA
+2690,198,2022-07-06,delivered,Houston,PA
+2691,771,2022-08-27,processing,Los Angeles,NY
+2692,90,2022-12-21,delivered,Houston,CA
+2693,190,2022-05-30,pending,New York,CA
+2694,115,2022-05-10,delivered,Los Angeles,TX
+2695,388,2022-12-03,shipped,Chicago,IL
+2696,375,2022-10-27,delivered,Houston,TX
+2697,390,2022-11-03,processing,San Antonio,NY
+2698,138,2022-12-28,delivered,San Jose,CA
+2699,376,2022-01-03,shipped,Philadelphia,PA
+2700,107,2022-02-23,processing,San Diego,PA
+2701,42,2022-07-09,shipped,Los Angeles,IL
+2702,137,2022-02-19,delivered,Chicago,CA
+2703,87,2022-07-17,delivered,Los Angeles,TX
+2704,14,2022-12-20,delivered,San Jose,CA
+2705,279,2022-08-05,delivered,Dallas,CA
+2706,578,2022-08-18,delivered,Dallas,PA
+2707,564,2022-12-28,processing,Phoenix,TX
+2708,559,2022-05-28,delivered,Chicago,TX
+2709,334,2022-01-22,processing,Chicago,AZ
+2710,453,2022-06-15,shipped,Houston,TX
+2711,199,2022-12-24,cancelled,Houston,TX
+2712,335,2022-10-22,delivered,Dallas,TX
+2713,824,2022-06-14,shipped,Philadelphia,TX
+2714,252,2022-01-01,processing,New York,TX
+2715,658,2022-08-26,delivered,Dallas,CA
+2716,974,2022-11-21,delivered,Philadelphia,CA
+2717,537,2022-09-30,delivered,Chicago,IL
+2718,601,2022-07-17,shipped,Philadelphia,PA
+2719,745,2022-11-02,pending,Dallas,CA
+2720,570,2022-03-22,delivered,San Diego,TX
+2721,789,2022-05-17,delivered,New York,CA
+2722,251,2022-02-08,delivered,Houston,CA
+2723,199,2022-02-03,processing,New York,TX
+2724,850,2022-03-20,shipped,Chicago,NY
+2725,421,2022-10-15,delivered,San Antonio,TX
+2726,732,2022-08-08,cancelled,Los Angeles,IL
+2727,753,2022-03-08,delivered,New York,TX
+2728,905,2022-02-15,processing,San Jose,TX
+2729,627,2022-10-22,processing,San Antonio,AZ
+2730,37,2022-01-12,delivered,New York,CA
+2731,849,2022-12-12,delivered,Chicago,TX
+2732,614,2022-04-15,processing,Philadelphia,TX
+2733,44,2022-10-14,processing,San Antonio,CA
+2734,379,2022-10-03,delivered,Los Angeles,NY
+2735,264,2022-01-17,returned,Phoenix,AZ
+2736,106,2022-03-19,processing,San Diego,TX
+2737,850,2022-03-12,shipped,Houston,CA
+2738,340,2022-01-10,pending,Philadelphia,AZ
+2739,714,2022-02-11,delivered,Phoenix,CA
+2740,549,2022-06-21,delivered,San Antonio,PA
+2741,903,2022-04-01,pending,Los Angeles,PA
+2742,333,2022-02-27,returned,Dallas,CA
+2743,455,2022-08-19,delivered,San Jose,PA
+2744,923,2022-06-01,processing,Philadelphia,TX
+2745,429,2022-06-28,delivered,Dallas,CA
+2746,346,2022-02-22,processing,Houston,TX
+2747,403,2022-12-12,delivered,Los Angeles,PA
+2748,763,2022-07-30,delivered,San Diego,PA
+2749,114,2022-03-17,shipped,San Antonio,NY
+2750,340,2022-11-30,shipped,Dallas,AZ
+2751,625,2022-02-10,delivered,San Jose,PA
+2752,120,2022-09-09,returned,San Antonio,PA
+2753,545,2022-11-05,processing,Philadelphia,CA
+2754,683,2022-11-04,shipped,Houston,IL
+2755,464,2022-09-03,returned,San Antonio,IL
+2756,165,2022-01-16,shipped,San Diego,AZ
+2757,409,2022-11-17,delivered,Dallas,NY
+2758,400,2022-03-09,delivered,Dallas,TX
+2759,651,2022-11-30,shipped,Philadelphia,CA
+2760,26,2022-11-23,delivered,San Antonio,AZ
+2761,463,2022-04-08,pending,Los Angeles,CA
+2762,229,2022-07-05,returned,Philadelphia,TX
+2763,910,2022-04-06,delivered,Philadelphia,AZ
+2764,948,2022-11-13,pending,New York,TX
+2765,854,2022-10-22,delivered,Philadelphia,CA
+2766,242,2022-09-19,delivered,Philadelphia,TX
+2767,910,2022-05-17,pending,Los Angeles,TX
+2768,513,2022-07-07,delivered,San Antonio,PA
+2769,130,2022-02-26,shipped,Los Angeles,NY
+2770,517,2022-12-07,pending,San Antonio,IL
+2771,56,2022-02-19,processing,Philadelphia,IL
+2772,590,2022-11-06,shipped,Phoenix,TX
+2773,478,2022-11-11,returned,San Jose,CA
+2774,733,2022-03-13,returned,Los Angeles,AZ
+2775,803,2022-06-11,delivered,San Diego,CA
+2776,533,2022-09-27,delivered,Phoenix,CA
+2777,696,2022-03-08,returned,Chicago,NY
+2778,361,2022-08-14,pending,San Diego,TX
+2779,811,2022-05-04,delivered,San Diego,AZ
+2780,563,2022-12-27,cancelled,Phoenix,NY
+2781,188,2022-02-25,delivered,Dallas,CA
+2782,199,2022-03-07,delivered,Phoenix,PA
+2783,177,2022-07-21,shipped,Houston,IL
+2784,221,2022-08-04,shipped,San Diego,CA
+2785,176,2022-05-17,delivered,Philadelphia,AZ
+2786,850,2022-06-19,delivered,Dallas,CA
+2787,703,2022-08-09,processing,San Diego,TX
+2788,36,2022-02-07,shipped,San Jose,TX
+2789,243,2022-10-01,shipped,San Jose,PA
+2790,901,2022-11-29,delivered,Philadelphia,PA
+2791,505,2022-06-22,shipped,Chicago,AZ
+2792,516,2022-02-23,delivered,Chicago,IL
+2793,617,2022-09-09,delivered,Dallas,CA
+2794,229,2022-05-28,processing,Dallas,TX
+2795,589,2022-01-12,shipped,Chicago,IL
+2796,772,2022-07-20,processing,San Antonio,IL
+2797,401,2022-10-18,delivered,San Jose,NY
+2798,851,2022-07-15,delivered,San Diego,PA
+2799,930,2022-12-10,processing,San Antonio,IL
+2800,598,2022-02-10,processing,Dallas,CA
+2801,807,2022-05-29,delivered,Chicago,TX
+2802,372,2022-06-29,delivered,Philadelphia,IL
+2803,302,2022-06-08,shipped,Los Angeles,CA
+2804,503,2022-08-25,delivered,San Antonio,TX
+2805,376,2022-11-19,shipped,Houston,TX
+2806,799,2022-05-30,processing,Dallas,IL
+2807,754,2022-10-19,shipped,Chicago,IL
+2808,62,2022-10-25,processing,New York,CA
+2809,553,2022-06-09,processing,Chicago,IL
+2810,601,2022-07-12,shipped,Los Angeles,IL
+2811,238,2022-08-17,delivered,San Jose,AZ
+2812,648,2022-09-05,pending,San Diego,IL
+2813,687,2022-02-08,shipped,San Jose,CA
+2814,25,2022-12-09,pending,Los Angeles,TX
+2815,588,2022-06-06,delivered,San Jose,CA
+2816,438,2022-09-16,delivered,Chicago,PA
+2817,241,2022-11-30,delivered,San Jose,CA
+2818,94,2022-09-15,delivered,Houston,IL
+2819,939,2022-10-26,processing,San Jose,CA
+2820,712,2022-07-09,delivered,San Diego,CA
+2821,936,2022-09-11,cancelled,Los Angeles,IL
+2822,507,2022-09-27,delivered,San Antonio,CA
+2823,524,2022-01-07,pending,Phoenix,NY
+2824,779,2022-05-22,pending,Philadelphia,CA
+2825,426,2022-10-31,processing,Los Angeles,PA
+2826,55,2022-02-16,pending,San Antonio,NY
+2827,510,2022-07-25,processing,Los Angeles,PA
+2828,366,2022-04-06,processing,San Diego,NY
+2829,682,2022-12-25,delivered,Houston,NY
+2830,298,2022-11-04,delivered,Houston,CA
+2831,936,2022-09-08,delivered,Los Angeles,TX
+2832,917,2022-11-06,returned,Phoenix,TX
+2833,970,2022-09-12,shipped,Houston,TX
+2834,589,2022-12-14,shipped,Dallas,AZ
+2835,270,2022-08-16,delivered,San Antonio,TX
+2836,100,2022-11-05,delivered,Phoenix,CA
+2837,993,2022-04-17,delivered,San Diego,CA
+2838,535,2022-01-08,delivered,Philadelphia,TX
+2839,202,2022-03-06,returned,Chicago,IL
+2840,606,2022-10-23,pending,New York,CA
+2841,762,2022-09-05,delivered,Phoenix,TX
+2842,345,2022-07-04,delivered,San Jose,IL
+2843,170,2022-04-08,returned,San Diego,NY
+2844,136,2022-11-11,delivered,San Jose,IL
+2845,809,2022-09-12,pending,San Diego,TX
+2846,335,2022-10-16,shipped,Philadelphia,TX
+2847,1,2022-05-08,delivered,Houston,TX
+2848,605,2022-08-04,pending,San Antonio,PA
+2849,826,2022-06-10,pending,Los Angeles,CA
+2850,44,2022-10-30,cancelled,San Antonio,NY
+2851,780,2022-06-07,pending,San Antonio,AZ
+2852,885,2022-09-17,processing,Phoenix,TX
+2853,51,2022-09-18,delivered,Phoenix,TX
+2854,61,2022-11-30,shipped,San Jose,TX
+2855,856,2022-01-20,returned,Houston,IL
+2856,124,2022-08-30,shipped,Philadelphia,NY
+2857,60,2022-01-16,processing,San Antonio,TX
+2858,373,2022-03-21,shipped,Dallas,CA
+2859,161,2022-09-16,delivered,San Jose,TX
+2860,910,2022-07-23,returned,Chicago,TX
+2861,438,2022-09-01,pending,San Antonio,CA
+2862,769,2022-08-01,pending,San Jose,TX
+2863,642,2022-11-25,pending,Dallas,PA
+2864,878,2022-08-31,processing,San Jose,TX
+2865,401,2022-01-13,shipped,Phoenix,TX
+2866,1,2022-03-16,delivered,Chicago,CA
+2867,279,2022-04-01,shipped,Phoenix,NY
+2868,176,2022-06-13,shipped,San Jose,CA
+2869,556,2022-08-02,delivered,Philadelphia,CA
+2870,484,2022-11-28,returned,Philadelphia,TX
+2871,682,2022-07-05,delivered,New York,NY
+2872,722,2022-05-06,processing,Houston,TX
+2873,213,2022-07-16,pending,Dallas,TX
+2874,842,2022-05-07,pending,Philadelphia,CA
+2875,722,2022-07-27,shipped,Los Angeles,TX
+2876,345,2022-01-19,shipped,Phoenix,TX
+2877,641,2022-07-24,delivered,San Antonio,PA
+2878,792,2022-12-20,pending,Philadelphia,CA
+2879,750,2022-09-09,delivered,Dallas,NY
+2880,171,2022-03-18,shipped,New York,TX
+2881,635,2022-12-27,processing,San Diego,TX
+2882,868,2022-05-18,cancelled,San Antonio,NY
+2883,832,2022-07-20,shipped,Chicago,PA
+2884,661,2022-06-20,pending,Philadelphia,TX
+2885,56,2022-11-11,delivered,San Jose,CA
+2886,709,2022-01-14,delivered,Los Angeles,TX
+2887,593,2022-08-20,delivered,San Antonio,NY
+2888,428,2022-05-02,shipped,Chicago,TX
+2889,655,2022-12-08,shipped,New York,CA
+2890,333,2022-12-09,processing,Phoenix,TX
+2891,293,2022-02-27,processing,Los Angeles,IL
+2892,93,2022-06-15,shipped,New York,TX
+2893,757,2022-05-12,delivered,New York,TX
+2894,425,2022-01-20,processing,Phoenix,TX
+2895,457,2022-10-31,cancelled,Houston,CA
+2896,221,2022-10-13,processing,Dallas,AZ
+2897,52,2022-09-24,pending,San Diego,TX
+2898,314,2022-06-14,delivered,Phoenix,AZ
+2899,582,2022-08-26,processing,Phoenix,TX
+2900,610,2022-05-09,shipped,Philadelphia,CA
+2901,19,2022-04-14,shipped,San Diego,IL
+2902,924,2022-10-13,shipped,Los Angeles,CA
+2903,447,2022-08-06,delivered,Dallas,CA
+2904,506,2022-12-30,shipped,Phoenix,CA
+2905,326,2022-03-10,pending,San Diego,PA
+2906,337,2022-02-10,delivered,San Antonio,TX
+2907,560,2022-02-10,delivered,Los Angeles,NY
+2908,784,2022-09-23,pending,New York,PA
+2909,823,2022-11-27,processing,Phoenix,CA
+2910,97,2022-07-31,returned,Philadelphia,CA
+2911,790,2022-03-27,cancelled,Chicago,TX
+2912,602,2022-12-07,delivered,Houston,NY
+2913,738,2022-01-04,delivered,Dallas,CA
+2914,241,2022-07-29,processing,San Jose,TX
+2915,397,2022-01-11,pending,San Jose,CA
+2916,620,2022-09-19,processing,Dallas,CA
+2917,367,2022-02-20,shipped,Philadelphia,AZ
+2918,87,2022-07-10,shipped,San Jose,IL
+2919,494,2022-07-02,delivered,Los Angeles,CA
+2920,989,2022-02-06,returned,Chicago,TX
+2921,965,2022-04-30,pending,San Antonio,TX
+2922,33,2022-04-19,processing,Houston,TX
+2923,784,2022-01-26,cancelled,San Diego,AZ
+2924,71,2022-01-06,pending,Phoenix,TX
+2925,65,2022-02-10,shipped,Houston,PA
+2926,893,2022-01-02,delivered,Houston,AZ
+2927,54,2022-04-09,delivered,Chicago,NY
+2928,587,2022-06-16,shipped,Chicago,NY
+2929,537,2022-02-16,processing,San Jose,TX
+2930,321,2022-07-31,processing,San Diego,CA
+2931,499,2022-01-15,returned,Chicago,TX
+2932,24,2022-09-12,pending,New York,CA
+2933,682,2022-04-16,returned,Houston,TX
+2934,808,2022-08-27,delivered,San Antonio,TX
+2935,601,2022-01-02,pending,Houston,TX
+2936,235,2022-01-19,delivered,Dallas,CA
+2937,426,2022-07-29,processing,Phoenix,TX
+2938,106,2022-07-07,processing,Phoenix,CA
+2939,987,2022-04-24,delivered,San Antonio,TX
+2940,361,2022-08-26,delivered,New York,TX
+2941,191,2022-01-22,delivered,San Jose,IL
+2942,276,2022-07-30,processing,Los Angeles,IL
+2943,686,2022-01-06,delivered,San Jose,NY
+2944,13,2022-09-07,returned,San Antonio,TX
+2945,499,2022-04-08,delivered,San Antonio,AZ
+2946,374,2022-10-03,delivered,Los Angeles,IL
+2947,36,2022-01-20,delivered,San Antonio,AZ
+2948,549,2022-01-14,delivered,Philadelphia,NY
+2949,562,2022-09-22,shipped,New York,IL
+2950,177,2022-06-24,delivered,Dallas,TX
+2951,912,2022-12-12,pending,San Diego,TX
+2952,822,2022-01-14,shipped,Dallas,CA
+2953,17,2022-11-19,returned,Los Angeles,NY
+2954,556,2022-02-03,processing,New York,IL
+2955,190,2022-05-27,delivered,Los Angeles,TX
+2956,973,2022-05-21,processing,Houston,NY
+2957,642,2022-05-06,delivered,Houston,NY
+2958,387,2022-05-01,shipped,Houston,NY
+2959,258,2022-09-07,pending,Philadelphia,AZ
+2960,592,2022-12-14,pending,Houston,CA
+2961,712,2022-02-26,shipped,Chicago,TX
+2962,589,2022-12-06,shipped,Chicago,AZ
+2963,443,2022-02-27,delivered,Philadelphia,CA
+2964,837,2022-02-05,delivered,San Diego,PA
+2965,6,2022-07-10,processing,San Jose,CA
+2966,80,2022-03-03,processing,Phoenix,IL
+2967,161,2022-07-30,delivered,Los Angeles,CA
+2968,252,2022-04-26,processing,New York,TX
+2969,685,2022-03-20,shipped,Los Angeles,IL
+2970,583,2022-04-13,delivered,New York,TX
+2971,105,2022-05-22,shipped,Chicago,IL
+2972,332,2022-01-09,processing,San Jose,TX
+2973,450,2022-12-19,returned,Dallas,NY
+2974,467,2022-09-04,delivered,Chicago,TX
+2975,366,2022-01-27,pending,Chicago,CA
+2976,489,2022-07-23,cancelled,Dallas,TX
+2977,423,2022-05-01,shipped,Chicago,CA
+2978,559,2022-07-07,processing,San Jose,TX
+2979,77,2022-10-01,processing,Los Angeles,IL
+2980,614,2022-12-14,returned,Dallas,NY
+2981,552,2022-05-30,delivered,Houston,CA
+2982,733,2022-10-20,processing,San Jose,PA
+2983,134,2022-11-18,shipped,San Antonio,CA
+2984,662,2022-05-22,delivered,San Jose,CA
+2985,726,2022-06-18,delivered,Philadelphia,CA
+2986,642,2022-10-12,processing,Los Angeles,CA
+2987,87,2022-02-24,processing,San Diego,TX
+2988,70,2022-05-13,shipped,Chicago,IL
+2989,277,2022-04-29,delivered,Philadelphia,TX
+2990,447,2022-02-15,pending,Houston,CA
+2991,152,2022-09-29,delivered,Philadelphia,IL
+2992,409,2022-02-20,delivered,Los Angeles,PA
+2993,392,2022-01-08,delivered,Los Angeles,TX
+2994,973,2022-07-03,delivered,Chicago,IL
+2995,643,2022-01-19,pending,Phoenix,PA
+2996,129,2022-03-25,delivered,Philadelphia,IL
+2997,236,2022-10-28,delivered,Chicago,NY
+2998,421,2022-06-13,delivered,San Antonio,CA
+2999,439,2022-04-07,returned,Los Angeles,IL
+3000,438,2022-04-03,pending,San Antonio,CA

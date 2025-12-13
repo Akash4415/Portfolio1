@@ -1,0 +1,501 @@
+product_id,product_name,category_id,supplier_id,price,stock_quantity
+1,Wireless Blender,15,9,340.08,729
+2,Compact Soccer Ball,12,5,312.36,120
+3,Compact Keyboard,2,19,144.42,530
+4,Eco Mouse,2,16,15.81,978
+5,Premium Sneakers,13,9,198.68,387
+6,Portable Keyboard,5,27,271.65,757
+7,Wireless Speaker,5,34,374.29,167
+8,Wireless Desk Lamp,6,40,426.19,857
+9,Waterproof Soccer Ball,2,26,465.42,254
+10,Classic T-Shirt,2,35,115.69,103
+11,Waterproof Desk Lamp,7,16,111.91,699
+12,Wireless Speaker,6,8,231.37,891
+13,Premium Mouse,2,33,158.24,994
+14,Premium Board Game,6,39,59.94,35
+15,Compact Notebook,7,15,483.8,374
+16,Wireless Blender,5,9,344.73,699
+17,Smart Sneakers,14,18,366.59,492
+18,Waterproof Board Game,10,1,391.14,825
+19,Compact Speaker,10,26,56.61,144
+20,Smart Backpack,11,3,443.54,638
+21,Compact Headphones,6,31,327.49,184
+22,Eco T-Shirt,1,40,109.85,412
+23,Portable Blender,15,25,232.08,536
+24,Rechargeable Board Game,13,15,160.61,861
+25,Eco T-Shirt,13,4,467.71,403
+26,Wireless Keyboard,14,35,247.86,843
+27,Smart Soccer Ball,10,13,456.95,330
+28,Wireless Necklace,15,33,158.64,942
+29,Waterproof Mouse,12,22,447.67,597
+30,Waterproof Drill,12,17,370.73,587
+31,Waterproof T-Shirt,4,27,463.02,317
+32,Adjustable Board Game,9,20,120.34,850
+33,Smart Monitor,11,27,167.24,795
+34,Adjustable Soccer Ball,13,3,452.47,475
+35,Premium Monitor,10,8,11.34,383
+36,Eco Sneakers,12,15,66.87,973
+37,Premium Keyboard,4,3,27.81,355
+38,Rechargeable Backpack,15,29,398.51,810
+39,Classic Headphones,7,29,486.8,435
+40,Adjustable Desk Lamp,13,33,360.68,522
+41,Wireless Blender,10,33,460.86,572
+42,Portable Shampoo,4,6,461.98,412
+43,Waterproof Mouse,6,30,349.43,50
+44,Premium Desk Lamp,8,9,307.45,857
+45,Rechargeable Backpack,5,15,184.27,195
+46,Compact Desk Lamp,7,1,247.69,827
+47,Portable Necklace,2,6,259.96,186
+48,Classic Toy Car,14,26,474.47,733
+49,Eco Headphones,1,2,18.83,416
+50,Waterproof Headphones,12,26,446.09,850
+51,Premium T-Shirt,8,9,82.01,654
+52,Classic Toy Car,2,6,355.67,201
+53,Adjustable Mouse,14,38,281.03,44
+54,Classic Keyboard,7,31,19.83,124
+55,Portable Vitamin Pack,13,38,48.89,222
+56,Wireless Blender,4,39,94.06,606
+57,Eco Headphones,13,14,179.33,470
+58,Premium Speaker,13,7,18.23,223
+59,Classic Vitamin Pack,4,35,193.1,414
+60,Smart Blender,6,16,28.31,796
+61,Waterproof Blender,3,19,379.12,940
+62,Adjustable Mouse,4,21,413.53,925
+63,Smart Vitamin Pack,1,38,279.85,231
+64,Premium Monitor,8,20,90.68,26
+65,Classic Board Game,3,28,347.94,737
+66,Rechargeable Desk Lamp,4,28,66.25,704
+67,Premium Mixer,8,28,478.44,404
+68,Classic Blender,4,3,85.06,903
+69,Wireless Dog Food,3,34,335.66,789
+70,Adjustable Sneakers,12,6,373.22,850
+71,Eco Dog Food,6,22,283.49,101
+72,Portable Speaker,1,8,33.07,378
+73,Premium Shampoo,15,4,425.67,411
+74,Waterproof Soccer Ball,2,4,398.49,4
+75,Wireless Soccer Ball,9,24,353.59,751
+76,Smart Board Game,3,15,89.07,490
+77,Adjustable Speaker,6,39,70.39,29
+78,Eco Notebook,14,19,313.31,160
+79,Adjustable Board Game,10,27,75.4,107
+80,Rechargeable Necklace,12,15,395.98,470
+81,Eco Mouse,8,38,173.36,216
+82,Portable Toy Car,6,10,74.94,535
+83,Portable Monitor,4,28,147.86,427
+84,Smart Sneakers,10,19,114.03,551
+85,Smart Sneakers,7,3,190.59,35
+86,Adjustable Desk Lamp,12,39,323.26,961
+87,Wireless Mixer,6,31,355.84,358
+88,Premium Notebook,8,2,425.2,296
+89,Compact Notebook,2,20,293.01,370
+90,Waterproof Notebook,9,36,283.33,873
+91,Smart Blender,14,6,95.07,984
+92,Adjustable Keyboard,1,26,47.83,253
+93,Adjustable Sneakers,5,2,470.8,374
+94,Waterproof Mouse,6,15,152.51,497
+95,Wireless Blender,11,1,156.67,32
+96,Portable Mixer,13,31,490.48,524
+97,Eco Sneakers,5,3,10.1,317
+98,Rechargeable Shampoo,5,1,462.83,296
+99,Smart T-Shirt,5,33,70.4,189
+100,Adjustable Dog Food,1,31,263.22,729
+101,Compact Shampoo,2,16,41.45,96
+102,Classic Soccer Ball,7,16,19.25,836
+103,Portable Keyboard,4,21,286.8,75
+104,Smart Dog Food,8,33,247.08,99
+105,Premium Notebook,11,30,127.87,941
+106,Compact Mouse,1,20,286.43,348
+107,Classic Mixer,14,3,397.94,10
+108,Waterproof Speaker,1,18,339.8,236
+109,Eco Board Game,2,9,137.21,290
+110,Portable Mixer,15,36,308.45,644
+111,Adjustable Notebook,3,30,129.1,161
+112,Adjustable Drill,12,24,272.53,204
+113,Adjustable Backpack,15,36,217.67,480
+114,Compact Sneakers,2,38,249.43,690
+115,Portable Necklace,9,22,270.84,833
+116,Smart Monitor,4,15,150.95,907
+117,Eco Toy Car,11,28,233.45,745
+118,Waterproof Vitamin Pack,9,36,433.66,841
+119,Premium Backpack,1,37,439.83,701
+120,Wireless Board Game,4,7,69.88,78
+121,Adjustable Sneakers,7,8,337.73,442
+122,Compact Vitamin Pack,13,3,283.41,552
+123,Premium Vitamin Pack,1,15,344.13,678
+124,Wireless Drill,5,29,105.53,847
+125,Rechargeable Desk Lamp,8,22,276.3,473
+126,Rechargeable Drill,10,24,416.59,460
+127,Compact Vitamin Pack,8,3,371.12,70
+128,Adjustable Necklace,6,8,481.82,356
+129,Premium Board Game,3,33,425.79,154
+130,Wireless Monitor,7,30,393.65,156
+131,Compact Blender,14,27,402.02,423
+132,Adjustable Toy Car,14,37,200.36,570
+133,Eco Backpack,4,26,204.93,25
+134,Premium Vitamin Pack,5,5,101.82,526
+135,Compact Shampoo,7,28,448,880
+136,Waterproof Vitamin Pack,15,10,280.33,165
+137,Wireless Speaker,6,21,493.12,341
+138,Premium Headphones,14,32,39.68,76
+139,Rechargeable Keyboard,8,17,408.55,976
+140,Premium Board Game,6,12,17.36,426
+141,Portable Sneakers,4,1,347.03,893
+142,Premium Backpack,4,34,140.52,176
+143,Premium Shampoo,5,9,442.11,766
+144,Adjustable Monitor,9,38,229.73,757
+145,Rechargeable Vitamin Pack,5,23,277.04,78
+146,Eco Toy Car,14,1,308.55,351
+147,Smart Speaker,3,24,421.31,824
+148,Smart Vitamin Pack,3,35,413.63,577
+149,Portable Mouse,13,8,392.16,686
+150,Smart Soccer Ball,9,4,400.45,803
+151,Smart Shampoo,3,38,309.72,224
+152,Waterproof Necklace,10,18,56.96,370
+153,Classic Blender,13,39,95.01,854
+154,Compact Shampoo,14,22,345.28,125
+155,Adjustable Headphones,6,21,100.61,869
+156,Adjustable Necklace,2,10,240.71,352
+157,Portable Shampoo,3,29,34.48,791
+158,Classic Board Game,7,17,35,83
+159,Smart Dog Food,10,11,35.08,860
+160,Portable Drill,12,16,88.27,237
+161,Waterproof Speaker,7,39,249.26,726
+162,Wireless Monitor,10,12,209.69,185
+163,Adjustable Soccer Ball,3,15,384.28,261
+164,Premium Speaker,10,16,224.64,214
+165,Premium Soccer Ball,15,30,304.84,340
+166,Portable Sneakers,5,10,126.92,119
+167,Waterproof Soccer Ball,1,1,434.07,317
+168,Compact Board Game,12,1,284.44,894
+169,Classic Dog Food,10,34,429.13,497
+170,Compact Speaker,8,18,128.43,334
+171,Adjustable T-Shirt,14,28,494.64,457
+172,Rechargeable Headphones,14,22,133.71,889
+173,Compact T-Shirt,6,2,328.81,858
+174,Waterproof Shampoo,13,4,84.68,407
+175,Classic Necklace,4,20,29.91,883
+176,Classic Sneakers,9,19,317.03,576
+177,Wireless Mixer,9,33,433.83,670
+178,Waterproof Toy Car,13,30,43.28,795
+179,Eco Vitamin Pack,9,1,273.45,620
+180,Premium Toy Car,13,10,429.06,190
+181,Waterproof Headphones,14,11,361.05,888
+182,Wireless Sneakers,1,25,301.42,374
+183,Portable T-Shirt,10,18,328.43,365
+184,Compact Desk Lamp,3,27,345.54,186
+185,Waterproof T-Shirt,11,18,457.7,845
+186,Wireless Mouse,3,10,132.76,501
+187,Classic Necklace,3,40,412.71,365
+188,Portable Blender,10,18,356.6,551
+189,Rechargeable T-Shirt,4,32,107.15,895
+190,Compact T-Shirt,13,2,405.45,224
+191,Compact T-Shirt,4,34,99.81,82
+192,Rechargeable Drill,4,4,65.17,398
+193,Wireless Vitamin Pack,1,21,268.85,432
+194,Wireless Toy Car,4,4,5.29,166
+195,Classic Board Game,13,15,437.75,725
+196,Waterproof Board Game,10,31,162.16,636
+197,Adjustable Sneakers,1,26,219.25,363
+198,Eco Drill,10,2,155.88,854
+199,Compact Toy Car,11,21,410.31,84
+200,Wireless Dog Food,12,30,213.99,672
+201,Premium Vitamin Pack,15,7,337.57,237
+202,Waterproof Board Game,6,36,92.02,331
+203,Eco Board Game,15,38,34.72,925
+204,Waterproof Desk Lamp,14,36,291.73,123
+205,Portable Monitor,15,36,276.61,722
+206,Eco Notebook,14,14,322.71,152
+207,Premium Backpack,15,21,403.74,573
+208,Compact Vitamin Pack,10,34,188.7,214
+209,Rechargeable Drill,2,19,428.4,52
+210,Premium Drill,15,4,33.87,272
+211,Eco Notebook,10,2,78.39,140
+212,Wireless Blender,8,15,258.57,979
+213,Eco Vitamin Pack,15,30,257.85,678
+214,Waterproof Speaker,8,7,228.2,941
+215,Portable Headphones,13,19,75.72,504
+216,Compact Keyboard,3,3,335.79,334
+217,Waterproof Board Game,11,28,196.86,299
+218,Portable Board Game,5,27,141.65,815
+219,Wireless Vitamin Pack,1,31,97.84,521
+220,Classic Dog Food,11,31,448.5,72
+221,Smart Drill,5,22,398.64,501
+222,Eco Vitamin Pack,3,7,88.55,821
+223,Eco Monitor,3,29,10.2,474
+224,Adjustable Notebook,13,21,65.72,398
+225,Eco Sneakers,10,10,59.7,433
+226,Wireless Necklace,10,37,382.85,292
+227,Eco Desk Lamp,3,8,206.8,145
+228,Classic Shampoo,5,31,187.86,846
+229,Compact Toy Car,1,39,219.05,463
+230,Compact Blender,10,6,372.58,495
+231,Rechargeable Board Game,10,25,333.45,171
+232,Portable Soccer Ball,3,2,363.18,448
+233,Eco Mixer,7,6,298.01,325
+234,Smart Sneakers,4,2,155.23,346
+235,Eco Monitor,3,9,151.42,68
+236,Eco Soccer Ball,9,13,139.73,265
+237,Portable Toy Car,12,6,467.89,227
+238,Premium Necklace,2,29,63.75,66
+239,Waterproof Backpack,12,6,142.41,915
+240,Premium Board Game,15,37,415.28,356
+241,Adjustable Backpack,1,16,493.06,154
+242,Adjustable Monitor,12,4,112.61,91
+243,Smart Notebook,7,9,485.73,859
+244,Smart Dog Food,1,19,366.44,995
+245,Classic Mouse,12,13,194.12,164
+246,Adjustable Keyboard,10,5,174.63,11
+247,Wireless Mixer,3,17,434.39,514
+248,Adjustable Board Game,15,3,142.49,389
+249,Classic Blender,10,8,158.77,999
+250,Eco Desk Lamp,1,37,17.55,143
+251,Smart Dog Food,14,1,255.79,348
+252,Wireless Drill,2,40,110.59,490
+253,Premium Headphones,11,2,497,154
+254,Waterproof Necklace,15,1,80.46,537
+255,Wireless Toy Car,3,21,441.32,619
+256,Rechargeable Mixer,13,21,78.04,138
+257,Compact Dog Food,6,24,201.15,846
+258,Compact Soccer Ball,12,21,315.91,15
+259,Rechargeable Toy Car,12,14,455.51,56
+260,Portable Desk Lamp,5,15,446.7,752
+261,Waterproof Board Game,6,13,105.79,424
+262,Rechargeable Necklace,7,19,91.71,134
+263,Rechargeable Vitamin Pack,9,34,360.55,977
+264,Rechargeable Toy Car,11,37,125.24,867
+265,Smart Monitor,4,27,476.53,708
+266,Rechargeable Keyboard,11,39,20.38,671
+267,Smart Necklace,14,19,98.26,618
+268,Adjustable Board Game,1,7,60.56,631
+269,Portable Mixer,3,19,339.49,616
+270,Portable Board Game,8,14,17.24,82
+271,Wireless Mixer,13,13,278.27,267
+272,Compact Necklace,8,13,391.15,133
+273,Classic Drill,5,2,65.01,615
+274,Wireless Desk Lamp,2,35,76.08,887
+275,Compact Toy Car,8,19,82.73,644
+276,Compact Mouse,15,22,73.28,251
+277,Wireless Soccer Ball,8,20,376.1,249
+278,Compact Toy Car,4,34,172.39,882
+279,Portable Shampoo,8,15,265.25,299
+280,Smart Vitamin Pack,8,37,17.85,292
+281,Smart Backpack,14,10,399.35,187
+282,Adjustable Shampoo,10,11,11.61,692
+283,Premium Shampoo,1,6,482.03,31
+284,Compact Toy Car,12,6,485.76,897
+285,Portable Monitor,1,35,21.25,270
+286,Waterproof Backpack,3,33,43.66,834
+287,Classic Notebook,14,28,275.77,246
+288,Smart T-Shirt,13,33,177.92,278
+289,Premium T-Shirt,3,8,319.32,203
+290,Compact Drill,7,29,328.66,189
+291,Wireless Blender,7,24,18.43,527
+292,Rechargeable T-Shirt,3,16,114.35,494
+293,Waterproof Toy Car,13,16,338.23,36
+294,Portable Vitamin Pack,5,2,102.99,66
+295,Classic T-Shirt,9,19,28.59,975
+296,Eco Board Game,1,11,271.15,323
+297,Waterproof T-Shirt,1,14,80.23,191
+298,Eco Headphones,6,32,449.79,252
+299,Waterproof Shampoo,5,38,414.97,448
+300,Adjustable Toy Car,2,33,380.44,598
+301,Rechargeable Vitamin Pack,8,9,416.56,461
+302,Rechargeable Soccer Ball,14,40,401.21,378
+303,Classic Blender,2,24,396.14,509
+304,Eco Mouse,8,31,498.58,258
+305,Classic Sneakers,1,9,377.27,491
+306,Compact Speaker,4,5,245.44,183
+307,Wireless Toy Car,5,37,336.95,677
+308,Portable Headphones,2,27,72.22,554
+309,Eco Headphones,1,16,26.27,871
+310,Rechargeable Board Game,9,14,143.94,204
+311,Classic Headphones,9,25,240.53,547
+312,Premium Mixer,10,5,95.6,121
+313,Eco Shampoo,6,37,388.93,177
+314,Eco Mouse,1,16,452.01,391
+315,Portable Mouse,3,20,109.87,545
+316,Compact Shampoo,15,2,374.85,336
+317,Classic Shampoo,1,13,134.5,350
+318,Wireless Vitamin Pack,8,22,176.88,260
+319,Smart Backpack,9,20,134.82,876
+320,Rechargeable Drill,10,35,109.83,684
+321,Classic Keyboard,4,37,143.14,818
+322,Eco Keyboard,1,4,184.81,912
+323,Wireless Drill,6,34,98.34,685
+324,Classic Toy Car,5,20,431.82,371
+325,Rechargeable T-Shirt,1,10,31.02,980
+326,Rechargeable T-Shirt,6,1,335.75,691
+327,Compact Backpack,3,30,232.81,326
+328,Classic Backpack,10,12,273.96,818
+329,Eco Necklace,8,3,449.78,967
+330,Rechargeable Vitamin Pack,8,15,95.17,528
+331,Premium Desk Lamp,14,24,134.29,532
+332,Rechargeable Mouse,13,27,206.13,680
+333,Premium Speaker,11,1,119.6,864
+334,Smart Headphones,7,34,399.19,849
+335,Smart Shampoo,4,14,90.83,583
+336,Portable Soccer Ball,12,29,287.21,80
+337,Rechargeable Blender,6,21,30.4,555
+338,Smart Toy Car,8,27,46.36,130
+339,Rechargeable Sneakers,11,22,10.87,939
+340,Classic Notebook,12,11,298.49,582
+341,Classic Notebook,1,37,274.99,858
+342,Eco Dog Food,9,19,248.44,428
+343,Waterproof Vitamin Pack,5,19,153.21,651
+344,Classic Dog Food,4,7,267.38,159
+345,Compact Keyboard,2,12,246.56,561
+346,Smart Dog Food,8,9,327.42,370
+347,Premium Necklace,10,17,168.19,832
+348,Compact Speaker,14,8,119.26,988
+349,Adjustable T-Shirt,13,1,364.41,871
+350,Compact Speaker,11,13,350.34,458
+351,Portable Vitamin Pack,9,7,81.16,921
+352,Waterproof Monitor,3,3,363.64,329
+353,Wireless Drill,11,19,331.01,198
+354,Eco T-Shirt,1,1,453.55,404
+355,Smart Mixer,5,23,356.35,777
+356,Adjustable Vitamin Pack,4,27,474.59,451
+357,Eco Monitor,10,4,377.73,660
+358,Waterproof Sneakers,7,25,45.1,867
+359,Classic Shampoo,12,40,414.54,44
+360,Premium Board Game,3,37,123.44,376
+361,Premium Necklace,7,5,347.11,235
+362,Smart Mouse,6,20,264.04,153
+363,Wireless Headphones,12,18,424.84,957
+364,Compact Toy Car,1,8,54.14,527
+365,Smart Toy Car,2,39,337.34,657
+366,Portable Necklace,12,12,171.38,24
+367,Classic Necklace,5,34,152.38,827
+368,Eco Monitor,11,31,96.06,343
+369,Smart Notebook,6,12,184.98,283
+370,Classic Soccer Ball,2,26,6.63,446
+371,Eco Dog Food,13,29,386.41,117
+372,Rechargeable Sneakers,2,12,243.87,299
+373,Classic T-Shirt,3,25,371.72,902
+374,Rechargeable Monitor,3,17,152.61,218
+375,Classic Vitamin Pack,9,31,355.86,758
+376,Rechargeable Mouse,13,21,336.6,109
+377,Premium Shampoo,2,18,404.65,654
+378,Waterproof Notebook,6,32,140.1,442
+379,Wireless Necklace,14,40,485.59,251
+380,Eco Monitor,11,29,265.41,690
+381,Compact Headphones,13,1,162,514
+382,Premium Monitor,1,36,232.87,239
+383,Adjustable Headphones,12,36,455.37,116
+384,Compact T-Shirt,10,22,303.86,543
+385,Eco Mouse,3,28,324.13,482
+386,Rechargeable Notebook,7,23,431.82,713
+387,Eco Dog Food,11,10,64.09,163
+388,Wireless Keyboard,6,8,163.06,460
+389,Smart Necklace,13,28,378.51,124
+390,Classic T-Shirt,6,34,366.58,163
+391,Classic T-Shirt,8,13,493.09,948
+392,Classic Toy Car,6,23,216.39,600
+393,Premium Vitamin Pack,14,30,36.72,288
+394,Waterproof Speaker,2,19,334.52,428
+395,Smart Drill,2,24,354.28,399
+396,Waterproof Backpack,5,22,314.05,40
+397,Waterproof Backpack,3,33,287.26,391
+398,Portable Mixer,14,38,142.56,167
+399,Portable Mixer,5,28,167.16,311
+400,Premium Necklace,14,11,471.95,260
+401,Premium Keyboard,5,16,331.82,146
+402,Portable Dog Food,5,27,208.05,801
+403,Eco Monitor,1,8,366.79,720
+404,Premium Speaker,12,35,240.89,565
+405,Smart Notebook,14,40,266.09,243
+406,Adjustable Backpack,5,25,455.56,906
+407,Smart Toy Car,11,24,431.78,865
+408,Waterproof Drill,4,6,87.63,537
+409,Compact Soccer Ball,13,12,327.01,571
+410,Compact Monitor,11,27,468.81,958
+411,Premium Backpack,11,29,417.15,421
+412,Classic Speaker,12,21,191.68,323
+413,Smart Vitamin Pack,1,16,250.91,368
+414,Smart Mixer,12,8,376.33,359
+415,Waterproof Necklace,11,18,461.53,878
+416,Classic Backpack,7,2,296.39,148
+417,Wireless Sneakers,12,19,173.27,910
+418,Premium Drill,15,2,239.69,942
+419,Premium Vitamin Pack,2,28,434.64,437
+420,Wireless Toy Car,1,26,278.62,642
+421,Classic Necklace,8,37,209.1,820
+422,Eco Backpack,3,8,226.46,768
+423,Portable Mouse,11,3,101.18,976
+424,Classic Keyboard,14,18,342.26,76
+425,Eco Sneakers,12,5,183.8,566
+426,Portable Mixer,9,3,170.88,229
+427,Adjustable Shampoo,14,7,404.97,47
+428,Rechargeable Board Game,3,39,291.02,181
+429,Eco Headphones,13,19,275.84,184
+430,Portable Vitamin Pack,9,31,100.93,811
+431,Classic Blender,5,21,391.07,175
+432,Compact Backpack,14,36,447.84,64
+433,Wireless Necklace,9,10,243.78,670
+434,Smart Toy Car,8,32,476.39,806
+435,Wireless Board Game,3,35,276.38,793
+436,Waterproof Notebook,4,1,108.14,333
+437,Compact Shampoo,11,5,24.44,169
+438,Compact Backpack,1,12,360.39,411
+439,Rechargeable Dog Food,8,20,207.63,145
+440,Smart Blender,9,3,432.27,564
+441,Premium Sneakers,5,26,376.33,493
+442,Classic Desk Lamp,14,24,125.64,479
+443,Portable Dog Food,14,16,154.64,919
+444,Adjustable Speaker,14,20,48.04,2
+445,Classic Keyboard,4,9,361.17,843
+446,Adjustable Notebook,4,20,410.23,109
+447,Classic Mixer,10,34,242.95,818
+448,Waterproof Board Game,15,2,310.05,78
+449,Premium Sneakers,4,13,100.95,555
+450,Smart Mouse,14,20,483.28,395
+451,Eco Drill,12,26,162.37,303
+452,Classic Soccer Ball,12,39,370.39,869
+453,Waterproof Sneakers,9,16,279.36,133
+454,Eco Vitamin Pack,12,36,291.56,513
+455,Classic Blender,13,15,488.56,690
+456,Portable Necklace,6,14,480.68,615
+457,Eco Soccer Ball,7,2,134.37,657
+458,Rechargeable Blender,8,39,320.56,486
+459,Portable Headphones,3,1,92.18,194
+460,Premium Vitamin Pack,12,31,379.01,683
+461,Wireless Speaker,11,5,301.35,547
+462,Adjustable Mixer,10,29,461.28,828
+463,Smart Shampoo,2,12,346.27,394
+464,Waterproof T-Shirt,6,23,244.4,81
+465,Eco Vitamin Pack,10,23,149.77,672
+466,Smart Soccer Ball,1,15,86.21,484
+467,Premium Blender,13,14,130.95,243
+468,Premium T-Shirt,7,6,409.62,146
+469,Compact Dog Food,3,5,468,543
+470,Adjustable Shampoo,14,4,425.5,756
+471,Waterproof Soccer Ball,8,7,412.78,746
+472,Rechargeable Blender,4,2,160.96,984
+473,Portable Soccer Ball,10,14,321.61,480
+474,Compact Speaker,15,28,285.15,990
+475,Wireless Desk Lamp,6,9,396.22,774
+476,Rechargeable Headphones,1,29,335.61,142
+477,Rechargeable Mixer,8,24,14.71,789
+478,Rechargeable Shampoo,8,35,308.94,871
+479,Premium Desk Lamp,15,18,37.9,433
+480,Classic Speaker,3,11,330.88,418
+481,Adjustable Backpack,1,31,168.1,880
+482,Portable Mouse,14,7,377.6,151
+483,Waterproof Headphones,11,31,318.89,36
+484,Compact Sneakers,10,34,278.22,99
+485,Classic Necklace,9,14,414.93,743
+486,Smart Keyboard,4,26,244.38,781
+487,Premium Necklace,10,23,446.05,410
+488,Rechargeable Speaker,3,22,420.27,812
+489,Rechargeable Keyboard,9,20,33.56,258
+490,Wireless Toy Car,14,26,447.97,62
+491,Portable Sneakers,1,3,312.24,959
+492,Wireless Soccer Ball,13,15,482.68,875
+493,Smart Monitor,15,10,367.17,418
+494,Premium Notebook,8,35,395.19,39
+495,Eco Backpack,12,13,271.62,704
+496,Premium Speaker,8,8,482.6,472
+497,Waterproof Backpack,10,5,353.45,889
+498,Smart Headphones,6,8,212.54,565
+499,Compact Desk Lamp,9,22,39.15,714
+500,Premium Monitor,10,34,489.05,513
